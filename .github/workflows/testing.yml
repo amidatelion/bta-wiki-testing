@@ -19,7 +19,7 @@ jobs:
               with:
                 repository: 'amidatelion/bta-wiki-automation'
                 path: wiki-gen
-            - name: Check state of API
+            - name: run checks
               run: |
                     echo "Printing working directory..."
                     pwd
@@ -35,3 +35,18 @@ jobs:
                     which wget
                     echo "is tar installed..."
                     which tar
+    test-persistence:
+        name: See what persists between jobs
+        runs-on: ubuntu-latest
+        steps:
+            - name: run checks
+              run: |
+                    echo "Checking working directory..."
+                    pwd
+                    echo "Checking directory..."
+                    ls -la
+                    echo "Checking full path of bta..."
+                    realpath bta 
+                    echo "Checking full path of automation..."
+                    realpath wiki-gen
+                  
