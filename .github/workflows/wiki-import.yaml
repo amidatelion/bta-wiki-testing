@@ -32,9 +32,14 @@ jobs:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
+                echo "Downloading importer"
                 TAG=$(curl -s https://api.github.com/repos/BattleTech-Advanced-3062/bta-wiki-import/releases/latest | jq -r '.tag_name')
                 wget https://github.com/BattleTech-Advanced-3062/bta-wiki-import/releases/download/${TAG}/bta-wiki-import_linux_amd64.tar.gz
                 tar xvf bta-wiki-import_linux_amd64.tar.gz
+                echo "checking bta path"
+                ls -la bta/
+                echo "exporting to path"
                 ./bta-wiki-import export ./bta/ ./path-to-wikitext/
-                echo "checking wikitext"
+                echo "checking wikitext path"
+                ls -la
                 ./bta-wiki-import import  -l https://www.bta3062.com/api.php  ./path-to-wikitext/
