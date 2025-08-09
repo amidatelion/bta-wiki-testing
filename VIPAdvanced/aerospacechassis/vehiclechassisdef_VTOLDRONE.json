@@ -1,0 +1,145 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "VTOLDrone",
+      "Exclude": false,
+      "Include": true
+    }
+  },
+  "CustomParts": {
+    "AOEHeight": 55,
+    "FiringArc": 50,
+    "Unaffected": {
+      "DesignMasks": "true",
+      "Pathing": "true",
+      "Fire": "true",
+      "Landmines": "true",
+      "MoveClamp": 0.5,
+      "AllowPartialMovement": true
+    },
+    "MoveCostModPerBiome": {
+      "DesignMaskBiomeMartianVacuum": 5,
+      "DesignMaskBiomeLunarVacuum": 7
+    },
+    "NullifyBodyMesh": true,
+    "TieToGroundOnDeath": "true",
+    "CrewLocation": "None"
+  },
+  "Description": {
+    "Cost": 1559760,
+    "Rarity": 0,
+    "Purchasable": false,
+    "UIName": "Mata Hari Sensor VTOL",
+    "Id": "vehiclechassisdef_VTOLDRONE",
+    "Name": "Mata Hari",
+    "Details": "The Mata Hari Sensor VTOL is an essentially unarmed scouting unit. Armed, if you can even call it that, with only a TAG and a Narc Launcher, the Mata Hari exists to provide support to allied forces. Between its Beagle Active Probe and Guardian ECM, the Mata Hari can provide plenty of electronic-warfare support. However, as the VTOL mounts no offensive weaponry whatsoever, it needs to take extreme care to not be cornered on the battlefield as its paltry armor will not keep it safe for long.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 8/12 Hex: 240/360 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       101     15\n<b>Left</b>          64     15\n<b>Right</b>        64     15\n<b>Rear</b>         40     15\n\n<b>Total</b>      279     75\n",
+    "Icon": "YellowJacket"
+  },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
+  "MovementCapDefID": "movedef_8-12cv",
+  "movementType": "Wheeled",
+  "PathingCapDefID": "pathingdef_vtol",
+  "HardpointDataDefID": "hardpointdatadef_cuyellowjacket",
+  "PrefabIdentifier": "chrprfmech_yellowjacket_vtol",
+  "PrefabBase": "cuyellowjacket",
+  "Tonnage": 30,
+  "weightClass": "LIGHT",
+  "BattleValue": 564,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        },
+		{
+          "WeaponMountID": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 101,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 64,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 64,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 40,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 20,
+      "InternalStructure": 15
+    }
+  ]
+}

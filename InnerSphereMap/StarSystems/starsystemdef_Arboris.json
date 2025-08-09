@@ -1,0 +1,95 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Arboris",
+		"Name": "Arboris",
+		"Details": "Arboris is the fifth planet of seven in the Arboris system and is a temperate world with three moons.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 43.158,
+		"y": -51.489,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_arboris",
+			"planet_size_medium",
+			"planet_climate_tropical",
+			"planet_feature_moon03",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_industry_manufacturing",
+			"planet_faction_liao"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum",
+		"jungleTropical",
+		"urbanHighTech",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 5,
+	"ownerID": "Liao",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Liao",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Liao",
+	"FactionShopItems": [
+		"itemCollection_faction_Liao"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Arboris",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 2,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Liao",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Davion",
+		"AuriganRestoration",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Ives",
+		"MagistracyOfCanopus",
+		"TaurianConcordat",
+		"Mercenaries",
+		"ShenSeTian"
+	]
+}

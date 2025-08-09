@@ -1,0 +1,94 @@
+{
+	"Description": {
+		"Id": "starsystemdef_NewPortRoyal",
+		"Name": "New Port Royal",
+		"Details": "After the stable and self-sufficient colony on Tortuga was well-established, the Dominions began the colonization of other worlds, leading to the settlement of New Port Royal and four other worlds. New Port Royal also has come to host Tortugan 'Mech combat tournaments, as suits the pirate spirit.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 658.457,
+		"y": -211.158,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_newportroyal",
+			"planet_size_medium",
+			"planet_climate_desert",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_other_hub",
+			"planet_other_blackmarket",
+			"planet_other_pirate",
+			"planet_faction_tortuga",
+			"planet_gameworld",
+			"planet_davion_raids"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"badlandsParched",
+		"desertParched",
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 16,
+	"ownerID": "Tortuga",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Tortuga"
+	],
+	"factionShopOwnerID": "Tortuga",
+	"FactionShopItems": [
+		"itemCollection_faction_Tortuga"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_NewPortRoyal",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 6,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Tortuga",
+		"AuriganPirates",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Locals",
+		"Davion",
+		"Outworld",
+		"AuriganPirates",
+		"TaurianConcordat"
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"Description": {
+		"Id": "Ammunition_AC5_Sabot",
+		"Name": "AC/5 HEAP Ammo",
+		"UIName": "HEAP",
+		"Details": "Moderate caliber rounds, suitable for long range fire in an AC/5.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "AC5",
+	"HeatGenerated": 0,
+	"AccuracyModifier": 1,
+	"RefireModifier": 1,
+	"HeatGeneratedModifier": 2,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1,
+	"DamagePerShot": 2.0,
+	"APDamage": 2
+}

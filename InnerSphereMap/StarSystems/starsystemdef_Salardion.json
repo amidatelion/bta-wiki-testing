@@ -1,0 +1,100 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Salardion",
+		"Name": "Salardion",
+		"Details": "Once a minor travel hub, this system was quarantined due to an incurable, disfiguring viral plague. The moons serve as bases for pirate activity, but the status of the population on the surface is unknown.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -37.89,
+		"y": -397.43,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_size_small",
+			"planet_climate_terran",
+			"planet_pop_none",
+			"planet_civ_primitive",
+			"planet_progress_2",
+			"planet_feature_moon02",
+			"planet_other_pirate",
+			"planet_other_hub",
+			"planet_other_blackmarket",
+			"planet_other_moon",
+			"planet_name_salardion",
+			"planet_faction_independent",
+			"planet_industry_mining"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lowlandsSpring",
+		"lowlandsFall",
+		"highlandsSpring",
+		"highlandsFall",
+		"desertParched",
+		"badlandsParched",
+		"polarFrozen",
+		"tundraFrozen",
+		"jungleTropical"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 4,
+	"ownerID": "Locals",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 4,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_minor_Locals",
+		"itemCollection_shop_mining"
+	],
+	"factionShopOwnerID": "INVALID_UNSET",
+	"FactionShopItems": null,
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Salardion",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 0,
+	"DifficultyList": [
+		0,
+		4
+	],
+	"DifficultyModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER"
+	],
+	"contractEmployerIDs": [
+		"Locals",
+		"AuriganPirates"
+	],
+	"contractTargetIDs": [
+		"AuriganPirates",
+		"Liao",
+		"MagistracyOfCanopus",
+		"AuriganRestoration",
+		"TaurianConcordat"
+	]
+}

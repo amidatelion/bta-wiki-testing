@@ -1,0 +1,97 @@
+{
+	"Description": {
+		"Id": "3067-01-21",
+		"Name": "MercNews Broadcast",
+		"Details": "[[DM.Factions[faction_WordOfBlake],WORD OF BLAKE]] MOVES INTO SAIPH TRIUMVIRATE\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]], [[DM.BaseDescriptionDefs[LoreTerranHegemony],Terran Hegemony]]:  In response to an almost endless series of insurgent attacks on all three worlds of the former Saiph Triumvirate, Count Balantine of New Canton has called for support from the [[DM.BaseDescriptionDefs[LoreTHAF],THAF]]!  However, the Word of Blake has decided that since insurgent attacks can't get the job of overthrowing the Cameron government done, they will take a more active hand in taking the worlds away from the Hegemony and have staged a full invasion of the former Triumvirate worlds using the [[DM.BaseDescriptionDefs[LoreWOBM],Word of Blake Militia]]. The THAF has responded by sending the 1st Cameron Guard and the 17th Terran Light Cavalry, the original forces that liberated the Triumvirate in 3064, back to those worlds to secure them against Blakist aggression. Further, the [[DM.BaseDescriptionDefs[LoreAMC],Allied Mercenary Command]] has sent two regiments of the [[DM.Factions[faction_DismalDisinherited],Dismal Disinherited]] to assist in resisting the Blakists.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "CLASHES OVER [[DM.BaseDescriptionDefs[LoreLosTech],LOSTECH]] ON EPSILON ERIDANI\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]], [[DM.BaseDescriptionDefs[LoreFedCom],Federated Commonwealth]]:  A LosTech prospector's claim of finding a [[DM.BaseDescriptionDefs[LoreSLDF],SDLF]] depot with a [[DM.BaseDescriptionDefs[LoreStarLeague],Star League]]-era [[DM.BaseDescriptionDefs[LoreColossus],Colossus]] Dropship parked within sparked a race between two rival mercenary commands to find the invaluable treasure.  As the [[DM.Factions[faction_LoneStarRegiment],Lone Star Regiment]], hired by General Atomics to protect their Eridani interests, and the [[DM.BaseDescriptionDefs[LoreRedfieldRen],Redfield Renegades]], on-planet to protect Minroc Mining, scrambled to find the depot, clashes ensued and fighting escalated.  As combat throughout Epsilon Eridani's Shamus Mountain rages between the Lone Stars and the Renegades, some turn to the planetary government to impose order.  Epsilon Eridani's Duke Pierre Benton has stated however that since no Eridani citizens are being harmed, the matter arguably \"does not concern the government\".  Many observers feel that the Duke is more concerned with keeping positive relations with the mercenary garrisons than with getting drawn into the conflict.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_EpsilonEridani_to_Cameron",
+									"WIIC_give_starsystemdef_NewCanton_to_Cameron",
+									"WIIC_give_starsystemdef_TallTrees_to_Cameron",
+									"WIIC_give_starsystemdef_Saiph_to_Cameron",
+									"WIIC_LoneStarRegiment_raids_starsystemdef_EpsilonEridani",
+									"WIIC_WordOfBlake_attacks_starsystemdef_NewCanton",
+									"WIIC_WordOfBlake_attacks_starsystemdef_TallTrees",
+									"WIIC_WordOfBlake_attacks_starsystemdef_Saiph",
+									"WIIC_set_starsystemdef_Saiph_defender_strength_30",
+									"WIIC_set_starsystemdef_Saiph_attacker_strength_35",
+									"WIIC_set_starsystemdef_NewCanton_defender_strength_30",
+									"WIIC_set_starsystemdef_NewCanton_attacker_strength_35",
+									"WIIC_set_starsystemdef_TallTrees_defender_strength_30",
+									"WIIC_set_starsystemdef_TallTrees_attacker_strength_35",
+									"WIIC_set_starsystemdef_EpsilonEridani_defender_strength_10",
+									"WIIC_set_starsystemdef_EpsilonEridani_attacker_strength_10"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

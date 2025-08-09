@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "debug": true,
+  "enablePilotAffinity": true,
+  "enablePilotSelect": true,
+  "enablePilotQuirks": true,
+  "enableMonthlyMoraleReset": false,
+  "enableStablePiloting": false,
+  "affinitySettings": {
+    "missionsBeforeDecay": 3,
+    "lowestPossibleDecay": 2,
+    "removeAffinityAfter": 13,
+    "maxAffinityPoints": 18,
+    "decayByModulo": false,
+    "debugForceTag": "",
+    "defaultDaysBeforeSimDecay": -1,
+    "showDescriptionsOnChassis": true,
+    "trackSimDecayByStat": true,
+    "trackLowestDecayByStat": false,
+    "showAllPilotAffinities": true,
+    "topAffinitiesInTooltipCount": 3,
+    "showQuirks": true,
+    "affinityGroups": [],
+    "prefabOverrides": []
+  },
+  "quirkSettings": {
+    "playerQuirkPools": false,
+    "argoAdditive": true,
+    "argoMultiAutoAdjust": true,
+    "argoMin": 0.0,
+    "quirkPools": [],
+    "tooltipTags": [],
+    "addTags": []
+  },
+  "stablePilotingSettings": {
+    "reductionPerPiloting": 0.02,
+    "increasePerInjury": 0.05,
+    "tagEffects": [],
+    "InverseMax": 20
+  },
+  "pilotUiSettings": {
+	"enableAffinityColour": true,
+    "orderByAffinity": false,
+    "pilotIcons": [
+      {
+        "colour": "#d81012",
+        "tag": "pilot_btateam",
+        "descriptionDefId": "",
+        "svgAssetId": ""
+      }
+    ],
+	"pilotAffinityColours" : [
+      {
+        "colour": "#f3f6f4",
+        "deploysRequired": 1
+      },
+	  {
+        "colour": "#00AF43",
+        "deploysRequired": 5
+      },
+      {
+        "colour": "#6b1ab7",
+        "deploysRequired": 10
+      },
+      {
+        "colour": "#cc0000",
+        "deploysRequired": 15
+      }
+    ]
+  },
+  "legacyData": {
+    "debug_writeLegacyAffinityData": false
+  }
+}

@@ -1,0 +1,89 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Denebola",
+		"Name": "Denebola",
+		"Details": "Denebola is a cold world and dependent on trade with other worlds for food. Due to its location, Denebola has traded hands many times over the Succession Wars, including a brief occupation by FWL mercenaries only a decade ago.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -37.843,
+		"y": -1.621,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_denebola",
+			"planet_size_large",
+			"planet_climate_arctic",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_other_comstar",
+			"planet_other_pirate",
+			"planet_faction_cameron"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"polarFrozen",
+		"tundraFrozen"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 5,
+	"ownerID": "Cameron",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Cameron",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Cameron",
+	"FactionShopItems": [
+		"itemCollection_faction_Cameron"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Denebola",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"Cameron",
+		"ComStar",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"WordOfBlake",
+		"Mercenaries",
+		"TheDark"
+	]
+}

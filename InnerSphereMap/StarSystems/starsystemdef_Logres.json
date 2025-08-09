@@ -1,0 +1,75 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Logres",
+		"Name": "Logres",
+		"Details": "Logres was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -317.919,
+		"y": 175.646,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_logres",
+			"planet_size_medium",
+			"planet_climate_rocky",
+			"planet_pop_none",
+			"planet_civ_primitive",
+			"planet_industry_poor",
+			"planet_other_ruins",
+			"planet_faction_nofaction",
+			"planet_other_empty"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 15,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_TaurianConcordat",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "NoFaction",
+	"FactionShopItems": [
+		"itemCollection_faction_TaurianConcordat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Logres",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [],
+	"contractTargetIDs": []
+}

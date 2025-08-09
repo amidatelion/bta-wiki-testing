@@ -1,0 +1,25 @@
+{
+	"Id": "WeaponUpgrade_AmmoFeed_Cannon_Heavy",
+	"addonType": "cannonammofeed",
+	"targetComponentTags": [
+		"AmmoFeedCannonSupported-Heavy"
+	],
+	"modes": [
+		{
+			"Id": "BASE",
+			"UIName": "Base",
+			"isBaseMode": false
+		},
+		{
+			"Id": "Ammo",
+			"UIName": "Rifle",
+			"Name": "Rifle",
+			"Description": "Weapon fires with Rifle ammo",
+			"isBaseMode": true,
+			"DamagePerShot": -180, 
+			"AmmoCategory": "RifleHeavy",
+			"FlatJammingChance": 1.25,
+			"GunneryJammingMult": 0.01
+		}
+	]
+}

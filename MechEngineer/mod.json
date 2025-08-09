@@ -1,0 +1,33 @@
+{
+	"Name": "MechEngineer",
+	"Author": "The Community",
+	"Website": "https://github.com/CptMoore/MechEngineer",
+	"Enabled": true,
+	"Hidden": true,
+	"DependsOn": [
+		"CustomComponents"
+	],
+	"DLL": "MechEngineer.dll",
+	"DLLEntryPoint": "MechEngineer.Control.Start",
+	"ConflictsWith": [
+		"CustomSlots",
+		"HandHeld",
+		"OnePointArmorStep",
+		"Pansar"
+	],
+	"CustomResourceTypes": [
+		"MEBonusDescriptions",
+		"MEStatusEffects"
+	],
+	"LogSettings": {
+		"Enabled": true
+	},
+	"Manifest": [],
+	"Logs": {
+		"MechEngineer.log": {
+			"Include": [
+				"MechEngineer"
+			]
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"Name": "BT Advanced Mech Quirks",
+	"Enabled": true,
+	"Hidden": true,
+	"Version": "1.0",
+	"Manifest": [
+		{
+			"Type": "UpgradeDef",
+			"Path": "upgrade"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "attachment"
+		},
+		{
+			"Type": "WeaponAddonDef",
+			"Path": "weaponaddon"
+		},
+		{
+			"Type": "JumpJetDef",
+			"Path": "jumpjet"
+		}
+	]
+}

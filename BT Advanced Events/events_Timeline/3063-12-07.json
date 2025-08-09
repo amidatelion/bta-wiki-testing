@@ -1,0 +1,90 @@
+{
+	"Description": {
+		"Id": "3063-12-07",
+		"Name": "MercNews Broadcast",
+		"Details": "[[DM.Factions[faction_ClanHellsHorses],CLAN HELL'S HORSES]] RAIDS REPORTED IN [[DM.Factions[faction_ClanGhostBear],GHOST BEAR DOMINION]]\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]]: Garbled reports from the [[DM.Factions[faction_ClanGhostBear],Ghost Bear Dominion]] indicate several worlds along the Dominion's anti-spinward border have fallen prey to Hell's Horses raiders. Although occasional skirmishes between the Clanners are common, the raids have reportedly captured the attention of Dominion command, and [[DM.BaseDescriptionDefs[LoreKuritaDCMS],DCMS]] commanders have observed some limited redeployments of Dominion units. With elements of [[DM.BaseDescriptionDefs[LoreSandoval],Duke Sandoval]]'s Draconis March wreaking havoc in their backyard, [[DM.BaseDescriptionDefs[LoreKuritaDCMS],DCMS]] commanders are sure to take advantage of the respite, however brief.\r\n\n\nPlease stay tuned for a word from our sponsor.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "RIM WORLDS REPUBLIC CONTINUES PUSH AGAINST FALCONS!\r\n\n\nApollo, [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]]: Coming off of the success of their assault against several [[DM.Factions[faction_ClanJadeFalcon],Clan Jade Falcon]] worlds earlier this year, the Rim Worlds Republic has once again issued a <i>batchall</i> against the Falcons for two former Republic worlds, Persistence and Steelton. The Clan, while still viewing this as mostly a minor inconvenience, is reportedly taking this new challenge more seriously and is meeting the [[DM.BaseDescriptionDefs[LoreRimRepublicanArmy],Rim Republican Army]] with more force than previous conflicts. Rumor has it that Khan [[DM.BaseDescriptionDefs[LoreMarthePryde],Martha Pryde]] is taking a closer interest in the Periphery realm's upstart behavior.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_Davion_attacks_starsystemdef_Coventry",
+									"WIIC_set_starsystemdef_Coventry_defender_strength_25",
+									"WIIC_set_starsystemdef_Coventry_attacker_strength_55",
+									"WIIC_RimWorldsRepublic_attacks_starsystemdef_Steelton",
+									"WIIC_RimWorldsRepublic_attacks_starsystemdef_Persistence",
+									"WIIC_set_starsystemdef_Steelton_defender_strength_15",
+									"WIIC_set_starsystemdef_Steelton_attacker_strength_30",
+									"WIIC_set_starsystemdef_Persistence_defender_strength_20",
+									"WIIC_set_starsystemdef_Persistence_attacker_strength_30"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

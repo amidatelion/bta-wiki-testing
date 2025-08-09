@@ -1,0 +1,98 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Styx",
+		"Name": "Styx",
+		"Details": "Styx is a world of storms, flash floods, and mudslides, wild weather patterns caused by the gravitational pull of the planet's three moons. Nevertheless, the storms often reveal rich mineral deposits which make Styx extremely wealthy.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 25.844,
+		"y": 25.543,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_styx",
+			"planet_size_small",
+			"planet_climate_tropical",
+			"planet_other_volcanic",
+			"planet_other_megaforest",
+			"planet_other_mudflats",
+			"planet_other_storms",
+			"planet_feature_moon03",
+			"planet_other_moon",
+			"planet_pop_large",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_mining",
+			"planet_industry_manufacturing",
+			"planet_other_ruins",
+			"planet_faction_cameron"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum",
+		"jungleTropical",
+		"urbanHighTech",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 12,
+	"ownerID": "Cameron",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Cameron",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Cameron",
+	"FactionShopItems": [
+		"itemCollection_faction_Cameron"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Styx",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Cameron",
+		"ComStar",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"WordOfBlake",
+		"Mercenaries",
+		"TheDark"
+	]
+}

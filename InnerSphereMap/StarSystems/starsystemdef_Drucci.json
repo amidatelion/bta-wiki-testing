@@ -1,0 +1,87 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Drucci",
+		"Name": "Drucci",
+		"Details": "One of the earliest worlds settled by the colonists that would form the Jacobson Haven, Drucci somehow remained a quiet agricultural backwater world. Little of note takes place here, at least that the Haven will admit to, and its populace is known for their privacy and solitude.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 840.039,
+		"y": -629.715,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_pop_medium",
+			"planet_civ_periphery",
+			"planet_other_blackmarket",
+			"planet_other_pirate",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_faction_jacobsonhaven",
+			"planet_name_Drucci"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"lowlandsCoastal"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "JacobsonHaven",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "JacobsonHaven",
+	"FactionShopItems": [
+		"itemCollection_faction_JacobsonHaven"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Drucci",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 2,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"JacobsonHaven"
+	],
+	"contractTargetIDs": [
+		"SanctuaryAlliance",
+		"DaneSacellum",
+		"MallardRepublic"
+	]
+}

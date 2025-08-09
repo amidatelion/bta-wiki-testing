@@ -1,0 +1,89 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Sheratan",
+		"Name": "Sheratan",
+		"Details": "Sheratan is described as being a beautiful world, sparsely populated, with forests and jungles around the equator.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 40.84,
+		"y": -21.506,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_sheratan",
+			"planet_size_small",
+			"planet_climate_tropical",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_recreation",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_faction_cameron"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"jungleTropical",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 4,
+	"ownerID": "Cameron",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression",
+		"itemCollection_major_Cameron"
+	],
+	"factionShopOwnerID": "Cameron",
+	"FactionShopItems": [
+		"itemCollection_faction_Cameron"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Sheratan",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 7,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Cameron",
+		"ComStar",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"WordOfBlake",
+		"Mercenaries",
+		"TheDark"
+	]
+}

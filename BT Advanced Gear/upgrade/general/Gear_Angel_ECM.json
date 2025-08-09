@@ -1,0 +1,361 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "ECM"
+			},
+			{
+				"CategoryID": "StealthCompatible"
+			}
+		],
+		"BonusDescriptions": [
+			"Defense: +1",
+			"SensorLockImmune",
+			"C3Jamming: 120"
+		],
+		"ActivatableComponent": {
+			"ButtonName": "Angel ECM",
+			"CanNotBeActivatedManualy": false,
+			"ActiveByDefault": true,
+			"FailFlatChance": 0.0,
+			"SafeActivation": true,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-SensorLockImmunity",
+						"Name": "Sensor Lock Immunity",
+						"Details": "This unit is immune to sensor lock.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "EvasiveSafeFromSensorLock",
+						"operation": "Set",
+						"modValue": "true",
+						"modType": "System.Boolean"
+					},
+					"nature": "Buff"
+				}
+			]
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 930000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "DCMS",
+		"Model": "Angel ECM",
+		"UIName": "Angel ECM",
+		"Id": "Gear_Angel_ECM",
+		"Name": "Angel ECM",
+		"Details": "The Angel ECM Suite is an advanced version of the Guardian ECM Suite operating on a broader spectrum and greatly advances ECM technology on the battlefield. Development of the Angel began in the Draconis Combine shortly after the Battle of Luthien, but despite assistance from ComStar, cost overruns and internal problems within both powers kept it in its experimental stages for a long time and delayed its widespread deployment. Angel ECM helps counter enemy attacks of all types and makes the user immune to precise sensor locks while activated.",
+		"Icon": "circuitry"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 2,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Auras": [
+		{
+			"Id": "Gear_Angel_ECM_WeaponScramble",
+			"Name": "Weapon Scrambling",
+			"ReticleColor": "#ffffff",
+			"Range": 150,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "GECMInterference",
+						"Name": "AECM Interference",
+						"Details": "Angel ECM is making this unit harder to hit, +1 penalty to enemy attacks.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ToHitThisActor",
+						"operation": "Float_Add",
+						"modValue": "1.0",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		},
+		{
+			"Id": "Gear_Angel_ECM_C3Scramble",
+			"Name": "C3 Scrambling",
+			"ReticleColor": "#1a91ea",
+			"Range": 120,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-C3-Enemy-Jamming",
+						"Name": "C3 Enemy Jamming",
+						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network",
+						"operation": "Float_Add",
+						"modValue": "-2",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		},
+		{
+			"Id": "Gear_ECM_VRPPScramble",
+			"Name": "VRPP Scrambling",
+			"ReticleColor": "#1a91ea",
+			"Range": 120,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-VRPP-Jamming",
+						"Name": "VRPP Jamming",
+						"Details": "ECM is scrambling this unit's VRPP system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "99.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					},
+					"nature": "Buff"
+				}
+			]
+		},
+		{
+			"Id": "Gear_ECM_DroneOSScramble",
+			"Name": "DroneOS Scrambling",
+			"ReticleColor": "#1a91ea",
+			"Range": 120,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-DroneOS-WeaponJamming",
+						"Name": "DroneOS Jamming",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "99.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-DroneOS-WalkSpeed",
+						"Name": "DroneOS WalkSpeed",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "WalkSpeed",
+						"operation": "Float_Multiply",
+						"modValue": "0.5",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-DroneOS-RunSpeed",
+						"Name": "DroneOS RunSpeed",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "CBTBE_RunMultiMod",
+						"operation": "Float_Add",
+						"modValue": "-0.5",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"ElectronicCounterMeasures",
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

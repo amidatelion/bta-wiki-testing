@@ -1,0 +1,90 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Galisteo",
+		"Name": "Galisteo",
+		"Details": "The Galisteo system was settled at some point during or prior to the Age of War, and avoided devastation during the Succession Wars",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -355.928,
+		"y": -71.907,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_galisteo",
+			"planet_size_large",
+			"planet_climate_lunar",
+			"planet_pop_none",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_industry_agriculture",
+			"planet_faction_marik"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"desertParched",
+		"badlandsParched",
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 11,
+	"ownerID": "Marik",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Marik",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Marik",
+	"FactionShopItems": [
+		"itemCollection_faction_Marik"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Galisteo",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Marik",
+		"WordOfBlake",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Liao",
+		"Cameron",
+		"ComStar",
+		"MagistracyOfCanopus",
+		"Marian",
+		"Circinus",
+		"Mercenaries",
+		"HookwormsHighwaymen"
+	]
+}

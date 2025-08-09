@@ -1,0 +1,14 @@
+{
+	"Settings": [
+		{
+			"Name": "CritsWeaponAccuracy",
+			"CriticalEffects": {
+				"PenalizedEffectIDs": [
+					[
+						"ComponentEffects-{uid}-AccuracyPenalty1"
+					]
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,98 @@
+{
+	"Description": {
+		"Id": "3063-08-21",
+		"Name": "MercNews Broadcast",
+		"Details": "MRBC SPOTLIGHT: HELL ON HECHNAR!\r\n\n\nHechnar, [[DM.Factions[faction_Cameron],Terran Hegemony]]: Hecnar, a recently resettled world within the borders of the Terran Hegemony, has come into the spotlight recently as it is suffering a plague of piracy. Pirates, from unknown sources, have been raiding the world incessantly for months and have pushed the local [[DM.BaseDescriptionDefs[LoreTHAF],THAF]] defenders to the breaking point. In response to this unending tide of pirate attacks, the Hegemony has put out the call for any mercenaries willing to defend the world and wipe out the pirates once and for all. Several mercenary commands have flocked to the Hegemony's banner, including the famous [[DM.BaseDescriptionDefs[LoreLCG],Lexington Combat Group]]. Civilians, some say in the hundreds, have been flocking to the mercenaries banners, asking only for a chance to defend their home and hearth.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue Broadcast.",
+				"Details": "Broadcast continues.",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "[[DM.BaseDescriptionDefs[LoreXinSheng],XIN SHENG]] CAMPAIGN REACHES SAIPH TRIUMVIRATE\r\n\n\nStymied by their initial repulse during [[DM.BaseDescriptionDefs[LoreOpGuerrero],Operation GUERRERO]], [[DM.BaseDescriptionDefs[LoreHouseLiao],House Liao]] is again attempting to conquer the [[DM.BaseDescriptionDefs[LoreChaosMarch],Chaos March]] micro-state.  Claiming to be assisting local independence-minded guerilla movements, the [[DM.Factions[faction_Liao],Capellan Confederation]] has sent a mixture of House and mercenary units into the Triumvirate.  Using these local guerillas to tie down Triumvirate units on Tall Trees, the Confederation's [[DM.BaseDescriptionDefs[LoreHarlocRaiders],Harloc Raiders]] are engaging the Balantine Guard and [[DM.BaseDescriptionDefs[LoreStalwartSupport],Stalwart Support]] on New Canton, while [[DM.Factions[faction_1stMcCarronsArmoredCavalry],McCarron's Armored Cavalry]] are attacking the [[DM.BaseDescriptionDefs[LoreCannedHeat],Canned Heat]] on Saiph.  Count Balantine has sent agents to nearby Outreach to secure more mercenary support, while Chancellor [[DM.BaseDescriptionDefs[LoreSunTzuLiao],Sun-Tzu Liao]] is calling on \"all true patriots\" to assist the Confederation's cause.\r\n\n\nAttack and defend contracts are available via the [[DM.BaseDescriptionDefs[LoreMRBC],MRBC]] database.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Hechnar_to_Cameron",
+									"WIIC_give_starsystemdef_Saiph_to_SaiphTriumvirate",
+									"WIIC_give_starsystemdef_NewCanton_to_SaiphTriumvirate",
+									"WIIC_give_starsystemdef_TallTrees_to_SaiphTriumvirate",
+									"WIIC_AuriganPirates_raids_starsystemdef_Hechnar",
+									"WIIC_1stMcCarronsArmoredCavalry_attacks_starsystemdef_Saiph",
+									"WIIC_Liao_attacks_starsystemdef_NewCanton",
+									"WIIC_Liao_attacks_starsystemdef_TallTrees",
+									"WIIC_set_starsystemdef_Saiph_defender_strength_20",
+									"WIIC_set_starsystemdef_Saiph_attacker_strength_20",
+									"WIIC_set_starsystemdef_NewCanton_defender_strength_20",
+									"WIIC_set_starsystemdef_NewCanton_attacker_strength_20",
+									"WIIC_set_starsystemdef_TallTrees_defender_strength_15",
+									"WIIC_set_starsystemdef_TallTrees_attacker_strength_15",
+									"WIIC_give_starsystemdef_Saiph_to_Liao_on_attacker_win",
+									"WIIC_set_starsystemdef_Hechnar_defender_strength_25",
+									"WIIC_set_starsystemdef_Hechnar_attacker_strength_20"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

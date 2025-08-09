@@ -1,0 +1,72 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Bremen(RW)",
+		"Name": "Bremen (RW)",
+		"Details": "Bremen (RW) was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -472.113,
+		"y": 338.415,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_bremen(rw)",
+			"planet_size_small",
+			"planet_climate_desert",
+			"planet_pop_none",
+			"planet_civ_primitive",
+			"planet_industry_poor",
+			"planet_other_ruins"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 15,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_TaurianConcordat",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Hanse",
+	"FactionShopItems": [
+		"itemCollection_faction_TaurianConcordat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Bremen(RW)",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 6,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [],
+	"contractTargetIDs": []
+}

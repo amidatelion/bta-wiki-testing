@@ -1,0 +1,99 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/uac"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+				"VariableBurstCount: 2",
+				"WpnRecoil: 2",
+				"WeaponJAMFlat: 15",
+				"NoFireInMelee",
+				"WeaponAttachmentCompatible: Autocannon FCS"
+			]
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC5",
+	"MinRange": 60,
+	"MaxRange": 640,
+	"RangeSplit": [
+		160,
+		320,
+		480
+	],
+	"AmmoCategory": "UAC5",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 10,
+	"Damage": 45,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 2,
+	"Instability": 8,
+	"FireDelayMultiplier": 0.1,
+	"FireTerrainChance": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
+	"Description": {
+		"Cost": 630000,
+		"Rarity": 10,
+		"Purchasable": true,
+		"Manufacturer": "CLAN",
+		"Model": "Tactical Autocannon",
+		"UIName": "UAC/5 (C)",
+		"Id": "Weapon_Autocannon_AC5_CLAN",
+		"Name": "Ultra AC/5 (C)",
+		"Details": "Ultra Autocannons boast double the rate of fire of a regular Autocannon, with only moderate increases in weight, size, and heat. The UAC/5 is a reliable long range weapon.  \n\n<b><color=#ffcc00>Uses UAC5 Ammo.</color></b> \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "uac5",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 7,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"ImprovedBallistic": true,
+	"CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": false
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": true,
+			"ShotsWhenFired": 1,
+			"HeatGenerated": 10,
+			"FlatJammingChance": 0.15
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_very-long",
+			"AutocannonFCSSupported-Ultra",
+			"WebbTCSupported-Ultra"
+		],
+		"tagSetSourceFile": ""
+	}
+}

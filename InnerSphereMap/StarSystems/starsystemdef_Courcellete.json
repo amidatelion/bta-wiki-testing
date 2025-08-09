@@ -1,0 +1,96 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Courcellete",
+		"Name": "Courcellete",
+		"Details": "The Cosenza system was at some point during or shortly after the First Exodus from Terra and was an independent system within the Capellan Zone prior to the formation of the Capellan Confederation in the mid-twenty-fourth century. Was conquered by Federated Suns during Second Succession war. ",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 141.65,
+		"y": -310.772,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_courcellete",
+			"planet_size_medium",
+			"planet_climate_arid",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_other_blackmarket",
+			"planet_other_boreholes",
+			"planet_other_pirate",
+			"planet_faction_davion"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"lowlandsCoastal",
+		"badlandsParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 8,
+	"ownerID": "Davion",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Davion",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Davion",
+	"FactionShopItems": [
+		"itemCollection_faction_Davion"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Courcellete",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 5,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"Davion",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Kurita",
+		"Liao",
+		"WordOfBlake",
+		"Cameron",
+		"ComStar",
+		"TaurianConcordat",
+		"Outworld",
+		"Tortuga",
+		"DeathsConsorts",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

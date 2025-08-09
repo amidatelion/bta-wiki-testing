@@ -1,0 +1,108 @@
+{
+	"Description": {
+		"Id": "3062-06-07",
+		"Name": "MercNews Broadcast",
+		"Details": "BLACK MAY DEATH TOLL LOWER THAN EXPECTED\r\n\n\nSian, [[DM.Factions[faction_Liao],Capellan Confederation]]: Officials from both the [[DM.Factions[faction_Liao],Capellan Confederation]] and the [[DM.Factions[faction_Ives],St. Ives Compact]] have  released simultaneous statements confirming the capture of the last [[DM.BaseDescriptionDefs[LoreThuggee],Thuggee]] terrorists implicated in the Black May nerve gas attacks. Total casualties of the [[DM.BaseDescriptionDefs[LoreThuggee],Thuggee]] attacks are reported to be in the vicinity of 10000, a far cry from the nearly 5 million casualties initially estimated. Although Capellan authorities publicly cooperated with their [[DM.Factions[faction_Ives],St. Ives Compact]] counterparts in apprehending the [[DM.BaseDescriptionDefs[LoreThuggee],Thuggee]] terrorists and halting the attacks, some within the Compact have accused the Capellans of dragging their feet and tacitly allowing the Black May attacks to proceed. The fact that [[DM.BaseDescriptionDefs[LoreThuggee],Thuggee]] terrorists apprehended by the Capellans simply disappear into [[DM.BaseDescriptionDefs[LoreMaskirovka],Maskirovka]] custody rather than being publicly tried further fuels these accusations.\r\n\n\nPlease stay tuned for more news from the Chaos March.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "[[DM.Factions[faction_Cameron],TERRAN HEGEMONY]] WELCOMES NEW WORLDS\r\n\n\nTerra, [[DM.BaseDescriptionDefs[faction_Cameron],Terran Hegemony]]:  After several years of lengthy yet secret negotiations, the [[DM.BaseDescriptionDefs[faction_Steiner],Lyran Commonwealth]] worlds of Sabik, Atria, Moore, and Lambrecht have openly petitioned for entrance into the Terran Hegemony. The Hegemony, of course, has granted their request. However, the local Lyran defenders of those worlds, specifically the 11th Lyran Regulars stationed on Sabik, are refusing to vacate them. The Hegemony is preparing troops to eject the 11th Lyran Regulars while Archon [[DM.BaseDescriptionDefs[LoreKatherineSteiner],Katherine Steiner-Davion]] protests the Hegemony's actions. Director-General [[DM.BaseDescriptionDefs[LoreIanCameronIII],Ian Cameron III]] has rejected the Archon's protests, saying that he welcomes any original Hegemony world that wishes to rejoin the nation.\r\n\n\n[[DM.Factions[faction_Liao],CAPELLAN CONFEDERATION]] BESEIGES SARNA SUPREMACY\r\n\n\n[[DM.BaseDescriptionDefs[LoreHouseLiao],House Liao]] has opened a new battlefield in it's [[DM.BaseDescriptionDefs[LoreXinSheng],Xin Sheng]] campaigns.  Using secondary attacks and naval assets to pin down the Supremacy's defenders on Sakhalin and on Sarna itself, [[DM.Factions[faction_WarriorHouseImarra],Warrior House Imarra]] has invaded the Supremacy's breadbasket world of Kaifeng.  Observers believe that if the Capellans can seize Kaifeng, they will be able to starve the Sarna Supremacy into submission without a lengthy and costly conflict.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Sarna_to_SarnaSupremacy",
+									"WIIC_give_starsystemdef_Kaifeng_to_SarnaSupremacy",
+									"WIIC_give_starsystemdef_Sakhalin(CC)_to_SarnaSupremacy",
+									"WIIC_give_starsystemdef_Atria_to_Steiner",
+									"WIIC_give_starsystemdef_Sabik_to_Steiner",
+									"WIIC_give_starsystemdef_Moore_to_Steiner",
+									"WIIC_give_starsystemdef_Lambrecht_to_Steiner",
+									"WIIC_Cameron_attacks_starsystemdef_Atria",
+									"WIIC_Cameron_attacks_starsystemdef_Sabik",
+									"WIIC_Cameron_attacks_starsystemdef_Moore",
+									"WIIC_Cameron_attacks_starsystemdef_Lambrecht",
+									"WIIC_Liao_attacks_starsystemdef_Sarna",
+									"WIIC_WarriorHouseImarra_attacks_starsystemdef_Kaifeng",
+									"WIIC_Liao_raids_starsystemdef_Sakhalin(CC)",
+									"WIIC_set_starsystemdef_Sarna_defender_strength_25",
+									"WIIC_set_starsystemdef_Sarna_attacker_strength_25",
+									"WIIC_set_starsystemdef_Kaifeng_defender_strength_10",
+									"WIIC_set_starsystemdef_Kaifeng_attacker_strength_25",
+									"WIIC_give_starsystemdef_Kaifeng_to_Liao_on_attacker_win",
+									"WIIC_set_starsystemdef_Atria_defender_strength_10",
+									"WIIC_set_starsystemdef_Atria_attacker_strength_25",
+									"WIIC_set_starsystemdef_Sabik_defender_strength_20",
+									"WIIC_set_starsystemdef_Sabik_attacker_strength_30",
+									"WIIC_set_starsystemdef_Moore_defender_strength_10",
+									"WIIC_set_starsystemdef_Moore_attacker_strength_25",
+									"WIIC_set_starsystemdef_Lambrecht_defender_strength_15",
+									"WIIC_set_starsystemdef_Lambrecht_attacker_strength_30"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

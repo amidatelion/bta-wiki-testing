@@ -1,0 +1,83 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Erdvynn",
+		"Name": "Erdvynn",
+		"Details": "Erdvynn was settled during the Star League era and formed the capital world of the Rim Worlds Republic's Erdvynn Province. When the RWR contracted during the Succession Wars, Erdvynn was abandoned. Before abandonment, it was home to a small Diplass Technologies BattleMech factory and was a comfortable world with a large population. Now, it serves as the capital world for the Fire Mandrill Homeworlds, a new realm established by Clan Fire Mandrill when they arrived in the Inner Sphere.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -453.557,
+		"y": -21.346,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_erdvynn",
+			"planet_size_large",
+			"planet_climate_water",
+			"planet_pop_small",
+			"planet_civ_periphery",
+			"planet_industry_poor",
+			"planet_other_capital",
+			"planet_other_pirate",
+			"planet_other_ruins",
+			"planet_faction_nofaction"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"lowlandsCoastal",
+		"polarFrozen",
+		"tundraFrozen",
+		"badlandsParched",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 7,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_TaurianConcordat",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "NoFaction",
+	"FactionShopItems": [
+		"itemCollection_faction_TaurianConcordat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Erdvynn",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 10,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [],
+	"contractTargetIDs": []
+}

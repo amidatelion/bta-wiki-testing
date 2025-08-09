@@ -1,0 +1,50 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "Heatsink"
+			},
+			{
+				"CategoryID": "MicroHeatSink"
+			}
+		],
+		"Flags": [
+			"not_broken",
+			"no_salvage"
+		],
+		"BonusDescriptions": [
+			"Dissipation: 2"
+		]
+	},
+	"DissipationCapacity": 2,
+	"Description": {
+		"Cost": 50000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "GM",
+		"Model": "Standard",
+		"UIName": "Micro Heat Sink",
+		"Id": "Gear_HeatSink_Mini",
+		"Name": "Micro Heat Sink",
+		"Details": "This is a Micro Heat Sink. It works on the same basic principles as a standard heat sink does and serves the same basic purpose: to vent waste heat from BattleMech activity. However, the Micro Heat Sink gives up a lot of effectiveness from its heavier brethren and thus is only minorly effective, testing the MechWarrior adage that any heat sinking is better than no heat sinking.",
+		"Icon": "uixSvgIcon_equipment_Heatsink"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "HeatSink",
+	"ComponentSubType": "Heatsink",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,138 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/hvac"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"WpnRecoil: 1",
+			"WeaponJAMMultiple3Stage: 10%, 20%, 30%",
+			"VariableBurstCount: 6",
+			"NoFireInMelee",
+			"AreaOfEffect: 30",
+			"AreaOfEffectDmg: 15",
+			"WeaponAttachmentCompatible: Autocannon FCS"
+		]
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC2",
+	"MinRange": 90,
+	"MaxRange": 1200,
+	"RangeSplit": [
+		300,
+		600,
+		1050
+	],
+	"AmmoCategory": "HVAC2",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 5,
+	"Damage": 30,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"IndirectFireCapable": false,
+	"RefireModifier": 1,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 7,
+	"AOECapable": true,
+	"AOERange": 30,
+	"AOEDamage": 15,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC2",
+	"Description": {
+		"Cost": 210000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "GM",
+		"Model": "Sniper Autocannon",
+		"UIName": "RHVAC/2",
+		"Id": "Weapon_Autocannon_Rotary_HVAC2_0-STOCK",
+		"Name": "RHVAC/2",
+		"Details": "The Rotating Hyper-Velocity Autocannon was developed as part of a development of the Flak Master turret. Designed for long-distance flight suppression for the Federated Commonwealth, however, after a certain time the project was discontinued. After some consideration though, the weapon system developed for this turret was modified for use on mechs. Compared to the regular Rotary Autocannon/2, the bearings and the barrels and the loading mechanism have been modified with heavier, thicker parts. The recoil absorption system has also been modified to cope with the additional recoil. This makes the weapon 2 tons heavier than the regular Hyper-Velocity Autocannon/2. Positively, this ensures that the weapon runs a little cooler than the regular Rotary Autocannon/2. The crews who worked with the weapon gave it the nickname \"Wrath\" thanks to the gun sounding extremely angry when it fires. \n\n <b><color=#ffcc00>Uses HVAC2 Ammo.</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC2",
+	"BattleValue": 0,
+	"InventorySize": 4,
+	"Tonnage": 11,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"ImprovedBallistic": true,
+	"CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": false,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": false,
+			"ShotsWhenFired": 1,
+			"RefireModifier": 1,
+			"HeatGenerated": 5
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": true,
+			"ShotsWhenFired": 2,
+			"RefireModifier": 1,
+			"HeatGenerated": 10
+		},
+		{
+			"Id": "x4",
+			"UIName": "x4",
+			"isBaseMode": false,
+			"ShotsWhenFired": 3,
+			"RefireModifier": 2,
+			"FlatJammingChance": 0.1,
+			"HeatGenerated": 15
+		},
+		{
+			"Id": "x5",
+			"UIName": "x5",
+			"isBaseMode": false,
+			"ShotsWhenFired": 4,
+			"RefireModifier": 2,
+			"FlatJammingChance": 0.2,
+			"HeatGenerated": 20
+		},
+		{
+			"Id": "x6",
+			"UIName": "x6",
+			"isBaseMode": false,
+			"ShotsWhenFired": 5,
+			"RefireModifier": 3,
+			"FlatJammingChance": 0.3,
+			"HeatGenerated": 25
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"OmniRestriction.{location}",
+			"component_type_stock",
+			"range_extreme",
+			"AutocannonFCSSupported-Rotary",
+			"WebbTCSupported-Rotary"
+		],
+		"tagSetSourceFile": ""
+	}
+}

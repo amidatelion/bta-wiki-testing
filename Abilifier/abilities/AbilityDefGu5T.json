@@ -1,0 +1,40 @@
+{
+	"Description": {
+		"Id": "AbilityDefGu5T",
+		"Name": "ANGLED ARMOR",
+		"Details": "PASSIVE: This tank is being piloted by a defensive mastermind. Their skill behind the wheel grants the tank additional hit defense, as they know how best to angle the tank's armor for maximum effectiveness.",
+		"Icon": "battle-tank"
+	},
+	"DisplayParams": "ShowInMWTRay",
+	"ReqSkill": "Guts",
+	"ReqSkillLevel": 5,
+	"ActivationTime": "Passive",
+	"EffectData": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-AngledArmorDefense",
+				"Name": "Angled Armor",
+				"Details": "This unit gains +2 hit defense at all times.",
+				"Icon": "battle-tank"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "ToHitThisActor",
+				"operation": "Float_Add",
+				"modValue": "2.0",
+				"modType": "System.Single"
+			}
+		}
+	],
+	"IsPrimaryAbility": true
+}

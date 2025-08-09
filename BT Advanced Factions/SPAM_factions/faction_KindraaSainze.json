@@ -1,0 +1,68 @@
+{
+	"ID": "faction_KindraaSainze",
+	"Name": "Kindraa Sainze",
+	"ShortName": "Kindraa Sainze",
+	"Demonym": "Kindraa Sainze",
+	"Government": "Kindraa",
+	"Allies": [],
+	"Enemies": [
+		"Steiner",
+		"Marik",
+		"Cameron",
+		"ComStar",
+		"Marian",
+		"Lothian",
+		"Circinus",
+		"Illyrian",
+		"ClanDiamondShark",
+		"ClanGhostBear",
+		"ClanGoliathScorpion",
+		"ClanJadeFalcon",
+		"ClanNovaCat",
+		"ClanSnowRaven",
+		"ClanWolf",
+		"Hanse",
+		"Locals",
+		"AuriganDirectorate",
+		"AuriganPirates",
+		"WordOfBlake"
+	],
+	"Presence": 1.0,
+	"ReputationStatements": [
+		"Freeborn, you have been very consistent in your hatred of the Fire Mandrill Clan.  If my own kindraa were available I would use them for this task, but as they are occupied with more worthy opponents, you can take this batchall, or not.",
+		"My kindraa have faced you in battle before Freeborn, and several lie dead by your hand.  Perhaps you can spill someone elses blood for a change with this batchall?",
+		"Freeborn, I have heard from other kindraa you have battled before that you are a competent warrior.  Perhaps you can assist me in this small task?",
+		"Freeborn, you are an unknown to us.  Prove yourself on the field of battle with this batchall, and we may have further use of you.",
+		"Freeborn, you have assisted other kindraa of the Fire Mandrill in the past, and I would like to offer you this batchall so that you can assist my kindraa as well.",
+		"Hello again, friend to the Fire Mandrills.  We offer you this choice batchall in recognition of our friendship.",
+		"Greetings my trusted friend.  You have helped me so often, I almost look at you as a member of my own kindraa.  I have this choice batchall for you, if you are interested?"
+	],
+	"MissionSuccessStatements": [
+		"Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you."
+	],
+	"GoodFaithFailureStatements": [
+		"You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot."
+	],
+	"BadFaithFailureStatements": [
+		"For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess."
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
+	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DataManager": null,
+	"factionID": "KindraaSainze",
+	"icon": "uixTxrLogo_KindraaSainze",
+	"heraldryDefId": "heraldrydef_KindraaSainze",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"Description": "Clan Fire Mandrill is divided into various sub-groups called Kindraa, of which Kindraa Sainze is the most powerful. Sainze is the bloodname of Fire Mandrill's founder and first Khan, from whom the highly competitive and fractious culture of Clan Fire Mandrill stemmed. Kindraa Sainze is renown for its mighty warriors.",
+	"StartingReputationValues": [
+		0,
+		0,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
+}

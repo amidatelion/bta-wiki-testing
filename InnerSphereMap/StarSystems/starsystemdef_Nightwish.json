@@ -1,0 +1,75 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Nightwish",
+		"Name": "Nightwish",
+		"Details": "Nightwish was settled by the Rim Worlds Republic during the Star League era but was eventually abandoned due to contractions during the Succession Wars. Nightwish was named because the locals wished it would be nighttime more often on the hellish sun-baked world, just for a tiny bit of relief from the terrible heat. The scorching desert sands stretch lone and far away on Nightwish.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -446.895,
+		"y": 4.26,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_nightwish",
+			"planet_size_small",
+			"planet_climate_mars",
+			"planet_pop_small",
+			"planet_civ_periphery",
+			"planet_industry_poor",
+			"planet_other_ruins",
+			"planet_faction_nofaction"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum",
+		"badlandsParched",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 11,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_TaurianConcordat",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "NoFaction",
+	"FactionShopItems": [
+		"itemCollection_faction_TaurianConcordat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Nightwish",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 5,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [],
+	"contractTargetIDs": []
+}

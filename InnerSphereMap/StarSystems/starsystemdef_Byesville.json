@@ -1,0 +1,94 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Byesville",
+		"Name": "Byesville",
+		"Details": "A minor planet on the Combine/FRR border, Byesville is only inhabitable at the poles, with the rest of the planet too hot to support human life.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 132.602,
+		"y": 335.734,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_byesville",
+			"planet_size_medium",
+			"planet_climate_arid",
+			"planet_other_volcanic",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_faction_kurita"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"lowlandsCoastal",
+		"badlandsParched",
+		"urbanHighTech"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 22,
+	"ownerID": "Kurita",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Kurita",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Kurita",
+	"FactionShopItems": [
+		"itemCollection_faction_Kurita"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Byesville",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 6,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Kurita",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Davion",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Outworld",
+		"Rasalhague",
+		"Mercenaries",
+		"BandOfTheDamned"
+	]
+}

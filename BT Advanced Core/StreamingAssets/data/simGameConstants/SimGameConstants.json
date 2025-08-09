@@ -1,0 +1,276 @@
+{
+	"Travel": {
+		"MaxJumpDistance": 50
+	},
+	"Finances": {
+		"QuarterLength": 30,
+		"MonthLength": 30,
+		"BurndownDayLength": 30,
+		"MechCostPerQuarter": 15000,
+		"MechTechCostPerQuarter": 11000,
+		"MedTechCostPerQuarter": 4500,
+		"SpartanCostModifier": 0.6,
+		"RestrictedCostModifier": 0.8,
+		"GenerousCostModifier": 1.6,
+		"ExtravagantCostModifier": 2.0,
+		"JumpShipCost": 45000,
+		"MechWarriorBaseCostPerPoint": 1900.0,
+		"MechWarriorBonusCostPerPoint": 1000.0,
+		"MechWarriorHiringCostPerPoint": 2800.0,
+		"DefaultShopRefreshRate": 14,
+		"DefaultShopMaxInventory": 50,
+		"DefaultShopMaxSpecials": 2,
+		"ContractPricePerDifficulty": 300000,
+		"json_comment": "ContractTypeMod's are now located in StreamingAssets/Enums/ContractType.json.",
+		"ContractPriceVariance": 0.15,
+		"ContractFloorSalaryMultiplier": 0.1,
+		"ContractFloorSalvageBonus": 1,
+		"MaxReputationChangeOnAContract": 30.0,
+		"GoodFaithModifier": 0.3,
+		"NoFaithModifier": 0,
+		"TechHiringCostPerPoint": 8000,
+		"ShopSellModifier": 0.1024,
+		"ShopSellDamagedModifier": 0.04,
+		"ShopWarnBeforeSellingPriceMinimum": 100000,
+		"MechScrapModifier": 0.04,
+		"MechLabRefundModifier": 0.9,
+		"RecoveredChassisShopModifier": 0.9,
+		"LeopardBaseMaintenanceCost": 70000,
+		"ArgoBaseMaintenanceCost": 150000,
+		"QuartersYouCanAffordWithoutTriggeringWarning": 1,
+		"ContractBaseRepDifficultyMultiplier": 1.5,
+		"ContractBaseReputationAddition": 0,
+		"ContractNegotiableRepDifficultyMultiplier": 1,
+		"ContractNegotiableReputationAddition": 5
+	},
+	"Story": {
+		"CampaignStartDate": "3061-01-01T05:00:00Z",
+		"MaxMechWarriorsPerPod": 12,
+		"FriendlyMaxContractDifficulty": 6,
+		"HonoredMaxContractDifficulty": 6,
+		"DefaultRoninHiringChance": 0.2,
+		"MaxMoralePowerLevelLimits": [
+			12,
+			24
+		],
+		"HighRepNotificationValue": 50,
+		"DailyHealValue": 0,
+		"MedTechSkillMod": 1,
+		"EmployerRepBadFaithMod": -1,
+		"CrewConversationNames": [
+			"ALEXANDER",
+			"DARIUS",
+			"FARAH",
+			"KAMEA",
+			"SUMIRE",
+			"YANG"
+		],
+		"CrewConversationList": [
+			"5a384617623035d414000089",
+			"5a3845e3623035d414000075",
+			"5a3845f0623035d41400007f",
+			"e0kFfyUGoiEbV1KPRVUkDTfG",
+			"5a3845b6623035d41400002a",
+			"5a305324623035701c00002a"
+		]
+	},
+	"Flashpoints": {
+		"MaxActiveFlashpoints": 10,
+		"MaxGenFlashpointsPerDay": 1,
+		"GreaterThanThisTotalWeightIsHeavyLance": 240
+	},
+	"CareerMode": {
+		"CampaignStartDate": "3061-01-01T05:00:00Z",
+		"FlashpointStartRange": [
+			14,
+			21
+		],
+		"HonoredMaxContractDifficulty": 14,
+		"MaxMechWarriorsPerPod": 12,
+		"StartWithRandomMechs": true,
+		"GameLength": 2525
+	},
+	"Pilot": {
+		"IncapacitatedDamageCost": 180,
+		"BaseInjuryDamageCost": 480
+	},
+	"Progression": {
+		"GunnerySkills": [
+			[
+				"TraitDefWeaponHit1"
+			],
+			[
+				"TraitDefWeaponHit2"
+			],
+			[
+				"TraitDefWeaponHit3"
+			],
+			[
+				"TraitDefJamReduceOne",
+				"TraitDefGunneryStabBonus1",
+				"TraitDefWeaponHit4"
+			],
+			[
+				"TraitDefRefireReduceOne",
+				"TraitDefWeaponHit5",
+				"AbilityDefG5",
+				"AbilityDefG5a",
+				"AbilityDefG5T"
+			],
+			[
+				"TraitDefGunneryHeatBonus1",
+				"TraitDefWeaponHit6"
+			],
+			[
+				"TraitDefRefireReduceTwo",
+				"TraitDefWeaponHit7"
+			],
+			[
+				"TraitDefWeaponHit8",
+				"AbilityDefG8",
+				"AbilityDefG8a",
+				"AbilityDefG8b",
+				"AbilityDefG8c",
+				"AbilityDefG8d",
+				"AbilityDefG8e",
+				"AbilityDefG8T"
+			],
+			[
+				"TraitDefJamReduceTwo",
+				"TraitDefGunneryDmgBonus1",
+				"TraitDefWeaponHit9"
+			],
+			[
+				"TraitDefWeaponHit10",
+				"AbilityDefG10a",
+				"AbilityDefG10T"
+			]
+		],
+		"PilotingSkills": [
+			[
+				"TraitDefMeleeHit1"
+			],
+			[
+				"TraitDefMeleeHit2"
+			],
+			[
+				"TraitDefMeleeHit3"
+			],
+			[
+				"TraitDefMeleeHit4",
+				"TraitDefSprintIncrease10"
+			],
+			[
+				"TraitDefMeleeHit5",
+				"AbilityDefP5",
+				"AbilityDefP5a",
+				"AbilityDefP5T"
+			],
+			[
+				"TraitDefMeleeHit6",
+				"TraitDefFlankIncrease20",
+				"TraitDefEvasiveChargeAddOne"
+			],
+			[
+				"TraitDefMeleeHit7",
+				"TraitDefSprintIncrease20"
+			],
+			[
+				"TraitDefMeleeHit8",
+				"AbilityDefP8",
+				"AbilityDefP8a",
+				"AbilityDefP8T"
+			],
+			[
+				"TraitDefMeleeHit9"
+			],
+			[
+				"TraitDefMeleeHit10",
+				"TraitDefEvasiveChargeAddTwo",
+				"AbilityDefP10a",
+				"AbilityDefP10T"
+			]
+		],
+		"GutsSkills": [
+			[],
+			[],
+			[],
+			[
+				"TraitDefHealthAddOne"
+			],
+			[
+				"AbilityDefGu5",
+				"AbilityDefGu5a",
+				"AbilityDefGu5T"
+			],
+			[
+				"TraitDefOverheatAddFifteen"
+			],
+			[
+				"TraitDefHealthAddTwo"
+			],
+			[
+				"AbilityDefGu8",
+				"AbilityDefGu8a",
+				"AbilityDefGu8T"
+			],
+			[
+				"TraitDefOverheatAddThirty"
+			],
+			[
+				"TraitDefHealthAddThree",
+				"AbilityDefGu10a",
+				"AbilityDefGu10T"
+			]
+		],
+		"TacticsSkills": [
+			[
+				"TraitDefTac1"
+			],
+			[
+				"TraitDefTac2"
+			],
+			[
+				"TraitDefTac3"
+			],
+			[
+				"TraitDefTac4",
+				"TraitDefIndirectReduceOne"
+			],
+			[
+				"TraitDefTac5",
+				"TraitDefMinRangeReduce45",
+				"AbilityDefT5A",
+				"AbilityDefT5Aa",
+				"AbilityDefT5T"
+			],
+			[
+				"TraitDefTac6",
+				"TraitDefCalledShotImprove"
+			],
+			[
+				"TraitDefTac7",
+				"TraitDefIndirectReduceTwo"
+			],
+			[
+				"TraitDefTac8",
+				"TraitDefMinRangeReduce90",
+				"AbilityDefT8A",
+				"AbilityDefT8Aa",
+				"AbilityDefT8Ab",
+				"AbilityDefT8Ac",
+				"AbilityDefT8T"
+			],
+			[
+				"TraitDefTac9",
+				"TraitDefCalledShotMaster"
+			],
+			[
+				"TraitDefTac10",
+				"TraitDefIndirectReduceThree",
+				"AbilityDefT10Aa",
+				"AbilityDefT10T"
+			]
+		]
+	}
+}

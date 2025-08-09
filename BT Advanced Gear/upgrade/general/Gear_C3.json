@@ -1,0 +1,131 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "C3Slave"
+			}
+		],
+		"DecoratorComponent":[
+			{
+				"Text":"Sl",               
+				"Color":"#ff1616",      
+				"Icon":"mesh-network",       
+				"Importance": 10
+			}
+		],
+		"BonusDescriptions": [
+			"C3",
+			"C3Slave",
+			"C3ECMWeakness",
+			"Sensors: +3%",
+			"Sight: +3%"
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 100000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "Tanadi",
+		"Model": "C3 Slave Unit",
+		"UIName": "C3 Slave",
+		"Id": "Gear_C3",
+		"Name": "C3 Network Slave unit",
+		"Details": "The C3 Slave Unit is the second part of a C3 Network. Weighing a single ton and carried by a member of a lance or company, the C3 Slave serves to connect the carrying unit into a C3 network, as well as providing a minor sensor and sight bonus to the carrying unit.",
+		"Icon": "mesh-network"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Auras": [
+		{
+			"Id": "Gear_C3_Slave_Aura",
+			"Name": "C3 Network",
+			"ReticleColor": "#00f0ff",
+			"Range": 8000,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"HideOnNotSelected": true,
+			"FloatieAtEndOfMove": false,
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "AlliesWithinRange",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "SensorRange",
+						"Name": "C3M Probe",
+						"Details": "Increased Sight/Sensors",
+						"Icon": "uixSvgIcon_equipment_Cockpit"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"abilifierId": "C3_Network_Slave_Bonus",
+						"statName": "SensorDistanceMultiplier",
+						"operation": "Float_Multiply",
+						"modValue": "1.005",
+						"modType": "System.Single"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "AlliesWithinRange",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "SpottingRange",
+						"Name": "SPOTTING DISTANCE INCREASED",
+						"Details": "Increases spotting distance by 50m.",
+						"Icon": "uixSvgIcon_equipment_Cockpit"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"abilifierId": "C3_Network_Slave_Bonus",
+						"statName": "SpotterDistanceMultiplier",
+						"operation": "Float_Multiply",
+						"modValue": "1.005",
+						"modType": "System.Single"
+					}
+				}
+			]
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"lv-shares-sensors",
+			"C3Slave"
+		],
+		"tagSetSourceFile": ""
+	}
+}

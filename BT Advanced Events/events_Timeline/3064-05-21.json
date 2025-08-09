@@ -1,0 +1,89 @@
+{
+	"Description": {
+		"Id": "3064-05-21",
+		"Name": "MercNews Broadcast",
+		"Details": "\"EMPEROR\" OF HALL CONSOLIDATING POWER!\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]], [[DM.BaseDescriptionDefs[LoreTerranHegemony],Terran Hegemony]]: In the recent chaos along the Terran Hegemony's borders, the world of Hall has divided into three territories; Emperor \"Bud\" Baranov and those of the [[DM.BaseDescriptionDefs[LoreRepublican],Fourth Republican Guard]] who joined his cause; a dissident group of the Fourth that chose to join Major Dick Cater and his [[DM.BaseDescriptionDefs[LoreCatersCobras],Cater's Cohorts]]; and a third group under pro-[[DM.Factions[faction_Cameron],Hegemony]] Count Radcliffe McNally with his supporting mercenaries [[DM.BaseDescriptionDefs[LoreBurtonsBrigade],Burton's Brigade]] and [[DM.BaseDescriptionDefs[LoreCritchleysCavs],Critchley's Cavaliers]].\r\n\n\nAfter months of stalemate, Emperor Baranov has gathered enough strength to make a move on Cater's Cohorts.  While Count McNally is no friend of Major Cater, it remains to be seen if the Count will take advantage of this situation for his own benefit or if the Hegemony will actively step in to police the situation.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "[[DM.BaseDescriptionDefs[LoreIronGuard],IRON GUARD]] ASSAULTS TYRFING!\r\n\n\nReports from the [[DM.Faction[faction_Cameron],Hegemony]] indicate the FWL's Iron Guard unit has been ordered into action against the people of Tyrfing (formerly known as Tabit). Duke Charles Flinlinger of Talitha, a minor [[DM.Faction[faction_Marik],Free Worlds League]] world that has been fought over dozens of times, has decided to assault the neighbouring planet of Tyrfing, ostensibly in the name of security. Talitha has been raided by pirates several times recently and Duke Flinlinger has been very vocal about his belief that the pirates are Hegemony-backed. This action against Tyrfing represents his attempt to punish the Hegemony for its interference in the duke's affairs. For its part, the Hegemony has categorically denied any involvement in pirate attacks against FWL worlds and condemns the duke's premature action. Director-General [[DM.BaseDescriptionDefs[LoreIanCameronIII],Ian Cameron III]] has ordered the on-world [[DM.BaseDescriptionDefs[LoreThirdHegemonyLancers],Third Hegemony Lancers]] to repulse the Iron Guard by any means necessary.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Hall_to_Cameron",
+									"WIIC_give_starsystemdef_Tabit(Tyrfing2350s+)_to_Cameron",
+									"WIIC_Locals_attacks_starsystemdef_Hall",
+									"WIIC_Marik_attacks_starsystemdef_Tabit(Tyrfing2350s+)",
+									"WIIC_set_starsystemdef_Tabit(Tyrfing2350s+)_defender_strength_15",
+									"WIIC_set_starsystemdef_Tabit(Tyrfing2350s+)_attacker_strength_20",
+									"WIIC_set_starsystemdef_Hall_defender_strength_30",
+									"WIIC_set_starsystemdef_Hall_attacker_strength_20"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

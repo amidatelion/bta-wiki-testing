@@ -1,0 +1,164 @@
+{
+	"Custom": {
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "3 * [[Chassis.Tonnage]] / 15",
+				"CBillCost": "50000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 30"
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "CLPS"
+			}
+		],
+		"Flags": [
+			"not_broken",
+			"no_salvage"
+		],
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "Gear_Chameleon_Linked",
+					"Location": "LeftTorso"
+				},
+				{
+					"ComponentDefId": "Gear_Chameleon_Linked",
+					"Location": "LeftArm"
+				},
+				{
+					"ComponentDefId": "Gear_Chameleon_Linked",
+					"Location": "LeftLeg"
+				},
+				{
+					"ComponentDefId": "Gear_Chameleon_Linked",
+					"Location": "RightTorso"
+				},
+				{
+					"ComponentDefId": "Gear_Chameleon_Linked",
+					"Location": "RightArm"
+				},
+				{
+					"ComponentDefId": "Gear_Chameleon_Linked",
+					"Location": "RightLeg"
+				}
+			]
+		},
+		"BonusDescriptions": [
+			"LinkedSlots: 6",
+			"HeatPerTurn: 18",
+			"Visibility: -45%",
+			"Defense: +3"
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 3000000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "SLDF Skunkwerks",
+		"Model": "SLDF",
+		"UIName": "Chameleon Light Polarization Shield",
+		"Id": "Gear_ChameleonLightPolarizationShield",
+		"Name": "Chameleon Light Polarization Shield",
+		"Details": "The Chameleon Light Polarization Shield was a crowning jewel in the Star League's technological cap, a primitive system of mimetic shielding that warped light around the carrying battlemech such that it was visually distorted and blurred, rendering it difficult to hit at best and impossible to hit at worst. The Chameleon LPS was most famously employed by the Exterminator and was believed lost when that mech finally was rendered extinct, only for ComStar to reveal they still had working CLPS on their Exterminators. It was never put back into production and remains incredibly rare even to the modern day.",
+		"Icon": "invisible"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CLPS-ECM",
+				"Name": "Severe Visual Scrambling",
+				"Details": "CLPS provides a +3 hit defense for the equipped unit while also reducing its visual signature by 45%.",
+				"Icon": "invisible"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "ToHitThisActor",
+				"operation": "Float_Add",
+				"modValue": "3.0",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CLPS-Heat",
+				"Name": "Increased Heat",
+				"Details": "Generates a flat 18 heat a turn while equipped.",
+				"Icon": "invisible"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "HeatSinkCapacity",
+				"operation": "Int_Add",
+				"modValue": "-18",
+				"modType": "System.Int32"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CLPS-Spotter",
+				"Name": "Active CLPS",
+				"Details": "Provides massively reduced visibility signature.",
+				"Icon": "invisible"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "SpottingVisibilityMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.55",
+				"modType": "System.Single"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

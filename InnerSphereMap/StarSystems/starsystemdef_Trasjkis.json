@@ -1,0 +1,86 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Trasjkis",
+		"Name": "Trasjkis",
+		"Details": "A small Earth-like planet with approximately half the gravity of Earth, Trasjkis is dotted with many small islands and a large continent covers the northern polar region. Much of the exports from Trasjkis are in the form of aquatic food and along with Reykavis serves as a breadbasket for the Palatinate.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -434.348,
+		"y": -191.899,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_trasjkis",
+			"planet_size_medium",
+			"planet_climate_ice",
+			"planet_feature_moon03",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_faction_illyrian"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum",
+		"polarFrozen",
+		"tundraFrozen"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 16,
+	"ownerID": "Illyrian",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Illyrian",
+		"itemCollection_shop_industrial",
+		"itemCollection_shop_research"
+	],
+	"factionShopOwnerID": "Illyrian",
+	"FactionShopItems": [
+		"itemCollection_faction_Illyrian"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Trasjkis",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 7,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Illyrian",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marian",
+		"Circinus",
+		"Locals",
+		"AuriganPirates",
+		"Mercenaries",
+		"WordOfBlake"
+	]
+}

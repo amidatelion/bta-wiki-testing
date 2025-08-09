@@ -1,0 +1,16 @@
+{
+	"Id": "WeaponUpgrade_Artillery_FCS_Howitzer",
+	"addonType": "artilleryfcs",
+	"targetComponentTags": [
+		"ArtilleryFCSSupported-Howitzer"
+	],
+	"modes": [
+		{
+			"Id": "BASE",
+			"UIName": "FCS",
+			"Name": "FCS",
+			"EvasivePipsIgnored": 1,
+			"AccuracyModifier": -2.0
+		}
+	]
+}

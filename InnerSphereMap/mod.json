@@ -1,0 +1,31 @@
+{
+	"Name": "InnerSphereMap",
+	"Enabled": true,
+	"Hidden": true,
+	"Version": "1.2",
+	"Description": "Map of the Inner Sphere",
+	"Author": "Morphyum",
+	"Website": "https://github.com/Morphyum/InnerSphereMap",
+	"Contact": "",
+	"DLL": "InnerSphereMap.dll",
+	"DependsOn": [],
+	"ConflictsWith": [],
+	"Manifest": [
+		{
+			"Type": "StarSystemDef",
+			"Path": "StarSystems"
+		},
+		{
+			"Type": "Texture2D",
+			"Path": "Emblems"
+		},
+		{
+			"Type": "Sprite",
+			"Path": "Emblems"
+		},
+		{
+			"Type": "Sprite",
+			"Path": "Logos"
+		}
+	]
+}

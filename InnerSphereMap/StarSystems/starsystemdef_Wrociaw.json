@@ -1,0 +1,95 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Wrociaw",
+		"Name": "Wrociaw",
+		"Details": "The Wrociaw system was settled during the First Exodus from Terra, and is known for it's heavy tank track production facilities.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -211.22,
+		"y": 240.605,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_wrociaw",
+			"planet_size_medium",
+			"planet_climate_desert",
+			"planet_other_floatingworld",
+			"planet_pop_medium",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_recreation",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_industry_manufacturing",
+			"planet_other_boreholes",
+			"planet_faction_steiner"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"desertParched",
+		"urbanHighTech"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 8,
+	"ownerID": "Steiner",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Steiner",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Steiner",
+	"FactionShopItems": [
+		"itemCollection_faction_Steiner"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Wrociaw",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Kurita",
+		"RimWorldsRepublic",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Circinus",
+		"Rasalhague",
+		"MorrisonsExtractors",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

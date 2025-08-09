@@ -1,0 +1,75 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Yetholm",
+		"Name": "Yetholm",
+		"Details": "A frozen iceball, Yetholm is notable for nothing. If it wasn't being used as a surveilance outpost, it'd largely go totally unnoticed by the universe at large. Even as-is, it is remarkable only for its extreme unremarkableness.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 655.039,
+		"y": -650.715,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_size_large",
+			"planet_climate_arctic",
+			"planet_feature_moon03",
+			"planet_pop_small",
+			"planet_civ_periphery",
+			"planet_faction_sanctuaryalliance",
+			"planet_name_Yetholm"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"polarFrozen",
+		"tundraFrozen",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 13,
+	"ownerID": "SanctuaryAlliance",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "SanctuaryAlliance",
+	"FactionShopItems": [],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Yetholm",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"TaurianConcordat"
+	],
+	"contractTargetIDs": [
+		"SanctuaryAlliance"
+	]
+}

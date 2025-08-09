@@ -1,0 +1,16 @@
+itemCollection_major_RimWorldsRepublic_Mechs,,,
+mechdef_screamer_SCR-1X-LAM,Mech,1,10
+mechdef_screamer_SCR-2X-LAM,Mech,1,10
+mechdef_screamer_SCR-3X-LAM,Mech,1,10
+mechdef_screamer_SCR-1A-LAM,Mech,1,10
+mechdef_jackrabbit_JKR-8A,Mech,1,10
+mechdef_jackrabbit_JKR-8T,Mech,1,10
+mechdef_jackrabbit_JKR-9A,Mech,1,10
+mechdef_jackrabbit_JKR-9R,Mech,1,10
+mechdef_riflemaniii_RF2-A,Mech,1,10
+mechdef_riflemaniii_RF2-B,Mech,1,10
+mechdef_riflemaniii_RF2-L,Mech,1,10
+mechdef_riflemaniii_RF2-M,Mech,1,10
+itemCollection_major_RimWorldsRepublic_Dragoon,Reference,4,10
+itemCollection_major_RimWorldsRepublic_Rampage,Reference,4,10
+itemCollection_major_RimWorldsRepublic_Phoenix,Reference,4,10

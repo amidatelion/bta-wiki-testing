@@ -1,0 +1,47 @@
+{
+	"ID": "faction_RaymondsRedcoats",
+	"Name": "Raymond's Redcoats",
+	"ShortName": "Raymond's Redcoats",
+	"Demonym": "Raymond's Redcoats",
+	"Government": "Mercenary",
+	"Allies": [],
+	"Enemies": [],
+	"Presence": 1.0,
+	"ReputationStatements": [
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander."
+	],
+	"MissionSuccessStatements": [
+		"Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you."
+	],
+	"GoodFaithFailureStatements": [
+		"You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot."
+	],
+	"BadFaithFailureStatements": [
+		"For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess."
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
+	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DataManager": null,
+	"factionID": "RaymondsRedcoats",
+	"icon": "uixTxrLogo_RaymondsRedcoats",
+	"heraldryDefId": "heraldrydef_RaymondsRedcoats",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"Description": "Raymond's Redcoats is a unit with a shadowy history. Originally claiming to be descended from a lost SLDF division, the truth came out in 2836 after 30 years in House Steiner service: Raymond's Redcoats actually descended from a shattered Rim Worlds Republic regiment that had to turn to piracy for decades just to survive, only to reform their image and go legit when Irwin Raymond took over the unit in 2803. Today, the unit's history is mostly a fun footnote placed after their excellent combat performance, though the unit does still prefer bounty and pirate hunting contracts.",
+	"StartingReputationValues": [
+		0,
+		0,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
+}

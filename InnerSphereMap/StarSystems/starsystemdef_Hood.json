@@ -1,0 +1,92 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Hood",
+		"Name": "Hood",
+		"Details": "The Hood system was colonised during the Star League era by the Rim Worlds Republic, until it was devastated during the Amaris Civil War. The recovery has been slow.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -269.113,
+		"y": 369.338,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_hood",
+			"planet_size_small",
+			"planet_climate_ice",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_other_blackmarket",
+			"planet_faction_rimworldsrepublic"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"polarFrozen",
+		"tundraFrozen"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 7,
+	"ownerID": "RimWorldsRepublic",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_RimWorldsRepublic",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "RimWorldsRepublic",
+	"FactionShopItems": [
+		"itemCollection_faction_RimWorldsRepublic"
+	],
+	"BlackMarketShopItems": [
+		"BTA_List_BlackMarket"
+	],
+	"CoreSystemID": "starsystemdef_Hood",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"RimWorldsRepublic",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Hanse",
+		"DarkCaste",
+		"GreenGhosts",
+		"Steiner",
+		"ClanWolf",
+		"ClanJadeFalcon",
+		"Mercenaries",
+		"Locals"
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/m/s/srm"
+			},
+			{
+				"CategoryID": "NoArtemisSRM"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 8,
+			"StabilityDamagePerAmmo": 2
+		},
+		"BonusDescriptions": [
+			"AcidStack: 5%, 4",
+			"SRMAccuracy: -1",
+			"SRMDamage: -4",
+			"ArmorDmgMod: +25%",
+			"StructureDmgMod: -50%",
+			"CostPerShot: 200",
+			"AmmoCount: 100"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 200
+		}
+	},
+	"AmmoID": "Ammunition_SRM_AX",
+	"Capacity": 100,
+	"Description": {
+		"Cost": 40000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "SRM AX",
+		"UIName": "Ammo SRM Acid",
+		"Id": "Ammo_AmmunitionBox_Acid_SRM",
+		"Name": "SRM Acid Ammo",
+		"Details": "This warhead replaces the normal explosive charge of the standard short-range missile with a small tank of a gelled Acid, weakening a Targets resistance and causing them to take 20% more damage from subsequent attacks. They deal additional damage to armor but are slightly less accurate. Contains 100 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Missile"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

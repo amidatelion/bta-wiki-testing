@@ -1,0 +1,74 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Huesta",
+		"Name": "Huesta",
+		"Details": "Huesta was settled by the Rim Worlds Republic during the Star League era but was eventually abandoned due to contractions during the Succession Wars. During its heyday, Huesta was the site of several major engagements in the short-lived Rim Worlds Republic civil war during the Amaris Crisis.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -431.954,
+		"y": 34.134,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_huesta",
+			"planet_size_medium",
+			"planet_climate_lunar",
+			"planet_pop_small",
+			"planet_civ_periphery",
+			"planet_industry_poor",
+			"planet_other_ruins",
+			"planet_faction_nofaction"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "O",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_TaurianConcordat",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "NoFaction",
+	"FactionShopItems": [
+		"itemCollection_faction_TaurianConcordat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Huesta",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [],
+	"contractTargetIDs": []
+}

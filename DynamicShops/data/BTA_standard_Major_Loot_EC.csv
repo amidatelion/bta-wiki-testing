@@ -1,0 +1,8 @@
+BTA_standard_Major_Loot_EC,,,
+BTA_Misc_Loot,Reference,1,2
+itemCollection_Weapons_uncommon,Reference,4,1
+itemCollection_Weapons_rare,Reference,2,1
+itemCollection_Upgrades_common,Reference,2,2
+itemCollection_Upgrades_uncommon,Reference,1,2
+ItemCollection_SS_Manufacture,Reference,1,2
+Gear_Cash_Money,Upgrade,2,1

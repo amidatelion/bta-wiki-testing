@@ -1,0 +1,80 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/s/srm"
+			}
+		],
+		"BonusDescriptions": [
+				"StructureDmgMod: 1",
+				"MissileHealth: 3",
+				"WeaponAttachmentCompatible: SRM FCS"
+			]
+	},
+	"Category": "Missile",
+	"Type": "SRM",
+	"WeaponSubType": "SRM6",
+	"MinRange": 0,
+	"MaxRange": 360,
+	"RangeSplit": [
+		90,
+		180,
+		270
+	],
+	"AmmoCategory": "PierceSRM",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 12,
+	"Damage": 1,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 3,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"MissileHealth": 3,
+	"StructureDamage": 1,
+	"ImprovedBallistic": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_SRM6",
+	"Description": {
+		"Cost": 100000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Irian",
+		"Model": "Short-Range Missile Launcher",
+		"UIName": "Piercing SRM3",
+		"Id": "Weapon_SRM_SRM6_1-Irian",
+		"Name": "Piercing SRM3",
+		"Details": "Unlike normal SRMs, these SRMs have been specially designed for maximum armor penetration. However, to achieve this penetrative power, this SRM rack has half the normal amount of functional missile tubes and does virtually no damage, dealing extremely minimal damage amounts. However, since it instantly pierces through to structure, the appeal lies in gambling on dealing critical damage to the target.",
+		"Icon": "uixSvgIcon_weapon_Missile"
+	},
+	"BonusValueA": "Armor Piercing",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "srm6",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 3,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"component_type_variant1",
+			"range_standard",
+			"SRMFCSSupported",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

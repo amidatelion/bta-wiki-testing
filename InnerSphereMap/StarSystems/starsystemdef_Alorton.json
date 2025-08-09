@@ -1,0 +1,98 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Alorton",
+		"Name": "Alorton",
+		"Details": "Alorton was one of fifty-one contested worlds to be placed under Terran Hegemony authority during the Star League era. During the First Succession War Alorton once more became a flashpoint between the Free Worlds League and Lyran Commonwealth.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -353.648,
+		"y": -85.871,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_alorton",
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_other_floatingworld",
+			"planet_feature_asteroids",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_industry_recreation",
+			"planet_industry_agriculture",
+			"planet_other_starleague",
+			"planet_other_ruins",
+			"planet_faction_marik"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"badlandsParched",
+		"lowlandsCoastal",
+		"jungleTropical"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 10,
+	"ownerID": "Marik",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Marik",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Marik",
+	"FactionShopItems": [
+		"itemCollection_faction_Marik"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Alorton",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 2,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Marik",
+		"WordOfBlake",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Liao",
+		"Cameron",
+		"ComStar",
+		"MagistracyOfCanopus",
+		"Marian",
+		"Circinus",
+		"Mercenaries",
+		"HookwormsHighwaymen"
+	]
+}

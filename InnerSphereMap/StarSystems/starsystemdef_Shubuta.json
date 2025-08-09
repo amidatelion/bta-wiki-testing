@@ -1,0 +1,93 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Shubuta",
+		"Name": "Shubuta",
+		"Details": "Sighisoara has vast fungal growths that criss cross it's continents, used for chemical and medicinal purposes.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 459.842,
+		"y": -123.343,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_shubuta",
+			"planet_size_medium",
+			"planet_climate_mars",
+			"planet_other_fungus",
+			"planet_other_stonedcaribou",
+			"planet_other_storms",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_industry_agriculture",
+			"planet_faction_davion"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 10,
+	"ownerID": "Davion",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "A",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Davion",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Davion",
+	"FactionShopItems": [
+		"itemCollection_faction_Davion"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Shubuta",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 7,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Davion",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Kurita",
+		"Liao",
+		"WordOfBlake",
+		"Cameron",
+		"ComStar",
+		"TaurianConcordat",
+		"Outworld",
+		"Tortuga",
+		"DeathsConsorts",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

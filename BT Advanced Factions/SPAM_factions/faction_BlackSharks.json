@@ -1,0 +1,47 @@
+{
+	"ID": "faction_BlackSharks",
+	"Name": "Black Sharks",
+	"ShortName": "Black Sharks",
+	"Demonym": "Black Sharks",
+	"Government": "Mercenary",
+	"Allies": [],
+	"Enemies": [],
+	"Presence": 1.0,
+	"ReputationStatements": [
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander."
+	],
+	"MissionSuccessStatements": [
+		"Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you."
+	],
+	"GoodFaithFailureStatements": [
+		"You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot."
+	],
+	"BadFaithFailureStatements": [
+		"For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess."
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
+	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DataManager": null,
+	"factionID": "BlackSharks",
+	"icon": "uixTxrLogo_BlackSharks",
+	"heraldryDefId": "heraldrydef_BlackSharks",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"Description": "The Black Sharks are an old mercenary unit, dating back to the First Succession War where the Thirteenth Republic Light Lancers deserted from Stefan Amaris's forces in protest of his atrocities and formed the Black Sharks. After over a century of floating between various Great Houses during the Succession Wars, the Sharks finally came home to the Rim Worlds Republic in the 2900s, where they have remained employed ever since.",
+	"StartingReputationValues": [
+		0,
+		0,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
+}

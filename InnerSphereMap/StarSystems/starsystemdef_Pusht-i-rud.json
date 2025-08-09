@@ -1,0 +1,92 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Pusht-i-rud",
+		"Name": "Pusht-i-rud",
+		"Details": "Settled by the Draconis Combine during the Star League era to claim the vast mineral wealth under the surface.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 372.724,
+		"y": 348.637,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_pusht-i-rud",
+			"planet_size_large",
+			"planet_climate_ice",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_large",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_mining",
+			"planet_faction_kurita"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"polarFrozen",
+		"tundraFrozen",
+		"urbanHighTech"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 5,
+	"ownerID": "Kurita",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Kurita",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Kurita",
+	"FactionShopItems": [
+		"itemCollection_faction_Kurita"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Pusht-i-rud",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 7,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Kurita",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Davion",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Outworld",
+		"Rasalhague",
+		"Mercenaries",
+		"331stDivision",
+		"BandOfTheDamned"
+	]
+}

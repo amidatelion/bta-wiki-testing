@@ -1,0 +1,92 @@
+{
+	"Description": {
+		"Id": "starsystemdef_SecondChance",
+		"Name": "Second Chance",
+		"Details": "Second Chance is still littered with battle debris centuries after the First Succession War, where numerous drop ships and war ships were brought down over the surface.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -22.763,
+		"y": -129.785,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_secondchance",
+			"planet_size_large",
+			"planet_climate_tropical",
+			"planet_pop_large",
+			"planet_civ_innersphere",
+			"planet_industry_recreation",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_other_starleague",
+			"planet_other_ruins",
+			"planet_faction_marik"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"jungleTropical",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 13,
+	"ownerID": "Marik",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Marik",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Marik",
+	"FactionShopItems": [
+		"itemCollection_faction_Marik"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_SecondChance",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 9,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Marik",
+		"WordOfBlake",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Liao",
+		"Cameron",
+		"ComStar",
+		"MagistracyOfCanopus",
+		"Marian",
+		"Circinus",
+		"Mercenaries",
+		"HookwormsHighwaymen"
+	]
+}

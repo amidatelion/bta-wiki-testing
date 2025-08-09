@@ -1,0 +1,113 @@
+{
+	"Description": {
+		"Id": "3066-03-07",
+		"Name": "MercNews Broadcast",
+		"Details": "THIRD SKYE REBELLION UPDATES!\r\n\n\nSkye, Isle of Skye: [[DM.BaseDescriptionDefs[LoreFreeSkye],Free Skye]] attacks continue to grind down the pro-Lyran defenders on multiple planets.  On Freedom, the arrival of General [[DM.BaseDescriptionDefs[LoreMariaEsteban],Maria Esteban]] has signalled a new surge of attacks against the Fifth [[DM.BaseDescriptionDefs[LoreLyranGuard],Lyran Guard]], now considered by all to be desperately holding on.  On Eaton, governor Jonathan Thayer has declared for the Separatist movement.  Meanwhile, the Loyalist Eleventh [[DM.BaseDescriptionDefs[LoreArcturanGuard],Arcturan Guard]] and the [[DM.BaseDescriptionDefs[LoreAllianceJaegers],Alarion Jaegers]] landed on Skye itself, defended by the [[DM.BaseDescriptionDefs[LoreAllianceJaegers],Skye Jaegers]] and the planetary militia.  Most importantly however, on Hesperus the Fourth [[DM.BaseDescriptionDefs[LoreSkyeRangers],Skye Rangers]] landed to reinforce the Separatist Seventeenth [[DM.BaseDescriptionDefs[LoreSkyeRangers],Skye]] and the Fourteenth and Thirty-Second [[DM.BaseDescriptionDefs[LoreLyranGuard],Lyran Guards]] already onplanet against the Lyran defenders, which include a now decimated [[DM.BaseDescriptionDefs[LoreGrayDeath2],Gray Death Legion]].  This signals a new round of fighting in the region, and all sides are calls for mercenaries to fill their ranks.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "RIM WORLDS ENGAGES LYRAN COMMONWEALTH!\r\n\n\nApollo, [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]]: On February 18th, the Rim Worlds Republic announced their intention to take back several of their worlds from the [[DM.Factions[faction_Steiner],Lyran Commonwealth]], which took the planets in the wake of the [[DM.BaseDescriptionDefs[LoreAmarisCivilWar],Amaris Civil War]] centuries ago and has traded them back and forth with the Republic multiple times over the past several centuries. Currently, the worlds of Main Street, Elume, Swartklip, and Canal are held by the Lyrans but were originally settled by the Republic in years past. From President [[DM.BaseDescriptionDefs[LoreIvanHeliusII],Ivan Helius II]], \"House Steiner has unjustly held our worlds hostage for centuries and it is high time the Republic restores what is rightfully ours. If the Lyrans are wise, they'll withdraw their forces before it is too late.\" With the Lyran military currently heavily engaged in the [[DM.BaseDescriptionDefs[LoreFCCW],Federated Commonwealth Civil War]], it is unlikely that they'll put up much resistance against the Republic's attack.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Hesperus_to_Steiner",
+									"WIIC_give_starsystemdef_Freedom_to_Locals",
+									"WIIC_give_starsystemdef_Skye_to_Locals",
+									"WIIC_give_starsystemdef_Eaton_to_Steiner",
+									"WIIC_give_starsystemdef_MainStreet_to_Steiner",
+									"WIIC_give_starsystemdef_Elume_to_Steiner",
+									"WIIC_give_starsystemdef_Swartklip_to_Steiner",
+									"WIIC_give_starsystemdef_Canal_to_Steiner",
+									"WIIC_Steiner_attacks_starsystemdef_Skye",
+									"WIIC_Steiner_attacks_starsystemdef_Freedom",
+									"WIIC_Locals_attacks_starsystemdef_Eaton",
+									"WIIC_Locals_attacks_starsystemdef_Hesperus",
+									"WIIC_RimWorldsRepublic_attacks_starsystemdef_MainStreet",
+									"WIIC_RimWorldsRepublic_attacks_starsystemdef_Elume",
+									"WIIC_RimWorldsRepublic_attacks_starsystemdef_Swartklip",
+									"WIIC_RimWorldsRepublic_attacks_starsystemdef_Canal",
+									"WIIC_set_starsystemdef_Hesperus_defender_strength_15",
+									"WIIC_set_starsystemdef_Hesperus_attacker_strength_25",
+									"WIIC_set_starsystemdef_Freedom_defender_strength_20",
+									"WIIC_set_starsystemdef_Freedom_attacker_strength_10",
+									"WIIC_set_starsystemdef_Skye_defender_strength_15",
+									"WIIC_set_starsystemdef_Skye_attacker_strength_25",
+									"WIIC_set_starsystemdef_Eaton_defender_strength_15",
+									"WIIC_set_starsystemdef_Eaton_attacker_strength_15",
+									"WIIC_set_starsystemdef_MainStreet_defender_strength_10",
+									"WIIC_set_starsystemdef_MainStreet_attacker_strength_20",
+									"WIIC_set_starsystemdef_Elume_defender_strength_15",
+									"WIIC_set_starsystemdef_Elume_attacker_strength_25",
+									"WIIC_set_starsystemdef_Swartklip_defender_strength_10",
+									"WIIC_set_starsystemdef_Swartklip_attacker_strength_25",
+									"WIIC_set_starsystemdef_Canal_defender_strength_15",
+									"WIIC_set_starsystemdef_Canal_attacker_strength_20"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

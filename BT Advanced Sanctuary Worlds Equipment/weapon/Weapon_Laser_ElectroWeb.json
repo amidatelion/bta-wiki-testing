@@ -1,0 +1,104 @@
+{
+	"Custom": {
+		"BonusDescriptions": [
+			"WpnAccuracy: +2",
+			"TaserStrength: 75%",
+			"WpnCooldown: 4"
+		],
+		"Flags": [
+			"default",
+			"not_broken",
+			"autorepair",
+			"no_salvage"
+		]
+	},
+    "Category" : "Energy",
+    "Type" : "Laser",
+    "WeaponSubType" : "MediumLaser",
+    "MinRange" : 0,
+    "MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+    "AmmoCategory" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 20,
+    "Damage" : 20,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -2,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 0,
+	"ImprovedBallistic": true,
+	"Cooldown": 4,
+    "WeaponEffectID" : "WeaponEffect-Weapon_COILS",
+    "Description" : {
+        "Cost" : 1000000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Sanctuary Electronics",
+        "Model" : "Galvanized",
+        "UIName" : "Electro-Web Laser (S)",
+        "Id" : "Weapon_Laser_ElectroWeb",
+        "Name" : "Electro-Web Laser (S)",
+        "Details" : "The Sanctuary Worlds developed laser technology in a different direction than the Inner Sphere, one such example of their unusual weaponry development is the Electro-Web Laser, mounted exclusively on the Coehorn BattleMech. The Electro-Web is named such because it uses a distributed webbing network across the top of the mech to siphon ambient electrical energy into a singular weapons discharge every now and then. This discharge does minimal actual damage but can shut down enemies struck from the heavy electrical shock, much like a Sanctuary electro-laser but dialed up by a hundred. The Electro-Web Laser proved powerful but extremely limited due to the fragility to the webbing and so was kept exclusive to the Coehorn.",
+        "Icon" : "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 2.5,
+    "AllowedLocations" : "Head",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+		
+		{
+			"durationData": {
+				"duration": 1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "WeaponEffect-ElectroWebShutdown",
+				"Name": "Electro-Webbed",
+				"Details": "This unit has been hit by the Electro-Web Laser, it has a high chance to shut down. It also suffers a penalty to accuracy and to movement speed.",
+				"Icon": "magnet-blast"
+			},
+			"statisticData": {
+				"statName": "OnHitShutdownChance",
+				"operation": "Float_Add",
+				"modValue": "0.75",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	
+	],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

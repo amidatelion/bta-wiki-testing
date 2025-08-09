@@ -1,0 +1,25 @@
+{
+	"Id": "WeaponUpgrade_AmmoFeed_Cannon_Medium",
+	"addonType": "cannonammofeed",
+	"targetComponentTags": [
+		"AmmoFeedCannonSupported-Medium"
+	],
+	"modes": [
+		{
+			"Id": "BASE",
+			"UIName": "Base",
+			"isBaseMode": false
+		},
+		{
+			"Id": "Ammo",
+			"UIName": "Rifle",
+			"Name": "Rifle",
+			"Description": "Weapon fires with Rifle ammo",
+			"isBaseMode": true,
+			"DamagePerShot": -144,
+			"AmmoCategory": "RifleMedium",
+			"FlatJammingChance": 1.25,
+			"GunneryJammingMult": 0.01
+		}
+	]
+}

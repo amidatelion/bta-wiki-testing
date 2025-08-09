@@ -1,0 +1,443 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+		  "PrefabID": "ScorpionLAM",
+		  "Exclude": false,
+		  "Include": true
+		},
+		"ChassisDefaults": []
+	},
+	"CustomParts": {
+		"MeleeWeaponOverride": {
+		  "DefaultWeapon": "Weapon_MeleeAttackEx"
+		},
+		"FiringArc": 360,
+		"Unaffected": {
+		  "DesignMasks": "false",
+		  "Pathing": "false",
+		  "Fire": "false",
+		  "Landmines": "false"
+		},
+		"ArmsCountedAsLegs": true,
+		"MoveCostModPerBiome": {
+		  "DesignMaskBiomeMartianVacuum": 1.0,
+		  "DesignMaskBiomeLunarVacuum": 1.0
+		},
+		"AlternateRepresentations": [
+			{
+				"PrefabIdentifier": "chrprfmech_scorplambase-001",
+				"AdditionalPrefabs": [],
+				"PrefabBase": "scorplam",
+				"HardpointDataDef": "hardpointdatadef_scorplam",
+				"Type": "AirMech",
+				"HoveringSoundStart": "jet_start",
+				"HoveringSoundEnd": "jet_end",
+				"FlyHeight": 10.0,
+				"AirMechVerticalJets": [
+					{
+						"Prefab": "vf11lam_vjets_left_leg",
+						"Attach": "j_Spine2",
+						"JetsAttachPoints": [
+							"jetAttachPoint"
+						]
+					},
+					{
+						"Prefab": "vf11lam_vjets_right_leg",
+						"Attach": "j_Spine2",
+						"JetsAttachPoints": [
+							"jetAttachPoint"
+						]
+					},
+					{
+						"Prefab": "vf11lam_vjets_torso",
+						"Attach": "j_Spine2",
+						"JetsAttachPoints": [
+							"jetAttachPoint"
+						]
+					}
+				]
+			}
+		]
+    },
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Avionics_SCP",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_lam_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size1",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size1",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_275",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_avionics_size1",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_avionics_size1",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_JumpJet_Generic_LAM",
+			"SimGameUID": null,
+			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "Gear_JumpJet_Generic_LAM",
+			"SimGameUID": null,
+			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_JumpJet_Generic_LAM_Quad_FrontLeg_Standard",
+			"SimGameUID": null,
+			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "Gear_JumpJet_Generic_LAM",
+			"SimGameUID": null,
+			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_JumpJet_Generic_LAM_Quad_FrontLeg_Standard",
+			"SimGameUID": null,
+			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_Landing_Gear",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_Landing_Gear",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"Description": {
+		"Cost": 5200000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Scorpion LAM",
+		"Id": "chassisdef_scorpionlam_SCP-1X",
+		"Name": "Scorpion LAM",
+		"Details": "Developed by Brigadier Corporation during the first Star League, the Scorpion LAM was a failure. It could not transform in combat and was eventually shelved. However, after discover of a bunker of Scorpion LAMs on a backwater FWL world, Irian Technologies revisited the design and managed to solve many of its technical issues with the benefit of more advanced technological know-how. The SCP-1X is the original Brigadier design, updated mechanically to successfully operate. The SCP-1X carries the same loadout as its base Scorpion model: a PPC and SRM-6 combination. Amusingly, the SCP-1X is generally considered a better design as a BattleMech than the base model SCP-1N.",
+		"Icon": "uixTxrIcon_scorpionlam"
+	},
+	"MovementCapDefID": "movedef_griffin_GRF-1N",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_scorpionmech",
+	"PrefabIdentifier": "chrprfmech_scorpionmechbase-001",
+	"PrefabBase": "scorpionmech",
+	"Tonnage": 55,
+	"InitialTonnage": 5.5,
+	"weightClass": "MEDIUM",
+	"BattleValue": 6088000,
+	"Heatsinks": 0,
+	"TopSpeed": 80,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 65,
+	"MeleeInstability": 30,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 65,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 65,
+	"DFAInstability": 30,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "BombBay",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 14,
+			"MaxArmor": 130,
+			"MaxRearArmor": 65,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 19,
+			"MaxArmor": 180,
+			"MaxRearArmor": 90,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "BombBay",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 14,
+			"MaxArmor": 130,
+			"MaxRearArmor": 65,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "SCP-1X",
+	"ChassisTags": {
+		"items": [
+			"QuadMech",
+			"MediumMech",
+			"LandAirMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Quad LAM",
+	"YangsThoughts": "Developed by Brigadier Corporation during the first Star League, the Scorpion LAM was a failure. It could not transform in combat and was eventually shelved. However, after discover of a bunker of Scorpion LAMs on a backwater FWL world, Irian Technologies revisited the design and managed to solve many of its technical issues with the benefit of more advanced technological know-how. The SCP-1X is the original Brigadier design, updated mechanically to successfully operate. The SCP-1X carries the same loadout as its base Scorpion model: a PPC and SRM-6 combination. Amusingly, the SCP-1X is generally considered a better design as a BattleMech than the base model SCP-1N."
+}

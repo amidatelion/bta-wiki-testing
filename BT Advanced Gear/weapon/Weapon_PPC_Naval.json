@@ -1,0 +1,146 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamage": 250,
+			"StabilityDamage": 70
+		},
+		"BonusDescriptions": [
+			"WpnCooldown: 1",
+			"WeaponBoom: 250",
+			"WeaponAttachmentCompatible: Superweapon FCS"
+		]
+	},
+	"weaponCategoryID": "Superweapon",
+	"Type": "PPC",
+	"WeaponSubType": "PPC",
+	"MinRange": 150,
+	"MaxRange": 1200,
+	"RangeSplit": [
+		300,
+		600,
+		900
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 250,
+	"Damage": 350,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 1,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 70,
+	"FireTerrainChance": 0,
+	"Cooldown": 1,
+	"ImprovedBallistic": true,
+	"ProjectileScale": { 
+		"x": 10, 
+		"y": 10, 
+		"z": 10	
+	},
+	"ColorsTable": [
+		{
+		  "C": "#6806ba",
+		  "I": 5
+		}
+	],
+	"WeaponEffectID": "WeaponEffect-Weapon_PPC",
+	"Description": {
+		"Cost": 2175000,
+		"Rarity": 6,
+		"Purchasable": true,
+		"Manufacturer": "Pillar of Ivory",
+		"Model": "Kaboom",
+		"UIName": "'Naval' PPC",
+		"Id": "Weapon_PPC_Naval",
+		"Name": "'Naval' PPC",
+		"Details": "Don't let the name fool you, this isn't actually a naval-scale weapon. Instead, the 'Naval' PPC is a superpowered and heavily overcharged Heavy PPC that has had all its limiters removed. The name comes from the raw power the weapon deals making it look like the target was hit by a naval-scale PPC. House Kurita developed the 'Naval' PPC and has put it into service on a few select units, where it has performed adequately if not exceptionally. \n\n <b><color=#099ff2>VOLATILE!</color></b>",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "ppc",
+	"BattleValue": 0,
+	"InventorySize": 13,
+	"Tonnage": 20,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": 1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "NotSet",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "AbilityDefPPC",
+				"Name": "SENSORS IMPAIRED",
+				"Details": "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+				"Icon": "uixSvgIcon_status_sensorsImpaired"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "AccuracyModifier",
+				"operation": "Float_Add",
+				"modValue": "6.0",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "NotSet",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_long",
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
+		],
+		"tagSetSourceFile": ""
+	}
+}

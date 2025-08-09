@@ -1,0 +1,100 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Hadnall",
+		"Name": "Hadnall",
+		"Details": "The Hadnall system was colonised during or shortly after the First Exodus from Terra.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 136.734,
+		"y": -262.702,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_hadnall",
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_other_storms",
+			"planet_feature_moon03",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_other_ruins",
+			"planet_faction_davion"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum",
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"badlandsParched",
+		"lowlandsCoastal",
+		"jungleTropical"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "Davion",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Davion",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Davion",
+	"FactionShopItems": [
+		"itemCollection_faction_Davion"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Hadnall",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 5,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Davion",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Kurita",
+		"Liao",
+		"WordOfBlake",
+		"Cameron",
+		"ComStar",
+		"TaurianConcordat",
+		"Outworld",
+		"Tortuga",
+		"DeathsConsorts",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

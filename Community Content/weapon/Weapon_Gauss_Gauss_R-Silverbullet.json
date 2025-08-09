@@ -1,0 +1,118 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/g/sb"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamage": 60,
+			"StabilityDamage": 25
+		},
+		"BonusDescriptions": [
+			"ProjectileBurst: 5",
+			"WpnCrits: +50%",
+			"PipsIgnored: 1",
+			"WpnAccuracy: +1",
+			"WeaponBoom: 85",
+			"SBGR: 5",
+			"WpnRecoil: 3",
+			"WeaponJAMMultiple2Stage: 15%, 25%",
+			"VariableBurstCount: 3",
+			"WeaponAttachmentCompatible: Gauss FCS"
+		]
+	},
+	"Category": "Ballistic",
+	"Type": "Gauss",
+	"WeaponSubType": "Gauss",
+	"MinRange": 0,
+	"MaxRange": 810,
+	"RangeSplit": [
+		210,
+		450,
+		660
+	],
+	"AmmoCategory": "SBGAUSS",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 5,
+	"Damage": 60,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1.5,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 4,
+	"Instability": 5,
+	"DisableClustering": false,
+	"ImprovedBallistic": true,
+	"FireDelayMultiplier": 2,
+	"BallisticDamagePerPallet": true,
+	"AlternateDamageCalc": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+	"Description": {
+		"Cost": 850000,
+		"Rarity": 10,
+		"Purchasable": true,
+		"Manufacturer": "StarCorps",
+		"Model": "Sub Munitions Cannon",
+		"UIName": "Rotary Silver Bullet Gauss",
+		"Id": "Weapon_Gauss_Gauss_R-Silverbullet",
+		"Name": "Rotary Silver Bullet Gauss",
+		"Details": "The NAIS developed the Silver Bullet Gauss Rifle (or SB Gauss) in an attempt to bring the functionality of an LB-X Autocannon to the Gauss Rifle. Though the cluster-like ammunition made it easier to hit a target and was particularly effective in the anti-aircraft role, gave them a unreliable damage profile. This version is a uniquely kludged together one, consisting of a trio of barrels that cycle when fired like the cylinder of a revolver. This allows for up to three shots in one pull of the trigger, though at fairly high risk of jamming the weapon's rotation mechanism due to its clunky innards. Still, this so called Rotary Gauss Rifle is capable of incredible damage when the stars align and it works properly.\n\n <b><color=#ffcc00>Uses Silver Bullet Gauss Ammo.</color></b> \n\n <b><color=#099ff2>VOLATILE!</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "FerroMag"
+	},
+	"BonusValueA": "5 Projectiles",
+	"BonusValueB": "Cluster Weapon",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Gauss",
+	"BattleValue": 0,
+	"InventorySize": 6,
+	"Tonnage": 14,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": true,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": false,
+			"ShotsWhenFired": 1,
+			"RefireModifier": 1,
+			"HeatGenerated": 5,
+			"FlatJammingChance": 0.15
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": false,
+			"ShotsWhenFired": 2,
+			"RefireModifier": 2,
+			"HeatGenerated": 10,
+			"FlatJammingChance": 0.25
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_standard",
+			"GaussFCSSupported-Rotary",
+			"WebbTCSupported-RotaryGauss"
+		],
+		"tagSetSourceFile": ""
+	}
+}

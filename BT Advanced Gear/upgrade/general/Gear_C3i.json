@@ -1,0 +1,234 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "C3i"
+			}
+		],
+		"DecoratorComponent":[
+			{
+				"Text":"3i",               
+				"Color":"#37ed00",      
+				"Icon":"mesh-network",       
+				"Importance": 10
+			}
+		],
+		"BonusDescriptions": [
+			"C3i",
+			"C3iUnit",
+			"C3iECMHardened",
+			"Sensors: +10%",
+			"Sight: +10%",
+			"C3iResolve: 120, +2",
+			"C3iTargeting: 120, +1"
+		],
+		"ActivatableComponent": {
+			"ButtonName": "C3i Network",
+			"CanNotBeActivatedManualy": false,
+			"ActiveByDefault": true,
+			"FailFlatChance": 0.0,
+			"SafeActivation": true,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "Creator",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "C3i_Network_Engagement",
+						"Name": "C3i Network",
+						"Details": "PASSIVE: Can be part of C3i network.",
+						"Icon": ""
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3i_Network",
+						"operation": "Float_Add",
+						"modValue": "1",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 560000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "Tanadi",
+		"Model": "C3i Computer",
+		"UIName": "C3i",
+		"Id": "Gear_C3i",
+		"Name": "Improved C3 Computer",
+		"Details": "The C3i was developed by ComStar around 3052 from Draconis Combine technology and entered ComStar (and Word of Blake) production in 3062, officially becoming extinct in 3085 with the official dissolution of the Com Guards. While expanding its military strength to ward off the Clan Invasion, the Com Guards found their current C3 master computer incapable of handling the complexities of senary (base-6) units. At first the Com Guards utilized a combination of master and slave units until they were able to miniaturize both into the improved C3 computer. Some of the prototypes were quickly smuggled to the Word of Blake, who reverse engineered the technology for its own needs.",
+		"Icon": "mesh-network"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 2.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Auras": [
+		{
+			"Id": "Gear_C3i",
+			"Name": "C3i",
+			"ReticleColor": "#00f2ff",
+			"Range": 120,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": true,
+			"neededTags": [ "C3i_Network" ],
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "C3i-TargetInfo",
+						"Name": "C3i Targeting Information",
+						"Details": "Shares targeting information on nearby enemies, +1 to hit enemies in radius",
+						"Icon": "mesh-network"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "-1.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect-C3iResolve",
+						"Name": "C3i Resolve Gain",
+						"Details": "Provides a +2 bonus to Resolve",
+						"Icon": "mesh-network"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "resolveRoundBaseMod",
+						"operation": "Float_Add",
+						"modValue": "2",
+						"modType": "System.Single"
+					}
+				}
+			]
+		}
+	],
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SensorRange",
+				"Name": "C3 Sensors",
+				"Details": "Increased sensors range",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "SensorDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.1",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SpottingRange",
+				"Name": "C3 Spotting",
+				"Details": "Increases spotting distance.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "SpotterDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.1",
+				"modType": "System.Single"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"lv-shares-sensors"
+		],
+		"tagSetSourceFile": ""
+	}
+}

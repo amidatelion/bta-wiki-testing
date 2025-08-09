@@ -1,0 +1,13 @@
+{
+	"Description": {
+		"Id": "TraitDefDoublePunch",
+		"Name": "Twin Fists of Fury",
+		"Details": "PASSIVE: 'Mechs piloted by this MechWarrior get two attacks instead of one when making a punch attack.",
+		"Icon": "uixSvgIcon_action_evasivemove"
+	},
+	"Type": "MeleeHit",
+	"ShortDesc": "+1 Punch Hit",
+	"DisplayParams": "ShowInPilotToolTip",
+	"ActivationTime": "Passive",
+	"EffectData": []
+}

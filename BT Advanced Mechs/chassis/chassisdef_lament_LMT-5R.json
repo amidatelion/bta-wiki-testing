@@ -1,0 +1,256 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Lament",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 6200000,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Lament",
+		"Id": "chassisdef_lament_LMT-5R",
+		"Name": "Lament",
+		"Details": "In the late 3050s the Terran Hegemony realized that war was once again brewing in the Inner Sphere and kicked their local mech production into higher gear, including developing new chassis to carry cutting-edge Hegemony technologies into battle. One such chassis is the Lament, named for House Cameron's lament for lost time. The Lament is built on an Endo-Steel frame with a 325-rated XL Engine and Double Heat Sinks. For firepower, the LMT-5R carries 70 tubes worth of MRMs with three total tons of ammo as well as two ER Medium Lasers. However, the interesting gear is the Radical Heat Sink System, a much-improved successor to the older Coolant Pod technology.",
+		"Icon": "uixTxrIcon_lament"
+	},
+	"MovementCapDefID": "movedef_thunderbolt_TDR-5S",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_lament",
+	"PrefabIdentifier": "chrprfmech_lamentbase-001",
+	"PrefabBase": "lament",
+	"Tonnage": 65,
+	"InitialTonnage": 6.5,
+	"weightClass": "HEAVY",
+	"BattleValue": 6057000,
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 75,
+	"MeleeInstability": 35,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 75,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 75,
+	"DFAInstability": 35,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 13,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "LMT-5R",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitLowerRight",
+			"ArmLimitLowerRight",
+			"HeavyMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Heavy Skirmisher & Brawler",
+	"YangsThoughts": "In the late 3050s the Terran Hegemony realized that war was once again brewing in the Inner Sphere and kicked their local mech production into higher gear, including developing new chassis to carry cutting-edge Hegemony technologies into battle. One such chassis is the Lament, named for House Cameron's lament for lost time. The Lament is built on an Endo-Steel frame with a 325-rated XL Engine and Double Heat Sinks. For firepower, the LMT-5R carries 70 tubes worth of MRMs with three total tons of ammo as well as two ER Medium Lasers. However, the interesting gear is the Radical Heat Sink System, a much-improved successor to the older Coolant Pod technology.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_MultiTrac_Lament",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

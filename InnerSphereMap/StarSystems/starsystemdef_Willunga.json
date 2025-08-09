@@ -1,0 +1,91 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Willunga",
+		"Name": "Willunga",
+		"Details": "The Willunga system was originally a part of the Finmark Province by the Rim Worlds Republic, but joined the Lyran Commonwealth when the Star League fell.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -333.734,
+		"y": 345.303,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_willunga",
+			"planet_size_small",
+			"planet_climate_tropical",
+			"planet_other_floatingworld",
+			"planet_feature_moon03",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_agriculture",
+			"planet_faction_rimworldsrepublic"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum",
+		"jungleTropical",
+		"urbanHighTech",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 7,
+	"ownerID": "RimWorldsRepublic",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_RimWorldsRepublic",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "RimWorldsRepublic",
+	"FactionShopItems": [
+		"itemCollection_faction_RimWorldsRepublic"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Willunga",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"RimWorldsRepublic",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Hanse",
+		"DarkCaste",
+		"GreenGhosts",
+		"Steiner",
+		"ClanWolf",
+		"ClanJadeFalcon",
+		"Mercenaries",
+		"Locals"
+	]
+}

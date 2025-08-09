@@ -1,0 +1,54 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/a/g/gauss"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"BonusDescriptions": [
+				"StructureDmgMod: +50%",
+				"Crits: +15%",
+				"CostPerShot: 2500",
+				"AmmoCount: 5",
+				"GaussNoBoom"
+			],
+		"AmmoCost": {
+			"PerUnitCost": 2500
+		}
+	},
+	"AmmoID": "Ammunition_GC20_AP",
+	"Capacity": 5,
+	"Description": {
+		"Cost": 50000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "GC20",
+		"UIName": "Ammo Gauss Cannon/20 [Frag]",
+		"Id": "Ammo_AmmunitionBox_AP_GC20",
+		"Name": "Gauss Cannon/20 Fragementation Ammo",
+		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b> Has 5 shots.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "FerroMag-ammo"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

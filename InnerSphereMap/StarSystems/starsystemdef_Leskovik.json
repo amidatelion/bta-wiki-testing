@@ -1,0 +1,87 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Leskovik",
+		"Name": "Leskovik",
+		"Details": "Settled by the Lyran Commonwealth during the Star League era due to an abundance of arable land.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -90.486,
+		"y": 333.151,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_leskovik",
+			"planet_size_medium",
+			"planet_climate_rocky",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_faction_clanjadefalcon"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 15,
+	"ownerID": "ClanJadeFalcon",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_ClanWorlds",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "ClanJadeFalcon",
+	"FactionShopItems": [
+		"itemCollection_faction_ClanWorlds"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Leskovik",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"Cameron",
+		"RimWorldsRepublic",
+		"WordOfBlake",
+		"ComStar",
+		"Rasalhague"
+	],
+	"contractTargetIDs": [
+		"ClanJadeFalcon"
+	]
+}

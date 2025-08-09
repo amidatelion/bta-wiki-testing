@@ -1,0 +1,83 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/rifle"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"WpnRecoil: 2",
+			"WpnAccuracy: -1",
+			"NoFireInMelee",
+			"IsRifle",
+			"WeaponAttachmentCompatible: Periphery FCS",
+			"WeaponAttachmentCompatible: Rifle Revolver"
+		]
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC5",
+	"MinRange": 90,
+	"MaxRange": 480,
+	"RangeSplit": [
+		120,
+		240,
+		360
+	],
+	"AmmoCategory": "RifleLight",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 6,
+	"Damage": 18,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 1,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 2,
+	"Instability": 10,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
+	"Description": {
+		"Cost": 50000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "GM",
+		"Model": "Light Bore Cannon",
+		"UIName": "Light Rifle",
+		"Id": "Weapon_Autocannon_AC5_LRIFLE",
+		"Name": "Light Rifle",
+		"Details": "The Light Rifle is the smallest of the ''Rifle'' family. The precursor to the modern Autocannon, the Rifle is based on the main guns used by tanks on pre-spaceflight Terra.",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC5",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 3,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_very-long",
+			"PeripheryFCSSupported",
+			"RevolverRifleSupported-Light",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

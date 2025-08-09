@@ -1,0 +1,254 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+      "PrefabID": "Scorpion",
+      "Exclude": false,
+      "Include": true
+    },
+     "ChassisDefaults": []
+	},
+	"CustomParts": {
+		"MeleeWeaponOverride": {
+		  "DefaultWeapon": "Weapon_MeleeAttackEx"
+		},
+		"FiringArc": 360,
+		"Unaffected": {
+		  "DesignMasks": "false",
+		  "Pathing": "false",
+		  "Fire": "false",
+		  "Landmines": "false"
+		},
+		"ArmsCountedAsLegs": true,
+		"MoveCostModPerBiome": {
+		  "DesignMaskBiomeMartianVacuum": 1.0,
+		  "DesignMaskBiomeLunarVacuum": 1.0
+		}
+    },
+	"Description": {
+		"Cost": 5200000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Scorpion",
+		"Id": "chassisdef_scorpion_SCP-12C",
+		"Name": "Scorpion",
+		"Details": "This 3060s version of the Scorpion is similar to the original design. The engine has been upgraded to an Extralight engine and it now uses Ferro-Fibrous armor for protection. The primary weapon is an ER PPC and the 12C has double heat sinks to handle the large heat load from the weapon. The SRM-6 was replaced with a Narc Missile Beacon which allows friendly units to fire missiles at enemies that have been tagged with a Narc pod with more accuracy. Additionally, a C3i computer has been added to allow other C3 equipped units to share targeting telemetry.",
+		"Icon": "uixTxrIcon_scorpion"
+	},
+	"MovementCapDefID": "movedef_griffin_GRF-1N",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_scorpionmech",
+	"PrefabIdentifier": "chrprfmech_scorpionmechbase-001",
+	"PrefabBase": "scorpionmech",
+	"Tonnage": 55,
+	"InitialTonnage": 5.5,
+	"weightClass": "MEDIUM",
+	"BattleValue": 6088000,
+	"Heatsinks": 0,
+	"TopSpeed": 80,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 65,
+	"MeleeInstability": 30,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 65,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 65,
+	"DFAInstability": 30,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 14,
+			"MaxArmor": 130,
+			"MaxRearArmor": 65,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 19,
+			"MaxArmor": 180,
+			"MaxRearArmor": 90,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 14,
+			"MaxArmor": 130,
+			"MaxRearArmor": 65,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "SCP-12C",
+	"ChassisTags": {
+		"items": [
+			"QuadMech",
+			"MediumMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Quad Flanker",
+	"YangsThoughts": "This 3060s version of the Scorpion is similar to the original design. The engine has been upgraded to an Extralight engine and it now uses Ferro-Fibrous armor for protection. The primary weapon is an ER PPC and the 12C has double heat sinks to handle the large heat load from the weapon. The SRM-6 was replaced with a Narc Missile Beacon which allows friendly units to fire missiles at enemies that have been tagged with a Narc pod with more accuracy. Additionally, a C3i computer has been added to allow other C3 equipped units to share targeting telemetry.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Gyro_Quad",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	]
+}

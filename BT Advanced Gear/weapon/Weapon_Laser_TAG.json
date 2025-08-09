@@ -1,0 +1,190 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/t/tag"
+			}
+		],
+		"BonusDescriptions": [
+			"TAG: 50%",
+			"TAGSemiGuided",
+			"PipsIgnored: 4",
+			"WeaponAttachmentCompatible: TAG FCS"
+		]
+	},
+	"Category": "AntiPersonnel",
+	"Type": "Laser",
+	"WeaponSubType": "SmallLaserER",
+	"MinRange": 0,
+	"MaxRange": 540,
+	"RangeSplit": [
+		150,
+		270,
+		450
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 0,
+	"Damage": 0,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 4,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 0,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_TAG",
+	"Description": {
+		"Cost": 210000,
+		"Rarity": 5,
+		"Purchasable": false,
+		"Manufacturer": "NAIS",
+		"Model": "Target Aquisition Gear",
+		"UIName": "TAG",
+		"Id": "Weapon_Laser_TAG",
+		"Name": "TAG",
+		"Details": "Another recreation of Star League tech, this Target Acquisition Gear combines several active scanning systems to act like a \u2018Mech-sized laser pointer and share targeting information with the Lance. Two turn duration, does not stack.",
+		"Icon": "laser-burst"
+	},
+	"BonusValueA": "Target Painter",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "TAG-Effect",
+				"Name": "Target Acquired",
+				"Details": "This target was TAG'ed. Target takes 50% more AoE damage and is marked for incoming semi-guided ammunition.",
+				"Icon": "target-laser"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"statName": "CACAoEDamageMult",
+				"operation": "Float_Multiply",
+				"modValue": "1.50",
+				"modType": "System.Single"
+			},
+			"tagData": {
+				"tagList": [
+					"lv-tag-effect"
+				]
+			}
+		},
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "TAG-SemiGuidedEffect",
+				"Name": "Semi-Guided Acquired",
+				"Details": "This target was TAG'ed. Target is marked for incoming semi-guided ammunition.",
+				"Icon": "target-laser"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"statName": "ADD_ENCOUNTER_TAG_TargetAcquired",
+				"operation": "Float_Add",
+				"modValue": "1",
+				"modType": "System.Single"
+			},
+			"tagData": {
+				"tagList": [
+					"lv-tag-effect"
+				]
+			}
+		},
+		{
+			"durationData": {
+				"duration": 1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "NotSet",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false,
+				"hideApplicationFloatie": true
+			},
+			"effectType": "VFXEffect",
+			"Description": {
+				"Id": "StatusEffect-TAG-IndicatorVFX",
+				"Name": "TAG MARKED",
+				"Details": "Visual indicator of the TAG effect",
+				"Icon": "uixSvgIcon_status_sensorsImpaired"
+			},
+			"nature": "Debuff",
+			"vfxData": {
+				"vfxName": "vfxPrfPrtl_TAGmarker_loop",
+				"attachToImpactPoint": true,
+				"location": -1,
+				"isAttached": true,
+				"facesAttacker": false,
+				"isOneShot": false,
+				"duration": -1.0
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"component_type_lostech",
+			"range_long",
+			"TAGFCSSupported",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

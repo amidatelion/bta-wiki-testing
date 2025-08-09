@@ -1,0 +1,90 @@
+{
+	"Description": {
+		"Id": "3066-04-21",
+		"Name": "MercNews Broadcast",
+		"Details": "[[DM.Factions[faction_WordOfBlake],WORD OF BLAKE]] AGITATION ON TERRA FIRMA\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]], [[DM.BaseDescriptionDefs[LoreTerranHegemony],Terran Hegemony]]:  The worlds of Terra Firma and Capolla have long been a hotbed of conflict between [[DM.Factions[faction_ComStar],ComStar]] and its splinter faction, the Word of Blake. The two religious organizations have battled each other in the shadows on Hegemony worlds almost since the Word of Blake's inception. Now, the Word is seemingly taking a more active hand in agitation against the Hegemony and ComStar, to the point of formenting open rebellion on multiple worlds of the Hegemony, first among them Terra Firma and Capolla. The Word has hired the mercenary units Jeffrey's Own and the [[DM.Factions[faction_FistOfMokal],Fist of Mokal]] with the stated goal of shattering Hegemony control of the worlds. In response, ComStar has ordered the 76th Com Guard to Terra Firma and the Hegemony has sent Cameron's Crushers to Capolla to resist the Blakist agitation.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "ALLIED MERCENARY COMMAND CREATED\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]], [[DM.BaseDescriptionDefs[LoreFedCom],Federated Commonwealth]]:  In one of the strongest statements in response to continued [[DM.Factions[faction_WordOfBlake],Word of Blake]] actions, [[DM.Factions[faction_Wolfs_Dragoons],Wolf's Dragoons]] Colonel [[DM.BaseDescriptionDefs[LoreJaimeWolf],Jaime Wolf]] has announced the creation of the Allied Mercenary Command (AMC).  The AMC's stated goal is to provide aid to any planets who wished to resist Blakist interference, but cannot afford the military forces or mercenaries to stop a determined invasion. While Colonel Wolf expressed that the formation of the AMC was not a declaration of war against the Word of Blake, it was clear that the AMC was created to oppose both Word and [[DM.BaseDescriptionDefs[LoreHouseLiao],House Liao]]'s [[DM.BaseDescriptionDefs[LoreXinSheng],Xin Sheng]] campaigns in the region.  AMC units are redeploying throughout the Hegemony and neighboring systems, and include partial or full unit contributions from Wolf's Dragoons, the [[DM.Factions[faction_NorthwindHighlanders],Northwind Highlanders]], [[DM.Factions[faction_DismalDisinherited],Dismal Disinherited]], [[DM.Factions[faction_AlwaysFaithful],Always Faithful]], [[DM.Factions[faction_GrimDetermination],Grim Determination]], [[DM.Factions[faction_51stDarkPanzerJaegers],51st Dark Panzer Jaegers]], [[DM.BaseDescriptionDefs[LoreWildGeese],Wild Geese]], [[DM.Factions[faction_LindonsBattalion],Lindon's Battalion]], [[DM.Factions[faction_ToothOfYmir],Tooth of Ymir]], [[DM.BaseDescriptionDefs[LoreBurtonsBrigade],Burton's Brigade]], among many others.  Several prominent mercenary groups have declined the AMC's invitation, particularly those working with the Word of Blake.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_TerraFirma_to_Cameron",
+									"WIIC_give_starsystemdef_Capolla_to_Cameron",
+									"WIIC_FistOfMokal_attacks_starsystemdef_TerraFirma",
+									"WIIC_WordOfBlake_attacks_starsystemdef_Capolla",
+									"WIIC_set_starsystemdef_TerraFirma_defender_strength_25",
+									"WIIC_set_starsystemdef_TerraFirma_attacker_strength_20",
+									"WIIC_set_starsystemdef_Capolla_defender_strength_20",
+									"WIIC_set_starsystemdef_Capolla_attacker_strength_15",
+									"WIIC_give_starsystemdef_TerraFirma_to_WordOfBlake_on_attacker_win"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

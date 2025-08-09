@@ -1,0 +1,56 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "SensorsB"
+			},
+			{
+				"CategoryID": "TTS"
+			}
+		],
+		"BonusDescriptions": [
+				"DEPRECATED"
+			],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
+			}
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 350000,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": "Intek",
+		"Model": "I3F100",
+		"UIName": "DEPRECATED",
+		"Id": "Gear_TargetingTrackingSystem_I3F1",
+		"Name": "DEPRECATED",
+		"Details": "<b><color=#e51717>THIS GEAR IS DEPRECATED AND NO LONGER FUNCTIONS, REPLACE IT AS SOON AS YOU CAN</color></b>\n\nAll 'Mechs come equipped with a stock targeting and tracking system-TTS-which can be upgraded for improved performance. Depending on its type, the TTS increases accuracy when attacking with Ballistic, Energy, or Missile weaponry. Does not stack with same type but different tiers do.",
+		"Icon": "AdvancedTC"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "Head",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"BLACKLISTED",
+			"component_type_variant1"
+		],
+		"tagSetSourceFile": ""
+	}
+}

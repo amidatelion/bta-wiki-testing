@@ -1,0 +1,96 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Labrea",
+		"Name": "Labrea",
+		"Details": "Labrea was settled during the golden age of the Star League, becoming self sufficient within decades.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 138.797,
+		"y": 325.429,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_labrea",
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_other_fungus",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_faction_clannovacat"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"badlandsParched",
+		"lowlandsCoastal",
+		"jungleTropical"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "ClanNovaCat",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_ClanWorld",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "ClanNovaCat",
+	"FactionShopItems": [
+		"itemCollection_faction_ClanNovaCat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Labrea",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"ClanNovaCat",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Davion",
+		"ComStar",
+		"DarkCaste",
+		"NewBeltPirates",
+		"WordOfBlake",
+		"ClanGhostBear",
+		"ClanJadeFalcon",
+		"ClanWolf",
+		"Rasalhague",
+		"Locals"
+	]
+}

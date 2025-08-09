@@ -1,0 +1,173 @@
+{
+	"MinFov": 15.0,
+	"MaxFov": 150.0,
+	"MapWidth": 400.0,
+	"MapHeight": 400.0,
+	"MapTopViewBuffer": 25.0,
+	"MapLeftViewBuffer": 25.0,
+	"MapRightViewBuffer": 25.0,
+	"MapBottomViewBuffer": 75.0,
+	"use3040Map": true,
+	"splashTitle": "BattleTech Advanced <color=#daa520>Universe</color>",
+	"splashText": "<b>War is Business and War Never Changes</b> \n\n Welcome to the Inner Sphere, Commander!\n\n You are a Mercenary, standing on the bridge of your Star League-vintage dropship, the Argo. Your mechbays have a few choice mechs you've scrounged up and the Inner Sphere, complete with all six Great Houses, and the Periphery, with all five major nations, lay before you. \n\n This is your moment, reach out and seize it, make your mark on the Inner Sphere!\n\n <b><color=#daa520>BTA Universe is a different Inner Sphere than you're used to, the map is different and the timeline has diverged, be sure to read the timeline events closely to learn what's going on!</color></b>",
+	"cheatcodes": [],
+	"reducedClanLogos": false,
+	"logos": [
+		{
+			"factionName": "Davion",
+			"logoImage": "davionLogo"
+		},
+		{
+			"factionName": "Liao",
+			"logoImage": "liaoLogo"
+		},
+		{
+			"factionName": "MagistracyOfCanopus",
+			"logoImage": "magistracyLogo"
+		},
+		{
+			"factionName": "Marik",
+			"logoImage": "marikLogo"
+		},
+		{
+			"factionName": "AuriganRestoration",
+			"logoImage": "restorationLogo"
+		},
+		{
+			"factionName": "TaurianConcordat",
+			"logoImage": "taurianLogo"
+		},
+		{
+			"factionName": "Steiner",
+			"logoImage": "steinerLogo"
+		},
+		{
+			"factionName": "Kurita",
+			"logoImage": "draconisLogo"
+		},
+		{
+			"factionName": "Circinus",
+			"logoImage": "circinusLogo"
+		},
+		{
+			"factionName": "Ives",
+			"logoImage": "stivesLogo"
+		},
+		{
+			"factionName": "Rasalhague",
+			"logoImage": "rasalhagueLogo"
+		},
+		{
+			"factionName": "ClanNovaCat",
+			"logoImage": "ClanNovaCatLogo"
+		},
+		{
+			"factionName": "Illyrian",
+			"logoImage": "illyrianLogo"
+		},
+		{
+			"factionName": "Marian",
+			"logoImage": "marianLogo"
+		},
+		{
+			"factionName": "Outworld",
+			"logoImage": "outworldsLogo"
+		},
+		{
+			"factionName": "WordOfBlake",
+			"logoImage": "WordOfBlakeLogo"
+		},
+		{
+			"factionName": "Chainelane",
+			"logoImage": "ChainelaneLogo"
+		},
+		{
+			"factionName": "Delphi",
+			"logoImage": "DelphiLogo"
+		},
+		{
+			"factionName": "Hanse",
+			"logoImage": "HanseLogo"
+		},
+		{
+			"factionName": "JarnFolk",
+			"logoImage": "JarnFolkLogo"
+		},
+		{
+			"factionName": "Tortuga",
+			"logoImage": "TortugaLogo"
+		},
+		{
+			"factionName": "ClanWolf",
+			"logoImage": "ClanWolfLogo"
+		},
+		{
+			"factionName": "ClanGhostBear",
+			"logoImage": "ClanGhostBearLogo"
+		},
+		{
+			"factionName": "ClanJadeFalcon",
+			"logoImage": "ClanJadeFalconLogo"
+		},
+		{
+			"factionName": "ClanGoliathScorpion",
+			"logoImage": "ClanGoliathScorpionLogo"
+		},
+		{
+			"factionName": "ClanSnowRaven",
+			"logoImage": "ClanSnowRavenLogo"
+		},
+		{
+			"factionName": "RimWorldsRepublic",
+			"logoImage": "RimWorldsRepublicLogo"
+		},
+		{
+			"factionName": "CalderonProtectorate",
+			"logoImage": "CalderonProtectorateLogo"
+		},
+		{
+			"factionName": "FroncReaches",
+			"logoImage": "FroncReachesLogo"
+		},
+		{
+			"factionName": "ScorpionEmpire",
+			"logoImage": "ScorpionEmpireLogo"
+		},
+		{
+			"factionName": "JacobsonHaven",
+			"logoImage": "JacobsonHavenLogo"
+		},
+		{
+			"factionName": "Cameron",
+			"logoImage": "TerranHegemonyLogo"
+		},
+		{
+			"factionName": "SanctuaryAlliance",
+			"logoImage": "SanctuaryAllianceLogo"
+		},
+		{
+			"factionName": "DaneSacellum",
+			"logoImage": "DaneSacellumLogo"
+		},
+		{
+			"factionName": "MallardRepublic",
+			"logoImage": "MallardRepublicLogo"
+		},
+		{
+			"factionName": "AuriganDirectorate",
+			"logoImage": "directorateLogo"
+		},
+		{
+			"factionName": "Rim",
+			"logoImage": "RimCollectionLogo"
+		},
+		{
+			"factionName": "Lothian",
+			"logoImage": "lothianLogo"
+		},
+		{
+			"factionName": "Castile",
+			"logoImage": "CastileLogo"
+		}
+	]
+}

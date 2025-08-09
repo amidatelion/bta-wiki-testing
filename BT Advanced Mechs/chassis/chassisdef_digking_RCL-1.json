@@ -1,0 +1,309 @@
+{
+	"Description": {
+		"Cost": 1755936,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Dig King",
+		"Id": "chassisdef_digking_RCL-1",
+		"Name": "Dig King",
+		"Details": "Designed not for military work but for simple excavation and mining work, the Dig King MiningMech is the Inner Sphere's premier IndustrialMech for mining and digging. Armed with a large Rock Cutter and Mining Drill for even the most stubborn of rocks, the Dig King earned a good reputation in the industrial mining sector. Unfortunately, mercenary commanders get somewhat less use out of the design, not often needing to excavate a salt mine. Still, if pushed into combat, the Rock Cutter and Mining Drill make a formidable enough weapon combination, though the speed and armor leave much to be desired.",
+		"Icon": "uixTxrIcon_digking"
+	},
+	"MovementCapDefID": "movedef_valkyrie_VLK-QA",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_digking",
+	"PrefabIdentifier": "chrprfmech_digkingbase-001",
+	"PrefabBase": "digking",
+	"Tonnage": 35,
+	"InitialTonnage": 3.5,
+	"weightClass": "LIGHT",
+	"BattleValue": 2061000,
+	"Heatsinks": 0,
+	"TopSpeed": 86,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": true,
+	"MeleeDamage": 35,
+	"MeleeInstability": 10,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 35,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 35,
+	"DFAInstability": 10,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "MeleeWeapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "MeleeWeapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 9.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 8.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 9.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": -1.5,
+			"y": 3,
+			"z": 0.5
+		},
+		{
+			"x": 1.5,
+			"y": 3,
+			"z": 0.5
+		}
+	],
+	"VariantName": "RCL-1",
+	"ChassisTags": {
+		"items": [
+			"IndustrialMech",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Industrial MiningMech",
+	"YangsThoughts": "Designed not for military work but for simple excavation and mining work, the Dig King MiningMech is the Inner Sphere's premier IndustrialMech for mining and digging. Armed with a large Rock Cutter and Mining Drill for even the most stubborn of rocks, the Dig King earned a good reputation in the industrial mining sector. Unfortunately, mercenary commanders get somewhat less use out of the design, not often needing to excavate a salt mine. Still, if pushed into combat, the Rock Cutter and Mining Drill make a formidable enough weapon combination, though the speed and armor leave much to be desired.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Cockpit_Industrial",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "emod_arm_part_lower",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Weapon_DigKing_RockCutter",
+			"SimGameUID": "",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "emod_arm_part_lower",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Weapon_DigKing_MiningDrill",
+			"SimGameUID": "",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_DigKing_CargoSpace",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_fuelcell_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_DigKing_LiftHoist",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"Description": {
+		"Id": "Ammunition_AC2_Sabot",
+		"Name": "AC/2 HEAP Ammo",
+		"UIName": "HEAP",
+		"Details": "Small caliber ammunition designed for long range fire in an AC/2.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "AC2",
+	"HeatGenerated": 0,
+	"AccuracyModifier": 1,
+	"RefireModifier": 1,
+	"HeatGeneratedModifier": 2,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1,
+	"DamagePerShot": 1.0,
+	"APDamage": 1
+}

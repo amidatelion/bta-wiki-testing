@@ -1,0 +1,75 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Werfer",
+		"Name": "Werfer",
+		"Details": "The Werfer system was settled during or shortly before the Age of War by the Taurian Concordat, but was abandoned during the Third Succession War. ",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 237.267,
+		"y": -344.033,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_werfer",
+			"planet_size_small",
+			"planet_climate_mars",
+			"planet_pop_none",
+			"planet_civ_primitive",
+			"planet_industry_poor",
+			"planet_other_ruins",
+			"planet_faction_nofaction",
+			"planet_other_empty"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum",
+		"badlandsParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 14,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_TaurianConcordat",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "NoFaction",
+	"FactionShopItems": [
+		"itemCollection_faction_TaurianConcordat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Werfer",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [],
+	"contractTargetIDs": []
+}

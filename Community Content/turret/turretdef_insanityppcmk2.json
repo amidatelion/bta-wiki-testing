@@ -1,0 +1,88 @@
+{
+	"Version": 1,
+	"Description": {
+		"Id": "turretdef_insanityppcmk2",
+		"Name": "Insanity PPC Mk.2 Turret",
+		"Details": "",
+		"Icon": "",
+		"Cost": 993,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"ChassisID": "turretchassisdef_insanityppcmk2",
+	"TurretTags": {
+		"items": [
+			"unit_turret",
+			"Steiner",
+			"6thLyranGuards",
+			"Marik",
+			"1stKnightsOfTheInnerSphere",
+			"ComStar",
+			"2ndArmyVMu",
+			"Kurita",
+			"1stSwordOfLight",
+			"Davion",
+			"DavionAssaultGuards",
+			"Marian",
+			"Rim",
+			"Chainelane",
+			"Hanse",
+			"Castile",
+			"Outworld",
+			"ThermoPolice",
+			"1stAllianceAirWing",
+			"Circinus",
+			"Rasalhague",
+			"1stTyr",
+			"Ives",
+			"Liao",
+			"DeathCommandos",
+	 		"1stMcCarronsArmoredCavalry",
+			"Locals",
+			"JarnFolk",
+			"Delphi",
+			"AuriganMercenaries",
+			"MagistracyOfCanopus",
+			"RaventhirsIronHand",
+			"TaurianConcordat",
+			"TaurianGuard",
+			"AuriganPirates",
+			"AuriganDirectorate",
+			"AuriganRestoration",
+			"MacksMercs",
+			"nofaction",
+			"unit_heavy"
+		],
+		"tagSetSourceFile": ""
+	},
+	"CurrentArmor": 300,
+	"CurrentInternalStructure": 1,
+	"AssignedArmor": 300,
+	"DamageLevel": "Functional",
+	"inventory": [
+		{
+			"ComponentDefID": "Weapon_PPC_Insanity_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		}
+	]
+}

@@ -1,0 +1,78 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Milvano",
+		"Name": "Milvano",
+		"Details": "Milvano was settled by the Rim Worlds Republic during the Star League era but was eventually abandoned due to contractions during the Succession Wars. Milvano is an unremarkable planet with an unremarkable history. Still, it's a pleasant enough place to enjoy on shore leave.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -463.101,
+		"y": 20.389,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_milvano",
+			"planet_size_small",
+			"planet_climate_rocky",
+			"planet_pop_small",
+			"planet_civ_periphery",
+			"planet_industry_poor",
+			"planet_other_ruins",
+			"planet_faction_nofaction"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"polarFrozen",
+		"tundraFrozen"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 11,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_TaurianConcordat",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "NoFaction",
+	"FactionShopItems": [
+		"itemCollection_faction_TaurianConcordat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Milvano",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [],
+	"contractTargetIDs": []
+}

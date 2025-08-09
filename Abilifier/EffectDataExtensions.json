@@ -1,0 +1,293 @@
+{
+	"C3Master_Network_Grant": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3Slave"
+				]
+			}
+		}
+	},
+	"C3_Network_Master_Bonus": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3Slave"
+				]
+			}
+		}
+	},
+	"C3_Network_Slave_Bonus": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3Master"
+				]
+			}
+		}
+	},
+	"StatusEffect_ECM-VRPP-Jamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"VRPP"
+				]
+			}
+		}
+	},
+	"StatusEffect_ECM-DroneOS-WeaponJamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ECM-DroneOS-WalkSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ECM-DroneOS-RunSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-VRPP-Jamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"VRPP"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-Allies-VRPP-Jamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"VRPP"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-Creator-VRPP-Jamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"VRPP"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-WeaponJamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Allies-WeaponJamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Creator-WeaponJamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-WalkSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Allies-WalkSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Creator-WalkSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-RunSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Allies-RunSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Creator-RunSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_Weather-VRPP-Jamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"VRPP"
+				]
+			}
+		}
+	},
+	"LeagueNet_Focal_Interference": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"LeagueNetFocalNode"
+				]
+			}
+		}
+	},
+	"LeagueNet_Focal_Interference_Melee": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"LeagueNetFocalNode"
+				]
+			}
+		}
+	},
+	"LeagueNet_Support_Accuracy": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"LeagueNetFocalNode"
+				]
+			}
+		}
+	},
+	"LeagueNet_Support_CalledShot": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"LeagueNetFocalNode"
+				]
+			}
+		}
+	},
+	"LeagueNet_Support_DmgReduction": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"LeagueNetFocalNode"
+				]
+			}
+		}
+	},
+	"LeagueNet_Support_Speed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"LeagueNetFocalNode"
+				]
+			}
+		}
+	},
+	"AccMod1": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": true,
+				"TargetCollectionTagMatch": [
+					"test_has_tag",
+					"test_has_also_tag"
+				],
+				"TargetCollectionNotMatch": [
+					"test_has_not_tag1",
+					"test_has_not_tag2"
+				]
+			},
+			"Unit": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"test_unit_tag1",
+					"test_unit_tag2"
+				],
+				"TargetCollectionNotMatch": [
+					"test_unit_not_tag1",
+					"test_unit_not_tag2"
+				]
+			}
+		},
+		"TargetComponentTagMatch": [
+			"Potato_Gun",
+			"Tomato_Gun"
+		],
+		"MustMatchAllComponent": false
+	}
+}

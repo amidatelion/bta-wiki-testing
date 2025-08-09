@@ -1,0 +1,89 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/p/flamer"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"OHDamage: 50%",
+			"AreaOfEffect: 45",
+			"AreaOfEffectDmg: 10",
+			"AreaOfEffectHeatDmg: 10",
+			"AntiBA: 100%",
+			"PipsIgnored: 4",
+			"AlwaysStartsFire"
+		]
+	},
+	"Category": "AntiPersonnel",
+	"Type": "Flamer",
+	"WeaponSubType": "Flamer",
+	"MinRange": 0,
+	"MaxRange": 150,
+	"RangeSplit": [
+		60,
+		90,
+		120
+	],
+	"AmmoCategory": "HeavyFlamer",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 8,
+	"Damage": 10,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 4,
+	"DamageVariance": 0,
+	"HeatDamage": 20,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 0.5,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 0,
+	"Instability": 0,
+	"OverheatedDamageMultiplier": 1.5,
+	"FireOnSuccessHit": true,
+	"CantHitUnaffecedByPathing": true,
+	"FireTerrainChance": 1,
+	"AOECapable": true,
+	"AOERange": 45,
+	"AOEDamage": 10,
+	"AOEHeatDamage": 10,
+	"TrooperSquadDamageModifier": 2,
+	"WeaponEffectID": "WeaponEffect-Weapon_Flamer",
+	"Description": {
+		"Cost": 65000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Echo IV",
+		"Model": "Heavy Flamethrower",
+		"UIName": "Heavy AoE Flamer",
+		"Id": "Weapon_Flamer_AOEHeavyFlamer_0-STOCK",
+		"Name": "Heavy AoE Flamer",
+		"Details": "The Heavy AoE Flamer is a unique Circinian invention that funnels so much plasma into the flamer nozzles that it sprays everywhere as a 'happy' accident. These AoE Flamers deal extreme damage in a decent radius and make instant BBQ out of conventional vehicles and infantry. The Heavy AoE Flamer requires externally mounted ammunition unlike other Flamer weapons. \n\n <b><color=#ffcc00>Uses Heavy Flamer Ammo.</color></b>",
+		"Icon": "uixSvgIcon_weapon_Support"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Flamer",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_close",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

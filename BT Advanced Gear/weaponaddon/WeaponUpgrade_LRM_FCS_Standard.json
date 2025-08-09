@@ -1,0 +1,15 @@
+{
+	"Id": "WeaponUpgrade_LRM_FCS_Standard",
+	"addonType": "lrmfcs",
+	"targetComponentTags": [
+		"LRMFCSSupported-Standard"
+	],
+	"modes": [
+		{
+			"Id": "BASE",
+			"UIName": "FCS",
+			"Name": "FCS",
+			"AccuracyModifier": -1.0
+		}
+	]
+}

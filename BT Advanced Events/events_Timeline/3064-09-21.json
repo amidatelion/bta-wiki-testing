@@ -1,0 +1,98 @@
+{
+	"Description": {
+		"Id": "3064-09-21",
+		"Name": "MercNews Broadcast",
+		"Details": "TERRAN HEGEMONY MOVES TO DEFEND SAIPH TRIUMVIRATE\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]], [[DM.BaseDescriptionDefs[LoreTerranHegemony],Terran Hegemony]]: After the Capellan Confederation's attempted takeover of the former [[DM.Factions[faction_SaiphTriumvirate],Saiph Triumvirate]] in 3063, reports have indicated terrible mistreatment of the locals on those worlds at the hands of their new Capellan overlords. In response to supposed human rights violations and possible warcrimes committed against the populace of the former Triumvirate worlds, the Terran Hegemony has declared its intention to secure Saiph, Tall Trees, and New Canton and bring security and dignity back to those worlds. The [[DM.Factions[faction_Liao],Capellan Confederation]], of course, is refusing to surrender the worlds peacefully and has ordered the [[DM.BaseDescriptionDefs[LoreHarlocRaiders],Harloc Raiders]] and [[DM.Factions[faction_1stMcCarronsArmoredCavalry],McCarron's Armored Cavalry]] to prepare to hold their ground against the Hegemony's onslaught. For their part, the Hegemony has ordered the 1st Cameron Guard and the 17th Terran Light Cavalry into action to secure the former Triumvirate worlds.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "CIVIL WAR: GRIM DETERMINATION ARRIVES ON SHERATAN\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]], [[DM.BaseDescriptionDefs[LoreTerranHegemony],Terran Hegemony]]:  The  world of Sheratan will soon have a new mercenary force on planet.  Notable mercenaries [[DM.Factions[faction_GrimDetermination],Grim Determination]] are moving on to the planet to bring \"peace and order\" to the world.  Sheratan, once one of the most beautiful planets in the Sarna March, has been attacked by rogue elements of the Federated Commonwealth Armed Forces, who seemingly struck at the world at random. It appears that the pro-[[DM.BaseDescriptionDefs[LoreFedCom],FedCom]] [[DM.BaseDescriptionDefs[LoreSheratanKnights],Sheratan Knights]] have decided to escalate their activities from minor disruptions to full-blown revolution. In response to this active challenge to their rule, the Hegemony has hired Grim Determination to root out and destroy the Sheratan Knights once and for all as well as bring order to the rest of the world, which has been steadily decaying into petty squabbles between local nobles and even minor pirate groups for scraps of land. Grim Determination, with their focus on counter-insurgency and counter-terrorist actions and other small unit actions, will be well suited to Sheratan, where mysterious terrorist incidents and border skirmishes are occuring almost daily.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Saiph_to_Liao",
+									"WIIC_give_starsystemdef_NewCanton_to_Liao",
+									"WIIC_give_starsystemdef_TallTrees_to_Liao",
+									"WIIC_give_starsystemdef_Sheratan_to_Locals",
+									"WIIC_Cameron_attacks_starsystemdef_Saiph",
+									"WIIC_Cameron_attacks_starsystemdef_NewCanton",
+									"WIIC_Cameron_attacks_starsystemdef_TallTrees",
+									"WIIC_GrimDetermination_attacks_starsystemdef_Sheratan",
+									"WIIC_set_starsystemdef_Saiph_defender_strength_20",
+									"WIIC_set_starsystemdef_Saiph_attacker_strength_30",
+									"WIIC_set_starsystemdef_NewCanton_defender_strength_20",
+									"WIIC_set_starsystemdef_NewCanton_attacker_strength_30",
+									"WIIC_set_starsystemdef_TallTrees_defender_strength_20",
+									"WIIC_set_starsystemdef_TallTrees_attacker_strength_30",
+									"WIIC_set_starsystemdef_Sheratan_defender_strength_15",
+									"WIIC_set_starsystemdef_Sheratan_attacker_strength_30",
+									"WIIC_give_starsystemdef_Sheratan_to_Cameron_on_attacker_win"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

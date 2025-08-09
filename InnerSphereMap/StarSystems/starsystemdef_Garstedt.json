@@ -1,0 +1,93 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Garstedt",
+		"Name": "Garstedt",
+		"Details": "A water rich world, much of it's wealth comes from the 'Underdepth Oceans', a mineral rich subterranean cavern system filled with water.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 126.138,
+		"y": 382.004,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_garstedt",
+			"planet_size_medium",
+			"planet_climate_water",
+			"planet_other_storms",
+			"planet_feature_moon03",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_recreation",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_faction_kurita"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum",
+		"lowlandsCoastal",
+		"highlandsSpring"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 8,
+	"ownerID": "Kurita",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Kurita",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Kurita",
+	"FactionShopItems": [
+		"itemCollection_faction_Kurita"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Garstedt",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Kurita",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Davion",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Outworld",
+		"Rasalhague",
+		"Mercenaries",
+		"BandOfTheDamned"
+	]
+}

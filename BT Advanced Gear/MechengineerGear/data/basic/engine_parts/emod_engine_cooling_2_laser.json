@@ -1,0 +1,113 @@
+{
+	"Custom": {
+		"EngineHeatBlock": 2,
+		"BonusDescriptions": [
+				"Whitespace",
+				"EngineHSAdd: 2",
+				"EndMoveHeat: -10"
+			],
+		"WorkOrderCosts": {
+			"Default": {
+				"TechCost": "0",
+				"CBillCost": "0"
+			},
+			"Install": {
+				"TechCost": "10 * [[Chassis.Tonnage]] / 20",
+				"CBillCost": "10 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "EngineHeatBlock"
+			},
+			{
+				"CategoryID": "EnginePart"
+			}
+		]
+	},
+	"DissipationCapacity": 0,
+	"Description": {
+		"Cost": 200000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Vlar",
+		"Model": "Engine Cooling System",
+		"UIName": "E-Cooling + 2",
+		"Id": "emod_engine_cooling_2_laser",
+		"Name": "Engine Cooling + 2",
+		"Details": "The regenerative cooling system of an engine uses waste heat to generate power and is part of the Mech' cooling system. The engines integral heat sinks (a.k.a free heat sinks) are not common Mech' heat sinks and use up less volume. <b><color=#099ff2>Requires Fusion Core of 300 or greater</color></b>",
+		"Icon": "EngineCooling"
+	},
+	"BonusValueA": " ",
+	"BonusValueB": " ",
+	"ComponentType": "HeatSink",
+	"ComponentSubType": "Heatsink",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 2,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "LHS_ECooling_Vent_10",
+				"Name": "Laser Heat Sink E-Cooling",
+				"Details": "Laser Heat Sink system venting 10 heat",
+				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "EndMoveHeat",
+				"operation": "Int_Add",
+				"modValue": "-10",
+				"modType": "System.Int32",
+				"additionalRules": "NotSet",
+				"targetCollection": "NotSet",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		}
+	
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

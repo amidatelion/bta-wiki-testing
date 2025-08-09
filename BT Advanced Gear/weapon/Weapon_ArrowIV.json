@@ -1,0 +1,96 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/t/arrowiv"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"IsArtillery",
+			"ArtilleryAttack",
+			"ArtilleryDetails",
+			"NonArtilleryWeapons",
+			"GuidedArtilleryAttack",
+			"NoFireInMelee",
+			"AMSImmune",
+			"WeaponAttachmentCompatible: Artillery FCS"
+		]
+	},
+	"weaponCategoryID": "Artillery",
+	"Type": "LRM",
+	"WeaponSubType": "LRM20",
+	"MinRange": 120,
+	"MaxRange": 960,
+	"RangeSplit": [
+		240,
+		480,
+		720
+	],
+	"AmmoCategory": "ArrowIV",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 30,
+	"Damage": 175,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"HeatDamage": 35,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"IndirectFireCapable": true,
+	"RefireModifier": 3,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 35,
+	"AMSImmune": true,
+	"FireTerrainChance": 0.075,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+	"Description": {
+		"Cost": 1152000,
+		"Rarity": 14,
+		"Purchasable": true,
+		"Manufacturer": "Menke Armor and Armament",
+		"Model": "Missile Artillery",
+		"UIName": "Arrow IV",
+		"Id": "Weapon_ArrowIV",
+		"Name": "Arrow IV",
+		"Details": "The Arrow IV is a stand-alone, missile based, artillery system, designed to augment conventional systems such as the Long Tom and the Sniper. It was first introduced by the Terran Hegemony in 2600 and became a staple of the Star League Defense Force. Although the technology to create Arrow IVs was lost during the Star League's collapse, it was recovered by Capellan Confederation engineers in 3044 working off of surviving examples and the Helm Memory Core. \n\n <b><color=#ffcc00>Uses ArrowIV Ammo.</color></b>",
+		"Icon": "Art-illery"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "arrow",
+	"BattleValue": 0,
+	"InventorySize": 8,
+	"Tonnage": 15,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "Artillery",
+			"UIName": "Arty",
+			"isBaseMode": true
+		},
+		{
+			"Id": "Guided",
+			"UIName": "Guided",
+			"isBaseMode": false,
+			"AmmoCategory": "ArrowIVHoming"
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"ArtilleryFCSSupported-ArrowIV"
+		],
+		"tagSetSourceFile": ""
+	}
+}

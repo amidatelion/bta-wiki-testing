@@ -1,0 +1,95 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Bjornlunda",
+		"Name": "Bjornlunda",
+		"Details": "The Bjornlunda system is located in the Donegal Province of the Lyran Commonwealth. The Bjornlunda system was located near the Jaumegarde and Turinge systems. Bjornlunda was settled during or shortly after the First Exodus from Terra.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -149.967,
+		"y": 88.354,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_bjornlunda",
+			"planet_size_medium",
+			"planet_climate_ice",
+			"planet_other_floatingworld",
+			"planet_other_storms",
+			"planet_feature_gasgiant",
+			"planet_feature_rings",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_none",
+			"planet_civ_innersphere",
+			"planet_other_prison",
+			"planet_other_ruins",
+			"planet_faction_steiner"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"polarFrozen",
+		"tundraFrozen"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 5,
+	"ownerID": "Steiner",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Steiner",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Steiner",
+	"FactionShopItems": [
+		"itemCollection_faction_Steiner"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Bjornlunda",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Kurita",
+		"RimWorldsRepublic",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Circinus",
+		"Rasalhague",
+		"MorrisonsExtractors",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

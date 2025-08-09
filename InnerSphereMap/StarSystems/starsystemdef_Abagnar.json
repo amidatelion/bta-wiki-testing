@@ -1,0 +1,94 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Abagnar",
+		"Name": "Abagnar",
+		"Details": "The planet Abagnar is a simple agricultural world of little significance; most of the planetary population lived in or around the capital city, Hancock City, and the only notable establishment is the School of Medicines and Medical Procedures.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 380.231,
+		"y": 314.823,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_abagnar",
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_faction_kurita"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"badlandsParched",
+		"lowlandsCoastal",
+		"jungleTropical"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 8,
+	"ownerID": "Kurita",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Kurita",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Kurita",
+	"FactionShopItems": [
+		"itemCollection_faction_Kurita"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Abagnar",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Kurita",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Davion",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Outworld",
+		"Rasalhague",
+		"Mercenaries",
+		"331stDivision",
+		"BandOfTheDamned"
+	]
+}

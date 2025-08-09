@@ -1,0 +1,91 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Hean",
+		"Name": "Hean",
+		"Details": "The Hean system was colonised during the First Exodus from Terra, and may have been one of the worlds rendered independent as a result of the Demarcation Declaration. Hean subsequently joined or was annexed by the Terran Hegemony prior to the Age of War.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 74.697,
+		"y": -14.518,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_hean",
+			"planet_size_large",
+			"planet_climate_lunar",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_faction_davion"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 8,
+	"ownerID": "Davion",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Davion",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Davion",
+	"FactionShopItems": [
+		"itemCollection_faction_Davion"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Hean",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Davion",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Kurita",
+		"Liao",
+		"WordOfBlake",
+		"Cameron",
+		"ComStar",
+		"TaurianConcordat",
+		"Outworld",
+		"Tortuga",
+		"DeathsConsorts",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Rukbat",
+		"Name": "Rukbat",
+		"Details": "Rukbat is a poisoned jewel of a world. Despite the abundant plant and animal life, the vast mineral resources, and a climate much like Terras, the environment is totally incompatible with human and Terran lifeforms.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 42.128,
+		"y": 108.781,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_rukbat",
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_other_taintedair",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_large",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_mining",
+			"planet_faction_kurita"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"badlandsParched",
+		"lowlandsCoastal",
+		"jungleTropical",
+		"urbanHighTech"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 17,
+	"ownerID": "Kurita",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Kurita",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Kurita",
+	"FactionShopItems": [
+		"itemCollection_faction_Kurita"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Rukbat",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Kurita",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Davion",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Outworld",
+		"Rasalhague",
+		"Mercenaries",
+		"BandOfTheDamned"
+	]
+}

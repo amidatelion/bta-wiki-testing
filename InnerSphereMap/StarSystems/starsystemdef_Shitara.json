@@ -1,0 +1,94 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Shitara",
+		"Name": "Shitara",
+		"Details": "Shitara's inhospitable desert like surface was originally settled not for agricultural or manufacturing reasons, but to serve as a regional transportation hub. With access to many star systems, Shitara is now a wealthywaystation and refueling point for expeditions into the further reaches of the Inner Sphere.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 41.613,
+		"y": 87.121,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_shitara",
+			"planet_size_large",
+			"planet_climate_desert",
+			"planet_other_megaforest",
+			"planet_feature_asteroids",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_large",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_recreation",
+			"planet_industry_manufacturing",
+			"planet_other_hub",
+			"planet_faction_kurita"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"desertParched",
+		"urbanHighTech"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 4,
+	"ownerID": "Kurita",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Kurita",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Kurita",
+	"FactionShopItems": [
+		"itemCollection_faction_Kurita"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Shitara",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 10,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Kurita",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Davion",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Outworld",
+		"Rasalhague",
+		"Mercenaries",
+		"BandOfTheDamned"
+	]
+}

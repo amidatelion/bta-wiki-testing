@@ -1,0 +1,77 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "BAWeapon"
+			}
+		],
+		"BonusDescriptions": [
+				"WpnCrits: +50%",
+				"PipsIgnored: 3",
+				"CostPerShot: 10"
+			],
+		"AmmoCost": {
+			"PerUnitCost": 10
+		}
+	},
+	"weaponCategoryID": "BattleArmor",
+	"Type": "MachineGun",
+	"WeaponSubType": "MachineGun",
+	"MinRange": 0,
+	"MaxRange": 60,
+	"RangeSplit": [
+		15,
+		30,
+		45
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 0,
+	"Damage": 3,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 3,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1.5,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 0,
+	"Instability": 1,
+	"WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+	"Description": {
+		"Cost": 2500,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Sperry Browning",
+		"Model": "Machine Gun",
+		"UIName": "BA SMG",
+		"Id": "Weapon_MachineGun_AntiInfantry_BA",
+		"Name": "BA SMG",
+		"Details": "Literally an infantry-scale SMG carried in the hand of a suit of Battle Armor, the BA SMG exists to deal with infantry. While capable of damaging heavier armor in theory, in practice the BA SMG has extremely short range and damage for large-scale combat and is largely an after-thought.",
+		"Icon": "battle-amor-suit"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "MachineGun",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_close"
+		],
+		"tagSetSourceFile": ""
+	}
+}

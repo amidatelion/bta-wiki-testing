@@ -1,0 +1,100 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/o/artillery"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"IsArtillery",
+			"ArtilleryAttack",
+			"ArtilleryDetails",
+			"NonArtilleryWeapons",
+			"GuidedArtilleryAttack",
+			"NoFireInMelee",
+			"AMSImmune",
+			"WeaponAttachmentCompatible: Artillery FCS"
+		]
+	},
+	"weaponCategoryID": "Artillery",
+	"Type": "Autocannon",
+	"WeaponSubType": "LRM10",
+	"MinRange": 200,
+	"MaxRange": 1560,
+	"RangeSplit": [
+		360,
+		780,
+		1200
+	],
+	"AmmoCategory": "LongTom",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 60,
+	"Damage": 300,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"HeatDamage": 60,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"RefireModifier": 3,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 6,
+	"Instability": 60,
+	"AMSImmune": true,
+	"FireTerrainChance": 0.085,
+	"AlwaysIndirectVisuals": true,
+	"IndirectFireCapable": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
+	"Description": {
+		"Cost": 2100000,
+		"Rarity": 10,
+		"Purchasable": true,
+		"Manufacturer": "Armstrong Industries",
+		"Model": "Long Tom Artillery",
+		"UIName": "Long Tom Artillery",
+		"Id": "Weapon_Autocannon_LONGTOM",
+		"Name": "Long Tom Artillery",
+		"Details": "The Long Tom Artillery Piece is the largest conventional artillery piece designed by Armstrong Industries. It is the primary weapon of the LT-MOB-25 Mobile Long Tom Artillery vehicle, which is better known as the Mobile Long Tom. \n\n <b><color=#ffcc00>Uses LongTom Ammo.</color></b>",
+		"Icon": "Art-illery"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "artillery",
+	"BattleValue": 0,
+	"InventorySize": 13,
+	"Tonnage": 30,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"ImprovedBallistic": true,
+	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "Artillery",
+			"UIName": "Arty",
+			"isBaseMode": true
+		},
+		{
+			"Id": "Guided",
+			"UIName": "Guided",
+			"isBaseMode": false,
+			"AmmoCategory": "LongTomCopperhead"
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"OmniRestriction.{location}",
+			"component_type_stock",
+			"mr-resize-12",
+			"range_extreme",
+			"ArtilleryFCSSupported-LongTom"
+		],
+		"tagSetSourceFile": ""
+	}
+}

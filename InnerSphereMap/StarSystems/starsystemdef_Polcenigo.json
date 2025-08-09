@@ -1,0 +1,92 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Polcenigo",
+		"Name": "Polcenigo",
+		"Details": "During the final years of the Star League, Polcenigo was the host to a Star League Defense Force garrison. The families of the forces that made up the garrison were the original colonists.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 109.071,
+		"y": 374.798,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_polcenigo",
+			"planet_size_small",
+			"planet_climate_tropical",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_large",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_recreation",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_other_starleague",
+			"planet_faction_clanghostbear"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"jungleTropical",
+		"urbanHighTech",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 8,
+	"ownerID": "ClanGhostBear",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_ClanWorlds",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "ClanGhostBear",
+	"FactionShopItems": [
+		"itemCollection_faction_ClanWorlds"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Polcenigo",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 6,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"Cameron",
+		"WordOfBlake",
+		"ComStar",
+		"Rasalhague"
+	],
+	"contractTargetIDs": [
+		"ClanGhostBear"
+	]
+}

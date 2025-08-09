@@ -1,0 +1,255 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "PrinceCrab",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 7765630,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Prince Crab",
+		"Id": "chassisdef_princecrab_PRC-5X",
+		"Name": "Prince Crab",
+		"Details": "After the Prince Crab's debut, the Hegemony Institute of Strategic Combat decided to make use of the chassis for a weapon testing platform, specifically to test the newly-developed Hyper Laser. Armed with a HISC Hyper Laser, as well as two standard SRM-6s for close-range backup, the PRC-5X proved a deadly combatant. Plentiful heat management gear combined with a Guardian ECM and sturdy armor keeps the -5X functional in all environments while CASE II ensures the design is durable even against ammunition explosions.",
+		"Icon": "uixTxrIcon_princecrab"
+	},
+	"MovementCapDefID": "movedef_marauder_MAD-3R",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_jcrab",
+	"PrefabIdentifier": "chrprfmech_jcrabbase-001",
+	"PrefabBase": "jcrab",
+	"Tonnage": 75,
+	"InitialTonnage": 7.5,
+	"weightClass": "HEAVY",
+	"BattleValue": 7124000,
+	"Heatsinks": 0,
+	"TopSpeed": 64,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 80,
+	"MeleeInstability": 40,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 80,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 80,
+	"DFAInstability": 40,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": 80,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 230,
+			"MaxRearArmor": 115,
+			"InternalStructure": 115
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": 80,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 13.5,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": -1
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 13.5,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": -1
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": -1
+		},
+		{
+			"x": 2.5,
+			"y": 7,
+			"z": -2.5
+		},
+		{
+			"x": -2.5,
+			"y": 7,
+			"z": -2.5
+		}
+	],
+	"VariantName": "PRC-5X",
+	"ChassisTags": {
+		"items": [
+			"HeavyMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Durable Brawler",
+	"YangsThoughts": "After the Prince Crab's debut, the Hegemony Institute of Strategic Combat decided to make use of the chassis for a weapon testing platform, specifically to test the newly-developed Hyper Laser. Armed with a HISC Hyper Laser, as well as two standard SRM-6s for close-range backup, the PRC-5X proved a deadly combatant. Plentiful heat management gear combined with a Guardian ECM and sturdy armor keeps the -5X functional in all environments while CASE II ensures the design is durable even against ammunition explosions.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoPilot_PrinceCrab",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endocomposite",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Purvo",
+		"Name": "Purvo",
+		"Details": "Settled by the Capellan Confederation during the Star League era to claim the vast mineral wealth under the surface.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 59.693,
+		"y": -258.832,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_purvo",
+			"planet_size_large",
+			"planet_climate_arid",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_large",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_mining",
+			"planet_industry_aquaculture",
+			"planet_industry_manufacturing",
+			"planet_faction_liao"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"lowlandsCoastal",
+		"badlandsParched",
+		"urbanHighTech"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 8,
+	"ownerID": "Liao",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Liao",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Liao",
+	"FactionShopItems": [
+		"itemCollection_faction_Liao"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Purvo",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 6,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Liao",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Davion",
+		"AuriganRestoration",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Ives",
+		"MagistracyOfCanopus",
+		"TaurianConcordat",
+		"Mercenaries",
+		"ShenSeTian"
+	]
+}

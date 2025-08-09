@@ -1,0 +1,97 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Erin(VonStrangsWorld2830+)",
+		"Name": "Erin (Von Strang's World 2830+)",
+		"Details": "Controlled by the lawless Von Strang family, this world is made up of a wealthy aristocracy and vast numbers of feudal workers. If you've got the money, you can buy many things here.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -160.065,
+		"y": 525.891,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_erin(vonstrang'sworld2830+)",
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_pop_small",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_industry_manufacturing",
+			"planet_other_starleague",
+			"planet_other_hub",
+			"planet_other_blackmarket",
+			"planet_other_pirate",
+			"planet_faction_rimworldsrepublic"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"badlandsParched",
+		"lowlandsCoastal",
+		"jungleTropical"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 15,
+	"ownerID": "RimWorldsRepublic",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_RimWorldsRepublic",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "RimWorldsRepublic",
+	"FactionShopItems": [
+		"itemCollection_faction_RimWorldsRepublic"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Erin(VonStrangsWorld2830+)",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 9,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"RimWorldsRepublic",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Hanse",
+		"DarkCaste",
+		"GreenGhosts",
+		"Steiner",
+		"ClanWolf",
+		"ClanJadeFalcon",
+		"Mercenaries",
+		"Locals"
+	]
+}

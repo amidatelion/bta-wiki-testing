@@ -1,0 +1,32 @@
+{
+	"Description": {
+		"Id": "Ammunition_Thumper",
+		"Name": "Thumper Ammo",
+		"UIName": "HE",
+		"Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "Thumper",
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1,
+	"IsArtillery": true,
+	"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
+	"ArtilleryReticleRadius" : 100,
+	"ArtilleryReticleText": "Thumper",
+	"AOECapable": true,
+	"AOERange": 100,
+	"AOEDamage": 125,
+	"AOEInstability": 20,
+	"AOEHeat": 20,
+	"AdditionalImpactVFX": "WFX_ExplosiveSmokeS",
+	"AdditionalImpactVFXScaleX": 3,
+	"AdditionalImpactVFXScaleY": 3,
+	"AdditionalImpactVFXScaleZ": 3
+}

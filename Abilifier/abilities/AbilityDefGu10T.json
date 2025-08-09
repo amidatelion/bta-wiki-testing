@@ -1,0 +1,186 @@
+{
+	"Description": {
+		"Id": "AbilityDefGu10T",
+		"Name": "HULL DOWN",
+		"Details": "ACTION: Cannot be used if you have moved this turn. Intentionally pillbox this tank, losing all ability to move for this turn and the next turn. In exchange, take 90% reduced damage from all sources until the end of your next turn. 4 turn cooldown, does not end the turn. <b><color=#099ff2>Costs 30 Resolve to use!</color></b>",
+		"Icon": "shield-reflect"
+	},
+	"DisplayParams": "ShowInMWTRay",
+	"ReqSkill": "Guts",
+	"ReqSkillLevel": 10,
+	"ActivationTime": "ConsumedByMovement",
+	"ActivationCooldown": 4,
+	"Targeting": "ActorSelf",
+	"ResolveCost": 30,
+	"EffectData": [
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator",
+				"forcePathRebuild": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-HullDownCruise",
+				"Name": "Hull Down Cruise",
+				"Details": "This unit can not move this turn but takes 90% reduced damage from all sources until end of next turn.",
+				"Icon": "shield-reflect"
+			},
+			"statisticData": {
+				"statName": "CruiseSpeed",
+				"operation": "Float_Multiply",
+				"modValue": "0.01",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator",
+				"forcePathRebuild": true,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-HullDownFlank",
+				"Name": "Hull Down Flank",
+				"Details": "This unit can not move this turn but takes 90% reduced damage from all sources until end of next turn.",
+				"Icon": "shield-reflect"
+			},
+			"statisticData": {
+				"statName": "FlankSpeed",
+				"operation": "Float_Multiply",
+				"modValue": "0.01",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": 1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator",
+				"forcePathRebuild": true,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-HullDownWalk",
+				"Name": "Hull Down Walk",
+				"Details": "This unit can not move this turn but takes 90% reduced damage from all sources until end of next turn.",
+				"Icon": "hypersonic-bolt"
+			},
+			"statisticData": {
+				"statName": "WalkSpeed",
+				"operation": "Float_Multiply",
+				"modValue": "0.01",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": 1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator",
+				"forcePathRebuild": true,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-HullDownRun",
+				"Name": "Hull Down Run",
+				"Details": "This unit can not move this turn but takes 90% reduced damage from all sources until end of next turn.",
+				"Icon": "hypersonic-bolt"
+			},
+			"statisticData": {
+				"statName": "CBTBE_RunMultiMod",
+				"operation": "Float_Multiply",
+				"modValue": "0.01",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": 1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-HullDownRun",
+				"Name": "Hull Down Jump",
+				"Details": "No jumping when Hull Down",
+				"Icon": "hypersonic-bolt"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "JumpDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.01",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": 3,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-HullDownDmgReduce",
+				"Name": "Hull Down DR",
+				"Details": "This unit can not move this turn but takes 90% reduced damage from all sources until end of next turn.",
+				"Icon": "shield-reflect"
+			},
+			"statisticData": {
+				"statName": "DamageReductionMultiplierAll",
+				"operation": "Float_Multiply",
+				"modValue": "0.1",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	],
+	"IsPrimaryAbility": true,
+	"Priority": 5
+}

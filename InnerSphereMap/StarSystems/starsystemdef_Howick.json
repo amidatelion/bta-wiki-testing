@@ -1,0 +1,90 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Howick",
+		"Name": "Howick",
+		"Details": "The Howick system was colonised during the Star League era due to the rich deposits of petroleum under it's oceans.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -343.838,
+		"y": 315.833,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_howick",
+			"planet_size_medium",
+			"planet_climate_water",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_industry_aquaculture",
+			"planet_faction_steiner"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lowlandsCoastal",
+		"highlandsSpring"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 10,
+	"ownerID": "Steiner",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Steiner",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Steiner",
+	"FactionShopItems": [
+		"itemCollection_faction_Steiner"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Howick",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Kurita",
+		"RimWorldsRepublic",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Circinus",
+		"Rasalhague",
+		"MorrisonsExtractors",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

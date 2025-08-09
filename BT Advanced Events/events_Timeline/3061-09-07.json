@@ -1,0 +1,113 @@
+{
+	"Description": {
+		"Id": "3061-09-07",
+		"Name": "MercNews Broadcast",
+		"Details": "FIRE MANDRILL CLAIMS REGION, ESTABLISHES HOMEWORLDS!\r\n\n\nErdvynn, [[DM.Factions[faction_ClanFireMandrill],Clan Fire Mandrill]] Homeworlds: The Fire Mandrill Saga has finally had its main story revealed: the bulk of [[DM.Factions[faction_ClanFireMandrill],Clan Fire Mandrill]] was moving rimwards around the edge of the Inner Sphere, raiding as it went for resources to fuel the journey. Upon reaching the former worlds of the [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]]'s long-abandoned Erdvynn Province, the Clan set down roots and has established control over eight planets, declaring them the Fire Mandrill homeworlds. In a prepared statement, Khan Amanda Carrol had this to say: \"With this action we, the true inheritors of the Way of the Clans from The Great Father, establish a realm where all true Clan warriors are welcome. Here we make our home and here we will fulfill the true destiny of the Clans.\" Local [[DM.Factions[faction_Steiner],Lyran Commonwealth]] and [[DM.Factions[faction_Circinus],Circinus Federation]] authorities expressed great concern about the new, possibly quite hostile, Clan on their doorstep. Almost immediately, raids by the [[DM.Factions[faction_ClanFireMandrill],Fire Mandrill]]'s have shown these concerns to be well-founded.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "HEGEMONY-SUNS BORDER WAR HEATS UP!\r\n\n\nTerra, [[DM.Factions[faction_Cameron],Terran Hegemony]]: The Hegemony has struck back against the [[DM.Factions[faction_Davion],Federated Suns]] for their recent aggression. The [[DM.BaseDescriptionDefs[LoreTHAF],THAF]] has engaged in attacks against a number of border planets with the intent to oust the Suns regiments defending them. This comes as the attacks against the Hegemony's planets have slowed due to stiffer than expected resistance from Hegemony forces. Reports indicate that Marshal [[DM.BaseDescriptionDefs[LoreJamesSandoval],Sandoval]] was expecting lighter defenses and was not prepared for an extended battle for the disputed planets. The [[DM.BaseDescriptionDefs[LoreTHAF],THAF]]'s fierce resistance has given the Marshal pause. This comes as First Prince [[DM.BaseDescriptionDefs[LoreKatherineSteiner],Katherine Steiner-Davion]] urges Marshal [[DM.BaseDescriptionDefs[LoreJamesSandoval],Sandoval]] to withdraw his forces from the Hegemony. Truly, things look bleak for Sandoval's invasion.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_FallenStars_to_ClanFireMandrill",
+									"WIIC_give_starsystemdef_Armstrong_to_ClanFireMandrill",
+									"WIIC_give_starsystemdef_Milvano_to_ClanFireMandrill",
+									"WIIC_give_starsystemdef_Huesta_to_ClanFireMandrill",
+									"WIIC_give_starsystemdef_Nightwish_to_ClanFireMandrill",
+									"WIIC_give_starsystemdef_Calvados_to_ClanFireMandrill",
+									"WIIC_give_starsystemdef_Tatopani_to_ClanFireMandrill",
+									"WIIC_give_starsystemdef_Yidtall_to_ClanFireMandrill",
+									"WIIC_give_starsystemdef_Erdvynn_to_ClanFireMandrill",
+									"WIIC_give_starsystemdef_Choex_to_ClanFireMandrill",
+									"WIIC_KindraaSainze_raids_starsystemdef_NewIndia",
+									"WIIC_KindraaSainze_raids_starsystemdef_CruzAlta",
+									"WIIC_KindraaSainze_raids_starsystemdef_ShahrKord",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Althastan",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_SonHoa",
+									"WIIC_KindraaMickKreese_raids_starsystemdef_Helbrent(Andiron3025+)",
+									"WIIC_KindraaMickKreese_raids_starsystemdef_Himmels(Baltazar2864+)",
+									"WIIC_Cameron_attacks_starsystemdef_DenebKaitos",
+									"WIIC_set_starsystemdef_DenebKaitos_defender_strength_20",
+									"WIIC_set_starsystemdef_DenebKaitos_attacker_strength_30",
+									"WIIC_Cameron_attacks_starsystemdef_Addicks",
+									"WIIC_set_starsystemdef_Addicks_defender_strength_20",
+									"WIIC_set_starsystemdef_Addicks_attacker_strength_30",
+									"WIIC_Cameron_attacks_starsystemdef_Ankaa",
+									"WIIC_set_starsystemdef_Ankaa_defender_strength_15",
+									"WIIC_set_starsystemdef_Ankaa_attacker_strength_25",
+									"WIIC_Cameron_attacks_starsystemdef_Towne",
+									"WIIC_set_starsystemdef_Towne_defender_strength_20",
+									"WIIC_set_starsystemdef_Towne_attacker_strength_30",
+									"WIIC_Cameron_attacks_starsystemdef_Ozawa",
+									"WIIC_set_starsystemdef_Ozawa_defender_strength_30",
+									"WIIC_set_starsystemdef_Ozawa_attacker_strength_30"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

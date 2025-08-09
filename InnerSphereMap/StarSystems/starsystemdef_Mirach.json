@@ -1,0 +1,94 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Mirach",
+		"Name": "Mirach",
+		"Details": "Mirach was originally settled to take advantage of the large amounts of minerals and metal ores that were simply lying on the surface of the world. Easy access to these minerals rapidly boosted the planet's economy",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 108.822,
+		"y": -26.926,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_mirach",
+			"planet_size_small",
+			"planet_climate_lunar",
+			"planet_feature_moon03",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_recreation",
+			"planet_industry_mining",
+			"planet_industry_manufacturing",
+			"planet_faction_davion"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 3,
+	"ownerID": "Davion",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Davion",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Davion",
+	"FactionShopItems": [
+		"itemCollection_faction_Davion"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Mirach",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 6,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Davion",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Kurita",
+		"Liao",
+		"WordOfBlake",
+		"Cameron",
+		"ComStar",
+		"TaurianConcordat",
+		"Outworld",
+		"Tortuga",
+		"DeathsConsorts",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

@@ -1,0 +1,87 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Arc-Royal",
+		"Name": "Arc-Royal",
+		"Details": "Arc-Royal is the historic home of the famous Kell Hounds and later founded the Arc-Royal Defense Cordon after Clan Wolf-in-Exile set up home on Arc-Royal thanks to their ties to the Kell Hounds via their Khan, Phelan Kell. Arc-Royal maintains its own manufacturing and defense industries and coordinates the defense against Clan Jade Falcon on behalf of House Steiner, who is only too happy to permit the Exiled Wolves to set up shop in their borders.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -170.389,
+		"y": 226.576,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_arc-royal",
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_large",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_recreation",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_industry_manufacturing",
+			"planet_other_comstar",
+			"planet_other_hub",
+			"planet_factory",
+			"planet_faction_clanwolfinexile"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"badlandsParched",
+		"lowlandsCoastal",
+		"jungleTropical"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 9,
+	"ownerID": "ClanWolfInExile",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_ClanWorlds"
+	],
+	"factionShopOwnerID": "ClanWolfInExile",
+	"FactionShopItems": [
+		"itemCollection_faction_ClanWorlds"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Arc-Royal",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [],
+	"contractTargetIDs": []
+}

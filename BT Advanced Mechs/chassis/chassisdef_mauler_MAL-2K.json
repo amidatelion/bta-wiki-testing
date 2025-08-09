@@ -1,0 +1,272 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Mauler",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 8800000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Mauler",
+		"Id": "chassisdef_mauler_MAL-2K",
+		"Name": "Mauler",
+		"Details": "The Mauler 2K attempts to turn the assault 'Mech into a walking missile repository. The LRM15s of the original are downgraded to 10-racks, and in place of the autocannons, two MRM10s and two pairs of SRM racks per torso are added, giving each torso 10 of each missile type for combat at all ranges. A pair of ER Medium Lasers rounds out the 2K's weaponry, and two additional double heat sinks compared to the original help keep it cooler.",
+		"Icon": "uixTxrIcon_mauler"
+	},
+	"MovementCapDefID": "movedef_mauler_MAL-1R",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_mauler",
+	"PrefabIdentifier": "chrprfmech_maulerbase-001",
+	"PrefabBase": "mauler",
+	"Tonnage": 90,
+	"InitialTonnage": 9,
+	"weightClass": "ASSAULT",
+	"BattleValue": 9642000,
+	"Heatsinks": 0,
+	"TopSpeed": 105,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 95,
+	"MeleeInstability": 45,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 95,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 95,
+	"DFAInstability": 45,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 190,
+			"MaxRearArmor": 95,
+			"InternalStructure": 95
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 290,
+			"MaxRearArmor": 145,
+			"InternalStructure": 145
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 190,
+			"MaxRearArmor": 95,
+			"InternalStructure": 95
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 190,
+			"MaxRearArmor": -1,
+			"InternalStructure": 95
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 190,
+			"MaxRearArmor": -1,
+			"InternalStructure": 95
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"VariantName": "MAL-2K",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Juggernaut & Heavy Cavalry",
+	"YangsThoughts": "The Mauler 2K attempts to turn the assault 'Mech into a walking missile repository. The LRM15s of the original are downgraded to 10-racks, and in place of the autocannons, two MRM10s and two pairs of SRM racks per torso are added, giving each torso 10 of each missile type for combat at all ranges. A pair of ER Medium Lasers rounds out the 2K's weaponry, and two additional double heat sinks compared to the original help keep it cooler.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoPilot_Mauler",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

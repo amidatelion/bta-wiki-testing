@@ -1,0 +1,79 @@
+{
+	"Name": "BT Advanced Factions",
+	"Enabled": true,
+	"Hidden": true,
+	"Version": "1.1",
+	"Description": "Module adding new Factions to BTA",
+	"Author": "The BTA Team",
+	"DependsOn": [
+		"CAB-Misc",
+		"CAB-Clan-GoldenCentury",
+		"CAB-Clan-Modern",
+		"CAB-IS-CivilWar",
+		"CAB-IS-ClanInvasion",
+		"CAB-IS-Customs",
+		"CAB-IS-DarkAge",
+		"CAB-IS-StarLeague",
+		"CAB-Tanks"
+	],
+	"DataAddendumEntries": [
+		{
+			"name": "BattleTech.FactionEnumeration",
+			"path": "Faction.json"
+		}
+	],
+	"ConflictsWith": [],
+	"Manifest": [
+		{
+			"Type": "CastDef",
+			"Path": "cast"
+		},
+		{
+			"Type": "FactionDef",
+			"Path": "factions",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "FactionDef",
+			"Path": "SPAM_factions",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "HeraldryDef",
+			"Path": "heraldry"
+		},
+		{
+			"Type": "HeraldryDef",
+			"Path": "SPAM_heraldry"
+		},
+		{
+			"Type": "Sprite",
+			"Path": "sprites"
+		},
+		{
+			"Type": "Sprite",
+			"Path": "portrait"
+		},
+		{
+			"Type": "Texture2D",
+			"Path": "Emblems"
+		},
+		{
+			"Type": "Texture2D",
+			"Path": "sprites"
+		},
+		{
+			"Type": "Texture2D",
+			"Path": "portrait",
+			"AddToAddendum": "ConversationTexture"
+		},
+		{
+			"Type": "Sprite",
+			"Path": "Logos"
+		},
+		{
+			"Type": "Sprite",
+			"Path": "Emblems"
+		}
+	]
+}

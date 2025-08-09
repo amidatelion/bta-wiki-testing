@@ -1,0 +1,444 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "MonsterLamOmni",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"CustomParts": {
+		"AlternateRepresentations": [
+			{
+				"PrefabIdentifier": "chrprfmech_blackowlbase-001",
+				"AdditionalPrefabs": [],
+				"PrefabBase": "blackowl",
+				"HardpointDataDef": "hardpointdatadef_blackowl",
+				"Type": "AirMech",
+				"HoveringSoundStart": "jet_start",
+				"HoveringSoundEnd": "jet_end",
+				"FlyHeight": 7.5,
+				"AirMechVerticalJets": [
+					{
+						"Prefab": "vf11lam_vjets_left_leg",
+						"Attach": "j_LHeel",
+						"JetsAttachPoints": [
+							"jetAttachPoint"
+						]
+					},
+					{
+						"Prefab": "vf11lam_vjets_right_leg",
+						"Attach": "j_RHeel",
+						"JetsAttachPoints": [
+							"jetAttachPoint"
+						]
+					},
+					{
+						"Prefab": "vf11lam_vjets_torso",
+						"Attach": "j_Spine2",
+						"JetsAttachPoints": [
+							"jetAttachPoint"
+						]
+					}
+				]
+			}
+		]
+	},
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Avionics_MON",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_avionics_size1",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_avionics_size1",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_300",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_lam_center",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size1",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size1",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_cooling_2",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_kit_dhs_proto",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "Gear_JumpJet_Superheavy_LAM",
+			"SimGameUID": null,
+			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "Gear_JumpJet_Superheavy_LAM",
+			"SimGameUID": null,
+			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"Description": {
+		"Cost": 35741070,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Monster LAM Omni",
+		"Id": "chassisdef_monster_MNST-3R-LAM-PRIME",
+		"Name": "Monster LAM Omni",
+		"Details": "The Monster LAM wasn't bad enough. Now, the mysterious 'Todd' has struck again with the Monster LAM Omni. Somehow, he found a way to weld omni technology onto the Monster LAM's frame, creating an Omni variant of the mech. Again, leading scientists are unclear why or how this monstrosity functions, but function it does. The firepower on the MON LAM Prime is, as usual, mostly irrelevant but for reference it comes with an Insanity PPC, 6 ER Medium Lasers, twin Rocket Launcher/40s, and a trio of Light Autocannon/2s.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "uixTxrIcon_monster"
+	},
+	"VariantName": "MNST-3R-LAM-PRIME",
+	"ChassisTags": {
+		"items": [
+			"mr-resize-1.06-1.06-1.06",
+			"OmniMech",
+			"SuperHeavyMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"AssaultMech",
+			"LandAirMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Superheavy... LAM... Omni?!",
+	"YangsThoughts": "The Monster LAM wasn't bad enough. Now, the mysterious 'Todd' has struck again with the Monster LAM Omni. Somehow, he found a way to weld omni technology onto the Monster LAM's frame, creating an Omni variant of the mech. Again, leading scientists are unclear why or how this monstrosity functions, but function it does. The firepower on the MON LAM Prime is, as usual, mostly irrelevant but for reference it comes with an Insanity PPC, 6 ER Medium Lasers, twin Rocket Launcher/40s, and a trio of Light Autocannon/2s.",
+	"MovementCapDefID": "movedef_annihilator_ANH-1A",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_monster",
+	"PrefabIdentifier": "chrprfmech_monsterbase-001",
+	"PrefabBase": "monster",
+	"Tonnage": 150,
+	"InitialTonnage": 15,
+	"weightClass": "ASSAULT",
+	"BattleValue": 10206000,
+	"Heatsinks": 0,
+	"TopSpeed": 105,
+	"TurnRadius": 290,
+	"MaxJumpjets": 20,
+	"Stability": 250,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 75,
+	"MeleeInstability": 38,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 150,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 150,
+	"DFAInstability": 75,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 24
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 270,
+			"MaxRearArmor": -1,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "BombBay",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "BombBay",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 310,
+			"MaxRearArmor": 155,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 22,
+			"MaxArmor": 420,
+			"MaxRearArmor": 210,
+			"InternalStructure": 210
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "BombBay",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "BombBay",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 310,
+			"MaxRearArmor": 155,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 270,
+			"MaxRearArmor": -1,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 310,
+			"MaxRearArmor": -1,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 310,
+			"MaxRearArmor": -1,
+			"InternalStructure": 155
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14.5,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14.5,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": -1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": -1
+		}
+	]
+}

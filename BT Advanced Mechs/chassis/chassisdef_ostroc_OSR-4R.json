@@ -1,0 +1,259 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "OstMech",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 5700000,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Ostroc",
+		"Id": "chassisdef_ostroc_OSR-4R",
+		"Name": "Ostroc",
+		"Details": "The rebirth of the Terran Hegemony brought with it a need for a restarted military sector among the core worlds of the Inner Sphere. To meet the new Hegemony's demand for material, the various corporations of the Inner Sphere got right to work on new variants for the Hegemony's war machine. One such design is the OSR-4R, a rapid-response flanking design utilizing the Hegemony's preferred lasers, the X-Pulse Lasers. Armed with two each of Large and Medium X-Pulses, the Ostroc has an unexpected reach against all opponents. A lone SRM-4 provides a small amount of utility thanks to alternative ammunition loads.",
+		"Icon": "uixTxrIcon_ostroc"
+	},
+	"MovementCapDefID": "movedef_ostroc",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_ostroc",
+	"PrefabIdentifier": "chrprfmech_ostrochotd-001",
+	"PrefabBase": "ostroc",
+	"Tonnage": 60,
+	"InitialTonnage": 6,
+	"weightClass": "HEAVY",
+	"BattleValue": 6922000,
+	"Heatsinks": 0,
+	"TopSpeed": 150,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 65,
+	"MeleeInstability": 30,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 65,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 65,
+	"DFAInstability": 30,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 140,
+			"MaxRearArmor": 70,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 200,
+			"MaxRearArmor": 100,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 140,
+			"MaxRearArmor": 70,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 13,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "OSR-4R",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"HeavyMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Striker Cavalry",
+	"YangsThoughts": "The rebirth of the Terran Hegemony brought with it a need for a restarted military sector among the core worlds of the Inner Sphere. To meet the new Hegemony's demand for material, the various corporations of the Inner Sphere got right to work on new variants for the Hegemony's war machine. One such design is the OSR-4R, a rapid-response flanking design utilizing the Hegemony's preferred lasers, the X-Pulse Lasers. Armed with two each of Large and Medium X-Pulses, the Ostroc has an expected reach against all opponents. A lone SRM-4 provides a small amount of utility thanks to alternative ammunition loads.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Ostroc",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endocomposite",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Chhaprauli",
+		"Name": "Chhaprauli",
+		"Details": "Chhaprauli was colonized during the Star League era by mining concerns looking to cash in on the planet's easily accessible germanium and iridium. The mining boom ended along with the Star League and the planet has been marginal ever since.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -346.127,
+		"y": 219.417,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_chhaprauli",
+			"planet_size_small",
+			"planet_climate_lunar",
+			"planet_other_taintedair",
+			"planet_feature_asteroids",
+			"planet_pop_small",
+			"planet_industry_mining",
+			"planet_faction_steiner"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 13,
+	"ownerID": "Steiner",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Steiner",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Steiner",
+	"FactionShopItems": [
+		"itemCollection_faction_Steiner"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Chhaprauli",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 2,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Kurita",
+		"RimWorldsRepublic",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Circinus",
+		"Rasalhague",
+		"MorrisonsExtractors",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

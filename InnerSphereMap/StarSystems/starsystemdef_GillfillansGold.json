@@ -1,0 +1,92 @@
+{
+	"Description": {
+		"Id": "starsystemdef_GillfillansGold",
+		"Name": "Gillfillan's Gold",
+		"Details": "The capital world of the fledgling Rim Collection, Gillfillan's Gold has been settled for centuries and only recently led the push to unify the Rim Collection under one banner of mutual interest.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -475.372,
+		"y": 113.176,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_gillfillan'sgold",
+			"planet_size_small",
+			"planet_climate_mars",
+			"planet_other_mudflats",
+			"planet_other_floatingworld",
+			"planet_other_storms",
+			"planet_other_taintedair",
+			"planet_feature_asteroids",
+			"planet_feature_gasgiant",
+			"planet_feature_moon03",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_other_megacity",
+			"planet_other_capital",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_industry_aquaculture",
+			"planet_industry_research",
+			"planet_industry_manufacturing",
+			"planet_other_comstar",
+			"planet_other_hub",
+			"planet_other_newcolony",
+			"planet_other_pirate",
+			"planet_other_ruins",
+			"planet_faction_nofaction"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"urbanHighTech",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": -12,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_TaurianConcordat",
+		"itemCollection_shop_industrial",
+		"itemCollection_shop_research"
+	],
+	"factionShopOwnerID": "NoFaction",
+	"FactionShopItems": [
+		"itemCollection_faction_TaurianConcordat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_GillfillansGold",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [],
+	"contractTargetIDs": []
+}

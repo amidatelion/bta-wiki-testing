@@ -1,0 +1,82 @@
+{
+	"Description": {
+		"Id": "starsystemdef_JordianCluster",
+		"Name": "Jordian Cluster",
+		"Details": "The Jordian Cluster is a collection of stars within close proxity to each other.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -1778.657,
+		"y": 585.464,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_jordiancluster",
+			"planet_size_small",
+			"planet_climate_lunar",
+			"planet_feature_gasgiant",
+			"planet_pop_none",
+			"planet_faction_outworld"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 3,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Outworld",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Outworld",
+	"FactionShopItems": [
+		"itemCollection_faction_Outworld"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_JordianCluster",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Outworld",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Locals",
+		"Kurita",
+		"Davion",
+		"Tortuga",
+		"AuriganPirates",
+		"ComStar"
+	]
+}

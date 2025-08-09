@@ -1,0 +1,56 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/s/su/superweapon"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 160,
+			"StabilityDamagePerAmmo": 40
+		},
+		"BonusDescriptions": [
+				"CostPerShot: 1200",
+				"AmmoCount: 4",
+				"GaussNoBoom"
+			],
+		"AmmoCost": {
+			"PerUnitCost": 1200
+		}
+	},
+	"AmmoID": "Ammunition_SKYSHELL",
+	"Capacity": 4,
+	"Description": {
+		"Cost": 50000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "SKYSHELL",
+		"UIName": "Ammo Skyshell Cannon",
+		"Id": "Ammo_AmmunitionBox_Generic_SKYSHELL",
+		"Name": "Skyshell Cannon Ammo",
+		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b> Has 4 shots.",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

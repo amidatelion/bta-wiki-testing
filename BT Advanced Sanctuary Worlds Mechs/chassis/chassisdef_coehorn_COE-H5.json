@@ -1,0 +1,265 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Coehorn",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 8372000,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Coehorn",
+		"Id": "chassisdef_coehorn_COE-H5",
+		"Name": "Coehorn",
+		"Details": "Developed by the Sanctuary Alliance in response to the grinding combat of the front in their invasion of the Taurian Concordat, the Coehorn is named for an ancient mortar-style weapon from Old Terra. Fittingly, the Coehorn is typically armed with artillery weapons such as the COE-H5's mammoth number of Bombard tubes, 42 tubes in total in fact. Equipped with 10 tons of ammo and enough heat sinks to manage the heat with ease, the Coehorn is capable of smashing just about anything into dust. It was rapidly deployed to the front where it turned the tide in several major battles.",
+		"Icon": "uixTxrIcon_coehorn"
+	},
+	"MovementCapDefID": "movedef_helepolis_HEP-2H",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_coehorn",
+	"PrefabIdentifier": "chrprfmech_coehornbase-001",
+	"PrefabBase": "coehorn",
+	"Tonnage": 75,
+	"InitialTonnage": 7.5,
+	"weightClass": "HEAVY",
+	"BattleValue": 7124000,
+	"Heatsinks": 0,
+	"TopSpeed": 64,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": true,
+	"MeleeDamage": 75,
+	"MeleeInstability": 35,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 75,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 75,
+	"DFAInstability": 35,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": 80,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 230,
+			"MaxRearArmor": 115,
+			"InternalStructure": 115
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": 80,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 16,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 15,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 16,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "COE-H5",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"HeavyMech",
+			"OmniMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Fire Support",
+	"YangsThoughts": "Developed by the Sanctuary Alliance in response to the grinding combat of the front in their invasion of the Taurian Concordat, the Coehorn is named for an ancient mortar-style weapon from Old Terra. Fittingly, the Coehorn is typically armed with artillery weapons such as the COE-H5's mammoth number of Bombard tubes, 42 tubes in total in fact. Equipped with 10 tons of ammo and enough heat sinks to manage the heat with ease, the Coehorn is capable of smashing just about anything into dust. It was rapidly deployed to the front where it turned the tide in several major battles.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoMaintain_Coehorn",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_sanctuaryendosteel",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Cockpit_Sanctuary_Drone",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

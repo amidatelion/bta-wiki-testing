@@ -1,0 +1,80 @@
+{
+	"Description": {
+		"Id": "3061-07-07",
+		"Name": "MercNews Broadcast",
+		"Details": "RIM WORLDS REPUBLIC ELECTION ENDS IN SURPRISE UPSET!\r\n\n\n\nApollo, [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]]: The recent presidental election for the [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]] concluded this month with a surprise ending: the highly popular incumbent Willian Roberts has narrowly lost the election to up-and-coming candidate [[DM.BaseDescriptionDefs[LoreIvanHeliusII],Ivan Helius II]]. Helius managed the win after an extensive campaign against Roberts, highlighting the loss of many of the [[DM.Factions[faction_RimWorldsRepublic],RWR]]'s worlds to the Clan Invasion as well as promising to put more funding and resources into the [[DM.Factions[faction_RimRepublicanArmy],Rim Republican Army]] in order to better protect the realm from future aggression. In response to the projected loss, Roberts gracefully conceded the election, saying \"It was my honor to lead the Republic for as long as I have. I wish President Helius all the luck in the job, I know he'll need it.\"\r\n\n\nStay tuned for more.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "PRESIDENT HELIUS II ADDRESSES THE NATION!\r\n\n\n\nApollo, [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]]: At his acceptance speech upon winning the election, newly-elected President [[DM.BaseDescriptionDefs[LoreIvanHeliusII],Ivan Helius II]] had this to say: \"My fellow Republicans, it is my great honor to accept this position today. Our great nation has been through much in the last decade, including the loss of many of our homeworlds to the Clan menace. I vow that, under my leadership, we will strengthen our military, empower our people, and embark on the great task of healing this nation from its scars. I ask you to stand with me in this, together we can be a power that even the Clans will have to respect!\" President [[DM.BaseDescriptionDefs[LoreIvanHeliusII],Helius]] will officially take office on August 01, 3061.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

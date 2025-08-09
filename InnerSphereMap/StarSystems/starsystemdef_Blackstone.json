@@ -1,0 +1,89 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Blackstone",
+		"Name": "Blackstone",
+		"Details": "Sharp jagged black rocks coat the landscape of this world, known for it's stoneworks. Blackstone has been home to many pirate bands over the years.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -123.877,
+		"y": 473.522,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_blackstone",
+			"planet_size_medium",
+			"planet_climate_rocky",
+			"planet_pop_small",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_other_blackmarket",
+			"planet_other_pirate",
+			"planet_faction_rimworldsrepublic"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 10,
+	"ownerID": "RimWorldsRepublic",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_RimWorldsRepublic",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "RimWorldsRepublic",
+	"FactionShopItems": [
+		"itemCollection_faction_RimWorldsRepublic"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Blackstone",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"RimWorldsRepublic",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Hanse",
+		"DarkCaste",
+		"GreenGhosts",
+		"Steiner",
+		"ClanWolf",
+		"ClanJadeFalcon",
+		"Mercenaries",
+		"Locals"
+	]
+}

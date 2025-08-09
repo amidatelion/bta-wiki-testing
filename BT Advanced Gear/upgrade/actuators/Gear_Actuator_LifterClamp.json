@@ -1,0 +1,144 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "ArmHandActuator"
+			}
+		],
+		"ArmActuator": {
+			"Type": "PartHand"
+		},
+		"BonusDescriptions": [
+				"PunchDamageBonus: 35%"
+			],
+		"Flags": [
+			"no_salvage"
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 10000,
+		"Rarity": 1,
+		"Purchasable": false,
+		"Manufacturer": "Achernar",
+		"Model": "Lifter Clamp",
+		"UIName": "Arm Mod",
+		"Id": "Gear_Actuator_LifterClamp",
+		"Name": "Industrial Lifter Clamp",
+		"Details": "Used for lifting and moving cargo, the clamps have incredible gripping strength that can be used for melee in a pinch.",
+		"Icon": "barbed-nails"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 1,
+	"AllowedLocations": "Arms",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Attack_DamageMelee-T6",
+				"Name": "PUNCH DAMAGE INCREASED",
+				"Details": "Punch attacks deal 35% more damage and have a +1 bonus on their attacks.",
+				"Icon": "barbed-nails"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "CBTBE_Punch_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.35",
+				"modType": "System.Single",
+				"additionalRules": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Hand_ToHitPunch",
+				"Name": "Punch Hit Chance Bonus",
+				"Details": "Punch attacks gain a +1 to hit.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "CBTBE_Punch_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-1",
+				"modType": "System.Int32",
+				"additionalRules": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"Hand.Equipped"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,183 @@
+{
+	"Name": "BT Advanced Backgrounds",
+	"Description": "Replaces starting questions with more interesting ones. Inspired by LadyAlekto unveiling the related base game jsons, and realized through some heavy lifting DLL magic by T-bone to get it working with non-Commander-only scoped events.",
+	"DLL": "CommanderBackgrounds.dll",
+	"Version": "1.1.0.0",
+	"Author": "Wulfbanes and T-Bone",
+	"Contact": "BTA Discord",
+	"Enabled": true,
+	"Hidden": true,
+	"Settings": {
+		"CustomStartingResults": {
+			"simResultJOs": [
+				{
+					"Scope": "Company",
+					"Requirements": null,
+					"AddedTags": {
+						"items": [],
+						"tagSetSourceFile": ""
+					},
+					"RemovedTags": {
+						"items": "",
+						"tagSetSourceFile": ""
+					},
+					"Stats": [
+						{
+							"typeString": "System.Int32",
+							"name": "Reputation.SelfEmployed",
+							"value": "100",
+							"set": true,
+							"valueConstant": null
+						}
+					],
+					"Actions": [
+						{
+							"Type": "System_SetFactionAlly",
+							"value": "true",
+							"valueConstant": null,
+							"additionalValues": [
+								"SelfEmployed"
+							]
+						}
+					],
+					"ForceEvents": null,
+					"TemporaryResult": false,
+					"ResultDuration": 0
+				},
+				{
+					"Scope": "Company",
+					"Requirements": null,
+					"AddedTags": {
+						"items": [],
+						"tagSetSourceFile": ""
+					},
+					"RemovedTags": {
+						"items": "",
+						"tagSetSourceFile": ""
+					},
+					"Stats": [
+						{
+							"typeString": "System.Int32",
+							"name": "Reputation.SelfEmployed_Yang",
+							"value": "100",
+							"set": true,
+							"valueConstant": null
+						}
+					],
+					"Actions": [
+						{
+							"Type": "System_SetFactionAlly",
+							"value": "true",
+							"valueConstant": null,
+							"additionalValues": [
+								"SelfEmployed_Yang"
+							]
+						}
+					],
+					"ForceEvents": null,
+					"TemporaryResult": false,
+					"ResultDuration": 0
+				},
+				{
+					"Scope": "Company",
+					"Requirements": null,
+					"AddedTags": {
+						"items": [],
+						"tagSetSourceFile": ""
+					},
+					"RemovedTags": {
+						"items": "",
+						"tagSetSourceFile": ""
+					},
+					"Stats": [
+						{
+							"typeString": "System.Int32",
+							"name": "Reputation.SelfEmployed_Farah",
+							"value": "100",
+							"set": true,
+							"valueConstant": null
+						}
+					],
+					"Actions": [
+						{
+							"Type": "System_SetFactionAlly",
+							"value": "true",
+							"valueConstant": null,
+							"additionalValues": [
+								"SelfEmployed_Farah"
+							]
+						}
+					],
+					"ForceEvents": null,
+					"TemporaryResult": false,
+					"ResultDuration": 0
+				},
+				{
+					"Scope": "Company",
+					"Requirements": null,
+					"AddedTags": {
+						"items": [],
+						"tagSetSourceFile": ""
+					},
+					"RemovedTags": {
+						"items": "",
+						"tagSetSourceFile": ""
+					},
+					"Stats": [
+						{
+							"typeString": "System.Int32",
+							"name": "Reputation.SelfEmployed_Sumire",
+							"value": "100",
+							"set": true,
+							"valueConstant": null
+						}
+					],
+					"Actions": [
+						{
+							"Type": "System_SetFactionAlly",
+							"value": "true",
+							"valueConstant": null,
+							"additionalValues": [
+								"SelfEmployed_Sumire"
+							]
+						}
+					],
+					"ForceEvents": null,
+					"TemporaryResult": false,
+					"ResultDuration": 0
+				}
+			]
+		}
+	},
+	"Manifest": [
+		{
+			"Type": "BaseDescriptionDef",
+			"Path": "lore",
+			"AddToDB": true
+		},
+		{
+			"Type": "BackgroundDef",
+			"Path": "backgrounds_Ancestry",
+			"AddToDB": true
+		},
+		{
+			"Type": "BackgroundDef",
+			"Path": "backgrounds_Career",
+			"AddToDB": true
+		},
+		{
+			"Type": "BackgroundDef",
+			"Path": "backgrounds_Youth",
+			"AddToDB": true
+		},
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "itemCollections",
+			"AddToDB": true
+		},
+		{
+			"Type": "Video",
+			"Path": "Video"
+		}
+	]
+}

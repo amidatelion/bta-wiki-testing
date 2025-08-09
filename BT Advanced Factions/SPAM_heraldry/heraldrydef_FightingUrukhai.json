@@ -1,0 +1,18 @@
+{
+	"Description": {
+		"Cost": 0,
+		"Rarity": 1,
+		"Purchasable": false,
+		"Manufacturer": "null",
+		"Model": "null",
+		"UIName": "null",
+		"Id": "heraldrydef_FightingUrukhai",
+		"Name": "Fighting Urukhai",
+		"Details": "",
+		"Icon": ""
+	},
+	"textureLogoID": "uixTxrLogo_FightingUrukhai",
+	"primaryMechColorID": "Greyscale_05",
+	"secondaryMechColorID": "Greyscale_04",
+	"tertiaryMechColorID": "Blue_02"
+}

@@ -1,0 +1,76 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/lac"
+			}
+		],
+		"BonusDescriptions": [
+				"WpnRecoil: 1",
+				"WeaponAttachmentCompatible: Autocannon FCS"
+			]
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC5",
+	"MinRange": 0,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "AC5",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 9,
+	"Damage": 20,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 1,
+	"ShotsWhenFired": 2,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 2,
+	"Instability": 10,
+	"FireDelayMultiplier": 0.1,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
+	"Description": {
+		"Cost": 100000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Mydron",
+		"Model": "Tactical Autocannon",
+		"UIName": "LAC/5",
+		"Id": "Weapon_Autocannon_LAC5_0-STOCK",
+		"Name": "LAC/5",
+		"Details": "The Light AC/5, as its name implies, is a smaller, lighter version of the Autocannon/5. While it does not have the range of its larger cousin, it packs a similar punch.",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC5",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_long",
+			"AutocannonFCSSupported-Standard",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

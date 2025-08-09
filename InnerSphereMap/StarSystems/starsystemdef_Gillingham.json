@@ -1,0 +1,92 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Gillingham",
+		"Name": "Gillingham",
+		"Details": "Gillingham is a terrestrial planet with an extremely slow axial rotation. Days and nights here can last as long as an Earth-week",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 500.693,
+		"y": -211.461,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_gillingham",
+			"planet_size_medium",
+			"planet_climate_tropical",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_agriculture",
+			"planet_faction_davion",
+			"planet_tortugan_raids"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"jungleTropical",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 10,
+	"ownerID": "Davion",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Davion",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Davion",
+	"FactionShopItems": [
+		"itemCollection_faction_Davion"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Gillingham",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 5,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Davion",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Kurita",
+		"Liao",
+		"WordOfBlake",
+		"Cameron",
+		"ComStar",
+		"TaurianConcordat",
+		"Outworld",
+		"Tortuga",
+		"DeathsConsorts",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

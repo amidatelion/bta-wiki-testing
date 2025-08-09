@@ -1,0 +1,90 @@
+{
+	"Description": {
+		"Id": "3061-03-07",
+		"Name": "MercNews Broadcast",
+		"Details": "VICTOR VICTORIOUS, SMOKE JAGUARS ELIMINATED!\r\n\n\nTukayyid, [[DM.Factions[faction_Rasalhague],Free Rasalhague Republic]]: The [[DM.BaseDescriptionDefs[LoreSLDF2],Star League Defense Force]], under the command of [[DM.BaseDescriptionDefs[LoreVictorSD],Victor Steiner-Davion]], has returned to the Inner Sphere after more than a year spent traveling to and from Clan space. In that time, Task Force SERPENT engaged [[DM.BaseDescriptionDefs[LoreClanSmokeJaguar],Clan Smoke Jaguar]] with the intent to wipe out the Clan entirely and emerged successful after Archon-Prince Victor faced and defeated Khan Lincoln Osis in what is being called the [[DM.BaseDescriptionDefs[LoreGreatRefusal],Great Refusal]]. With the destruction of Clan Smoke Jaguar, Victor and the SLDF have secured peace for the Inner Sphere from the Clan menace, though not without great cost. The task force suffered massive casualties, going from ten regiments to less than two over the course of the conflict.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "CAPELLAN CONFEDERATION INVADES ST. IVES COMPACT!\r\n\n\nSt. Ives, [[DM.Factions[faction_Ives],St. Ives Compact]]: Though the [[DM.Factions[faction_Liao],Capellan Confederation]] officially declared hostilities late last year after [[DM.BaseDescriptionDefs[LoreStarLeague2],Star League]] peacekeepers were temporarily withdrawn, the simmering war between the [[DM.Factions[faction_Liao],Confederation]] and the [[DM.Factions[faction_Ives],Compact]] has only just flared into heavy conflict with the Confederation's recent invasion of multiple Compact worlds. Both states consider this conflict a \"civil war\", as does the [[DM.BaseDescriptionDefs[LoreStarLeague2],Star League]], meaning that the two nation states are on their own to resolve the conflict. The First Lord of the Star League, [[DM.BaseDescriptionDefs[LoreChristopherCameron],Christopher Cameron]] of the [[DM.Factions[faction_Cameron],Terran Hegemony]], has offered to serve as a mediator between the Confederation and the Compact but to date neither nation has accepted his offer.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_Liao_attacks_starsystemdef_St.Ives",
+									"WIIC_set_starsystemdef_St.Ives_defender_strength_50",
+									"WIIC_set_starsystemdef_St.Ives_attacker_strength_35",
+									"WIIC_Liao_attacks_starsystemdef_Nashuar",
+									"WIIC_Liao_attacks_starsystemdef_Necromo",
+									"WIIC_Liao_attacks_starsystemdef_Denbar",
+									"WIIC_Liao_attacks_starsystemdef_St.Loris",
+									"WIIC_Liao_attacks_starsystemdef_Taga",
+									"WIIC_Liao_attacks_starsystemdef_Milos"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

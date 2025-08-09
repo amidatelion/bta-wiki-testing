@@ -1,0 +1,56 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "SensorsB"
+			},
+			{
+				"CategoryID": "TTS"
+			}
+		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
+			}
+		},
+		"BonusDescriptions": [
+				"DEPRECATED"
+			]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 700000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "RCA",
+		"Model": "InstaTrac IX",
+		"UIName": "DEPRECATED",
+		"Id": "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
+		"Name": "DEPRECATED",
+		"Details": "<b><color=#e51717>THIS GEAR IS DEPRECATED AND NO LONGER FUNCTIONS, REPLACE IT AS SOON AS YOU CAN</color></b>\n\nAll 'Mechs come equipped with a stock targeting and tracking system-or TTS-which can be upgraded for improved performance. Upgrades increase accuracy when attacking with Ballistic, Energy, or Missile weaponry, depending on the type of TTS.",
+		"Icon": "AdvancedTC"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 2,
+	"AllowedLocations": "Head",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"BLACKLISTED",
+			"component_type_variant2"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"ID": "faction_12thStarGuards",
+	"Name": "12th Star Guards",
+	"ShortName": "12th Star Guards",
+	"Demonym": "12th Star Guards",
+	"Government": "Mercenary",
+	"Allies": [],
+	"Enemies": [],
+	"Presence": 1.0,
+	"ReputationStatements": [
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander."
+	],
+	"MissionSuccessStatements": [
+		"Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you."
+	],
+	"GoodFaithFailureStatements": [
+		"You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot."
+	],
+	"BadFaithFailureStatements": [
+		"For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess."
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
+	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DataManager": null,
+	"factionID": "12thStarGuards",
+	"icon": "uixTxrLogo_12thStarGuards",
+	"heraldryDefId": "heraldrydef_12thStarGuards",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"Description": "The 12th Star Guards are one of the longest-running mercenary commands in the Inner Sphere today, having been born in the wake of Kerensky's Exodus. They take their name from their first contract, where they garrisoned twelve star systems for the Capellan Confederation and so became the 12th Star Guards.",
+	"StartingReputationValues": [
+		0,
+		0,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
+}

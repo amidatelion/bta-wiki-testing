@@ -1,0 +1,14 @@
+{
+	"Id": "WeaponUpgrade_WebbTC_Standard",
+	"addonType": "webbtcfcs",
+	"targetComponentTags": [
+		"WebbTCSupported-SingleShot"
+	],
+	"modes": [
+		{
+			"Id": "BASE",
+			"UIName": "Webb TC",
+			"AccuracyModifier": -2.0
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"ID": "faction_FightingUrukhai",
+	"Name": "Fighting Urukhai",
+	"ShortName": "Fighting Urukhai",
+	"Demonym": "Fighting Urukhai",
+	"Government": "Mercenary",
+	"Allies": [],
+	"Enemies": [],
+	"Presence": 1.0,
+	"ReputationStatements": [
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander."
+	],
+	"MissionSuccessStatements": [
+		"Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you."
+	],
+	"GoodFaithFailureStatements": [
+		"You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot."
+	],
+	"BadFaithFailureStatements": [
+		"For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess."
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
+	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DataManager": null,
+	"factionID": "FightingUrukhai",
+	"icon": "uixTxrLogo_FightingUrukhai",
+	"heraldryDefId": "heraldrydef_FightingUrukhai",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"Description": "The Fighting Urukhai are a venerable mercenary unit that has served with the Federated Suns for most of its history. Formed from a number of minor Star League Defense Force units that refused to join Kerensky's Exodus, the Fighting Urukhai have a pockmarked reputation, one that finally pushed them out of Federated Suns service after one too many public incidents. Still, their combat skills can't be denied.",
+	"StartingReputationValues": [
+		0,
+		0,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
+}

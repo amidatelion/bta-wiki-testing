@@ -1,0 +1,124 @@
+{
+	"Name": "Abilifier",
+	"DLL": "Abilifier.dll",
+	"Enabled": true,
+	"Hidden": true,
+	"Version": "1.4.2.0",
+	"Description": "Allows for choices between abilities when leveling pilots.",
+	"Author": "gnivler, T-Bone",
+	"Website": "",
+	"DependsOn": [
+		"CustomActivatableEquipment",
+		"IRBTModUtils",
+		"IRTweaks"
+	],
+	"OptionallyDependsOn": [
+		"CustomUnits"
+	],
+	"ConflictsWith": [],
+	"CustomResourceTypes": [],
+	"Settings": {
+		"debugExpiration": false,
+		"enableTrace": false,
+		"enableLog": true,
+		"usePopUpsForAbilityDesc": false,
+		"debugXP": false,
+		"enableResolverator": true,
+		"disableResolveAttackGround": false,
+		"resolveGenBaseMult": 1.0,
+		"resolveCostBaseMult": 1.0,
+		"resolveCostHighMult": 0.8,
+		"resolveCostLowMult": 1.2,
+		"extraFirstTierAbilities": 0,
+		"extraAbilities": 1,
+		"extraAbilitiesAllowedPerSkill": 1,
+		"nonTreeAbilities": 3,
+		"cleanUpCombatUI": true,
+		"skillLockThreshold": 8,
+		"usingCACabilitySelector": true,
+		"usingHumanResources": false,
+		"disableCalledShotExploit": true,
+		"proceduralTagCleanup": {
+			"pilot_nomech_crew": [
+				"pilot_mechwarrior"
+			]
+		},
+		"tagTraitForTree": {
+			"pilot_vehicle_crew": "TraitDefIAmTank",
+			"can_pilot_generic_vehicle": "TraitDefIAmTank",
+			"pilot_mechwarrior": "TraitDefIAmMech",
+			"can_pilot_generic_mech": "TraitDefIAmMech"
+		},
+		"defaultTagTraitForTree": {
+			"can_pilot_generic_mech": "TraitDefIAmMech"
+		},
+		"defaultTagTraitException": "can_pilot_generic_vehicle",
+		"abilityReqs": {
+			"TraitDefIAmTank": [
+				"AbilityDefG5T",
+				"AbilityDefG8T",
+				"AbilityDefG10T",
+				"AbilityDefGu5T",
+				"AbilityDefGu8T",
+				"AbilityDefGu10T",
+				"AbilityDefP5T",
+				"AbilityDefP8T",
+				"AbilityDefP10T",
+				"AbilityDefT5T",
+				"AbilityDefT8T",
+				"AbilityDefT10T"
+			],
+			"TraitDefIAmMech": [
+				"AbilityDefG5a",
+				"AbilityDefG8a",
+				"AbilityDefG8b",
+				"AbilityDefG8c",
+				"AbilityDefG10a",
+				"AbilityDefGu5",
+				"AbilityDefGu8",
+				"AbilityDefGu8a",
+				"AbilityDefGu10a",
+				"AbilityDefP5a",
+				"AbilityDefP8a",
+				"AbilityDefP10a",
+				"AbilityDefT5Aa",
+				"AbilityDefT8Aa",
+				"AbilityDefT10Aa"
+			]
+		},
+		"ticksOnMovementDistanceIDs": [],
+		"retrainerSettings": {
+			"enableRetrainer": true,
+			"cost": 500000,
+			"onceOnly": false,
+			"trainingModuleRequired": true,
+			"ignoredAbilities": [
+				"AbilityDefBDInit",
+				"AbilityDefBlueAP",
+				"AbilityDefBlueSpeed",
+				"AbilityDefCMD_TankDrop_Cargo",
+				"AbilityDefLokiGhost",
+				"AbilityDefWulfSRM",
+				"AbilityDefTexHealth",
+				"AbilityDeftboneHunt",
+				"AbilityDefTurtrusEnergy",
+				"AbilityDefRevostaeIndirect",
+				"AbilityDefShadeMelee",
+				"AbilityDefGrampaTex",
+				"AbilityDefCMDHunter",
+				"AbilityDefCMDOperative",
+				"AbilityDefCMDPilot",
+				"AbilityDefCMDRacer",
+				"AbilityDefCMDSmuggler",
+				"AbilityDefCMDTrainee"
+			],
+			"confirmAbilityText": "Confirming this Ability selection is semi-permanent. You may only have two Level 5, one Level 8, and one level 10 Abilities. With the Training Module 2 argo upgrade, Mechwarriors can be retrained for 500,000 c-bills by shift-clicking on the Pilot's skills tab."
+		}
+	},
+	"Manifest": [
+		{
+			"Type": "AbilityDef",
+			"Path": "abilities"
+		}
+	]
+}

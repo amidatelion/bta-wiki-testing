@@ -1,0 +1,97 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Concord",
+		"Name": "Concord",
+		"Details": "Despite initial Lyran influence during the First Succession War, Concord has been a staple of the Free Worlds League for centuries, supplying nearby worlds with much needed medical and agricultural supplies.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -146.598,
+		"y": -27.967,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_concord",
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_recreation",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_faction_marik"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"badlandsParched",
+		"lowlandsCoastal",
+		"jungleTropical"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 7,
+	"ownerID": "Marik",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Marik",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Marik",
+	"FactionShopItems": [
+		"itemCollection_faction_Marik"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Concord",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Marik",
+		"WordOfBlake",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Liao",
+		"Cameron",
+		"ComStar",
+		"MagistracyOfCanopus",
+		"Marian",
+		"Circinus",
+		"Mercenaries",
+		"HookwormsHighwaymen"
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"Custom": {
+		"Category": {
+			"CategoryID": "notused"
+		},
+		"ComponentExplosion": {
+			"ExplosionDamage": 25
+		},
+		"BonusDescriptions": [
+				"DEPRECATED"
+			]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 340000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "Gibson",
+		"Model": "PPC CAP",
+		"UIName": "DEPRECATED",
+		"Id": "Gear_PPC_Capacitor",
+		"Name": "DEPRECATED",
+		"Details": "<b><color=#ffcc00>THIS ITEM IS DEPRECATED, SELL AT YOUR EARLIEST CONVENIENCE. IT RETAINS ITS EFFECTS WHEN EQUIPPED ONLY FOR COMPATIBILITY PURPOSES.</color></b>\r\n\r\nThe PPC Capacitor is an extra component that can be added to any type of Projector Cannon. It enhances a PPC's damage capabilities at the cost of higher heat generation. When Destroyed Explodes.",
+		"Icon": "particle"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"component_type_variant2"
+		],
+		"tagSetSourceFile": ""
+	}
+}

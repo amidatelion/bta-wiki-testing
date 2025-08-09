@@ -1,0 +1,78 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Aegis",
+		"Name": "Aegis",
+		"Details": "One of the so-called 'Shield' Worlds, Aegis is a mining outpost and a defensive bulwark and not a lot more. With its inhospitible terrain, not many want to live on Aegis and the population remains small.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 635.039,
+		"y": -611.715,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_size_medium",
+			"planet_climate_desert",
+			"planet_feature_moon03",
+			"planet_other_volcanic",
+			"planet_pop_small",
+			"planet_industry_poor",
+			"planet_civ_periphery",
+			"planet_industry_manufacturing",
+			"planet_faction_sanctuaryalliance",
+			"planet_name_Aegis"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"desertParched",
+		"badlandsParched",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 8,
+	"ownerID": "SanctuaryAlliance",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "SanctuaryAlliance",
+	"FactionShopItems": [],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Aegis",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"TaurianConcordat"
+	],
+	"contractTargetIDs": [
+		"SanctuaryAlliance"
+	]
+}

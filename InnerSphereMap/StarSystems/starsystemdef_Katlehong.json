@@ -1,0 +1,88 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Katlehong",
+		"Name": "Katlehong",
+		"Details": "Settled during the Star League era, the vast copper deposits of Katlehong have been heavily mined for centuries.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -217.664,
+		"y": -252.098,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_katlehong",
+			"planet_size_large",
+			"planet_climate_rocky",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_mining",
+			"planet_faction_marik"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "Marik",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Marik",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Marik",
+	"FactionShopItems": [
+		"itemCollection_faction_Marik"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Katlehong",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 8,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Marik",
+		"WordOfBlake",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Liao",
+		"Cameron",
+		"ComStar",
+		"MagistracyOfCanopus",
+		"Marian",
+		"Circinus",
+		"Mercenaries",
+		"HookwormsHighwaymen"
+	]
+}

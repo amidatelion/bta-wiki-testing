@@ -1,0 +1,90 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Vargtass",
+		"Name": "Vargtass",
+		"Details": "Vargtass was settled at some point during the Star League era after the end of the Reunification War but died out sometime between the Second and Third Succession Wars.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -236.652,
+		"y": 467.498,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_vargtass",
+			"planet_size_medium",
+			"planet_climate_lunar",
+			"planet_feature_asteroids",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_civ_periphery",
+			"planet_industry_poor",
+			"planet_other_pirate",
+			"planet_other_ruins",
+			"planet_faction_rimworldsrepublic"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "RimWorldsRepublic",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_RimWorldsRepublic",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "RimWorldsRepublic",
+	"FactionShopItems": [
+		"itemCollection_faction_RimWorldsRepublic"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Vargtass",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"RimWorldsRepublic",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Hanse",
+		"DarkCaste",
+		"GreenGhosts",
+		"Steiner",
+		"ClanWolf",
+		"ClanJadeFalcon",
+		"Mercenaries",
+		"Locals"
+	]
+}

@@ -1,0 +1,88 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Hollabrunn",
+		"Name": "Hollabrunn",
+		"Details": "The world of Hollabrunn was re-colonized during the Star League era; originally having been colonized centuries earlier during the days of the Terran Alliance, the first colony was a casualty of the Age of War.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -208.346,
+		"y": 33.295,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_hollabrunn",
+			"planet_size_small",
+			"planet_climate_desert",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_faction_steiner"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 11,
+	"ownerID": "Steiner",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Steiner",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Steiner",
+	"FactionShopItems": [
+		"itemCollection_faction_Steiner"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Hollabrunn",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Kurita",
+		"RimWorldsRepublic",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Circinus",
+		"Rasalhague",
+		"MorrisonsExtractors",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

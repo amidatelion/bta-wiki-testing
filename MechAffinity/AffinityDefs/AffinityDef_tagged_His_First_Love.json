@@ -1,0 +1,51 @@
+{
+  "id": "AffinityDef_tagged_His_First_Love",
+  "affinityType": "Tag",
+  "affinityData": {
+    "tag": "Affinity_BD_Mackie",
+    "chassisNames": [
+      "Mackie_100",
+      "MackieII_105"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "His_First_Love",
+        "missionsRequired": 10,
+        "levelName": "His First Love",
+        "decription": "Bloodydoves gains +15% damage reduction in his Mackie (and Mackie II).",
+        "affinities": [],
+        "effectData": [
+			{
+				"Description": {
+				  "Details": "BD's incredible skill with this mech improves its damage reduction by 15%.",
+				  "Icon": "UixSvgIcon_specialEquip_System",
+				  "Id": "StatusEffect-Affinity-BDDamageReduction",
+				  "Name": "Mech Affinity Energy Damage Boost"
+				},
+				"durationData": {
+				  "duration": -1,
+				  "stackLimit": -1
+				},
+				"effectType": "StatisticEffect",
+				"nature": "Buff",
+				"statisticData": {
+					"statName": "DamageReductionMultiplierAll",
+					"operation": "Float_Multiply",
+					"modValue": "0.85",
+					"modType": "System.Single"
+				},
+				"targetingData": {
+				  "effectTargetType": "Creator",
+				  "effectTriggerType": "Passive",
+				  "hideApplicationFloatie": true,
+				  "showInStatusPanel": false,
+				  "showInTargetPreview": false
+				}
+			}
+        ]
+      }
+    ]
+  }
+}

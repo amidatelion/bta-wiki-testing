@@ -1,0 +1,78 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Tansalir",
+		"Name": "Tansalir",
+		"Details": "Tansalir is located in the anti-spinward region of the Deep Periphery between the Eagle Cloud Complex and the Cygnus Loop. The closest known inhabited systems to Tansalir are Fröislandis and Gurgaldar, although as with many Deep Periphery systems, close is a relative term - both systems being located more than 260 light years away from Tansalir.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -1550.813,
+		"y": -513.952,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_tansalir",
+			"planet_size_small",
+			"planet_climate_desert",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_none",
+			"planet_civ_primitive",
+			"planet_industry_poor",
+			"planet_faction_locals"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 15,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_TaurianConcordat",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Locals",
+	"FactionShopItems": [
+		"itemCollection_faction_TaurianConcordat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Tansalir",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 9,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"AuriganPirates"
+	]
+}

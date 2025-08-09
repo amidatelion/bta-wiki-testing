@@ -1,0 +1,93 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Alegro",
+		"Name": "Alegro",
+		"Details": "Alegro was named for the 21st century drug Allegra. The local dialect changed it eventually to Alegro. It was named this because it was the only drug found to stop the psychosis caused by the local mushroom spores.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 429.841,
+		"y": 144.618,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_alegro",
+			"planet_size_medium",
+			"planet_climate_tropical",
+			"planet_other_fungus",
+			"planet_other_stonedcaribou",
+			"planet_feature_gasgiant",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_industry_mining",
+			"planet_other_blackmarket",
+			"planet_other_pirate",
+			"planet_faction_outworld"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"jungleTropical",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 22,
+	"ownerID": "Outworld",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Outworld",
+		"itemCollection_shop_industrial",
+		"itemCollection_shop_research"
+	],
+	"factionShopOwnerID": "Outworld",
+	"FactionShopItems": [
+		"itemCollection_faction_Outworld"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Alegro",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"Outworld",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Locals",
+		"Kurita",
+		"Davion",
+		"Tortuga",
+		"SantandersKillers",
+		"Mercenaries",
+		"ComStar"
+	]
+}

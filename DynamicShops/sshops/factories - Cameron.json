@@ -1,0 +1,88 @@
+[
+	{
+		"name": "Terra",
+		"conditions": {
+			"tag": "planet_name_terra",
+			"owner": "Cameron",
+			"rep": "+FRIENDLY"
+		},
+		"items": "BTA_List_Terra"
+	},
+	{
+		"name": "Terra - Special",
+		"conditions": {
+			"tag": "planet_name_terra"
+		},
+		"items": "BTA_List_RattlerFight"
+	},
+	{
+		"name": "Oliver",
+		"conditions": {
+			"tag": "planet_name_oliver"
+		},
+		"items": "BTA_List_Oliver"
+	},
+	{
+		"name": "Tau Ceti (New Earth 2116+)",
+		"conditions": {
+			"tag": "planet_name_tauceti(newearth2116+)"
+		},
+		"items": "BTA_List_NewEarth"
+	},
+	{
+		"name": "Yorii",
+		"conditions": {
+			"tag": "planet_name_yorii"
+		},
+		"items": "BTA_List_Yorii"
+	},
+	{
+		"name": "Dieron",
+		"conditions": {
+			"tag": "planet_name_dieron"
+		},
+		"items": "BTA_List_Dieron"
+	},
+	{
+		"name": "Quentin",
+		"conditions": {
+			"tag": "planet_name_quentin"
+		},
+		"items": "BTA_List_Quentin"
+	},
+	{
+		"name": "Errai",
+		"conditions": {
+			"tag": "planet_name_errai"
+		},
+		"items": "BTA_List_Errai"
+	},
+	{
+		"name": "Northwind",
+		"conditions": {
+			"tag": "planet_name_northwind"
+		},
+		"items": "BTA_List_Northwind"
+	},
+	{
+		"name": "Bryant",
+		"conditions": {
+			"tag": "planet_name_bryant"
+		},
+		"items": "BTA_List_Bryant"
+	},
+	{
+		"name": "Outreach",
+		"conditions": {
+			"tag": "planet_name_outreach"
+		},
+		"items": "BTA_List_Outreach"
+	},
+	{
+		"name": "Epsilon Eridani",
+		"conditions": {
+			"tag": "planet_name_epsiloneridani"
+		},
+		"items": "BTA_List_EpsilonEridani"
+	}
+]

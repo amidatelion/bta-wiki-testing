@@ -1,0 +1,92 @@
+{
+	"Description": {
+		"Id": "3066-12-07",
+		"Name": "MercNews Broadcast",
+		"Details": "CEASAR STEINER REINFORCES HESPERUS DEFENDERS!\r\n\n\nHesperus, [[DM.BaseDescriptionDefs[LoreLyranAlliance],Lyran Alliance]]:  Despite several daring raids by General [[DM.BaseDescriptionDefs[LoreMariaEsteban],Maria Esteban]]'s [[DM.BaseDescriptionDefs[LoreFreeSkye],Free Skye]] task force, all signs point to the end of the campaign on the planet in favour of the Lyran Alliance.  In the past month, previously neutral Thirty-Sixth [[DM.BaseDescriptionDefs[LoreLyranGuard],Lyran Guard]] announced their participation in the campaign with a HALO drop which broke the Seventeenth [[DM.BaseDescriptionDefs[LoreSkyeRangers],Skye Rangers]].  Even now, General [[DM.BaseDescriptionDefs[LoreCaesarSteiner],Caesar Steiner]], travelling from Giasaur and leading the Second [[DM.BaseDescriptionDefs[LoreDonegalGuards],Donegal Guards]], are en-route to reinforce the planet's Lyran defenders and to put an end General Esteban and her surviving Free Skye invaders.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "MORE WORLDS JOIN THE CALDERON PROTECTORATE!\r\n\n\n[[DM.BaseDescriptionDefs[LoreTaurus],Taurus]], [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]]: The [[DM.Factions[faction_CalderonProtectorate],Calderon Protectorate]] continues to grow in the face of Protector [[DM.BaseDescriptionDefs[LoreGroverShraplen],Grover Shraplen]]'s continued refusal to aid them while occupied by the Sanctuary Alliance.  After a powerful broadcast from the Calderon Protectorate's de facto leader, Marshal Baron [[DM.BaseDescriptionDefs[LoreChamKithrong],Cham Kithrong]], pledging aid to any world occupied by the Alliance, the worlds of Diik, Gaul, Lastpost and Oscar have all announced their intention to join the Protectorate.\n\nRepresentatives of these worlds highlight their growing belief in Protector Shraplen's inability to liberate them while simultaneously engaging the Taurian Concordat in the \"pro-Liao wars\" of the Trinity Alliance, the refusal of Shraplen to recognize [[DM.BaseDescriptionDefs[LoreEMCalderon],Erik Martens-Calderon]] as the true heir of the Concordat, and Shraplen's obession with the Pleiades Cluster as reasons for seceding from the Concordant.\n\nProtector Shraplen however has vowed to bring these worlds back into line despite the [[DM.BaseDescriptionDefs[LoreTDF],TDF]] being stretched to the absolute breaking point in recent years. Baron Kithrong's successful campaign earlier this year to bring several more Alliance-occupied worlds into the Calderon Protectorate was also noted as another reason for these four new worlds to join the Baron's breakaway state.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Hesperus_to_Steiner",
+									"WIIC_give_starsystemdef_Diik_to_CalderonProtectorate",
+									"WIIC_give_starsystemdef_Gaul_to_CalderonProtectorate",
+									"WIIC_give_starsystemdef_Lastpost_to_CalderonProtectorate",
+									"WIIC_give_starsystemdef_Oscar_to_CalderonProtectorate",
+									"WIIC_give_starsystemdef_Colchis_to_CalderonProtectorate",
+									"WIIC_give_starsystemdef_Marknick_to_CalderonProtectorate",
+									"WIIC_give_starsystemdef_ErodsEscape_to_CalderonProtectorate",
+									"WIIC_Locals_attacks_starsystemdef_Hesperus",
+									"WIIC_set_starsystemdef_Hesperus_defender_strength_45",
+									"WIIC_set_starsystemdef_Hesperus_attacker_strength_15"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

@@ -1,0 +1,94 @@
+{
+	"Description" : {
+		"Id" : "DesignMaskElectricalField",
+		"Name" : "ELECTRICAL FIELD",
+		"Details" : "The exposed conduits' electromagnetic discharge interferes with targeting systems and juices up energy weaponry. +4 Difficulty to hit units within an Electrical Field. +4 Difficulty for attacks made by units within an Electrical Field. 50% damage dealt by energy weapons within an Electrical Field. 50% damage taken from energy weapons within an Electrical Field.",
+		"Icon" : "UixSvgIcon_designMask_electricalField"
+	},
+    "moveCostMechLight" : 1.1,
+    "moveCostMechMedium" : 1.1,
+    "moveCostMechHeavy" : 1.1,
+    "moveCostMechAssault" : 1.1,
+    "moveCostTrackedLight" : 1.1,
+    "moveCostTrackedMedium" : 1.1,
+    "moveCostTrackedHeavy" : 1.1,
+    "moveCostTrackedAssault" : 1.1,
+    "moveCostWheeledLight" : 1.1,
+    "moveCostWheeledMedium" : 1.1,
+    "moveCostWheeledHeavy" : 1.1,
+    "moveCostWheeledAssault" : 1.1,
+    "moveCostSprintMultiplier" : 1.0,
+    "stabilityDamageMultiplier" : 1.0,
+    "energyDamageDealtMultiplier" : 1.5,
+    "energyDamageTakenMultiplier" : 1.5,
+    "visibilityMultiplier" : 1.0,
+    "visibilityHeight" : 1.0,
+    "signatureMultiplier" : 1.0,
+    "targetabilityModifier" : 4.0,
+    "grantsGuarded" : false,
+    "grantsEvasive" : false,
+    "toHitFromModifier" : 4.0,
+    "heatSinkMultiplier" : 1.0,
+    "heatPerTurn" : 0,
+    "legStructureDamageMin" : 0,
+    "legStructureDamageMax" : 0,
+    "canBurn" : false,
+    "canExplode" : false,
+	"audioSwitchSurfaceType" : "dirt",
+	"audioSwitchRainingSurfaceType" : "mud",
+	"stickyEffect": {
+		"durationData": {
+			"duration": 2,
+			"ticksOnMovements": true,
+			"stackLimit": 1
+		},
+		"targetingData": {
+			"effectTargetType": "SingleTarget",
+			"showInStatusPanel": true,
+			"showInTargetPreview": true
+		},
+		"effectType": "StatisticEffect",
+		"Description": {
+			"Id": "DesignMaskElectricalField",
+			"Name": "ELECTRICAL FIELD",
+			"Details": "This unit moved through a electrical field, granting it temporary damage reduction of 5%.",
+			"Icon": "UixSvgIcon_designMask_electricalField"
+		},
+		"statisticData": {
+			"statName": "DamageReductionMultiplierAll",
+			"operation": "Float_Multiply",
+			"modValue": "0.95",
+			"modType": "System.Single"
+		},
+		"nature": "Debuff"
+	},
+	"additionalStickyEffects": [
+		{
+		"durationData": {
+			"duration": -1,
+			"stackLimit": -1
+		},
+		"targetingData": {
+			"effectTriggerType": "Passive",
+			"effectTargetType": "Creator",
+			"showInStatusPanel": false,
+			"showInTargetPreview": true
+		},
+		"effectType": "StatisticEffect",
+		"Description": {
+			"Id": "StatusEffect_Weather-VRPP-Jamming",
+			"Name": "VRPP Jamming",
+			"Details": "Weather is scrambling this unit's VRPP system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind.",
+			"Icon": "UixSvgIcon_designMask_electricalField"
+		},
+		"statisticData": {
+			"statName": "AccuracyModifier",
+			"operation": "Float_Add",
+			"modValue": "+30.0",
+			"modType": "System.Single",
+			"targetCollection": "Weapon"
+		},
+		"nature": "Buff"
+	}
+	]
+}

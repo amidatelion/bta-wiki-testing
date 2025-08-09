@@ -1,0 +1,71 @@
+{
+	"Description": {
+		"Id": "background_ancestry_RWR",
+		"Name": "Rim Worlds Republic",
+		"Details": "The [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]] was your home, learning the values of fierce independence, individual skill, and personal reliance.",
+		"Icon": "uixTxrLogo_RimWorldsRepublic",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Results": {
+		"Scope": "Commander",
+		"Requirements": {
+			"Scope": "Commander",
+			"RequirementTags": {
+				"tagSetSourceFile": "",
+				"items": [
+					"DONOTFIRE"
+				]
+			},
+			"ExclusionTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"RequirementComparisons": []
+		},
+		"AddedTags": {
+			"items": [
+				"commander_ancestry_rwr"
+			],
+			"tagSetSourceFile": ""
+		},
+		"RemovedTags": null,
+		"Stats": [
+			{
+				"typeString": "System.Int32",
+				"name": "Gunnery",
+				"value": 2,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Piloting",
+				"value": 3,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Guts",
+				"value": 3,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Tactics",
+				"value": 2,
+				"valueConstant": ""
+			}
+		],
+		"Actions": null,
+		"ForceEvents": null,
+		"TemporaryResult": false,
+		"ResultDuration": 0
+	},
+	"BackgroundSection": 0,
+	"UIOrdering": 11,
+	"OptionName": "The Rim Worlds Republic",
+	"OptionMusicTrigger": "rimward",
+	"OptionDescription": "MechWarriors who hail from the [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]] learning the values of fierce indepdencent, individual skill, and personal reliance. MechWarriors who hail from the Rim Worlds Republic tend to distrust the great powers of Inner Sphere and value personal independence in the face of challenges. They learned long ago that the Periphery was on its own and only by sticking together can the Periphery thrive.\r\n\r\nThough the Rim Worlds Republic has fallen greatly from its lofty perch as the greatest of the Periphery realms due to its unfortunate participation in the [[DM.BaseDescriptionDefs[LoreAmarisCivilWar],Amaris Civil War]] and the wounds inflicted on it by the Clan Invasion, the RWR remains a powerful realm with a rich history and a fiercely independent and well educated population.",
+	"BioDescription": "You grew up in the Rim Worlds Republic, learning the values of fierce indepdencent, individual skill, and personal reliance. MechWarriors who hail from the Rim Worlds Republic tend to distrust the great powers of Inner Sphere and value personal independence in the face of challenges. They learned long ago that the Periphery was on its own and only by sticking together can the Periphery thrive.\r\n"
+}

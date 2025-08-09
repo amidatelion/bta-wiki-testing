@@ -1,0 +1,92 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Reykavis",
+		"Name": "Reykavis",
+		"Details": "A small farming combine in the Illyrian Palatinate, Reykavis manages to eke out a good living from the harsh terrain and serves as a breadbasket for the Palatinate.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -418.98,
+		"y": -200.614,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_reykavis",
+			"planet_size_large",
+			"planet_climate_ice",
+			"planet_feature_asteroids",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_industry_poor",
+			"planet_industry_recreation",
+			"planet_industry_agriculture",
+			"planet_other_blackmarket",
+			"planet_other_pirate",
+			"planet_faction_illyrian"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"polarFrozen",
+		"tundraFrozen"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "Illyrian",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Illyrian",
+		"itemCollection_shop_industrial",
+		"itemCollection_shop_research"
+	],
+	"factionShopOwnerID": "Illyrian",
+	"FactionShopItems": [
+		"itemCollection_faction_Illyrian"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Reykavis",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 6,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"Illyrian",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marian",
+		"Circinus",
+		"Locals",
+		"AuriganPirates",
+		"Mercenaries",
+		"WordOfBlake"
+	]
+}

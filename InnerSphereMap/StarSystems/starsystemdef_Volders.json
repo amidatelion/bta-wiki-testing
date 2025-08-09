@@ -1,0 +1,101 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Volders",
+		"Name": "Volders",
+		"Details": "The Volders system was settled shortly after the First Exodus from Terra. During the Fourth Succession War a massive cache of Star League Mechs and weapons were discovered by Snords Irregulars.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -24.041,
+		"y": 291.788,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_volders",
+			"planet_size_small",
+			"planet_climate_terran",
+			"planet_feature_asteroids",
+			"planet_pop_medium",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_mining",
+			"planet_industry_manufacturing",
+			"planet_other_comstar",
+			"planet_other_starleague",
+			"planet_other_blackmarket",
+			"planet_other_ruins",
+			"planet_faction_clanwolf"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"badlandsParched",
+		"lowlandsCoastal",
+		"jungleTropical",
+		"urbanHighTech"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 9,
+	"ownerID": "ClanWolf",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_ClanWorlds",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "ClanWolf",
+	"FactionShopItems": [
+		"itemCollection_faction_ClanWorlds"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Volders",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"Cameron",
+		"WordOfBlake",
+		"ComStar",
+		"Rasalhague"
+	],
+	"contractTargetIDs": [
+		"ClanWolf"
+	]
+}

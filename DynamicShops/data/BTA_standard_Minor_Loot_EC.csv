@@ -1,0 +1,6 @@
+BTA_standard_Minor_Loot_EC,,,
+itemCollection_Weapons_common,Reference,4,1
+itemCollection_Weapons_uncommon,Reference,2,1
+itemCollection_Upgrades_common,Reference,2,2
+ItemCollection_SS_Perephiry,Reference,1,2
+Gear_Cash_Money,Upgrade,1,1

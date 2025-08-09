@@ -1,0 +1,86 @@
+{
+	"Description": {
+		"Id": "starsystemdef_EpsilonPegasus(Columbus)",
+		"Name": "Epsilon Pegasus (Columbus)",
+		"Details": "Used as a base by both the Terran Hegemony and the SLDF, Columbus was abandoned until it was rediscovered by the Explorer Corps.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 405.006,
+		"y": 601.855,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_epsilonpegasus(columbus)",
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_none",
+			"planet_civ_primitive",
+			"planet_industry_research",
+			"planet_other_comstar",
+			"planet_other_starleague",
+			"planet_other_ruins",
+			"planet_faction_comstar"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"badlandsParched",
+		"lowlandsCoastal",
+		"jungleTropical"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "ComStar",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_ComStar"
+	],
+	"factionShopOwnerID": "ComStar",
+	"FactionShopItems": [
+		"itemCollection_faction_ComStar"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_EpsilonPegasus(Columbus)",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 5,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"ComStar"
+	],
+	"contractTargetIDs": [
+		"Mercenaries",
+		"Kurita"
+	]
+}

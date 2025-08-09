@@ -1,0 +1,90 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Ylemelke",
+		"Name": "Ylemelke",
+		"Details": "The Ylemelke system was colonised in the Star League era, but was wiped out during the First Succession War. ",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -234.23,
+		"y": 451.71,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_ylemelke",
+			"planet_size_medium",
+			"planet_climate_mars",
+			"planet_feature_comet",
+			"planet_feature_moon01",
+			"planet_other_blackmarket",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_civ_periphery",
+			"planet_faction_rimworldsrepublic"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum",
+		"badlandsParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 7,
+	"ownerID": "RimWorldsRepublic",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_RimWorldsRepublic",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "RimWorldsRepublic",
+	"FactionShopItems": [
+		"itemCollection_faction_RimWorldsRepublic"
+	],
+	"BlackMarketShopItems": [
+		"BTA_List_BlackMarket"
+	],
+	"CoreSystemID": "starsystemdef_Ylemelke",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"RimWorldsRepublic",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Hanse",
+		"DarkCaste",
+		"GreenGhosts",
+		"Steiner",
+		"ClanWolf",
+		"ClanJadeFalcon",
+		"Mercenaries",
+		"Locals"
+	]
+}

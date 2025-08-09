@@ -1,0 +1,278 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "AlphaSH",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Gyro_Friedhof_Kite_Locked",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		}
+	],
+	"Description": {
+		"Cost": 25000000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Alpha SH",
+		"Id": "chassisdef_alpha_MAD-AL-SH",
+		"Name": "Alpha SH",
+		"Details": "Designed by a military consortium with more money than good sense, the Alpha Superheavy BattleMech is, nominally, based on an arena combat design of a Marauder IIC nicknamed Alpha. Essentially an upsized version of that mech, the Alpha Superheavy carries a brutal all-energy payload featuring twin Binary PPCs and four each Plasma Rifles and ER Medium Lasers. 23 Double Heat Sinks try and fail to contain the waste heat. The Alpha SH is one of a pair of competing designs, with the other being the Scorch Superheavy BattleMech.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "uixTxrIcon_marauderii"
+	},
+	"VariantName": "MAD-AL-SH",
+	"ChassisTags": {
+		"items": [
+			"SuperHeavyMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",	
+			"mr-resize-1.1-1.1-1.1",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Superheavy Prototype",
+	"YangsThoughts": "Designed by a military consortium with more money than good sense, the Alpha Superheavy BattleMech is, nominally, based on an arena combat design of a Marauder IIC nicknamed Alpha. Essentially an upsized version of that mech, the Alpha Superheavy carries a brutal all-energy payload featuring twin Binary PPCs and four each Plasma Rifles and ER Medium Lasers. 23 Double Heat Sinks try and fail to contain the waste heat. The Alpha SH is one of a pair of competing designs, with the other being the Scorch Superheavy BattleMech.",
+	"MovementCapDefID": "movedef_annihilator_ANH-1A",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_marauderii",
+	"PrefabIdentifier": "chrprfmech_marauderiibase-001",
+	"PrefabBase": "marauderii",
+	"Tonnage": 150,
+	"InitialTonnage": 15,
+	"weightClass": "ASSAULT",
+	"BattleValue": 10206000,
+	"Heatsinks": 0,
+	"TopSpeed": 105,
+	"TurnRadius": 290,
+	"MaxJumpjets": 20,
+	"Stability": 250,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 75,
+	"MeleeInstability": 38,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 150,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 150,
+	"DFAInstability": 75,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 24
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 270,
+			"MaxRearArmor": -1,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 310,
+			"MaxRearArmor": 155,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 22,
+			"MaxArmor": 420,
+			"MaxRearArmor": 210,
+			"InternalStructure": 210
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 310,
+			"MaxRearArmor": 155,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 270,
+			"MaxRearArmor": -1,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 310,
+			"MaxRearArmor": -1,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 310,
+			"MaxRearArmor": -1,
+			"InternalStructure": 155
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14.5,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14.5,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": -1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": -1
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

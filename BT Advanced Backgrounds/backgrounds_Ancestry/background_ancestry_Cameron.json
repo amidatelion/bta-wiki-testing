@@ -1,0 +1,71 @@
+{
+	"Description": {
+		"Id": "background_ancestry_Cameron",
+		"Name": "Terran Hegemony",
+		"Details": "The [[DM.Factions[faction_Cameron],Terran Hegemony]] was your home, and you were instilled with a dedication to resurrecting the history that is your birthright.",
+		"Icon": "uixTxrLogo_Cameron2",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Results": {
+		"Scope": "Commander",
+		"Requirements": {
+			"Scope": "Commander",
+			"RequirementTags": {
+				"tagSetSourceFile": "",
+				"items": [
+					"DONOTFIRE"
+				]
+			},
+			"ExclusionTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"RequirementComparisons": []
+		},
+		"AddedTags": {
+			"items": [
+				"commander_ancestry_cameron"
+			],
+			"tagSetSourceFile": ""
+		},
+		"RemovedTags": null,
+		"Stats": [
+			{
+				"typeString": "System.Int32",
+				"name": "Gunnery",
+				"value": 2,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Piloting",
+				"value": 2,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Guts",
+				"value": 3,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Tactics",
+				"value": 3,
+				"valueConstant": ""
+			}
+		],
+		"Actions": null,
+		"ForceEvents": null,
+		"TemporaryResult": false,
+		"ResultDuration": 0
+	},
+	"BackgroundSection": 0,
+	"UIOrdering": 0,
+	"OptionName": "The Terran Hegemony (Cameron)",
+	"OptionMusicTrigger": "rimward",
+	"OptionDescription": "MechWarriors who hail from the [[DM.Factions[faction_Cameron],Terran Hegemony]] are instilled with a dedication to resurrecting the history that is their birthright.\r\n\r\nThe Terran Hegemony was the founding state of the [[DM.BaseDescriptionDefs[LoreStarLeague],Star League]] and fell when the Star League did in the wake of the [[DM.BaseDescriptionDefs[LoreAmarisCivilWar],Amaris Civil War]]. However, due to the machinations of [[DM.Factions[faction_ComStar],ComStar]] and the recovery of missing heirs of the Cameron family, the Hegemony was reborn in teh 3030s, much to the chagrin of the [[DM.BaseDescriptionDefs[LoreSuccessorState],Successor States]]. The Hegemony has rapidly regained much of its ancestral strength as world after world quickly clamored to rejoin the nation and recover as much of their ancestral glories as possible. Today, the Hegemony is poised to reclaim their place as the premier nation in the Inner Sphere.",
+	"BioDescription": "You grew up in the Terran Hegemony, instilled with a dedication to resurrecting the history that is your birthright. MechWarriors who hail from the Terran Hegemony are formidable combatants, trained in some of the best and most dedicated academies in the Inner Sphere and backed by the incredible power of ComStar and the knowledge that the Hegemony will one day reclaim its place as the leaders of the Inner Sphere. Hegemony citizens are quick to remind others that the Hegemony was the best and brightest of humanity once and will be again.\r\n"
+}

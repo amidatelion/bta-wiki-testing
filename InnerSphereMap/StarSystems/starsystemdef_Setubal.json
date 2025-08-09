@@ -1,0 +1,88 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Setubal",
+		"Name": "Setubal",
+		"Details": "The planet Setubal is a desert world with very hot equatorial zones. Human habitation is only possible in the polar regions with their tropical and subtropical climate. Settled for its abundant subterranean water supplies, Setubal features extensive cave systems which are used to grow edible fungi.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 44.191,
+		"y": 237.516,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_setubal",
+			"planet_size_large",
+			"planet_climate_desert",
+			"planet_other_mudflats",
+			"planet_other_fungus",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_recreation",
+			"planet_industry_mining",
+			"planet_other_alienvegetation",
+			"planet_faction_clanghostbear"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 8,
+	"ownerID": "ClanGhostBear",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_ClanWorlds",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "ClanGhostBear",
+	"FactionShopItems": [
+		"itemCollection_faction_ClanWorlds"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Setubal",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 5,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"Cameron",
+		"WordOfBlake",
+		"ComStar",
+		"Rasalhague"
+	],
+	"contractTargetIDs": [
+		"ClanGhostBear"
+	]
+}

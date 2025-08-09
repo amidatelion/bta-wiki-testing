@@ -1,0 +1,85 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Santiago(OA)",
+		"Name": "Santiago (OA)",
+		"Details": "Santiago (OA) was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 400.929,
+		"y": 173.62,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_santiago(oa)",
+			"planet_size_large",
+			"planet_climate_water",
+			"planet_pop_none",
+			"planet_civ_primitive",
+			"planet_industry_poor",
+			"planet_other_ruins",
+			"planet_faction_outworld"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lowlandsCoastal",
+		"highlandsSpring"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 5,
+	"ownerID": "Outworld",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Outworld",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "ClanJadeFalcon",
+	"FactionShopItems": [
+		"itemCollection_faction_Outworld"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Santiago(OA)",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Outworld",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Locals",
+		"Kurita",
+		"Davion",
+		"Tortuga",
+		"SantandersKillers",
+		"Mercenaries",
+		"ComStar"
+	]
+}

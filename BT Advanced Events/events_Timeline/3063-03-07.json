@@ -1,0 +1,113 @@
+{
+	"Description": {
+		"Id": "3063-03-07",
+		"Name": "MercNews Broadcast",
+		"Details": "THORIN MILITIA DEFEATS LYRANS, JOINS DAVION FORCES!\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]]: As the [[DM.BaseDescriptionDefs[LoreFedCom],Federated Commonwealth]] Civil War continues to heat up, militia units and planetary garrisons throughout FedCom space are choosing sides. Although most traditionally Lyran worlds have continued to support [[DM.BaseDescriptionDefs[LoreKatherineSteiner],Katherine Steiner]], there have been exceptions. The latest of these is the mineral-rich world of Thorin, where the planetary militia led by [[DM.BaseDescriptionDefs[LoreStarLeague2],Star League]] Medal of Honor winner [[DM.BaseDescriptionDefs[LoreArcherChristifori],Archer Christifori]] has fought a long guerilla campaign against the 15th Arcturan Guards assigned to keep the system under Steiner control. The militia forces succeeded in ambushing and defeating the occupying force led by Col. Felix Blucher, securing both Thorin and nearby Muphrid for [[DM.BaseDescriptionDefs[LoreVictorSD],Victor Steiner-Davion]].",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "[[DM.Factions[faction_331stDivision],331st DIVISION]] ATTACKS CONTINUE!\r\n\n\nLuthien, [[DM.Factions[faction_Kurita],Draconis Combine]]: Despite the Combine's punitive strikes against the 331st Division's base of operations, Ebon's End, the 331st attacks continue to strike Kuritan border worlds. However, the number and intensity of the raids has slowed and it is believed the 331st and the Combine may come to some peace agreement in the near future. [[DM.Factions[faction_ClanGhostBear],Clan Ghost Bear]] representatives were unable to be reached about a possible 331st Division and Draconis Combine ceasefire.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Giausar_to_Davion",
+									"WIIC_Steiner_attacks_starsystemdef_Giausar",
+									"WIIC_set_starsystemdef_Giausar_defender_strength_75",
+									"WIIC_set_starsystemdef_Giausar_attacker_strength_75",
+									"WIIC_Davion_attacks_starsystemdef_Thorin",
+									"WIIC_set_starsystemdef_Thorin_defender_strength_15",
+									"WIIC_set_starsystemdef_Thorin_attacker_strength_35",
+									"WIIC_Davion_attacks_starsystemdef_Muphrid",
+									"WIIC_set_starsystemdef_Muphrid_defender_strength_15",
+									"WIIC_set_starsystemdef_Muphrid_attacker_strength_35",
+									"WIIC_give_starsystemdef_Kathil_to_Steiner",
+									"WIIC_Davion_attacks_starsystemdef_Kathil",
+									"WIIC_set_starsystemdef_Kathil_defender_strength_75",
+									"WIIC_set_starsystemdef_Kathil_attacker_strength_75",
+									"WIIC_331stDivision_raids_starsystemdef_Multan",
+									"WIIC_set_starsystemdef_Multan_defender_strength_20",
+									"WIIC_set_starsystemdef_Multan_attacker_strength_30",
+									"WIIC_331stDivision_raids_starsystemdef_Abagnar",
+									"WIIC_set_starsystemdef_Abagnar_defender_strength_20",
+									"WIIC_set_starsystemdef_Abagnar_attacker_strength_30",
+									"WIIC_331stDivision_raids_starsystemdef_Hongor",
+									"WIIC_set_starsystemdef_Hongor_defender_strength_20",
+									"WIIC_set_starsystemdef_Hongor_attacker_strength_30",
+									"WIIC_331stDivision_raids_starsystemdef_LandsEnd",
+									"WIIC_set_starsystemdef_LandsEnd_defender_strength_20",
+									"WIIC_set_starsystemdef_LandsEnd_attacker_strength_30",
+									"WIIC_331stDivision_raids_starsystemdef_Kokpekty",
+									"WIIC_set_starsystemdef_Kokpekty_defender_strength_20",
+									"WIIC_set_starsystemdef_Kokpekty_attacker_strength_30",
+									"WIIC_331stDivision_raids_starsystemdef_Enif",
+									"WIIC_set_starsystemdef_Enif_defender_strength_20",
+									"WIIC_set_starsystemdef_Enif_attacker_strength_30"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

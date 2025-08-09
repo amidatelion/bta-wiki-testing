@@ -1,0 +1,229 @@
+{
+	"Description": {
+		"Cost": 3309700,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Fury",
+		"Id": "chassisdef_jenner_JR7-IIC-FY",
+		"Name": "Fury",
+		"Details": "A design first piloted by Zane Nova Cat, the Jenner IIC Hero 'Mech mounts a Heavy Machine Gun and twin standard Machine Guns in each arm fed by a whopping eight tons of Machine Gun ammunition, supported by a single center torso-mounted ER Medium Laser. Defensively the Fury trades its speed for more armor, reducing to a 280 size XL engine.",
+		"Icon": "uixTxrIcon_jenneriic"
+	},
+	"MovementCapDefID": "movedef_jenner_JR7-IIC",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_jenneriic",
+	"PrefabIdentifier": "chrprfmech_jenneriicbase-001",
+	"PrefabBase": "jenneriic",
+	"Tonnage": 35,
+	"InitialTonnage": 3.5,
+	"weightClass": "LIGHT",
+	"BattleValue": 4362000,
+	"Heatsinks": 0,
+	"TopSpeed": 65,
+	"TurnRadius": 90,
+	"MaxJumpjets": 99,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 20,
+	"MeleeInstability": 5,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 20,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 20,
+	"DFAInstability": 5,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": 20,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 85,
+			"MaxRearArmor": 35,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": 20,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 10,
+			"z": 0.5
+		},
+		{
+			"x": -3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": 3,
+			"y": 9,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 10,
+			"z": 0.5
+		},
+		{
+			"x": -3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": 3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": -2.5,
+			"y": 3,
+			"z": 0.5
+		},
+		{
+			"x": 2.5,
+			"y": 3,
+			"z": 0.5
+		}
+	],
+	"VariantName": "JR7-IIC-FY",
+	"ChassisTags": {
+		"items": [
+			"ClanMech",
+			"HeroMech",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "A design first piloted by Zane Nova Cat, the Jenner IIC Hero 'Mech mounts a Heavy Machine Gun and twin standard Machine Guns in each arm fed by a whopping eight tons of Machine Gun ammunition, supported by a single center torso-mounted ER Medium Laser. Defensively the Fury trades its speed for more armor, reducing to a 280 size XL engine.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_clanendosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

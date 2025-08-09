@@ -1,0 +1,89 @@
+{
+	"Description": {
+		"Id": "3066-06-21",
+		"Name": "MercNews Broadcast",
+		"Details": "WOB CLASHES WITH CAMERON GUARD ON KEID\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]], [[DM.BaseDescriptionDefs[LoreTerranHegemony],Terran Hegemony]]:  In one of the [[DM.Factions[faction_WordOfBlake],Word of Blake's]] most overt moves in the Terran Hegemony to date, the Word has used the secretly signed contract with Keid's Duchess Arice Hunsen to attempt to seize control over the entire world.  Almost immediately after landing in early 3066, Blakist mercenaries [[DM.BaseDescriptionDefs[LoreCliftonsRangers],Clifton's Rangers]] and [[DM.BaseDescriptionDefs[LoreHannibalsHermits],Hannibal's Hermits]] began clashing with the [[DM.BaseDescriptionDefs[LoreCameronGuard],12th Cameron Guard]], outmaneuvering and ambushing the heavier Terran unit at every turn.  After months of combat, the Cameron Guard are retreating to their base for a final stand, but are calling for any reinforcements to aid in their defence.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "FIGHTING ON ELGIN GRINDS ON\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]], [[DM.BaseDescriptionDefs[LoreTerranHegemony],Terran Hegemony]]:  While Diem Jeffery Ling was apprehended months ago, his troops have continued the fight without him and have continued to field a surprisingly adept fighting force, leading to accusations of external backing. The [[DM.BaseDescriptionDefs[LoreAMC],Allied Mercenary Command]] has alleged that the [[DM.Factions[faction_WordOfBlake],Word of Blake]] is backing the pro-[[DM.Factions[faction_Marik],FWL]] rebels and has elected to send forces to Elgin to root out and put a stop to said Word of Blake involvement. The Word of Blake, notably, has neither confirmed nor denied these accusations.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Keid_to_Cameron",
+									"WIIC_give_starsystemdef_Elgin_to_Locals",
+									"WIIC_WordOfBlake_attacks_starsystemdef_Keid",
+									"WIIC_Cameron_attacks_starsystemdef_Elgin",
+									"WIIC_set_starsystemdef_Keid_defender_strength_15",
+									"WIIC_set_starsystemdef_Keid_attacker_strength_25",
+									"WIIC_set_starsystemdef_Elgin_defender_strength_20",
+									"WIIC_set_starsystemdef_Elgin_attacker_strength_30"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

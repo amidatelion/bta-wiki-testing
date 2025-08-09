@@ -1,0 +1,276 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Hatchetman",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 4600000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Hel",
+		"Id": "chassisdef_hatchetman_HCT-HL",
+		"Name": "Hel",
+		"Details": "Upgraded from the previous prototype design, Loki's personal mech has gone through a partial redesign with the addition of Hardened Armor, a true TSM, and a DHS kit. Hel changes out the weapons out for a pair of Clan heavy medium lasers, and a pair of Clan heavy small lasers.",
+		"Icon": "uixTxrIcon_hatchetman"
+	},
+	"MovementCapDefID": "movedef_hatchetman_HCT-3F",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_hatchetman",
+	"PrefabIdentifier": "chrPrfMech_hatchetmanBase-001",
+	"PrefabBase": "hatchetman",
+	"VariantName": "HCT-HL",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Upgraded from the previous prototype design, Loki's personal mech has gone through a partial redesign with the addition of Hardened Armor, a true TSM, and a DHS kit. Hel changes out the weapons out for a pair of Clan heavy medium lasers, and a pair of Clan heavy small lasers.",
+	"Tonnage": 45,
+	"InitialTonnage": 4.5,
+	"weightClass": "MEDIUM",
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 55,
+	"MeleeInstability": 25,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 55,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 55,
+	"DFAInstability": 25,
+	"ChassisTags": {
+		"items": [
+			"HeroMech",
+			"MediumMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 140,
+			"MaxRearArmor": 70,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 14,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 2.5,
+			"y": 6,
+			"z": 2.5
+		},
+		{
+			"x": -2.5,
+			"y": 6,
+			"z": 2.5
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "emod_arm_part_lower",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Actuator_Prototype_Hatchet",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_ImprovedCoolingJacket_Hatchetman",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_composite",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

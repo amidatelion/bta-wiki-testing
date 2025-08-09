@@ -1,0 +1,47 @@
+{
+	"ID": "faction_8thHeliusFusiliers",
+	"Name": "8th Helius Fusiliers",
+	"ShortName": "8th Helius Fusiliers",
+	"Demonym": "8th Helius Fusiliers",
+	"Government": "Republic",
+	"Allies": [],
+	"Enemies": [],
+	"Presence": 1.0,
+	"ReputationStatements": [
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander."
+	],
+	"MissionSuccessStatements": [
+		"Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you."
+	],
+	"GoodFaithFailureStatements": [
+		"You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot."
+	],
+	"BadFaithFailureStatements": [
+		"For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess."
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
+	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DataManager": null,
+	"factionID": "8thHeliusFusiliers",
+	"icon": "uixTxrLogo_8thHeliusFusiliers",
+	"heraldryDefId": "heraldrydef_8thHeliusFusiliers",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"Description": "The 8th Helius Fusiliers are a well-regarded unit of the RWR military, with a lengthy history and many accolades to their name. The Fusiliers have faithfully served the RWR for centuries and are one of the most reliable units in the Republic's service. They're known for their creativity on the battlefield and for their community service efforts off the battlefield.",
+	"StartingReputationValues": [
+		0,
+		0,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
+}

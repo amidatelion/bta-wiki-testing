@@ -1,0 +1,263 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Hatchetman",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 3600000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Hatchetman",
+		"Id": "chassisdef_hatchetman_HCT-4TL",
+		"Name": "Hatchetman",
+		"Details": "Designed by a man who loved fire more than killing mechs, the HCT-4TL is brimming with flames and melee potential. It mounts a SRM-4 with inferno ammo and a quartet of Flamers to bring the heat to its enemies. A pair of Medium Lasers are the only concession to fighting other armored units. To maximize the melee power of the mech, the -4TL is armed with a TSM to boost its speed and melee damage. A Supercharger system boosts the speed even further. The mech runs hotter then hell's sauna though so pilots are cautioned to watch the redline.",
+		"Icon": "uixTxrIcon_hatchetman"
+	},
+	"MovementCapDefID": "movedef_hatchetman_HCT-3F",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_hatchetman",
+	"PrefabIdentifier": "chrPrfMech_hatchetmanBase-001",
+	"PrefabBase": "hatchetman",
+	"VariantName": "HCT-4TL",
+	"StockRole": "Brawler",
+	"YangsThoughts": "Designed by a man who loved fire more than killing mechs, the HCT-4TL is brimming with flames and melee potential. It mounts a SRM-4 with inferno ammo and a quartet of Flamers to bring the heat to its enemies. A pair of Medium Lasers are the only concession to fighting other armored units. To maximize the melee power of the mech, the -4TL is armed with a TSM to boost its speed and melee damage. A Supercharger system boosts the speed even further. The mech runs hotter then hell's sauna though so pilots are cautioned to watch the redline.",
+	"Tonnage": 45,
+	"InitialTonnage": 4.5,
+	"weightClass": "MEDIUM",
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 50,
+	"MeleeInstability": 25,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 50,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 50,
+	"DFAInstability": 25,
+	"ChassisTags": {
+		"items": [
+			"MediumMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 140,
+			"MaxRearArmor": 70,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 14,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 2.5,
+			"y": 6,
+			"z": 2.5
+		},
+		{
+			"x": -2.5,
+			"y": 6,
+			"z": 2.5
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "emod_arm_part_lower",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Actuator_Prototype_Hatchet",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_composite",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_ImprovedCoolingJacket_Hatchetman",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

@@ -1,0 +1,106 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Lothario",
+		"Name": "Lothario",
+		"Details": "An icy, harsh world, Lothario is home to a number of dangerous species including predators that were born at the same size as an adult Kodiak bear.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -474.391,
+		"y": -185.731,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_lothario",
+			"planet_size_small",
+			"planet_climate_desert",
+			"planet_other_volcanic",
+			"planet_other_megaforest",
+			"planet_other_mudflats",
+			"planet_other_fungus",
+			"planet_feature_asteroids",
+			"planet_feature_gasgiant",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_large",
+			"planet_civ_innersphere",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_industry_research",
+			"planet_other_starleague",
+			"planet_other_hub",
+			"planet_other_alienvegetation",
+			"planet_other_blackmarket",
+			"planet_other_newcolony",
+			"planet_other_pirate",
+			"planet_other_ruins",
+			"planet_faction_marian"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": -10,
+	"ownerID": "Marian",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Marian",
+		"itemCollection_shop_industrial",
+		"itemCollection_shop_research"
+	],
+	"factionShopOwnerID": "Marian",
+	"FactionShopItems": [
+		"itemCollection_faction_Marian"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Lothario",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 7,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"Marian",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Circinus",
+		"MagistracyOfCanopus",
+		"AuriganPirates",
+		"ComStar",
+		"Mercenaries",
+		"Illyrian",
+		"Lothian",
+		"Locals"
+	]
+}

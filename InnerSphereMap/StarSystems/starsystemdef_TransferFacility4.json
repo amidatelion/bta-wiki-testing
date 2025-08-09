@@ -1,0 +1,70 @@
+{
+	"Description": {
+		"Id": "starsystemdef_TransferFacility4",
+		"Name": "Transfer Facility 4",
+		"Details": "The TF4 facility was a surface cargo waystation operated by Clan Smoke Jaguar during Operation REVIVAL and the years after the Truce of Tukayyid.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 293.32,
+		"y": 669.005,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_transferfacility4",
+			"planet_size_small",
+			"planet_climate_lunar",
+			"planet_pop_none",
+			"planet_civ_primitive",
+			"planet_faction_locals"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 2,
+	"ownerID": "Locals",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [],
+	"factionShopOwnerID": "Locals",
+	"FactionShopItems": [],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_TransferFacility4",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 10,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"AuriganPirates"
+	]
+}

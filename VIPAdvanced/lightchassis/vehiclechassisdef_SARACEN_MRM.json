@@ -1,0 +1,138 @@
+{
+	"CustomParts": {
+		"MoveCost": "Hover",
+		"MoveClamp": 0.5,
+		"CustomParts": []
+	},
+	"Custom": {
+		"VAssemblyVariant": {
+			"PrefabID": "Saracen",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 250000,
+		"Rarity": 0,
+		"Purchasable": false,
+		"UIName": "Saracen (MRM)",
+		"Id": "vehiclechassisdef_SARACEN_MRM",
+		"Name": "Saracen",
+		"Details": "Being the first of three well-known hovertanks built by Scarborough Limited, the Saracen was developed towards the end of the Third Succession War. Made with lower-tech components, the Saracen was intended to be an inexpensive and low maintenance hovercraft for the dark years of the Succession Wars. It succeeded so well that it began the later Scimitar and Saladin, both celebrated tanks in their own rights. This version is mostly fielded by the Draconis Combine Mustered Soldiery and swaps the weapons for a MRM-20 and Streak SRM-2.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile, cannot move through woods.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 8/12 Hex: 240/360 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       120     20\n<b>Left</b>         100     20\n<b>Right</b>       100     20\n<b>Rear</b>        120     20\n<b>Turret</b>      120     20\n\n<b>Total</b>      560    100\n",
+		"Icon": "Saracen"
+	},
+	"MovementCapDefID": "movedef_8-12cv",
+	"PathingCapDefID": "pathingdef_light_hover",
+	"HardpointDataDefID": "hardpointdatadef_sldfdrone",
+	"PrefabIdentifier": "chrPrfVhcl_sldfdrone",
+	"PrefabBase": "sldfdrone",
+	"Tonnage": 35,
+	"weightClass": "LIGHT",
+	"BattleValue": 1000000,
+	"TopSpeed": 125,
+	"TurnRadius": 90,
+	"movementType": "Wheeled",
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 2.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 3
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 2.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 3
+		},
+		{
+			"x": -2,
+			"y": 2.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 2.5,
+			"z": 0
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": -4.5
+		}
+	],
+	"Locations": [
+		{
+			"Location": "Front",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 105,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "Left",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 90,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "Right",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 90,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "Rear",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 90,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 105,
+			"InternalStructure": 20
+		}
+	]
+}

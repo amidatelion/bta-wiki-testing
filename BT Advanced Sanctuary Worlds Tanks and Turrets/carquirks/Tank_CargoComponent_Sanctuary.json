@@ -1,0 +1,49 @@
+{
+	"Custom": {
+		"Flags": [
+			"not_broken",
+			"autorepair",
+			"ignore_damage"
+		],
+		"Category": [
+			{
+				"CategoryID": "notused"
+			}
+		],
+		"BonusDescriptions": [
+			"CashPayment: 150000",
+			"Lootcrate"
+		]
+	},
+	"Description": {
+		"Cost": 1,
+		"Rarity": 99,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Cargo Compartment",
+		"UIName": "Cargo Compartment",
+		"Id": "Tank_CargoComponent_Sanctuary",
+		"Name": "Cargo Compartment",
+		"Details": "This is the cargo being carried by Sanctuary convoy trucks. It's usually not incredibly valuable but it still has some cash value. Salvaging it will give us a nice bonus payday and maybe a few military-grade components. Who knows, there might be mechparts in there, you never know with these convoys.",
+		"Icon": "treasure-chest"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"TanksOnly",
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

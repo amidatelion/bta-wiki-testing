@@ -1,0 +1,57 @@
+{
+	"Name": "MechAffinity",
+	"Version": "2.0.0",
+	"Enabled": true,
+	"Hidden": false,
+	"Author": "Jamie Wolf",
+	"DLL": "MechAffinity.dll",
+	"DLLEntryPoint": "MechAffinity.Main.Init",
+	"CustomResourceTypes": ["AffinitiesDef", "QuirkDef"],
+	"DependsOn": [
+		"CustomComponents",
+		"CustomSalvage"
+	],
+	"ConflictsWith": [],
+	"Manifest": [
+		{
+			"Type": "CustomTag",
+			"Path": "tags"
+		},
+		{
+			"Type": "AffinitiesDef",
+			"Path": "AffinityDefs"
+		},
+		{
+			"Type": "QuirkDef",
+			"Path": "QuirkDefs"
+		},
+		{
+			"Type": "QuirkDef",
+			"Path": "RtoQuirkDefs"
+		},
+		{
+			"Type": "QuirkDef",
+			"Path": "RtoSharedQuirkDefs"
+		},
+		{
+			"Type": "QuirkDef",
+			"Path": "CrewQuirkDefs"
+		},
+		{
+			"Type": "QuirkDef",
+			"Path": "CrewSharedQuirkDefs"
+		},
+		{
+			"Type": "LanceQuirkDef",
+			"Path": "LanceQuirkDefs"
+		},
+		{
+			"Type": "BaseDescriptionDef",
+			"Path": "DescriptionDefs"
+		},
+		{
+			"Type": "SVGAsset",
+			"Path": "SVGs"
+		}
+	]
+}

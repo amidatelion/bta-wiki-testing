@@ -1,0 +1,80 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Zumbo",
+		"Name": "Zumbo",
+		"Details": "Zumbo was devastated during the Third Succession War and abandoned shortly thereafter. ",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 711.438,
+		"y": 162.875,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_zumbo",
+			"planet_size_small",
+			"planet_climate_lunar",
+			"planet_other_taintedair",
+			"planet_feature_asteroids",
+			"planet_feature_rings",
+			"planet_feature_moon03",
+			"planet_other_moon",
+			"planet_pop_none",
+			"planet_civ_primitive",
+			"planet_industry_poor",
+			"planet_other_ruins",
+			"planet_faction_nofaction",
+			"planet_other_empty"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 4,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "O",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_TaurianConcordat",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "NoFaction",
+	"FactionShopItems": [
+		"itemCollection_faction_TaurianConcordat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Zumbo",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [],
+	"contractTargetIDs": []
+}

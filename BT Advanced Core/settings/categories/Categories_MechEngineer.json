@@ -1,0 +1,1119 @@
+{
+	"Settings": [
+		{
+			"Name": "LifeSupportA",
+			"DisplayName": "Life Support",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "0",
+				"Sorter": 0,
+				"CriticalEffects": {
+					"LinkedStatisticName": "LifeSupport",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-LifeSupport1",
+						"CriticalEffect-LifeSupport2"
+					]
+				}
+			}
+		},
+		{
+			"Name": "SensorsA",
+			"DisplayName": "Sensors",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"AutoReplace": true,
+			"DefaultCustoms": {
+				"InventorySorter": "1",
+				"Sorter": 1,
+				"CriticalEffects": {
+					"LinkedStatisticName": "Sensors",
+					"PenalizedEffectIDs": [
+						[
+							"CriticalEffect-Sensors1"
+						]
+					],
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-Sensors2"
+					]
+				}
+			}
+		},
+		{
+			"Name": "Cockpit",
+			"DisplayName": "Cockpit",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"ReplaceAnyLocation": true,
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 2,
+				"CriticalEffects": {
+					"DeathMethod": "PilotKilled"
+				}
+			}
+		},
+		{
+			"Name": "SensorsB",
+			"DisplayName": "Sensors",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "3",
+				"Sorter": 3,
+				"CriticalEffects": {
+					"LinkedStatisticName": "Sensors",
+					"PenalizedEffectIDs": [
+						[
+							"CriticalEffect-Sensors1"
+						]
+					],
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-Sensors2"
+					]
+				}
+			}
+		},
+		{
+			"Name": "LifeSupportB",
+			"DisplayName": "Life Support",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "4",
+				"Sorter": 4,
+				"CriticalEffects": {
+					"LinkedStatisticName": "LifeSupport",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-LifeSupport1",
+						"CriticalEffect-LifeSupport2"
+					]
+				}
+			}
+		},
+		{
+			"Name": "Armor",
+			"DisplayName": "Armor",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"CustomWidget": "TopLeft",
+				"MechConfiguration": {},
+				"InventorySorter": "0",
+				"Sorter": 0,
+				"Color": "ArmorDamaged",
+				"Flags": [
+					"ignore_damage",
+					"no_salvage"
+				]
+			}
+		},
+		{
+			"Name": "Structure",
+			"DisplayName": "Structure",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"CustomWidget": "TopLeft",
+				"MechConfiguration": {},
+				"Color": "OrangeHalf",
+				"InventorySorter": "1",
+				"Sorter": 1,
+				"Flags": [
+					"ignore_damage",
+					"no_salvage"
+				]
+			}
+		},
+		{
+			"Name": "Myomer",
+			"DisplayName": "Myomer",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"CustomWidget": "TopLeft",
+				"MechConfiguration": {},
+				"InventorySorter": "2",
+				"Sorter": 2,
+				"Flags": [
+					"ignore_damage",
+					"no_salvage"
+				]
+			}
+		},
+		{
+			"Name": "Cooling",
+			"DisplayName": "Cooling System",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"CustomWidget": "TopRight",
+				"MechConfiguration": {},
+				"InventorySorter": "2",
+				"Sorter": 2,
+				"Flags": [
+					"ignore_damage",
+					"no_salvage"
+				]
+			}
+		},
+		{
+			"Name": "Gyro",
+			"DisplayName": "Gyro",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "0",
+				"Sorter": 0,
+				"CriticalEffects": {
+					"PenalizedEffectIDs": [
+						[
+							"CriticalEffect-GyroCrit"
+						]
+					],
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-GyroDestroyed"
+					]
+				}
+			}
+		},
+		{
+			"Name": "EnginePart",
+			"DisplayName": "Engine Part",
+			"DefaultCustoms": {
+				"MechCriticalEffects": [
+					{
+						"LinkedStatisticName": "EngineCrits",
+						"PenalizedEffectIDs": [
+							[
+								"CriticalEffect-EngineCrit1"
+							],
+							[
+								"CriticalEffect-EngineCrit2"
+							]
+						],
+						"DeathMethod": "EngineDestroyed",
+						"UnitTypes": [ "Mech" ]
+					},
+					{
+						"LinkedStatisticName": "VehicleEngineCrits",
+						"PenalizedEffectIDs": [
+							[
+								"CriticalEffect-VehicleEngineCruiseCrit1",
+								"CriticalEffect-VehicleEngineFlankCrit1",
+								"CriticalEffect-EngineTankCritPenalty"
+							],
+							[
+								"CriticalEffect-VehicleEngineCruiseCrit2",
+								"CriticalEffect-VehicleEngineFlankCrit2",
+								"CriticalEffect-EngineTankCritPenalty"
+							]
+						],
+						"DeathMethod": "EngineDestroyed",
+						"UnitTypes": [ "Vehicle" ]
+					}
+				]
+			}
+		},
+		{
+			"Name": "EngineShield",
+			"DisplayName": "Engine Shielding",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "1",
+				"Sorter": 1
+			}
+		},
+		{
+			"Name": "EngineHeatBlock",
+			"DisplayName": "Engine Cooling",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"CustomWidget": "TopRight",
+				"InventorySorter": "3",
+				"Sorter": 3
+			}
+		},
+		{
+			"Name": "ThermalGear",
+			"DisplayName": "Thermal Gear",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"CustomWidget": "TopRight",
+				"InventorySorter": "4",
+				"Sorter": 4
+			}
+		},
+		{
+			"Name": "EngineCore",
+			"DisplayName": "Engine Core",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "3",
+				"Sorter": 3
+			}
+		},
+		{
+			"Name": "EngineSlots",
+			"DisplayName": "Engine Slots",
+			"DefaultCustoms": {
+				"Sorter": 0,
+				"Flags": [
+					"not_broken",
+					"default"
+				]
+			}
+		},
+		{
+			"Name": "LegHip",
+			"DisplayName": "Hip",
+			"DefaultCustoms": {
+				"InventorySorter": "0",
+				"Sorter": 0,
+				"CriticalEffects": {
+					"DestroyedFloatieMessage": "Actuator DESTROYED",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-HipDestroyed-{location}",
+						"CriticalEffect-HipDestroyed-{location}-pilot-pen"
+					],
+					"OnDestroyedDisableEffectIds": [
+						"CriticalEffect-LegUpperActuatorDestroyed-{location}",
+						"CriticalEffect-LegLowerActuatorDestroyed-{location}",
+						"CriticalEffect-LegFootActuatorDestroyed-{location}",
+						"CriticalEffect-LegUpperDestroyed-{location}-pilot-pen",
+						"CriticalEffect-LegLowerDestroyed-{location}-pilot-pen",
+						"CriticalEffect-LegFootDestroyed-{location}-pilot-pen"
+					]
+				}
+			},
+			"BaseLimits": [
+				{
+					"Location": "RightLeg",
+					"Min": 1,
+					"Max": 1
+				},
+				{
+					"Location": "LeftLeg",
+					"Min": 1,
+					"Max": 1
+				},
+				{
+					"Location": "LeftArm",
+					"Min": 0,
+					"Max": 0
+				},
+				{
+					"Location": "RightArm",
+					"Min": 0,
+					"Max": 0
+				}
+			],
+			"UnitLimits": [
+				{
+					"UnitType": "Quad",
+					"Limits": [
+						{
+							"Location": "LeftLeg",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "RightLeg",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "LeftArm",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "RightArm",
+							"Min": 1,
+							"Max": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "LegUpperActuator",
+			"DisplayName": "Upper Leg Actuator",
+			"DefaultCustoms": {
+				"InventorySorter": "1",
+				"Sorter": 1,
+				"CriticalEffects": {
+					"DestroyedFloatieMessage": "Actuator DESTROYED",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-LegUpperActuatorDestroyed-{location}",
+						"CriticalEffect-LegUpperDestroyed-{location}-pilot-pen"
+					]
+				}
+			},
+			"BaseLimits": [
+				{
+					"Location": "RightLeg",
+					"Min": 1,
+					"Max": 1
+				},
+				{
+					"Location": "LeftLeg",
+					"Min": 1,
+					"Max": 1
+				},
+				{
+					"Location": "LeftArm",
+					"Min": 0,
+					"Max": 0
+				},
+				{
+					"Location": "RightArm",
+					"Min": 0,
+					"Max": 0
+				}
+			],
+			"UnitLimits": [
+				{
+					"UnitType": "Quad",
+					"Limits": [
+						{
+							"Location": "LeftLeg",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "RightLeg",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "LeftArm",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "RightArm",
+							"Min": 1,
+							"Max": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "LegLowerActuator",
+			"DisplayName": "Lower Leg Actuator",
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 2,
+				"CriticalEffects": {
+					"DestroyedFloatieMessage": "Actuator DESTROYED",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-LegLowerActuatorDestroyed-{location}",
+						"CriticalEffect-LegLowerDestroyed-{location}-pilot-pen"
+					]
+				}
+			},
+			"BaseLimits": [
+				{
+					"Location": "RightLeg",
+					"Min": 1,
+					"Max": 1
+				},
+				{
+					"Location": "LeftLeg",
+					"Min": 1,
+					"Max": 1
+				},
+				{
+					"Location": "LeftArm",
+					"Min": 0,
+					"Max": 0
+				},
+				{
+					"Location": "RightArm",
+					"Min": 0,
+					"Max": 0
+				}
+			],
+			"UnitLimits": [
+				{
+					"UnitType": "Quad",
+					"Limits": [
+						{
+							"Location": "LeftLeg",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "RightLeg",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "LeftArm",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "RightArm",
+							"Min": 1,
+							"Max": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "LegFootActuator",
+			"DisplayName": "Foot Actuator",
+			"DefaultCustoms": {
+				"InventorySorter": "3",
+				"Sorter": 3,
+				"CriticalEffects": {
+					"DestroyedFloatieMessage": "Actuator DESTROYED",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-LegFootActuatorDestroyed-{location}",
+						"CriticalEffect-LegFootDestroyed-{location}-pilot-pen"
+					]
+				}
+			},
+			"BaseLimits": [
+				{
+					"Location": "RightLeg",
+					"Min": 1,
+					"Max": 1
+				},
+				{
+					"Location": "LeftLeg",
+					"Min": 1,
+					"Max": 1
+				},
+				{
+					"Location": "LeftArm",
+					"Min": 0,
+					"Max": 0
+				},
+				{
+					"Location": "RightArm",
+					"Min": 0,
+					"Max": 0
+				}
+			],
+			"UnitLimits": [
+				{
+					"UnitType": "Quad",
+					"Limits": [
+						{
+							"Location": "LeftLeg",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "RightLeg",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "LeftArm",
+							"Min": 1,
+							"Max": 1
+						},
+						{
+							"Location": "RightArm",
+							"Min": 1,
+							"Max": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "CASE",
+			"DisplayName": "CASE",
+			"BaseLimits": [
+				{
+					"Location": "LeftArm",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "LeftTorso",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "LeftLeg",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "Head",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "CenterTorso",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "RightTorso",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "RightLeg",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "RightArm",
+					"Min": 0,
+					"Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "CASE",
+				"CASE": {},
+				"Flags": [
+					"ignore_damage"
+				]
+			}
+		},
+		{
+			"Name": "CASE2",
+			"DisplayName": "CASE II",
+			"BaseLimits": [
+				{
+					"Location": "LeftArm",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "LeftTorso",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "LeftLeg",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "Head",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "CenterTorso",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "RightTorso",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "RightLeg",
+					"Min": 0,
+					"Max": 1
+				},
+				{
+					"Location": "RightArm",
+					"Min": 0,
+					"Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "CASE",
+				"CASE": {
+					"MaximumDamage": 3
+				},
+				"Flags": [
+					"ignore_damage"
+				]
+			}
+		},
+		{
+			"Name": "ArmShoulder",
+			"DisplayName": "Shoulder",
+			"DefaultCustoms": {
+				"InventorySorter": "0",
+				"Sorter": 0,
+				"CriticalEffects": {
+					"DestroyedFloatieMessage": "Actuator DESTROYED",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-ShoulderDestroyed-{location}"
+					],
+					"OnDestroyedDisableEffectIds": [
+						"CriticalEffect-ArmUpperActuatorDestroyed-{location}",
+						"CriticalEffect-ArmLowerActuatorDestroyed-{location}",
+						"CriticalEffect-ArmHandActuatorDestroyed-{location}"
+					]
+				}
+			},
+			"BaseLimits": [
+				{
+					"Location": "LeftArm",
+					"Max": 1,
+					"Min": 1
+				},
+				{
+					"Location": "RightArm",
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"UnitLimits": [
+				{
+					"UnitType": "Quad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Vehicle",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Squad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "ArmUpperActuator",
+			"DisplayName": "Upper Arm Actuator",
+			"DefaultCustoms": {
+				"InventorySorter": "1",
+				"Sorter": 1,
+				"CriticalEffects": {
+					"DestroyedFloatieMessage": "Actuator DESTROYED",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-ArmUpperActuatorDestroyed-{location}"
+					]
+				}
+			},
+			"BaseLimits": [
+				{
+					"Location": "LeftArm",
+					"Max": 1,
+					"Min": 1
+				},
+				{
+					"Location": "RightArm",
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"UnitLimits": [
+				{
+					"UnitType": "Quad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Vehicle",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Squad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "ArmLowerActuator",
+			"DisplayName": "Lower Arm Actuator",
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 2,
+				"CriticalEffects": {
+					"DestroyedFloatieMessage": "Actuator DESTROYED",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-ArmLowerActuatorDestroyed-{location}"
+					]
+				}
+			},
+			"BaseLimits": [
+				{
+					"Location": "LeftArm",
+					"Max": 1,
+					"Min": 0
+				},
+				{
+					"Location": "RightArm",
+					"Max": 1,
+					"Min": 0
+				}
+			],
+			"UnitLimits": [
+				{
+					"UnitType": "ArmLimitUpperLeft",
+					"PartialOverride": true,
+					"Limits": [
+						{
+							"Location": "LeftArm",
+							"Min": 0,
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "ArmLimitUpperRight",
+					"PartialOverride": true,
+					"Limits": [
+						{
+							"Location": "RightArm",
+							"Min": 0,
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Quad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Vehicle",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Squad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "ArmHandActuator",
+			"DisplayName": "Hand Actuator",
+			"DefaultCustoms": {
+				"InventorySorter": "3",
+				"Sorter": 3,
+				"CriticalEffects": {
+					"DestroyedFloatieMessage": "Actuator DESTROYED",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-ArmHandActuatorDestroyed-{location}"
+					]
+				}
+			},
+			"BaseLimits": [
+				{
+					"Location": "LeftArm",
+					"Max": 1,
+					"Min": 0
+				},
+				{
+					"Location": "RightArm",
+					"Max": 1,
+					"Min": 0
+				}
+			],
+			"UnitLimits": [
+				{
+					"UnitType": "ArmLimitLowerLeft",
+					"PartialOverride": true,
+					"Limits": [
+						{
+							"Location": "LeftArm",
+							"Min": 0,
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "ArmLimitLowerRight",
+					"PartialOverride": true,
+					"Limits": [
+						{
+							"Location": "RightArm",
+							"Min": 0,
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "ArmLimitUpperLeft",
+					"PartialOverride": true,
+					"Limits": [
+						{
+							"Location": "LeftArm",
+							"Min": 0,
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "ArmLimitUpperRight",
+					"PartialOverride": true,
+					"Limits": [
+						{
+							"Location": "RightArm",
+							"Min": 0,
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Quad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Vehicle",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Squad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "OmniLowerActuator",
+			"displayName": "OmniMech Lower",
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 2,
+				"CriticalEffects": {
+					"DestroyedFloatieMessage": "Actuator DESTROYED",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-ArmLowerActuatorDestroyed-{location}"
+					]
+				}
+			},
+			"BaseLimits": [
+				{
+					"Min": 0,
+					"Max": 0
+				}
+			],
+			"UnitLimits": [
+				{
+					"UnitType": "Quad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "OmniMech",
+					"Limits": [
+						{
+							"Location": "RightArm",
+							"Min": 0,
+							"Max": 1
+						},
+						{
+							"Location": "LeftArm",
+							"Min": 0,
+							"Max": 1
+						}
+					]
+				},
+				{
+					"UnitType": "Vehicle",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Squad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "OmniHandActuator",
+			"displayName": "OmniMech Hand",
+			"DefaultCustoms": {
+				"InventorySorter": "3",
+				"Sorter": 3,
+				"CriticalEffects": {
+					"DestroyedFloatieMessage": "Actuator DESTROYED",
+					"OnDestroyedEffectIDs": [
+						"CriticalEffect-ArmHandActuatorDestroyed-{location}"
+					]
+				}
+			},
+			"BaseLimits": [
+				{
+					"Min": 0,
+					"Max": 0
+				}
+			],
+			"UnitLimits": [
+				{
+					"UnitType": "Quad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "OmniMech",
+					"Limits": [
+						{
+							"Location": "RightArm",
+							"Min": 0,
+							"Max": 1
+						},
+						{
+							"Location": "LeftArm",
+							"Min": 0,
+							"Max": 1
+						}
+					]
+				},
+				{
+					"UnitType": "Vehicle",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				},
+				{
+					"UnitType": "Squad",
+					"Limits": [
+						{
+							"Location": "All",
+							"Max": 0
+						}
+					]
+				}
+			]
+		}
+	]
+}

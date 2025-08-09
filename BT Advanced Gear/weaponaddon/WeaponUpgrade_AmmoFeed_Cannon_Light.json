@@ -1,0 +1,25 @@
+{
+	"Id": "WeaponUpgrade_AmmoFeed_Cannon_Light",
+	"addonType": "cannonammofeed",
+	"targetComponentTags": [
+		"AmmoFeedCannonSupported-Light"
+	],
+	"modes": [
+		{
+			"Id": "BASE",
+			"UIName": "Base",
+			"isBaseMode": false
+		},
+		{
+			"Id": "Ammo",
+			"UIName": "Rifle",
+			"Name": "Rifle",
+			"Description": "Weapon fires with Rifle ammo",
+			"isBaseMode": true,
+			"DamagePerShot": -108,
+			"AmmoCategory": "RifleLight",
+			"FlatJammingChance": 1.25,
+			"GunneryJammingMult": 0.01
+		}
+	]
+}

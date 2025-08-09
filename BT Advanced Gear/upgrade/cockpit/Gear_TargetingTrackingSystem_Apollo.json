@@ -1,0 +1,50 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "notused"
+			},
+			{
+				"CategoryID": "Cockpit"
+			}
+		],
+		"BonusDescriptions": [
+				"DEPRECATED"
+			]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 750000,
+		"Rarity": 7,
+		"Purchasable": true,
+		"Manufacturer": "Combine Electronics",
+		"Model": "Ronin R31",
+		"UIName": "DEPRECATED",
+		"Id": "Gear_TargetingTrackingSystem_Apollo",
+		"Name": "DEPRECATED",
+		"Details": "<b><color=#F79232>THIS ITEM NO LONGER FUNCTIONS, DO NOT USE IT, SELL IMMEDIATELY.</color></b>\r\n\r\nDeveloped by the Draconis Combine to alleviate some of the issues with their Medium-Range Missile system, the Apollo system permits the use of Apollo ammo for MRMs, which provide some reasonable boosts over standard MRM munitions.",
+		"Icon": "AdvancedTC"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "Head",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"BLACKLISTED",
+			"ApolloTTS"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,780 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "ECM"
+			}
+		],
+		"BonusDescriptions": [
+			"ViralJammer",
+			"ViralJammerRange: 150"
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 1530000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "Hegemony Institute of Strategic Combat",
+		"Model": "Shut It Down",
+		"UIName": "HISC Viral Jammer",
+		"Id": "Gear_Viral_Jammer",
+		"Name": "HISC Viral Jammer",
+		"Details": "The Viral Jammer is the ultimate in battlefield control electronics. The Jammer prevents all distributed networks from operating while in its area of effect. This effect is caused by the Viral Jammer's intense and extreme amount of junk code that it inflicts on all nearby 'Mechs. Unfortunately, the Viral Jammer is not discriminating in its targets and affects allies as well as enemies, meaning no distributed network can operate within its radius, not even friendly ones. Still, the power to break enemy networks is considered worth the trade-off and the Hegemony put the equipment into limited production, mostly on more advanced scout units.",
+		"Icon": "circuitry"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 2.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Auras": [
+		{
+			"Id": "Gear_Viral_Jammer_Scrambling",
+			"Name": "Network Scrambling",
+			"ReticleColor": "#1a91ea",
+			"Range": 150,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": false,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-Enemy-C3-Jamming",
+						"Name": "Enemy Jamming",
+						"Details": "The Viral Jammer is jamming all distributed networks, including C3, C3i, and Sanctuary Drones, preventing their operation within 150 of the Jammer. This includes friendly networks as well as enemy networks.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network",
+						"operation": "Float_Add",
+						"modValue": "-3",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-Enemy-C3i-Jamming",
+						"Name": "Enemy Jamming",
+						"Details": "The Viral Jammer is jamming all distributed networks, including C3, C3i, and Sanctuary Drones, preventing their operation within 150 of the Jammer.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3i_Network",
+						"operation": "Float_Add",
+						"modValue": "-3",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-Enemy-C3i-Jamming",
+						"Name": "Enemy Jamming",
+						"Details": "The Viral Jammer is jamming all distributed networks, including C3, C3i, and Sanctuary Drones, preventing their operation within 150 of the Jammer.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_Drone_Network",
+						"operation": "Float_Add",
+						"modValue": "-3",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-Allied-C3-Jamming",
+						"Name": "Friendly Jamming",
+						"Details": "The Viral Jammer is jamming all distributed networks, including C3, C3i, and Sanctuary Drones, preventing their operation within 150 of the Jammer. This includes friendly networks as well as enemy networks.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network",
+						"operation": "Float_Add",
+						"modValue": "-3",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-Allied-C3i-Jamming",
+						"Name": "Enemy Jamming",
+						"Details": "The Viral Jammer is jamming all distributed networks, including C3, C3i, and Sanctuary Drones, preventing their operation within 150 of the Jammer.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3i_Network",
+						"operation": "Float_Add",
+						"modValue": "-3",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-Allied-C3i-Jamming",
+						"Name": "Enemy Jamming",
+						"Details": "The Viral Jammer is jamming all distributed networks, including C3, C3i, and Sanctuary Drones, preventing their operation within 150 of the Jammer.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_Drone_Network",
+						"operation": "Float_Add",
+						"modValue": "-3",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "Creator",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-Creator-C3-Jamming",
+						"Name": "Friendly Jamming",
+						"Details": "The Viral Jammer is jamming all distributed networks, including C3, C3i, and Sanctuary Drones, preventing their operation within 150 of the Jammer. This includes friendly networks as well as enemy networks.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network",
+						"operation": "Float_Add",
+						"modValue": "-3",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "Creator",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-Creator-C3i-Jamming",
+						"Name": "Enemy Jamming",
+						"Details": "The Viral Jammer is jamming all distributed networks, including C3, C3i, and Sanctuary Drones, preventing their operation within 150 of the Jammer.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3i_Network",
+						"operation": "Float_Add",
+						"modValue": "-3",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "Creator",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-Creator-C3i-Jamming",
+						"Name": "Enemy Jamming",
+						"Details": "The Viral Jammer is jamming all distributed networks, including C3, C3i, and Sanctuary Drones, preventing their operation within 150 of the Jammer.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_Drone_Network",
+						"operation": "Float_Add",
+						"modValue": "-3",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		},
+		{
+			"Id": "Gear_ECM_VRPPScramble",
+			"Name": "VRPP Scrambling",
+			"ReticleColor": "#1a91ea",
+			"Range": 150,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-VRPP-Jamming",
+						"Name": "VRPP Jamming",
+						"Details": "ECM is scrambling this unit's VRPP system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "99.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-Allies-VRPP-Jamming",
+						"Name": "VRPP Jamming",
+						"Details": "ECM is scrambling this unit's VRPP system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "99.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "Creator",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-Creator-VRPP-Jamming",
+						"Name": "VRPP Jamming",
+						"Details": "ECM is scrambling this unit's VRPP system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "99.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					},
+					"nature": "Buff"
+				}
+			]
+		},
+		{
+			"Id": "Gear_ECM_DroneOSScramble",
+			"Name": "DroneOS Scrambling",
+			"ReticleColor": "#1a91ea",
+			"Range": 120,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-DroneOS-WeaponJamming",
+						"Name": "DroneOS Jamming",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "99.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-DroneOS-Allies-WeaponJamming",
+						"Name": "DroneOS Jamming",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "99.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "Creator",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-DroneOS-Creator-WeaponJamming",
+						"Name": "DroneOS Jamming",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "99.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-DroneOS-WalkSpeed",
+						"Name": "DroneOS WalkSpeed",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "WalkSpeed",
+						"operation": "Float_Multiply",
+						"modValue": "0.5",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-DroneOS-Allies-WalkSpeed",
+						"Name": "DroneOS WalkSpeed",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "WalkSpeed",
+						"operation": "Float_Multiply",
+						"modValue": "0.5",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "Creator",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-DroneOS-Creator-WalkSpeed",
+						"Name": "DroneOS WalkSpeed",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "WalkSpeed",
+						"operation": "Float_Multiply",
+						"modValue": "0.5",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-DroneOS-RunSpeed",
+						"Name": "DroneOS RunSpeed",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "CBTBE_RunMultiMod",
+						"operation": "Float_Add",
+						"modValue": "-0.5",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-DroneOS-Allies-RunSpeed",
+						"Name": "DroneOS RunSpeed",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "CBTBE_RunMultiMod",
+						"operation": "Float_Add",
+						"modValue": "-0.5",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "Creator",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ViralJammer-DroneOS-Creator-RunSpeed",
+						"Name": "DroneOS RunSpeed",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "CBTBE_RunMultiMod",
+						"operation": "Float_Add",
+						"modValue": "-0.5",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		}
+	],
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect_ViralJammer-SensorLockImmunity",
+				"Name": "Sensor Lock Immunity",
+				"Details": "This unit is immune to sensor lock.",
+				"Icon": "circuitry"
+			},
+			"statisticData": {
+				"statName": "EvasiveSafeFromSensorLock",
+				"operation": "Set",
+				"modValue": "true",
+				"modType": "System.Boolean"
+			},
+			"nature": "Buff"
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"ElectronicCounterMeasures",
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

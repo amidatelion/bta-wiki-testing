@@ -1,0 +1,252 @@
+{
+	"Description": {
+		"Cost": 2200000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Raven",
+		"Id": "chassisdef_raven_RVN-1X",
+		"Name": "Raven",
+		"Details": "The RVN-1X is a light 'Mech designed specifically to carry a new generation of electronic warfare gear. The Raven excels at support and scouting, and its standard complement of SRMs and medium lasers allows it to fight well in a pinch.",
+		"Icon": "uixTxrIcon_raven"
+	},
+	"MovementCapDefID": "movedef_raven_RVN-1X",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_raven",
+	"PrefabIdentifier": "chrPrfMech_ravenBase-001",
+	"PrefabBase": "raven",
+	"VariantName": "RVN-1X",
+	"StockRole": "Recon & Electronic Warfare",
+	"YangsThoughts": "The Raven is a very recent design by the Capellans. It has a decent punch for its weight at close range, but the real star here is its electronic warfare capabilities. If you keep this 'Mech safe, it'll really shift things in your favor.",
+	"Tonnage": 35,
+	"InitialTonnage": 3.5,
+	"weightClass": "LIGHT",
+	"Heatsinks": 0,
+	"TopSpeed": 80,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 35,
+	"MeleeInstability": 10,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 35,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 35,
+	"DFAInstability": 10,
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 10,
+			"z": 3
+		},
+		{
+			"x": 1,
+			"y": 9,
+			"z": -2
+		},
+		{
+			"x": -1,
+			"y": 9,
+			"z": -2
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 10,
+			"z": 3
+		},
+		{
+			"x": 1,
+			"y": 9,
+			"z": -2
+		},
+		{
+			"x": -1,
+			"y": 9,
+			"z": -2
+		},
+		{
+			"x": 1,
+			"y": 5,
+			"z": -1
+		},
+		{
+			"x": -1,
+			"y": 5,
+			"z": -1
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_Experimental_EWAR",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Raven",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

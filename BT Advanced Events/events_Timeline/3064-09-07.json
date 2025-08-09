@@ -1,0 +1,91 @@
+{
+	"Description": {
+		"Id": "3064-09-07",
+		"Name": "MercNews Broadcast",
+		"Details": "[[DM.Factions[faction_RimWorldsRepublic],RIM WORLDS REPUBLIC]] STRIKES DISTRACTED FALCONS!\r\n\n\nApollo, [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]]: As the [[DM.Factions[faction_ClanJadeFalcon],Jade Falcon]] invasion of Lyran space rolls on, the Rim Worlds Republic has taken the opportunity to further press their campaign to retake several of their worlds. With the Falcons largely distracted with major offensives against the [[DM.Factions[faction_Steiner],Lyran Commonwealth]], the [[DM.BaseDescriptionDefs[LoreRimRepublicanArmy],Rim Republican Army]] has struck several well-defended Falcon holdings on Beta and Derf. Both worlds were former RWR planets before the Clan Invasion of 3049-3055 and the Republicans have long desired to retake their planets. While the Rim Republican Army may not be fully capable of facing the Falcon's claws head-on, President [[DM.BaseDescriptionDefs[LoreIvanHeliusII],Ivan Helius II]] recognizes that with the Clan distracted his forces have an opportunity to take more of their homeland back. Reports indicate that Clan Jade Falcon is furious but is fully occupied with their offensive into the Lyrans and cannot spare many forces to deal with the Periphery treachery.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "MERCMAN MECH REVIEWS: Anubis\r\n\n\nHot off the presses of the \"Trinity Alliance\" comes the new Anubis BattleMech. Built at the Capellan-financed, Canopian-Taurian owned/operated [[DM.BaseDescriptionDefs[LoreDetroitMW],Detroit Consolidated MechWorks]], the Anubis is rumored to be the long-lost complement to [[DM.BaseDescriptionDefs[LoreAchernarBM],Achernar BattleMechs]]' hugely popular Osiris. Boasting a 240XL engine and Endo-Steel frame, the Anubis can sprint to nearly 130 km/h. The Anubis fulfills its intended light fire-support role with four LRM5s sharing a single ton of reloads, while a single ER Small laser dissuades infantry and [[DM.BaseDescriptionDefs[TBoneLoreBattleArmor],battle armor]]. A Guardian ECM suite and 5.5 tons of the new Capellan Stealth Armor allow the Anubis to strike and fade at long range without ever appearing on its targets' sensors. Although the Anubis gives a fairly impressive performance, it is unclear whether the repair and supply depots of the [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]] and [[DM.Factions[faction_MagistracyOfCanopus],Magistracy of Canopus]] will be able to maintain the Anubis at 100%, as reports from frustrated MechTechs have already begun to trickle in. The Anubis is currently only available to select Capellan, Canopian, and Taurian units, with each chassis carefully logged and tracked by the [[DM.BaseDescriptionDefs[LoreMaskirovka],Maskirovka]].",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Melissia_to_ClanJadeFalcon",
+									"WIIC_ClanJadeFalcon_attacks_starsystemdef_Babaeski",
+									"WIIC_ClanJadeFalcon_attacks_starsystemdef_Ballynure",
+									"WIIC_ClanJadeFalcon_attacks_starsystemdef_Barcelona",
+									"WIIC_ClanJadeFalcon_attacks_starsystemdef_Chahar",
+									"WIIC_ClanJadeFalcon_attacks_starsystemdef_Clermont",
+									"WIIC_ClanJadeFalcon_attacks_starsystemdef_Graceland",
+									"WIIC_ClanJadeFalcon_attacks_starsystemdef_Kikuyu",
+									"WIIC_ClanJadeFalcon_attacks_starsystemdef_Pandora",
+									"WIIC_ClanJadeFalcon_attacks_starsystemdef_Zhongshan"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

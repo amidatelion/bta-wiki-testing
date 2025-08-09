@@ -1,0 +1,2107 @@
+{
+	"Name": "CustomUnits",
+	"Enabled": true,
+	"Hidden": true,
+	"Version": "0.0.0.110",
+	"PackagedOn": "2021-05-16T00:00:00Z",
+	"DLL": "CustomUnits.dll",
+	"DLLEntryPoint": "CustomUnits.Core.Init",
+	"DependsOn": [
+		"Custom Ammo Categories",
+		"CustomPrewarm",
+		"IRBTModUtils",
+		"CustomVoices"
+	],
+	"OptionallyDependsOn": [
+		"MechEngineer"
+	],
+	"ConflictsWith": [
+		"MechResizer"
+	],
+	"CustomResourceTypes": [
+		"CustomMechRepresentationDef",
+		"CustomPrefabDef",
+		"DropSlotsDef",
+		"DropLanceDef",
+		"DropSlotDef",
+		"DropSlotDecorationDef",
+		"PilotingClassDef",
+		"DropClassDef",
+		"CustomHangarDef",
+		"CustomHitTableDef"
+	],
+	"Manifest": [
+		{
+			"Type": "DropSlotDef",
+			"Path": "drop_slots"
+		},
+		{
+			"Type": "DropLanceDef",
+			"Path": "drop_lances"
+		},
+		{
+			"Type": "DropSlotsDef",
+			"Path": "drop_layouts"
+		},
+		{
+			"Type": "DropSlotDecorationDef",
+			"Path": "drop_decorations"
+		},
+		{
+			"Type": "DropClassDef",
+			"Path": "drop_classes"
+		},
+		{
+			"Type": "CustomHangarDef",
+			"Path": "hangardefs"
+		},
+		{
+			"Type": "PilotingClassDef",
+			"Path": "piloting_classes"
+		},
+		{
+			"Type": "AssetBundle",
+			"Path": "assetbundles"
+		},
+		{
+			"Type": "SVGAsset",
+			"Path": "icons"
+		},
+		{
+			"Type": "MechDef",
+			"Path": "mech"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "chassis"
+		},
+		{
+			"Type": "MovementCapabilitiesDef",
+			"Path": "movedef"
+		},
+		{
+			"Type": "PathingCapabilitiesDef",
+			"Path": "pathingdef"
+		},
+		{
+			"Type": "PilotDef",
+			"Path": "pilot"
+		},
+		{
+			"Type": "AbilityDef",
+			"Path": "ability"
+		},
+		{
+			"Id": "fake_weapon_prefab",
+			"Type": "Prefab",
+			"Path": "assets/character/vehicle/prefabs/fake_weapon_prefab.prefab",
+			"AssetBundleName": "fake_weapon_prefab"
+		},
+		{
+			"Id": "battletechstandartshader",
+			"Type": "Prefab",
+			"Path": "assets/shaderscarriers/battletechstandartshader.prefab",
+			"AssetBundleName": "standart_shader"
+		}
+	],
+	"Description": "CustomUnits",
+	"Author": "KMiSSioN - buchered by T-Bone as TEMPORARY FIX for melee pathing issues when interacting with CBTBE!",
+	"Website": "https://www.nexusmods.com/battletech/mods/XXX",
+	"Settings": {
+		"debugLog": false,
+		"baysWidgetsCount": 3,
+		"SortBy": {
+			"orderByCbillValue": false,
+			"orderByNickname": false,
+			"orderByTonnage": false
+		},
+		"timerObjectiveChange": {},
+		"ConvoyRouteBeaconVFX": "vfxPrfPrtl_artillerySmokeSignal_loop",
+		"ConvoyRouteBeaconVFXScale": {
+			"x": 1,
+			"y": 1,
+			"z": 1
+		},
+		"PartialMovementOnlyWalkByDefault": true,
+		"PartialMovementGuardDistance": 35.0,
+		"AllowRotateWhileJumpByDefault": true,
+		"DeployManual": false,
+		"DeployManualSpawnProtection": false,
+		"DeployAutoSpawnProtection": false,
+		"AskForDeployManual": false,
+		"IntelShowMiniMap": false,
+		"IntelShowMood": false,
+		"IntelCompanyStatShowMiniMap": "Intel_Show_Minimap",
+		"IntelCompanyStatShowMood": "Intel_Show_Mood",
+		"DeployMaxDistanceFromOriginal": 30,
+		"DeployMinDistanceFromEnemy": 300,
+		"fixWaterHeight": true,
+		"maxWaterSteppiness": 29,
+		"deepWaterSteepness": 41,
+		"deepWaterDepth": 10,
+		"waterFlatDepth": 2,
+		"MechScaleJRoot": true,
+		"defaultMechSizeMultiplier": 1,
+		"defaultVehicleSizeMultiplier": 1,
+		"defaultTurretSizeMultiplier": 1,
+		"defaultProjectileSizeMultiplier": 1,
+		"vehicleSizePrefabMultipliers": {
+			"perikirov": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"dixon": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
+			},
+			"brutus": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"puma": {
+				"x": 1.75,
+				"y": 1.75,
+				"z": 1.75
+			},
+			"chaparral": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
+			},
+			"kalki": {
+				"x": 1.4,
+				"y": 1.4,
+				"z": 1.4
+			},
+			"curedkite": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"cukarr": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"salttruckmrb": {
+				"x": 1.6,
+				"y": 1.6,
+				"z": 1.6
+			},
+			"salttruckecm": {
+				"x": 1.6,
+				"y": 1.6,
+				"z": 1.6
+			},
+			"j37cistern": {
+				"x": 1.35,
+				"y": 1.35,
+				"z": 1.35
+			},
+			"j37": {
+				"x": 1.35,
+				"y": 1.35,
+				"z": 1.35
+			},
+			"j27": {
+				"x": 1.35,
+				"y": 1.35,
+				"z": 1.35
+			},
+			"burrocistern": {
+				"x": 1.35,
+				"y": 1.35,
+				"z": 1.35
+			},
+			"burroflat": {
+				"x": 1.35,
+				"y": 1.35,
+				"z": 1.35
+			},
+			"burro": {
+				"x": 1.35,
+				"y": 1.35,
+				"z": 1.35
+			},
+			"vonluckner": {
+				"x": 1.15,
+				"y": 1.15,
+				"z": 1.15
+			},
+			"gladiusmk1": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"partisan": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
+			},
+			"manticore": {
+				"x": 0.65,
+				"y": 0.65,
+				"z": 0.65
+			}
+		},
+		"turretSizePrefabMultipliers": {},
+		"projectileSizePrefabMultipliers": {},
+		"projectileSizeMultipliers": {
+			"Weapon_LRM_Thunderbolt5": 2.25,
+			"Weapon_LRM_Thunderbolt10": 2.5,
+			"Weapon_LRM_Thunderbolt15": 2.75,
+			"Weapon_LRM_Thunderbolt20": 3.0,
+			"Weapon_ArrowIV": 3.5,
+			"Weapon_CruiseMissile50": 4.5
+		},
+		"MaxVehicleRandomPilots": 4,
+		"ShowVehicleBays": true,
+		"AllowVehiclesEdit": false,
+		"VehcilesPartialEditable": false,
+		"VehicleComponentOneAllowed": "VehicleLimited",
+		"VehicleComponentForbiddenTag": "VehicleForbidden",
+		"VehicleComponentCategoryTagPrefix": "VehicleComponentFamily-",
+		"MechBaySwitchIconMech": "mech",
+		"MechBaySwitchIconVehicle": "vehicle",
+		"MechBaySwitchIconUp": "weapon_up",
+		"MechBaySwitchIconDown": "weapon_down",
+		"CanPilotVehicleTag": "pilot_vehicle_crew",
+		"CannotPilotMechTag": "pilot_nomech_crew",
+		"CountContractMaxUnits4AsUnlimited": true,
+		"CanPilotVehicleProbability": 0.5,
+		"CanPilotAlsoMechProbability": 0.0,
+		"GenerateExtraPilotingClassesForRonin": false,
+		"SquadStructureIcon": "ba_structure",
+		"SquadArmorOutlineIcon": "ba_armor_outline",
+		"SquadArmorIcon": "ba_armor",
+		"squadForcedTags": [
+			"battle_armor_bays"
+		],
+		"LancesIcons": [
+			"one",
+			"two",
+			"three"
+		],
+		"ShowActiveAbilitiesIcon": "joystick",
+		"ShowPassiveAbilitiesIcon": "passive-ab",
+		"HideActiveAbilitiesIcon": "joystick",
+		"HidePassiveAbilitiesIcon": "passive-ab",
+		"globalGameRepresenationAudioEventsSupress": [
+			"hatchet_latch"
+		],
+		"PlayerControlConvoyTag": "convoy_player_control",
+		"ManualDeployForbidContractTypes": [
+			"Blackout",
+			"SoloDuel",
+			"DuoDuel"
+		],
+		"ConvoyMaxDistFromOther": 400,
+		"ConvoyMaxDistFromPlayer": 400,
+		"ConvoyMaxDistFromRoute": 120,
+		"overallDeploySize": 8,
+		"mechSizePrefabMultipliers": {
+			"331exterminator": {
+				"x": 1.025,
+				"y": 1.025,
+				"z": 1.025
+			},
+			"331genlight2": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"331lynx": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"331mercury": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"331mercurylight": {
+				"x": 0.65,
+				"y": 0.65,
+				"z": 0.65
+			},
+			"331pillager": {
+				"x": 1.15,
+				"y": 1.15,
+				"z": 1.15
+			},
+			"311pulverizer": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"331spector": {
+				"x": 0.825,
+				"y": 0.825,
+				"z": 0.825
+			},
+			"331stag": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"331talon": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"alligator": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"anubis": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"anvil": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"archangel": {
+				"x": 0.975,
+				"y": 0.975,
+				"z": 0.975
+			},
+			"argus": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"assassin2": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"atlasiv": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
+			},
+			"baboon": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.6
+			},
+			"balar": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"bane": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"blackbeard": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"blitzkrieg": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"bombard": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"bowman": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"brigand": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"canis": {
+				"x": 0.925,
+				"y": 0.925,
+				"z": 0.925
+			},
+			"carronade": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"centurion": {
+				"x": 0.87,
+				"y": 1,
+				"z": 1
+			},
+			"cephalus": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"chameleon": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"chimera": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"clint": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"cossack": {
+				"x": 0.675,
+				"y": 0.675,
+				"z": 0.675
+			},
+			"crk": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"crabshasapult": {
+				"x": 0.925,
+				"y": 0.925,
+				"z": 0.925
+			},
+			"crockett": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"crosscut": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"crusader": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
+			},
+			"cucelerity": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.6
+			},
+			"cudragoon": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"cugulon": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"cugreatturtle": {
+				"x": 1.15,
+				"y": 1.15,
+				"z": 1.15
+			},
+			"cukiso": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"curifleman3": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
+			},
+			"cuslagmaiden": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"cuverfolger": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"cuvolkh": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"cyclone": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"dagoth": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"dasher": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"darkcrow": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"digking": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"diomede": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"duangung": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.6
+			},
+			"emperor": {
+				"x": 1.08,
+				"y": 1.08,
+				"z": 1.08
+			},
+			"enfield": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"eris": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"ettin": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"exterminator": {
+				"x": 1.025,
+				"y": 1.025,
+				"z": 1.025
+			},
+			"falcon": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"fireball": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.6
+			},
+			"firebeev2": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"firefly": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"flamberge": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"foxfire": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"freedom": {
+				"x": 0.875,
+				"y": 0.875,
+				"z": 0.875
+			},
+			"genericlight1": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"genericlight3": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"genericlight4": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.6
+			},
+			"genericsh2": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"genericsh3": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"genericsh5": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"genericsh7": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"gladiator": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"glt": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"grandtitan": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
+			},
+			"grendel": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"grizzly": {
+				"x": 0.875,
+				"y": 0.875,
+				"z": 0.875
+			},
+			"groovey": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"gspider": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"gun": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.6
+			},
+			"gun2": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.6
+			},
+			"gunslinger": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"gurkha": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"hammerhead": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"hazard": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"hazardmk2": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"hel": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"hellspawn": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"hermes": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"hito": {
+				"x": 1.2,
+				"y": 1.2,
+				"z": 1.2
+			},
+			"hornet": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"huronwarrior": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"hussar": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"hyperion": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"icarusii": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"imp": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"ionbruin": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"iondeva": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"iondoloire": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"iongrigori": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"ionkingfisher": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"ionlongbow": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"iononanger": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"ionraptor": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"ionraptor2": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"ionsunder": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"ionzeus": {
+				"x": 0.925,
+				"y": 0.925,
+				"z": 0.925
+			},
+			"ironcheetah": {
+				"x": 1.085,
+				"y": 1.085,
+				"z": 1.085
+			},
+			"jackrabbit": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"jinggau": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"juggernaut": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"junior": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"katana": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"komodo": {
+				"x": 0.875,
+				"y": 0.875,
+				"z": 0.875
+			},
+			"kyudo": {
+				"x": 0.825,
+				"y": 0.825,
+				"z": 0.825
+			},
+			"lament": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"legacy": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"lelialbatross": {
+				"x": 1.15,
+				"y": 1.15,
+				"z": 1.15
+			},
+			"leliagrotera": {
+				"x": 0.775,
+				"y": 0.775,
+				"z": 0.775
+			},
+			"lelikoschei": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"lelimerc2": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"liberty": {
+				"x": 1.025,
+				"y": 1.025,
+				"z": 1.025
+			},
+			"ltmackie": {
+				"x": 1.075,
+				"y": 1.075,
+				"z": 1.075
+			},
+			"lynx": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"malak": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"mantis": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"masondev": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"masonviking": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"medusa": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"mercury": {
+				"x": 0.65,
+				"y": 0.65,
+				"z": 0.65
+			},
+			"merlin": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"minsk": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"mistlynx": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"mite": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"ml22v2": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"monster": {
+				"x": 1.3,
+				"y": 1.3,
+				"z": 1.3
+			},
+			"mushu": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"mwostonerhino": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
+			},
+			"naginata": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"napesosprey": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"nighthawk": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"omega": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"pen": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"phawklegacy": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"preta": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"osteon": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"rakshasa": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"raptor": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"ionphantom": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"phawklammech": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"pillager": {
+				"x": 1.15,
+				"y": 1.15,
+				"z": 1.15
+			},
+			"piranha": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"piratemech1": {
+				"x": 1.2,
+				"y": 1.2,
+				"z": 1.2
+			},
+			"prometheus": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"pulverizer": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"rampage": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
+			},
+			"razorback": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"scylla": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"sentinel": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"shayu": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"shayuredux": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"septicemia": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"screamer": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"screamermech": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"shogun": {
+				"x": 1.025,
+				"y": 1.025,
+				"z": 1.025
+			},
+			"shootist": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"shrike": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"sidewinder": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"sling": {
+				"x": 0.65,
+				"y": 0.65,
+				"z": 0.65
+			},
+			"slowpoke": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"sneedrfl": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"spector": {
+				"x": 0.825,
+				"y": 0.825,
+				"z": 0.825
+			},
+			"stag": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"stardriveapollo": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"stardrivestilleto": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.6
+			},
+			"starslayer": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"stingerlegacy": {
+				"x": 0.7,
+				"y": 0.7,
+				"z": 0.7
+			},
+			"strikermech": {
+				"x": 1.15,
+				"y": 1.025,
+				"z": 1.025
+			},
+			"swd": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"t74mackie": {
+				"x": 1.15,
+				"y": 1.15,
+				"z": 1.15
+			},
+			"talon": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"talos": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"templar": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"thug": {
+				"x": 1.08,
+				"y": 1.08,
+				"z": 1.08
+			},
+			"thunderstone": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"tiburon": {
+				"x": 0.7,
+				"y": 0.7,
+				"z": 0.7
+			},
+			"thorn": {
+				"x": 0.65,
+				"y": 0.65,
+				"z": 0.65
+			},
+			"toro": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"transient": {
+				"x": 0.925,
+				"y": 0.925,
+				"z": 0.925
+			},
+			"uziel": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"valiant": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"valkyrieii": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"victor": {
+				"x": 0.87,
+				"y": 1,
+				"z": 1
+			},
+			"visionquest": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"vonrohrs": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"vossieostscout": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"wasplegacy": {
+				"x": 0.7,
+				"y": 0.7,
+				"z": 0.7
+			},
+			"whitworth": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"wight": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"wobsh1": {
+				"x": 1.15,
+				"y": 1.15,
+				"z": 1.15
+			},
+			"wraith": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
+			"ymir": {
+				"x": 1.15,
+				"y": 1.15,
+				"z": 1.15
+			}
+		},
+		"vehicleSizeMultipliers": {},
+		"WeaponPrefabMappings": [
+			{
+				"PrefabIdentifier": "AC2",
+				"HardpointCandidates": {
+					"ac2": 1,
+					"ac": 1,
+					"ac5": 0.9,
+					"lbx2": 0.9,
+					"uac2": 0.9,
+					"lbx": 0.8,
+					"uac": 0.8,
+					"lbx5": 0.8,
+					"uac5": 0.8,
+					"ac10": 0.7,
+					"ac20": 0.6,
+					"mg": 0.5,
+					"gauss": 0.3,
+					"ppc": 0.2,
+					"laser": 0.2,
+					"flamer": 0.2,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "LBX2",
+				"HardpointCandidates": {
+					"lbx2": 1,
+					"lbx": 1,
+					"lbx5": 0.9,
+					"ac2": 0.9,
+					"uac2": 0.9,
+					"ac": 0.8,
+					"uac": 0.8,
+					"ac5": 0.7,
+					"uac5": 0.7,
+					"mg": 0.4,
+					"ppc": 0.3,
+					"gauss": 0.3,
+					"laser": 0.2,
+					"flamer": 0.2,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "UAC2",
+				"HardpointCandidates": {
+					"uac2": 1.0,
+					"uac5": 0.9,
+					"uac": 1.0,
+					"ac2": 0.9,
+					"lbx2": 0.9,
+					"ac": 0.8,
+					"lbx": 0.8,
+					"ac5": 0.7,
+					"lbx5": 0.7,
+					"mg": 0.3,
+					"gauss": 0.3,
+					"ppc": 0.2,
+					"laser": 0.2,
+					"flamer": 0.2,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "AMS",
+				"HardpointCandidates": {
+					"ams": 1.0,
+					"laser": 0.8,
+					"mg": 0.8,
+					"machinegun": 0.8,
+					"flamer": 0.7,
+					"ac2": 0.8,
+					"ppc": 0.3
+				}
+			},
+			{
+				"PrefabIdentifier": "Flamer",
+				"HardpointCandidates": {
+					"flamer": 1.0,
+					"laser": 0.9,
+					"mg": 0.8,
+					"machinegun": 0.8,
+					"ac2": 0.6,
+					"ppc": 0.5,
+					"ac": 0.5,
+					"lbx": 0.5,
+					"ams": 0.2
+				}
+			},
+			{
+				"PrefabIdentifier": "Fluid",
+				"HardpointCandidates": {
+					"fluid": 0.9,
+					"flamer": 0.9,
+					"laser": 0.9,
+					"mg": 0.8,
+					"machinegun": 0.8,
+					"ac2": 0.6,
+					"ppc": 0.5,
+					"ac": 0.5,
+					"lbx": 0.5,
+					"ams": 0.2
+				}
+			},
+			{
+				"PrefabIdentifier": "Laser",
+				"HardpointCandidates": {
+					"laser": 1.0,
+					"flamer": 0.9,
+					"mg": 0.6,
+					"machinegun": 0.6,
+					"ac2": 0.5,
+					"ppc": 0.5,
+					"ac": 0.4,
+					"lbx": 0.4,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "AC5",
+				"HardpointCandidates": {
+					"ac5": 0.8,
+					"ac": 0.9,
+					"ac10": 1.0,
+					"ac2": 0.8,
+					"uac5": 0.9,
+					"lbx5": 0.9,
+					"lbx": 0.7,
+					"rac2": 0.8,
+					"uac2": 0.8,
+					"lbx2": 0.8,
+					"rac5": 0.9,
+					"uac10": 0.8,
+					"lbx10": 0.8,
+					"rac10": 0.8,
+					"ac20": 0.6,
+					"lbx20": 0.6,
+					"uac20": 0.6,
+					"rac20": 0.6,
+					"ppc": 0.5,
+					"laser": 0.4,
+					"gauss": 0.3,
+					"mg": 0.3,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "LBX5",
+				"HardpointCandidates": {
+					"lbx5": 1.0,
+					"lbx": 0.9,
+					"lbx10": 0.8,
+					"lbx2": 0.8,
+					"ac5": 0.9,
+					"uac5": 0.9,
+					"ac": 0.7,
+					"rac2": 0.8,
+					"ac2": 0.8,
+					"uac2": 0.8,
+					"rac5": 0.9,
+					"ac10": 0.8,
+					"uac10": 0.8,
+					"rac10": 0.8,
+					"lbx20": 0.5,
+					"ac20": 0.5,
+					"uac20": 0.5,
+					"rac20": 0.5,
+					"gauss": 0.3,
+					"ppc": 0.4,
+					"laser": 0.3,
+					"mg": 0.3,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "UAC5",
+				"HardpointCandidates": {
+					"uac5": 1.0,
+					"uac10": 0.8,
+					"uac2": 0.8,
+					"lbx5": 0.9,
+					"ac5": 0.9,
+					"ac": 0.7,
+					"lbx": 0.7,
+					"rac2": 0.7,
+					"ac2": 0.7,
+					"lbx2": 0.7,
+					"rac5": 0.8,
+					"ac10": 0.6,
+					"lbx10": 0.8,
+					"rac10": 0.8,
+					"uac20": 0.6,
+					"ac20": 0.6,
+					"lbx20": 0.6,
+					"rac20": 0.6,
+					"gauss": 0.3,
+					"ppc": 0.4,
+					"laser": 0.4,
+					"mg": 0.3,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "RAC2",
+				"HardpointCandidates": {
+					"rac2": 1.0,
+					"rac5": 0.9,
+					"rac10": 0.8,
+					"rac20": 0.6,
+					"uac5": 0.8,
+					"lbx5": 0.8,
+					"ac5": 0.8,
+					"ac": 0.7,
+					"lbx": 0.7,
+					"uac2": 0.8,
+					"ac2": 0.8,
+					"lbx2": 0.8,
+					"uac10": 0.6,
+					"ac10": 0.6,
+					"lbx10": 0.6,
+					"uac20": 0.4,
+					"ac20": 0.4,
+					"lbx20": 0.4,
+					"gauss": 0.3,
+					"ppc": 0.3,
+					"laser": 0.5,
+					"mg": 0.5,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "AC10",
+				"HardpointCandidates": {
+					"ac10": 1.0,
+					"ac": 0.8,
+					"ac5": 0.9,
+					"ac20": 0.8,
+					"lbx10": 0.9,
+					"uac10": 0.9,
+					"rac5": 0.8,
+					"lbx": 0.7,
+					"uac5": 0.7,
+					"lbx5": 0.7,
+					"rac2": 0.5,
+					"rac10": 0.8,
+					"lbx20": 0.8,
+					"uac20": 0.8,
+					"rac20": 0.8,
+					"ac2": 0.4,
+					"uac2": 0.4,
+					"lbx2": 0.4,
+					"gauss": 0.3,
+					"ppc": 0.3,
+					"laser": 0.3,
+					"mg": 0.3,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "LBX10",
+				"HardpointCandidates": {
+					"lbx10": 1.0,
+					"lbx": 0.9,
+					"lbx5": 0.9,
+					"lbx20": 0.8,
+					"ac10": 0.9,
+					"uac10": 0.9,
+					"rac5": 0.7,
+					"ac": 0.7,
+					"ac5": 0.7,
+					"uac5": 0.7,
+					"rac2": 0.6,
+					"rac10": 0.8,
+					"ac20": 0.8,
+					"uac20": 0.8,
+					"rac20": 0.8,
+					"lbx2": 0.6,
+					"ac2": 0.6,
+					"uac2": 0.6,
+					"ppc": 0.4,
+					"laser": 0.4,
+					"gauss": 0.3,
+					"mg": 0.3,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "UAC10",
+				"HardpointCandidates": {
+					"uac10": 1.0,
+					"ac10": 0.9,
+					"lbx10": 0.9,
+					"rac5": 0.8,
+					"ac": 0.7,
+					"lbx": 0.7,
+					"uac5": 0.8,
+					"ac5": 0.8,
+					"lbx5": 0.8,
+					"rac2": 0.6,
+					"rac10": 0.9,
+					"uac20": 0.8,
+					"ac20": 0.8,
+					"lbx20": 0.8,
+					"rac20": 0.8,
+					"uac2": 0.7,
+					"ac2": 0.7,
+					"lbx2": 0.7,
+					"ppc": 0.5,
+					"laser": 0.5,
+					"gauss": 0.3,
+					"mg": 0.3,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "RAC5",
+				"HardpointCandidates": {
+					"rac5": 1.0,
+					"rac2": 0.9,
+					"rac10": 0.9,
+					"rac20": 0.6,
+					"uac10": 0.8,
+					"ac10": 0.8,
+					"lbx10": 0.8,
+					"ac": 0.7,
+					"lbx": 0.7,
+					"uac5": 0.8,
+					"ac5": 0.8,
+					"lbx5": 0.8,
+					"uac20": 0.6,
+					"ac20": 0.6,
+					"lbx20": 0.6,
+					"uac2": 0.8,
+					"ac2": 0.8,
+					"lbx2": 0.8,
+					"ppc": 0.5,
+					"laser": 0.4,
+					"gauss": 0.3,
+					"mg": 0.3,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "PPC",
+				"HardpointCandidates": {
+					"ppc": 1.0,
+					"ac20": 0.8,
+					"ac": 0.6,
+					"lbx": 0.6,
+					"ac10": 0.6,
+					"lbx10": 0.6,
+					"laser": 0.7,
+					"flamer": 0.7,
+					"mg": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "AC20",
+				"HardpointCandidates": {
+					"ac20": 1.0,
+					"ac": 0.7,
+					"ac10": 0.9,
+					"lbx20": 0.9,
+					"uac20": 0.9,
+					"rac20": 0.9,
+					"lbx": 0.7,
+					"rac10": 0.8,
+					"lbx10": 0.8,
+					"uac10": 0.8,
+					"rac5": 0.6,
+					"ac5": 0.6,
+					"uac5": 0.6,
+					"lbx5": 0.6,
+					"gauss": 0.3,
+					"rac2": 0.3,
+					"ppc": 0.2,
+					"laser": 0.2,
+					"mg": 0.2,
+					"flamer": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "LBX20",
+				"HardpointCandidates": {
+					"lbx20": 1.0,
+					"lbx": 0.8,
+					"lbx10": 0.9,
+					"ac20": 0.9,
+					"uac20": 0.9,
+					"rac20": 0.9,
+					"ac": 0.7,
+					"rac10": 0.7,
+					"ac10": 0.7,
+					"uac10": 0.7,
+					"rac5": 0.5,
+					"ac5": 0.5,
+					"uac5": 0.5,
+					"lbx5": 0.5,
+					"rac2": 0.4,
+					"ppc": 0.5,
+					"gauss": 0.3,
+					"laser": 0.3,
+					"mg": 0.2,
+					"flamer": 0.2,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "UAC20",
+				"HardpointCandidates": {
+					"uac20": 1.0,
+					"uac10": 0.9,
+					"ac20": 0.9,
+					"lbx20": 0.9,
+					"rac20": 0.9,
+					"ac": 0.7,
+					"lbx": 0.7,
+					"rac10": 0.8,
+					"ac10": 0.8,
+					"lbx10": 0.8,
+					"rac5": 0.6,
+					"ac5": 0.6,
+					"uac5": 0.6,
+					"lbx5": 0.6,
+					"rac2": 0.3,
+					"ppc": 0.4,
+					"gauss": 0.3,
+					"laser": 0.3,
+					"mg": 0.2,
+					"flamer": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "RAC10",
+				"HardpointCandidates": {
+					"rac10": 1.0,
+					"rac20": 0.9,
+					"rac5": 0.9,
+					"rac2": 0.6,
+					"uac20": 0.8,
+					"ac20": 0.8,
+					"lbx20": 0.8,
+					"ac": 0.7,
+					"lbx": 0.7,
+					"ac10": 0.8,
+					"lbx10": 0.8,
+					"uac10": 0.8,
+					"ac5": 0.7,
+					"uac5": 0.7,
+					"lbx5": 0.7,
+					"ppc": 0.5,
+					"gauss": 0.3,
+					"laser": 0.3,
+					"mg": 0.2,
+					"flamer": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "RAC20",
+				"HardpointCandidates": {
+					"rac20": 1.0,
+					"rac10": 0.9,
+					"rac5": 0.8,
+					"rac2": 0.5,
+					"ac20": 0.8,
+					"lbx20": 0.8,
+					"uac20": 0.8,
+					"uac": 0.7,
+					"ac": 0.7,
+					"lbx": 0.7,
+					"ac10": 0.8,
+					"lbx10": 0.8,
+					"uac10": 0.8,
+					"ac5": 0.6,
+					"uac5": 0.6,
+					"ppc": 0.5,
+					"laser": 0.4,
+					"gauss": 0.3,
+					"mg": 0.3,
+					"flamer": 0.2,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "BFG",
+				"HardpointCandidates": {
+					"bfg": 1.0,
+					"artillery": 1.0,
+					"gauss": 0.9,
+					"ac20": 0.9,
+					"ac": 0.6,
+					"ppc": 0.7,
+					"lbx": 0.6,
+					"laser": 0.3,
+					"mg": 0.2,
+					"flamer": 0.2,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "Gauss",
+				"HardpointCandidates": {
+					"gauss": 1.0,
+					"ac20": 0.8,
+					"ac10": 0.8,
+					"ac5": 0.7,
+					"ac2": 0.7,
+					"ac": 0.6,
+					"ppc": 0.8,
+					"lbx": 0.6,
+					"laser": 0.7,
+					"mg": 0.5,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "railgun",
+				"HardpointCandidates": {
+					"railgun": 1.0,
+					"gauss": 0.9,
+					"ac20": 0.8,
+					"ac10": 0.8,
+					"ac5": 0.7,
+					"ac2": 0.7,
+					"ac": 0.6,
+					"ppc": 0.8,
+					"lbx": 0.6,
+					"laser": 0.7,
+					"mg": 0.5,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "artillery",
+				"HardpointCandidates": {
+					"artillery": 1.0,
+					"mortar": 0.95,
+					"ac20": 0.8,
+					"ac10": 0.8,
+					"ac5": 0.8,
+					"ac2": 0.8,
+					"gauss": 0.7,
+					"ac": 0.7,
+					"lbx": 0.7,
+					"ppc": 0.6,
+					"ams": 0.1,
+					"machinegun": 0.1,
+					"mg": 0.1,
+					"flamer": 0.1,
+					"laser": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "mortar",
+				"HardpointCandidates": {
+					"artillery": 0.95,
+					"mortar": 1.0,
+					"ac5": 0.8,
+					"ac": 0.9,
+					"ac10": 0.8,
+					"ac2": 0.8,
+					"uac5": 0.9,
+					"lbx5": 0.9,
+					"lbx": 0.7,
+					"rac2": 0.8,
+					"uac2": 0.8,
+					"lbx2": 0.8,
+					"rac5": 0.9,
+					"uac10": 0.8,
+					"lbx10": 0.8,
+					"rac10": 0.8,
+					"ac20": 0.6,
+					"lbx20": 0.6,
+					"uac20": 0.6,
+					"rac20": 0.6,
+					"ppc": 0.5,
+					"laser": 0.4,
+					"mg": 0.3,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "lrm5",
+				"HardpointCandidates": {
+					"lrm5": 1.0,
+					"lrm10": 0.9,
+					"lrm15": 0.8,
+					"lrm20": 0.3,
+					"mortar": 0.7,
+					"srm20": 0.3,
+					"srm6": 0.9,
+					"srm4": 0.9,
+					"srm2": 0.6,
+					"machinegun": 0.2,
+					"mg": 0.2,
+					"flamer": 0.1,
+					"laser": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "lrm10",
+				"HardpointCandidates": {
+					"lrm10": 1.0,
+					"lrm15": 0.9,
+					"lrm20": 0.8,
+					"mortar": 0.7,
+					"srm20": 0.8,
+					"lrm5": 0.6,
+					"srm6": 0.8,
+					"srm4": 0.5,
+					"srm2": 0.2,
+					"machinegun": 0.1,
+					"mg": 0.1,
+					"flamer": 0.1,
+					"laser": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "lrm15",
+				"HardpointCandidates": {
+					"lrm15": 1.0,
+					"lrm20": 0.9,
+					"srm20": 0.9,
+					"lrm10": 0.8,
+					"arrow": 0.75,
+					"mortar": 0.7,
+					"lrm5": 0.6,
+					"srm6": 0.65,
+					"srm4": 0.4,
+					"srm2": 0.2,
+					"machinegun": 0.1,
+					"mg": 0.1,
+					"flamer": 0.1,
+					"laser": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "arrow",
+				"HardpointCandidates": {
+					"arrow": 1.0,
+					"arrow4": 0.975,
+					"tbolt": 0.95,
+					"mortar": 0.925,
+					"lrm5": 0.875,
+					"lrm20": 0.7,
+					"srm20": 0.7,
+					"lrm15": 0.5,
+					"lrm10": 0.6,
+					"srm6": 0.8,
+					"srm4": 0.85,
+					"srm2": 0.5,
+					"ppc": 0.2,
+					"gauss": 0.1,
+					"machinegun": 0.1,
+					"mg": 0.1,
+					"flamer": 0.1,
+					"laser": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "lrm20",
+				"HardpointCandidates": {
+					"lrm20": 1.0,
+					"srm20": 1.0,
+					"arrow": 0.95,
+					"lrm15": 0.9,
+					"lrm10": 0.8,
+					"mortar": 0.7,
+					"lrm5": 0.4,
+					"srm6": 0.45,
+					"srm4": 0.3,
+					"srm2": 0.2,
+					"machinegun": 0.1,
+					"mg": 0.1,
+					"flamer": 0.1,
+					"laser": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "MachineGun",
+				"HardpointCandidates": {
+					"machinegun": 1.0,
+					"mg": 1.0,
+					"ac2": 0.9,
+					"flamer": 0.8,
+					"laser": 0.7,
+					"ams": 0.5
+				}
+			},
+			{
+				"PrefabIdentifier": "srm2",
+				"HardpointCandidates": {
+					"srm2": 1.0,
+					"srm4": 0.9,
+					"srm6": 0.6,
+					"lrm5": 0.6,
+					"lrm10": 0.5,
+					"lrm15": 0.3,
+					"lrm20": 0.3,
+					"srm20": 0.3,
+					"machinegun": 0.1,
+					"mg": 0.1,
+					"flamer": 0.1,
+					"laser": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "srm4",
+				"HardpointCandidates": {
+					"srm4": 1.0,
+					"srm6": 0.9,
+					"srm2": 0.6,
+					"lrm5": 0.8,
+					"lrm10": 0.7,
+					"lrm15": 0.5,
+					"lrm20": 0.3,
+					"srm20": 0.3,
+					"machinegun": 0.1,
+					"mg": 0.1,
+					"flamer": 0.1,
+					"laser": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "srm6",
+				"HardpointCandidates": {
+					"srm6": 1.0,
+					"srm4": 0.9,
+					"srm2": 0.6,
+					"lrm5": 0.8,
+					"lrm10": 0.7,
+					"lrm15": 0.5,
+					"lrm20": 0.3,
+					"srm20": 0.3,
+					"machinegun": 0.1,
+					"mg": 0.1,
+					"flamer": 0.1,
+					"laser": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "narc",
+				"HardpointCandidates": {
+					"narc": 1.0,
+					"srm2": 0.9,
+					"srm4": 0.8,
+					"srm6": 0.6,
+					"lrm5": 0.7,
+					"lrm10": 0.5,
+					"lrm15": 0.3,
+					"lrm20": 0.3,
+					"srm20": 0.3,
+					"machinegun": 0.1,
+					"mg": 0.1,
+					"flamer": 0.1,
+					"laser": 0.1,
+					"ams": 0.1
+				}
+			}
+		]
+	}
+}

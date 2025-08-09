@@ -1,0 +1,101 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Illyria",
+		"Name": "Illyria",
+		"Details": "The capital planet of the Illyrian Palatinate, for many years Illyria's inhabitants spent their time searching their world for Star League caches rumored to exist on the world. Though there were some modest discoveries, most of the world's economy was based on shipbuilding. During the Clan Invasion, many expatriates from the Free Rasalhague Republic settled on Illyria, taxing the Palatinate's resources somewhat as it tried to absorb them.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -439.228,
+		"y": -178.11,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_illyria",
+			"planet_size_medium",
+			"planet_climate_tropical",
+			"planet_other_floatingworld",
+			"planet_other_fungus",
+			"planet_other_storms",
+			"planet_other_taintedair",
+			"planet_feature_asteroids",
+			"planet_feature_rings",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_other_megacity",
+			"planet_industry_recreation",
+			"planet_industry_mining",
+			"planet_other_alienvegetation",
+			"planet_other_blackmarket",
+			"planet_other_newcolony",
+			"planet_other_pirate",
+			"planet_other_prison",
+			"planet_faction_illyrian"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"jungleTropical",
+		"urbanHighTech",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 5,
+	"ownerID": "Illyrian",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Illyrian",
+		"itemCollection_shop_industrial",
+		"itemCollection_shop_research"
+	],
+	"factionShopOwnerID": "Illyrian",
+	"FactionShopItems": [
+		"itemCollection_faction_Illyrian"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Illyria",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"Illyrian",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marian",
+		"Circinus",
+		"Locals",
+		"AuriganPirates",
+		"Mercenaries",
+		"WordOfBlake"
+	]
+}

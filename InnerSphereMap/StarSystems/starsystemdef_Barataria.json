@@ -1,0 +1,87 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Barataria",
+		"Name": "Barataria",
+		"Details": "A newly discovered pirate haven, Barataria is a barren, mostly worthless rock in a system of little relevance to anyone of value. However, Barataria's various nooks and crannies, combined with its unsafe jump points, make it an excellent place for those on the run to hide from the law.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -434.348,
+		"y": -147.627,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_barataria",
+			"planet_size_small",
+			"planet_climate_arid",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_industry_poor",
+			"planet_other_blackmarket",
+			"planet_other_pirate",
+			"planet_faction_pirate"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 4,
+	"ownerID": "AuriganPirates",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "AuriganPirates",
+	"FactionShopItems": [
+		"BTA_List_BlackMarket"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Barataria",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 5,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates"
+	],
+	"contractTargetIDs": [
+		"Circinus",
+		"Marik",
+		"Marian",
+		"WordOfBlake",
+		"Illyrian",
+		"Lothian",
+		"Locals"
+	]
+}

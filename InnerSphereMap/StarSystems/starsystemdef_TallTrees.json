@@ -1,0 +1,86 @@
+{
+	"Description": {
+		"Id": "starsystemdef_TallTrees",
+		"Name": "Tall Trees",
+		"Details": "Tall Trees is infamous as the site of the New Tierra del Fuego II plague, a virulent plague which hit the island and killed everyone living there. Rumour has it that the plague was actually created in a Capellan genetic research lab. Tall Trees joined the the Saiph Triumvirate and declared itself independent from the neighboring Great Houses that surround it.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 0.767,
+		"y": -66.743,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_talltrees",
+			"planet_size_large",
+			"planet_climate_tropical",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_agriculture",
+			"planet_industry_research",
+			"planet_other_comstar",
+			"planet_faction_saiphtriumvirate"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"jungleTropical",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 11,
+	"ownerID": "SaiphTriumvirate",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Locals",
+	"FactionShopItems": [],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_TallTrees",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 7,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Locals",
+		"SaiphTriumvirate"
+	],
+	"contractTargetIDs": [
+		"Liao",
+		"Davion",
+		"Marik",
+		"WordOfBlake",
+		"Locals",
+		"Mercenaries",
+		"AuriganPirates"
+	]
+}

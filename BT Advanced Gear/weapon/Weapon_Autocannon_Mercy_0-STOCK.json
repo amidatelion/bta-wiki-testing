@@ -1,0 +1,138 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"WpnRecoil: 2",
+			"WeaponJAMMultiple3Stage: 20%, 30%, 40%",
+			"VariableBurstCount: 6",
+			"NoFireInMelee",
+			"AreaOfEffect: 45",
+			"AreaOfEffectDmg: 18",
+			"WeaponAttachmentCompatible: Superweapon FCS"
+		]
+	},
+	"weaponCategoryID": "Superweapon",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC10",
+	"MinRange": 0,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "Mercy",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 15,
+	"Damage": 35,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 3,
+	"Instability": 15,
+	"FireDelayMultiplier": 0.1,
+	"AOECapable": true,
+	"AOERange": 45,
+	"AOEDamage": 18,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC10",
+	"Description": {
+		"Cost": 1850000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "H&H Tools",
+		"Model": "New Vegas",
+		"UIName": "Mercy",
+		"Id": "Weapon_Autocannon_Mercy_0-STOCK",
+		"Name": "Mercy",
+		"Details": "The Rim Worlds Republic's manufacturing sector has always been strong. In the wake of the 3050s Clan Invasion that nearly crippled the Republic, President Ivan Helius II ordered the realm's military manufacturers to produce a new crop of weaponry to better defend the realm from further Clan aggression. Included was the ironically-named Mercy, which is effectively a rocket-propelled grenade launcher that deal high damage to the target and include a small area of effect. Additionally, the Mercy is a rapid-fire weapon and can absolutely spray shots across its targets, dealing tremendous damage. The name is an in-joke by the designer, who mentioned in an interview that he made the weapon to 'show the Clans the same mercy they showed us'. President Helius reportedly laughed heartily upon hearing this and ordered the weapon into production as soon as possible. \n\n <b><color=#ffcc00>Uses Mercy Ammo.</color></b> \n\n <b><color=#00ffff>Left Click on Ammocount/Damage value during battle to switch firing mode</color> </b>",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC10",
+	"BattleValue": 0,
+	"InventorySize": 9,
+	"Tonnage": 17,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"ImprovedBallistic": true,
+	"CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": false,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": false,
+			"ShotsWhenFired": 1,
+			"RefireModifier": 1,
+			"HeatGenerated": 15
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": true,
+			"ShotsWhenFired": 2,
+			"RefireModifier": 2,
+			"HeatGenerated": 30
+		},
+		{
+			"Id": "x4",
+			"UIName": "x4",
+			"isBaseMode": false,
+			"ShotsWhenFired": 3,
+			"RefireModifier": 3,
+			"FlatJammingChance": 0.2,
+			"HeatGenerated": 45
+		},
+		{
+			"Id": "x5",
+			"UIName": "x5",
+			"isBaseMode": false,
+			"ShotsWhenFired": 4,
+			"RefireModifier": 3,
+			"FlatJammingChance": 0.3,
+			"HeatGenerated": 60
+		},
+		{
+			"Id": "x6",
+			"UIName": "x6",
+			"isBaseMode": false,
+			"ShotsWhenFired": 5,
+			"RefireModifier": 4,
+			"FlatJammingChance": 0.4,
+			"HeatGenerated": 75
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_long",
+			"WebbTCSupported-RotaryAC",
+			"SuperweaponFCSSupported-Rotary"
+		],
+		"tagSetSourceFile": ""
+	}
+}

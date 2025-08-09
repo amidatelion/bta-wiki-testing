@@ -1,0 +1,92 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Saiph",
+		"Name": "Saiph",
+		"Details": "The headquarters of Sitwell Corporation, the main competitor to Bluth Corporation. Saiph founded the the Saiph Triumvirate and declared itself independent from the neighboring Great Houses that surround it.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 4.644,
+		"y": -68.03,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_saiph",
+			"planet_size_large",
+			"planet_climate_water",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_recreation",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_industry_research",
+			"planet_industry_manufacturing",
+			"planet_other_blackmarket",
+			"planet_faction_saiphtriumvirate"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lowlandsCoastal",
+		"highlandsSpring"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "SaiphTriumvirate",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Locals",
+	"FactionShopItems": [],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Saiph",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Locals",
+		"SaiphTriumvirate"
+	],
+	"contractTargetIDs": [
+		"Liao",
+		"Davion",
+		"Marik",
+		"WordOfBlake",
+		"Locals",
+		"Mercenaries",
+		"AuriganPirates"
+	]
+}

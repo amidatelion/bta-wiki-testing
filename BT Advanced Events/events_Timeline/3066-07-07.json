@@ -1,0 +1,90 @@
+{
+	"Description": {
+		"Id": "3066-07-07",
+		"Name": "MercNews Broadcast",
+		"Details": "DUKE TANCRED, ARDAN SORTEK INVADE NEW AVALON!\r\n\n\n[[DM.BaseDescriptionDefs[LoreNewAvalon],New Avalon]], [[DM.BaseDescriptionDefs[LoreFedCom],Federated Commonwealth]]:  On June 30, Duke [[DM.BaseDescriptionDefs[TBoneLoreTancredSandoval],Tancred]]'s Second [[DM.BaseDescriptionDefs[LoreRobinsonRgr],Robinson Rangers]], First [[DM.BaseDescriptionDefs[LoreCrucisLancers],Crucis Lancers]] and [[DM.BaseDescriptionDefs[LoreDavionGuards],Davion Heavy Guards]] made landing on the continent of Brunswick, followed a week later by Field Marshal [[DM.BaseDescriptionDefs[LoreArdanSortek],Ardan Sortek]] with the Second [[DM.BaseDescriptionDefs[LoreCetiHussar],Ceti Hussars]] and the [[DM.BaseDescriptionDefs[LoreDavionGuards],Davion Light Guards]].  Defending Archon-Princess [[DM.BaseDescriptionDefs[LoreKatherineSteiner],Katrina Steiner]], the [[DM.BaseDescriptionDefs[LoreLoyalist],Loyalists]] are being led by Marshal of the Armies [[DM.BaseDescriptionDefs[LoreJacksonDavion],Jackson Davion]], and included the Nineteenth [[DM.BaseDescriptionDefs[LoreArcturanGuard],Arcturan Guards]], Tenth [[DM.BaseDescriptionDefs[LoreDLC],Deneb Light Cavalry]], Fifth [[DM.BaseDescriptionDefs[LoreDonegalGuards],Donegal Guard]], Third [[DM.BaseDescriptionDefs[LoreRobinsonRgr],Robinson Rangers]], Seventeenth [[DM.BaseDescriptionDefs[LoreAvalonHussars],Avalon Hussars]], the Remagen [[DM.BaseDescriptionDefs[LoreCrMM],CMM]] and [[DM.Factions[faction_ComStar],ComStar]]'s 299th Division.\n\nThis now begins what is considered by trillions the largest and most important battle of the Federated Commonwealth Civil War.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "SMALL WORLD REBELLION AGAIN!\r\n\n\nSmall World, [[DM.Factions[faction_Cameron],Terran Hegemony]]: While the Duke of Small World, Blake Small, was reported to have been captured by Hegemony forces in early 3065, it appears those reports may have been in error as he has been spotted rallying his forces once again outside the capital of New Mariotta. While the Duke's attempt to secede from the Hegemony (and to conquer the neighboring world of Ingress) were thwarted, his ambitions are clearly still in place. [[DM.BaseDescriptionDefs[LoreFuries],The Furies]] left the world in mid-3065 but [[DM.Factions[faction_SmithsonsChineseBandits],Smithson's Chinese Bandits]] are still on planet, clearly waiting for the right moment to strike the Hegemony's occupying forces. There are persistent rumors that Duke Small may have been freed from captivity by [[DM.Factions[faction_WordOfBlake],Word of Blake]] saboteurs, but this is unconfirmed at this time.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_SmallWorld_to_Cameron",
+									"WIIC_give_starsystemdef_NewAvalon_to_Steiner",
+									"WIIC_Davion_attacks_starsystemdef_NewAvalon",
+									"WIIC_SmithsonsChineseBandits_attacks_starsystemdef_SmallWorld",
+									"WIIC_set_starsystemdef_SmallWorld_defender_strength_20",
+									"WIIC_set_starsystemdef_SmallWorld_attacker_strength_20",
+									"WIIC_set_starsystemdef_NewAvalon_defender_strength_50",
+									"WIIC_set_starsystemdef_NewAvalon_attacker_strength_50",
+									"WIIC_give_starsystemdef_SmallWorld_to_Locals_on_attacker_win"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

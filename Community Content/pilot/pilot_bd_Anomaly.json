@@ -1,0 +1,50 @@
+{
+	"Description": {
+		"Id": "pilot_bd_Anomaly",
+		"Name": "Anomaly",
+		"FirstName": "Mel",
+		"LastName": "Bootz",
+		"Callsign": "Anomaly",
+		"Gender": "Male",
+		"Faction": "AuriganRestoration",
+		"Age": "44",
+		"Details": "Not much is known about Anomaly's life prior to becoming a MechWarrior. He was found on Tortuga Prime by local pirates in a broken Firestarter with no arms or legs. He spent a few years with the pirates before he eventually found a footing working for House Marik.\r\n\r\nThroughout the years Anomaly has learned to be more evasive and keep his Mech in one piece. While he's not very talkative about his past, he has proven to be dependable in the field. An avid reader, he spends most of his free time in the library.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_Anomaly"
+	},
+	"BaseGunnery": "3",
+	"BonusGunnery": 0,
+	"BasePiloting": "5",
+	"BonusPiloting": 0,
+	"BaseGuts": "2",
+	"BonusGuts": 0,
+	"BaseTactics": "4",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_pro05_rick",
+	"abilityDefNames": [
+		"TraitDefSprintIncrease10",
+		"AbilityDefP5a",
+		"TraitDefIndirectReduceOne"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_mechwarrior",
+			"pilot_cautious",
+			"name_Anomaly",
+			"pilot_bookish",
+			"pilot_honest",
+			"pilot_marik"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}

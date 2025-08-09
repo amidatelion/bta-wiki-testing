@@ -1,0 +1,80 @@
+{
+	"Description": {
+		"Id": "3061-06-07",
+		"Name": "MercNews Broadcast",
+		"Details": "PRECENTOR-MARTIAL ASSASSINATED, WORD OF BLAKE FURIOUS!\r\n\n\nGibson, [[DM.Factions[faction_WordOfBlake],Word of Blake]] Protectorate: In shocking news today, the Precentor-Martial of the [[DM.Factions[faction_WordOfBlake],Word of Blake]] Protectorate, [[DM.BaseDescriptionDefs[LoreTrentArian],Trent Arian]], has been assassinated. The Precentor-Martial was on his way to an annual memorial service commemorating the passing of Jerome Blake with his aide, Suzanne Mulvanery, when his vehicle was destroyed by an assassin's bomb. Initial investigation indicates that the bomb was planted by a Com Guard insurgent with a grudge against the Precentor-Martial, though [[DM.Factions[faction_ComStar],ComStar]] denies all involvement and has condemned the attack, saying in a statement that \"while [[DM.Factions[faction_ComStar],ComStar]] and the [[DM.Factions[faction_WordOfBlake],Word of Blake]] have strong disagreements on interstellar policy, [[DM.Factions[faction_ComStar],ComStar]] would never condone the assassination of Precentor-Martial Arian\".\r\n\n\nStay tuned for more.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "CAMERON ST. JAMAIS NAMED PRECENTOR-MARTIAL, VOWS TO FIND AND PUNISH KILLER!\r\n\n\nGibson, [[DM.Factions[faction_WordOfBlake],Word of Blake]] Protectorate: With the death of [[DM.BaseDescriptionDefs[LoreTrentArian],Trent Arian]], a power vacuum has opened in the [[DM.Factions[faction_WordOfBlake],Word of Blake's]] power structure. However, it has been quickly filled as Cameron St. Jamais has been appointed to fill the role of Precentor-Martial. St. Jamais is considered the leader of the radical Toyama Sect of the [[DM.Factions[faction_WordOfBlake],Word of Blake]] and is a member of the Ruling Conclave of the Word as well. He has a reputation as a bit of a firebrand and a difficult man to work alongside, however his dedication to the cause of the [[DM.Factions[faction_WordOfBlake],Word of Blake]] is impressive. Precentor-Martial St. Jamais had this to say in a public statement: \"With this appointment, I hearby vow to lead our forces to victory in all deeds. Do not think to stand before the Word, lest you be swept away before us.\" [[DM.Factions[faction_ComStar],ComStar's]] representatives could not be reached for comment at this time.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

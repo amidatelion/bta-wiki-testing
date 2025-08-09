@@ -1,0 +1,84 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Gagliano",
+		"Name": "Gagliano",
+		"Details": "A frozen iceball, Gagliano has developed a reputation for being a bit of a smuggler's paradise. The planet is poorly developed and has vast swathes of uncharted mountains and crevasses for smugglers to hide in. If you want it, you can get it on Gagliano.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 835.039,
+		"y": -675.715,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_size_large",
+			"planet_climate_arctic",
+			"planet_pop_medium",
+			"planet_civ_periphery",
+			"planet_other_blackmarket",
+			"planet_other_pirate",
+			"planet_other_boreholes",
+			"planet_industry_rich",
+			"planet_faction_jacobsonhaven",
+			"planet_name_Gagliano"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"polarFrozen",
+		"tundraFrozen"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 12,
+	"ownerID": "JacobsonHaven",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "JacobsonHaven",
+	"FactionShopItems": [
+		"itemCollection_faction_JacobsonHaven"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Gagliano",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"JacobsonHaven"
+	],
+	"contractTargetIDs": [
+		"SanctuaryAlliance",
+		"DaneSacellum",
+		"MallardRepublic"
+	]
+}

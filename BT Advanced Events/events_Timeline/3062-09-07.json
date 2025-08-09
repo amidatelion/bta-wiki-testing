@@ -1,0 +1,107 @@
+{
+	"Description": {
+		"Id": "3062-09-07",
+		"Name": "MercNews Broadcast",
+		"Details": "RIOTING BREAKS OUT ON [[DM.BaseDescriptionDefs[LoreSolaris7],SOLARIS VII]]!\r\n\n\nSolaris VII, [[DM.BaseDescriptionDefs[LoreLyranAlliance],Lyran Alliance]]: Tensions reached a boiling point as violence spilled into the streets of [[DM.BaseDescriptionDefs[LoreSolaris7],Solaris VII]] last month. What began as a Grand Championship match between Steiner favorite Michael Searcy and Davion star Victor Vandergriff turned into open warfare after a failure of the Solaris stadium containment field allowed the two fighters to break through the stadium walls and into the streets. Fans and nationals on both sides quickly took to arms, dividing the city into Lyran and [[DM.Factions[faction_Davion],FedSuns]] districts. Only after the two champions met to finish their duel did the fighting within the city die down, though it has yet to subside completely.\r\n\n\n\n[[DM.BaseDescriptionDefs[LoreMRBC],MRBC]] TO REOPEN OFFICE ON GALATEA, NEW OFFICES PLANNED\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]]: The [[DM.BaseDescriptionDefs[LoreMRBC],Mercenary Review and Bonding Commission]] has announced the acquisition and reopening of the troubled Galatea mercenary hall following years of neglect. The Galatea facility has long had a reputation as a haven for mercenary commands with a less-than-stellar [[DM.BaseDescriptionDefs[LoreMRBC],MRBC]] rating, with rumors of illegal contracts and pirate contact becoming commonplace. In addition, the [[DM.BaseDescriptionDefs[LoreMRBC],MRBC]] has revealed plans to open additional satellite offices on [[DM.BaseDescriptionDefs[LoreSolaris7],Solaris VII]], Arc-Royal, and Northwind in order to \"better facilitate contract arbitration, unit evaluation, and customer satisfaction.\"\r\n\n\nPlease stay tuned for a word from our sponsor.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "[[DM.BaseDescriptionDefs[LoreSLDF],SLDF]] RAIDERS CONTINUE RAMPAGE\r\n\n\nLuthien, [[DM.Factions[faction_Kurita],Draconis Combine]]: The mysterious attacks on Kuritan and [[DM.Factions[faction_ClanGhostBear],Clan Ghost Bear]] worlds, though driven back, have escalated today with further attacks against more Kuritan worlds along the Periphery. Sources within [[DM.Factions[faction_ClanGhostBear],Clan Ghost Bear]] however have confirmed the nature of the attackers: the [[DM.Factions[faction_331stDivision],331st Royal BattleMech Division]]. The 331st Division left the Inner Sphere along with [[DM.BaseDescriptionDefs[LoreKerensky],Kerensky]] during the Exodus and was presumed absorbed into a Clan in their Homeworlds. However, they appear to have re-emerged as a distinct fighting force along the Kuritan borders. For unclear reasons, the Bears remain furious with the attacks, despite the attacks against their worlds having ceased. [[DM.Factions[faction_ClanGhostBear],Clan Ghost Bear]] representatives were unwilling to discuss the matter, going so far as to threaten our reporters with violence if they persisted in their questioning. Scouts for the [[DM.BaseDescriptionDefs[LoreKuritaDCMS],DCMS]] have identified the raider's home base however, a world named Ebon's End in the Coreward Periphery. Already, House Kurita, as well as several Clans, are preparing to strike this hidden base.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_SolarisVIIMercLeague_raids_starsystemdef_Solaris",
+									"WIIC_331stDivision_raids_starsystemdef_Gravenhage",
+									"WIIC_set_starsystemdef_Gravenhage_defender_strength_20",
+									"WIIC_set_starsystemdef_Gravenhage_attacker_strength_40",
+									"WIIC_331stDivision_raids_starsystemdef_Hartshill",
+									"WIIC_set_starsystemdef_Hartshill_defender_strength_20",
+									"WIIC_set_starsystemdef_Hartshill_attacker_strength_40",
+									"WIIC_331stDivision_raids_starsystemdef_Salford",
+									"WIIC_set_starsystemdef_Salford_defender_strength_20",
+									"WIIC_set_starsystemdef_Salford_attacker_strength_40",
+									"WIIC_331stDivision_raids_starsystemdef_Brihuega",
+									"WIIC_set_starsystemdef_Brihuega_defender_strength_20",
+									"WIIC_set_starsystemdef_Brihuega_attacker_strength_40",
+									"WIIC_331stDivision_raids_starsystemdef_Nowhere",
+									"WIIC_set_starsystemdef_Nowhere_defender_strength_20",
+									"WIIC_set_starsystemdef_Nowhere_attacker_strength_40",
+									"WIIC_331stDivision_raids_starsystemdef_AdDuwayd",
+									"WIIC_set_starsystemdef_AdDuwayd_defender_strength_20",
+									"WIIC_set_starsystemdef_AdDuwayd_attacker_strength_40",
+									"WIIC_331stDivision_raids_starsystemdef_Korramabad",
+									"WIIC_set_starsystemdef_Korramabad_defender_strength_20",
+									"WIIC_set_starsystemdef_Korramabad_attacker_strength_40",
+									"WIIC_331stDivision_raids_starsystemdef_Pusht-i-rud",
+									"WIIC_set_starsystemdef_Pusht-i-rud_defender_strength_20",
+									"WIIC_set_starsystemdef_Pusht-i-rud_attacker_strength_40",
+									"REMOVE_LiS__NavReq__331stHider__starsystemdef_EbonsEnd__HIDDEN"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

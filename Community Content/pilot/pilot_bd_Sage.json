@@ -1,0 +1,51 @@
+{
+	"Description": {
+		"Id": "pilot_bd_Sage",
+		"Name": "Firebird",
+		"FirstName": "Morgan",
+		"LastName": "Browning",
+		"Callsign": "Firebird",
+		"Gender": "Male",
+		"Faction": "AuriganRestoration",
+		"Age": "42",
+		"Details": "Morgan was born on Terra in 3020. When he was coming of age, the Precentor Martial of the newly revealed Com Guard made a speech while visiting, where he emphasized the neutral and pacifistic posture of the organization, that they were actively working in areas of disaster relief, rescue operations, and other humanitarian endeavors. These lofty aims reminded Morgan of the tales of the Star League he had heard growing up, and he was inspired to enlist. He showed an aptitude for piloting Battlemechs, and before long he was defending Periphery border worlds against pirate raids.\r\n\r\nIn 3052, Morgan's battalion was recalled to Tukayyid to fight the invading Clans in what was largely understood to be a suicide mission to buy time to save Terra. Morgan was one of the 'lucky' ones when in the opening days of the battle he only suffered a collapsed lung and three shattered vertebrae when a round pierced his cockpit. The rest of his lance weren't quite so lucky. He was sidelined for the rest of the battle, recovering in a field hospital.\r\n\r\nYears later, Morgan was a lance leader in the Terran Defense Force when a coup d'état saw his forces crushed. His lance mates wanted to go down fighting, but he refused to throw their lives away. Not after what he saw on Tukayyid. He ordered his lance to board the last uncompromised drop ship, and they blasted off. Whereupon, his lance mates relieved him of his command, called him a coward and a traitor, and did their damnedest to try to bring him before a court martial. But at least they didn't die that day for nothing.\r\n\r\n So Morgan fled. Since then, he's been getting by taking on mercenary work and trying to keep his head down. But it's probably only a matter of time before either ComStar or the Word of Blake come looking for him. \r\n\r\n<b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_bd_Sage"
+	},
+	"BaseGunnery": "4",
+	"BonusGunnery": 0,
+	"BasePiloting": "4",
+	"BonusPiloting": 0,
+	"BaseGuts": "4",
+	"BonusGuts": 0,
+	"BaseTactics": "4",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 4,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_raju",
+	"abilityDefNames": [
+		"TraitDefJamReduceOne",
+		"TraitDefGunneryStabBonus1",
+		"TraitDefSprintIncrease10",
+		"TraitDefHealthAddOne",
+		"TraitDefIndirectReduceOne"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_mechwarrior",
+			"pilot_command",
+			"name_Sage",
+			"pilot_military",
+			"pilot_lucky"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}

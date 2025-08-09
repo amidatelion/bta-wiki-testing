@@ -1,0 +1,86 @@
+{
+	"Description": {
+		"Id": "3061-08-07",
+		"Name": "MercNews Broadcast",
+		"Details": "HEGEMONY AND SUNS TENSIONS ERUPT INTO OPEN CONFLICT!\r\n\n\nTerra, [[DM.Factions[faction_Cameron],Terran Hegemony]]: Simmering tensions between the [[DM.Factions[faction_Cameron],Terran Hegemony]] and the [[DM.Factions[faction_Davion],Federated Suns]] have exploded into a live war with the [[DM.Factions[faction_Davion],Federated Suns]] announcement that they are invading several Hegemony worlds. The worlds in question include Helen, Errai, Fletcher, Sheratan, and Kawich, all of which have been attacked by Suns forces from the Draconis March. Marshal of the Draconis March, [[DM.BaseDescriptionDefs[LoreJamesSandoval],James Sandoval]], openly declared his intent to take back those worlds from the Hegemony, which he has decried as a corrupt and illegal nation-state that is \"poisoning the heart of the Inner Sphere with their lies\". Director-General [[DM.BaseDescriptionDefs[LoreChristopherCameron],Christopher Cameron]] has ordered the [[DM.BaseDescriptionDefs[LoreTHAF],THAF]] into service to protect their worlds and has also authorized punitive strikes against several Federated Suns worlds as well.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "SOURCE OF CONFLICT REMAINS IN QUESTION!\r\n\n\nRobinson, [[DM.Factions[faction_Davion],Federated Suns]]: The source of the conflict between the [[DM.Factions[faction_Cameron],Terran Hegemony]] and the [[DM.Factions[faction_Davion],Federated Suns]] remains somewhat in doubt at the present time. When the [[DM.Factions[faction_Cameron],Hegemony]] was declared in the late 3030s, it claimed many worlds around the former [[DM.BaseDescriptionDefs[LoreComStarProtectorate],ComStar Protectorate]] for itself, even taking them by force in some cases which angered the Great Houses whose worlds were being poached. Among those worlds were many from the [[DM.Factions[faction_Davion],Federated Suns]], some of which are the subject of Marshal [[DM.BaseDescriptionDefs[LoreJamesSandoval],Sandoval]]'s recent attack. However, many of those worlds willingly joined the [[DM.Factions[faction_Cameron],Hegemony]] and had no blood shed over them, making the Marshal's intent unclear. Is he liberating captured worlds from a cruel master or is he taking back what he believes is his despite all evidence to the contrary? It is unclear what the truth is at present.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_Davion_attacks_starsystemdef_Helen",
+									"WIIC_Davion_attacks_starsystemdef_Errai",
+									"WIIC_Davion_attacks_starsystemdef_Fletcher(CC)",
+									"WIIC_Davion_attacks_starsystemdef_Sheratan",
+									"WIIC_Davion_attacks_starsystemdef_Kawich"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

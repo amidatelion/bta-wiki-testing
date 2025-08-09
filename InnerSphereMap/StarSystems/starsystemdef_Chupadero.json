@@ -1,0 +1,93 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Chupadero",
+		"Name": "Chupadero",
+		"Details": "Chupadero in the modern day is highly loyal to the Combine, seemingly to make up for its origins as an Age of War prison colony. The locals pride themselves on being able to repair and use equipment many would have scrapped decades ago.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 227.989,
+		"y": 379.415,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_chupadero",
+			"planet_size_medium",
+			"planet_climate_rocky",
+			"planet_other_volcanic",
+			"planet_other_mudflats",
+			"planet_other_floatingworld",
+			"planet_pop_medium",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_other_blackmarket",
+			"planet_other_prison",
+			"planet_faction_kurita"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 3,
+	"ownerID": "Kurita",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Kurita",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Kurita",
+	"FactionShopItems": [
+		"itemCollection_faction_Kurita"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Chupadero",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Kurita",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Davion",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Outworld",
+		"Rasalhague",
+		"Mercenaries",
+		"BandOfTheDamned"
+	]
+}

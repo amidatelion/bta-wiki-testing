@@ -1,0 +1,89 @@
+{
+	"Description": {
+		"Id": "3061-10-07",
+		"Name": "MercNews Broadcast",
+		"Details": "SANDOVAL'S WAR ENDS, SUNS GIVE UP TERRITORY!\r\n\n\nTerra, [[DM.Factions[faction_Cameron],Terran Hegemony]]: The short-lived Hegemony-Suns War of 3061 came to an end today with a negotiated cease-fire between Director-General [[DM.BaseDescriptionDefs[LoreChristopherCameron],Christopher Cameron]] and Marshal of the Draconis March [[DM.BaseDescriptionDefs[LoreJamesSandoval],James Sandoval]]. In the cease-fire, Marshal [[DM.BaseDescriptionDefs[LoreJamesSandoval],Sandoval]] agreed (reluctantly) to withdraw his forces from all attacked Hegemony worlds. Further, the [[DM.Factions[faction_Davion],Federated Suns]] agreed to turn over several worlds to the Hegemony in compensation for their material losses in the conflict. While First Prince [[DM.BaseDescriptionDefs[LoreKatherineSteiner],Katherine Steiner-Davion]] reportedly is displeased with this, she has accepted the trade in exchange for the cessation of hostilities with the Hegemony in a time that is growing increasingly fraught for her politically. Marshal [[DM.BaseDescriptionDefs[LoreJamesSandoval],Sandoval]] has returned to Robinson from the front-lines where he has retreated into his palace, refusing all public appearances for the time being. Rumor says he is nursing a strong grudge against both the Director-General (for defeating him) and the First Prince (for forcing him to accept the cease-fire).",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "UNREST IN FAR-OFF NUEVA CASTILE\r\n\n\nAsturias [[DM.Factions[faction_Liao],Nueva Castile]]: Wild rumors are swirling in far-off Nueva Castile that there are ghosts in the Deep Periphery, haunting the corners of the region and preying on unsuspecting travelers luckless enough to be in the deep black. While there are no confirmations of what precisely the Castilians are encountering or even think is out there, the fact that the rumors can be found in both Castilian and Umayyad space indicates that this is not a situation where one side preys on the other and blames space ghosts for their troubles (as so often happens in the conflict-fraught region). What is truly out in the black will remain a mystery until such time as it reveals itself.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Helen_to_Cameron",
+									"WIIC_give_starsystemdef_Errai_to_Cameron",
+									"WIIC_give_starsystemdef_Fletcher(CC)_to_Cameron",
+									"WIIC_give_starsystemdef_Sheratan_to_Cameron",
+									"WIIC_give_starsystemdef_Kawich_to_Cameron",
+									"WIIC_give_starsystemdef_Addicks_to_Cameron",
+									"WIIC_give_starsystemdef_Towne_to_Cameron",
+									"WIIC_give_starsystemdef_Ankaa_to_Cameron"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

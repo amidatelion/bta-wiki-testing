@@ -1,0 +1,78 @@
+{
+	"Description": {
+		"Id": "starsystemdef_InterstellarExpeditionsBase14",
+		"Name": "Interstellar Expeditions Base #14",
+		"Details": "This system is little more than a supply and operations base for Instellar Expeditions teams.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -1499.962,
+		"y": 326.19,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_interstellarexpeditionsbase#14",
+			"planet_size_large",
+			"planet_climate_lunar",
+			"planet_other_volcanic",
+			"planet_feature_gasgiant",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_none",
+			"planet_civ_primitive",
+			"planet_industry_poor",
+			"planet_faction_nofaction",
+			"planet_other_empty"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 11,
+	"ownerID": "NoFaction",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_TaurianConcordat",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "NoFaction",
+	"FactionShopItems": [
+		"itemCollection_faction_TaurianConcordat"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_InterstellarExpeditionsBase14",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [],
+	"contractTargetIDs": []
+}

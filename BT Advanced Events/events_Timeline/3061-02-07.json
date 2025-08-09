@@ -1,0 +1,80 @@
+{
+	"Description": {
+		"Id": "3061-02-07",
+		"Name": "MercNews Broadcast",
+		"Details": "[[DM.BaseDescriptionDefs[LoreMAF],MAF]] AND [[DM.BaseDescriptionDefs[LoreCCAF],CCAF]] JOINT RESCUE ON DETROIT, JEFFREY CALDERON KILLED!\r\n\n\nDetroit, [[DM.BaseDescriptionDefs[LoreNewColonyRegion],New Colony Region]]: After several months of stalemate with rogue Colonial Marshals holding the leaders of both the [[DM.Factions[faction_MagistracyOfCanopus],Magistracy of Canopus]] and [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]] hostage, a joint task force of the [[DM.BaseDescriptionDefs[LoreMAF],Magistracy Armed Forces]] and [[DM.BaseDescriptionDefs[LoreCCAF],Capellan Confederation Armed Forces]] has brought an end to the situation. President of the Colony Council Sherman Maltin and several rogue Colonial Marshals under his command took Magistrix [[DM.BaseDescriptionDefs[LoreEmmaCentrella],Emma Centrella]] and Protector [[DM.BaseDescriptionDefs[LoreJeffCalderon],Jeffrey Calderon]] prisoner in late 3060 and attempted to declare independence for the region in exchange for their freedom. Both the Magistracy and Concordat refused this claim, with Magistrix Centrella's daughter Naomi leading the rescue effort. Unfortunately, during the climactic shootout with the Marshals, Protector Calderon was killed in the crossfire, leaving the Concordat without a clear ruler.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "CONCORDAT RULERSHIP IN QUESTION\r\n\n\nTaurus, [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]]: With the untimely death of Protector [[DM.BaseDescriptionDefs[LoreJeffCalderon],Jeffrey Calderon]] and the ill-fortune that has affected the Calderon line, there is no clear heir to the Protectorship. Jeffrey had no children nor was he married, leaving the rulership of the realm in doubt. Several names have been floated as possible Protectors, including Governor [[DM.BaseDescriptionDefs[LoreGroverShraplen],Grover Shraplen]], a noted and quite vocal opponent of Jeffrey's, and Baron [[DM.BaseDescriptionDefs[LoreChamKithrong],Cham Kithrong]], the current Marshal of the TDF's VI Corps. Until the [[DM.BaseDescriptionDefs[LorePrivyCouncil],Privy Council]] of the Concordat chooses a new Protector however, chaos will reign in Taurian space..",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

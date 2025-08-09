@@ -1,0 +1,80 @@
+{
+	"Description": {
+		"Id": "3062-02-07",
+		"Name": "MercNews Broadcast",
+		"Details": "BLAKISTS ESTABLISH PROTECTORATE!\r\n\n\nGibson, [[DM.Factions[faction_Marik],Free Worlds League]]: Despite the schism in [[DM.Factions[faction_ComStar],ComStar's]] ranks, the [[DM.Factions[faction_WordOfBlake],Word of Blake]] has seemingly landed on its feet in the Free Worlds League. After their ejection from the [[DM.BaseDescriptionDefs[LoreTerranHegemony],Hegemony]] they were granted a landhold on the world of Gibson in the FWL. Now, after years of discussion and bargaining with the Captain-General, the Word has been granted a small protectorate state in the heart of the FWL. The Word's current plans are anyone's guess but revenge against the Hegemony would seem to be on the menu.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "Pharaoh beer: Keep Your Tracks Tight\u00a9\r\n\n\nLovingly brewed for over 500 years, Pharaoh beer is the beverage of choice for today's working man. Let the nobility have their snooty [[DM.BaseDescriptionDefs[LoreCholobara],cholobara]] with [[DM.BaseDescriptionDefs[LoreKincha],kincha]] toast. From farmers to miners, tankers to grunts, Pharaoh beer gets you where you're going.\r\n\n\n\nPharaoh Beverage Co. is not responsible for any injuries or damages sustained while consuming this beverage. Please drink however the hell you want.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

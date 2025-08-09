@@ -1,0 +1,145 @@
+{
+	"Description": {
+		"Id": "3061-04-07",
+		"Name": "MercNews Broadcast",
+		"Details": "GROVER SHRAPLEN NAMED TAURIAN PROTECTOR\r\n\n\nTaurus, [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]]: After nearly two months of deliberations, the Taurian Concordat's [[DM.BaseDescriptionDefs[LorePrivyCouncil],Privy Council]] has selected [[DM.BaseDescriptionDefs[LoreGroverShraplen],Grover Shraplen]] as the new Protector of the Realm. This decision comes after the previous Protector, [[DM.BaseDescriptionDefs[LoreJeffCalderon],Jeffrey Calderon]], was killed in a botched rescue attempt on Detroit where he was being held captive earlier this year. The decision was not without its challenges as Shraplen was a vocal critic of Jeffrey's policies and has openly vowed to change the Concordat's course if selected as Protector. The other major candidate, Baron [[DM.BaseDescriptionDefs[LoreChamKithrong],Cham Kithrong]], has disagreed with Shraplen's selection but has pledged himself to \"the betterment of the Taurian state, regardless of who is Protector.\"\r\n\n\nWould you like to know more?",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Yes.",
+				"Details": "Broadcast continues.",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",						
+						"Details": "UNEXPECTED RAIDERS IN CLAN SPACE\r\n\n\nSudeten, [[DM.Factions[faction_ClanJadeFalcon],Clan Jade Falcon]] Occupation Zone: In an unexpected turn of events, a new Clan has apparently arrived in the Inner Sphere and has declared their presence via multiple raids on Jade Falcon worlds along the [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]] border. Early reports indicate that this Clan, which has not yet been seen in the Inner Sphere, identifies itself as [[DM.Factions[faction_ClanFireMandrill],Clan Fire Mandrill]] and has been issuing Trial of Possessions against Clan Jade Falcon for local resources and personnel. It's unclear where the bulk of the Clan is situated, as only a handful of vessels have been spotted. Observers are concerned this may indicate a resumption of Clan hostilities despite the conclusion of the [[DM.BaseDescriptionDefs[LoreGreatRefusal],Great Refusal]].",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Toland",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Steelton",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Persistence",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Derf",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Malibu",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Beta"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "end",
+				"Name": "No.",
+				"Details": "Broadcast ends.",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "end1",
+						"Name": "MercNews Broadcast",
+						"Details": "Transmission terminated.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Toland",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Steelton",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Persistence",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Derf",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Malibu",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Beta"
+									],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

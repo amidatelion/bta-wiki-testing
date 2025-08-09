@@ -1,0 +1,91 @@
+{
+	"Description": {
+		"Id": "starsystemdef_AdDuwayd",
+		"Name": "Ad Duwayd",
+		"Details": "Ad Duwayd is not a very hospitable planet. Geothermal vents allow for extensive under ice fisheries. Large silo like structures are built through the ice. Most of the population live in these large under ice facilities.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 361.884,
+		"y": 374.511,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_adduwayd",
+			"planet_size_medium",
+			"planet_climate_ice",
+			"planet_other_floatingworld",
+			"planet_feature_comet",
+			"planet_pop_small",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_industry_aquaculture",
+			"planet_other_hub",
+			"planet_faction_kurita"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"polarFrozen",
+		"tundraFrozen"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 30,
+	"ownerID": "Kurita",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "O",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Kurita",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Kurita",
+	"FactionShopItems": [
+		"itemCollection_faction_Kurita"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_AdDuwayd",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Kurita",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Davion",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Outworld",
+		"Rasalhague",
+		"Mercenaries",
+		"331stDivision",
+		"BandOfTheDamned"
+	]
+}

@@ -1,0 +1,114 @@
+{
+	"Description": {
+		"Id": "3065-03-07",
+		"Name": "MercNews Broadcast",
+		"Details": "FALCON INCURSION ENDS WITH CEASE-FIRE ON BLAIR ATHOLL!\r\n\n\nBlair Atholl, [[DM.BaseDescriptionDefs[LoreLyranAlliance],Lyran Alliance]]: Few details of Operation Audacity have yet been made public, but what is certain is that it was apparently a joint operation between [[DM.BaseDescriptionDefs[LoreVictorSD],Victor Steiner-Davion]]'s supporters, [[DM.BaseDescriptionDefs[LoreKatherineSteiner],Katherine Steiner]]'s Loyalists, and [[DM.BaseDescriptionDefs[LoreClanWolfInExile],Clan Wolf-In-Exile]] designed to occupy worlds within the Jade Falcon Occupation Zone and so force an end to the invasion. Although still occupying worlds within the [[DM.BaseDescriptionDefs[LoreLyranAlliance],Lyran Alliance]], the presence of Inner-Sphere troops in their Occupation Zone coupled with the latest aggressions of Clan Wolf drove Khan [[DM.BaseDescriptionDefs[LoreMarthePryde],Marthe Pryde]] to the bargaining table with [[DM.BaseDescriptionDefs[LoreAdamSteiner],Adam Steiner]] and [[DM.BaseDescriptionDefs[LoreArcherChristifori],Archer Christifori]] culminating in one of the few cease-fires between Inner Sphere and Clan that did not involve a Trial of some kind. Per the terms of the cease-fire, any occupied worlds will remain occupied; thus, the borders between the Lyrans and the Falcons will change drastically as nearly twenty worlds change hands. In addition, Blair Atholl will remain a jointly held world, where both Jade Falcon and Lyran troops can gain combat experience against the other, arguably [[DM.BaseDescriptionDefs[LoreMarthePryde],Marthe Pryde]]'s primary goal for the incursion to begin with.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues.",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "FALCON-RIM WORLDS WAR HEATS UP:\r\n\n\nApollo, [[DM.Factions[faction_RiMWorldsRepublic],Rim Worlds Republic]]: The plucky Periphery realm may have bitten off more than it can chew with its fight against the Jade Falcons. With the cease-fire between Khan [[DM.BaseDescriptionDefs[LoreMarthePryde],Marthe Pryde]] and [[DM.BaseDescriptionDefs[LoreAdamSteiner],Adam Steiner]] now in place, the Falcons have the perfect place to vent their anger: the Rim Worlds Republic's ill-timed offensives into Falcon space. Reports indicate that the Falcons have already struck out with several punitive attacks against the RWR, striking a number of border worlds with the intent of punishing the Periphery realm for their continued insolence.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_BlairAtholl_to_ClanJadeFalcon",
+									"WIIC_ClanJadeFalcon_raids_starsystemdef_Wotan",
+									"WIIC_ClanJadeFalcon_raids_starsystemdef_Golandrinas",
+									"WIIC_ClanJadeFalcon_raids_starsystemdef_BlackEarth"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": [
+								{
+									"typeString": "System.Single",
+									"name": "WIIC_Davion_hates_ClanJadeFalcon",
+									"value": "-1",
+									"set": true,
+									"valueConstant": null
+								},
+								{
+									"typeString": "System.Single",
+									"name": "WIIC_Steiner_hates_ClanJadeFalcon",
+									"value": "-1",
+									"set": true,
+									"valueConstant": null
+								},
+								{
+									"typeString": "System.Single",
+									"name": "WIIC_ClanJadeFalcon_hates_Davion",
+									"value": "-1",
+									"set": true,
+									"valueConstant": null
+								},
+								{
+									"typeString": "System.Single",
+									"name": "WIIC_ClanJadeFalcon_hates_Steiner",
+									"value": "-1",
+									"set": true,
+									"valueConstant": null
+								}
+							],
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

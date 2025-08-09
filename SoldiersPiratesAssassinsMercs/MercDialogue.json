@@ -1,0 +1,252 @@
+{
+	"ULTRA-PROFESSIONAL": [
+		{
+			"Dialogue": [
+				"Enemy mercenary commander, because we are brothers I am offering you this chance to withdraw peacefully. Leave immediately.",
+				"Commander of {COMPANY.CompanyName}, withdraw your forces at once before we come to blows."
+			],
+			"BribeSuccessDialogue": [
+				"After consideration, your offer is acceptable. We will withdraw immediately. Good hunting, {Commander.Callsign}."
+			],
+			"BribeFailureDialogue": [
+				"Our contract prevents me from accepting your offer. All allied forces, lock weapons!",
+				"That would fly in the face of everything the MRBC stands for. You're a stain on the profession!",
+				"You're offering us a bribe? We are shocked, shocked to find you trying to bribe us. Out at once!"
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": 3,
+			"BribeAcceptanceMultiplier": 0.9
+		},
+		{
+			"Dialogue": [
+				"It's been awhile, {COMPANY.CompanyName}. Can't say I'm glad to see you again after our last encounter on {RCNT_SYSTEM}.",
+				"{COMPANY.CompanyName} again? Don't make us hurt you."
+			],
+			"BribeSuccessDialogue": [
+				"...fine. We'll withdraw this time. Don't push your luck though.",
+				"Very well. That's enough money to cover our costs. Next time the price goes up.",
+				"We will spare you this time. But we have a reputation to uphold - sign this non-disclosure agreement. If you break it we break you.",
+				"A pleasure doing business with you, {Commander.Callsign}. Glad to have this unpleasant business behind us."
+			],
+			"BribeFailureDialogue": [
+				"No deal this time. We've got a reputation to uphold, you understand. Don't worry, it'll be over quick."
+			],
+			"MinTimesEncountered": 3,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 0.4
+		}
+	],
+	"PROFESSIONAL": [
+		{
+			"Dialogue": [
+				"{COMPANY.CompanyName}, was it? Nothing personal, but how about you head back to your ship before we gotta shoot this out?",
+				"Always hate to fight fellow mercs, but it's the job. Just business, you understand."
+			],
+			"BribeSuccessDialogue": [
+				"Well, the MRBC won't be happy, but your c-bills spend perfectly well. Have at it, {Commander.Callsign}.",
+				"Fine, but keep your mouth shut. Or we'll shut it for you.",
+				"Let's keep this our little secret. Se you on Outreach."
+			],
+			"BribeFailureDialogue": [
+				"Sorry, but a contract is a contract and we don't break contracts.",
+				"That's all you're offering? Our reputation is worth way more than that."
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": 5,
+			"BribeAcceptanceMultiplier": 1.0
+		},
+		{
+			"Dialogue": [
+				"Oh hell, it's {COMPANY.CompanyName} again. We just keep running into each other. How about you turn around today and go back home instead of us fighting again?",
+				"You periphery bandits again? Who keeps hiring you clowns?",
+				"It's {Commander.Callsign}, we ran into him on {RCNT_SYSTEM}. We'll make sure he gets a proper burial.",
+				"{Commander.Callsign} and his cronies. We haven't forgotten {RCNT_SYSTEM}, prepare to eat our PPCs!",
+				"It's {COMPANY.CompanyName}, the biggest bunch of losers this side of Wilson's Hussars. It'll be fun to watch you circle the drain!"
+			],
+			"BribeSuccessDialogue": [
+				"God dammit, that's just too good an offer to pass up. Fine, we'll pull out this time, but let's stop meeting this way in the future.",
+				"At that price, we can't afford not to let you live. See you next time and bring your wallet!",
+				"Fine, but only because I don't want to scuff my mech's paint job crushing your cockpit. Get out of here before I change my mind."
+			],
+			"BribeFailureDialogue": [
+				"No deal. Sorry to shoot it out, but some people just can't take a hint. Light 'em up, boys.",
+				"Our employer is letting us salvage everything we destroy. Your bribe is worth way less than that, sorry.",
+				"Sorry, I'd love to spare you, but the MRBC and ComStar have eyes everywhere. We'll try to make it quick and painless."
+			],
+			"MinTimesEncountered": 5,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 0.75
+		}
+	],
+	"PERIPHERY": [
+		{
+			"Dialogue": [
+				"Who are you clowns? Get the hell out of here mercs, this ain't your business.",
+				"Hey, mercs, go away, we don't gotta fight over this one, it ain't worth it for you."
+			],
+			"BribeSuccessDialogue": [
+				"Fuck, that's a lotta zeroes. Alright, we'll take it. Thanks for the cash, good luck with whatever you were here for."
+			],
+			"BribeFailureDialogue": [
+				"Can't let you do that, {Commander.Callsign}. Lads, light these jokers up."
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": 5,
+			"BribeAcceptanceMultiplier": 1.0
+		},
+		{
+			"Dialogue": [
+				"Aw fuck it's you guys again. Look, about last time on {RCNT_SYSTEM}, it didn't go great for anyone and I'd rather not fight you again today. How about you bail this time?"
+			],
+			"BribeSuccessDialogue": [
+				"Sure, I can work with that. Good seeing you again, {Commander.Callsign}."
+			],
+			"BribeFailureDialogue": [
+				"Nah, that ain't gonna cut it this time. Guess we're shooting it out then. Sorry that it came to this but we're up against the wall here."
+			],
+			"MinTimesEncountered": 5,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 1.15
+		}
+	],
+	"PIRATE": [
+		{
+			"Dialogue": [
+				"Hey, mercs, how about you fuck off today and we call this even? You don't need to be involved in this and I'd rather not have to kill you if I don't have to, so turn around and go home and we'll forget all about it."
+			],
+			"BribeSuccessDialogue": [
+				"Hmm. You might be mercs but your money makes quite a few good points in your favor. All right, they're all yours, have fun. Boys, we're pulling out!"
+			],
+			"BribeFailureDialogue": [
+				"That offer was pathetic, my grandma could do better. Boys, kill these fools and loot their corpses."
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 1.0
+		}
+	],
+	"SOLARISVII": [
+		{
+			"Dialogue": [
+				"Be warned, mercenaries, you face the wrath of the Solaris VII Mercenary League! You're on camera, so put up the fight of your lives!",
+				"Mercenaries, you're no match for Zelazni Stables. Submit or we'll decorate the walls of the Jungle with the heads of your mechs.",
+				"You're fighting against Tandrek Stables. You haven't fought real duelists yet. Surrender or be destroyed.",
+				"This is Overlord Stables, Steiner's finest. Give up or your family is going to see your corpse on next week's highlight reel.",
+				"This is Starlight Stables, Davion's heroes on Solaris. If you want to beg for mercy you have 30 seconds.",
+				"We are Galahad Stables, and we fight for Sir Galf, House Marik, truth, justice, and the chivalric code. In that order. Face us in honorable combat and may the best mechwarrior win!",
+				"Yes, we're Leaguers. But this is Fitzhugh Stables. We're Anduriens, not those Knights of the Inner Sphere chumps over in Galahad. We fight to win, prepare to get wrecked!"
+			],
+			"BribeSuccessDialogue": [
+				"Alright, you make some good points with that check of yours. Quick, cut the cameras, this episode isn't going live since we're pulling out!",
+				"Screw it. All of our advertisers pulled out after I made that comment about Regulans last week. Cut us the check, we're done here."
+			],
+			"BribeFailureDialogue": [
+				"No can do, mercs, we got reputations to uphold! Get ready to rumble!",
+				"Sorry, if we beat you, our sponsors will pay us way more than that. This trouncing has been brought to you by Timbiqui Dark!"
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 0.1
+		}
+	],
+	"WOLFSDRAGOONS": [
+		{
+			"Dialogue": [
+				"The Wolves are at your door, prepare to die, fool.",
+				"What we did to Elson Nova Cat is going to look like a picnic after we're done with you."
+			],
+			"BribeSuccessDialogue": [
+				"...alright, we'll leave this time. Don't expect it to happen again, mercs."
+			],
+			"BribeFailureDialogue": [
+				"Disgraceful that you'd even try to buy off Wolf's Dragoons with your blood money. I'm insulted, prepare to face our wrath."
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 0.25
+		},
+		{
+			"Dialogue": [
+				"You're saying we fought you before? On {RCNT_SYSTEM}? No recollection, sorry. Are you friends of Wayne Waco's?",
+				"You guys made it off {RCNT_SYSTEM} alive? The office betting pool was sure you'd be leaving in body bags.",
+				"We survived Misery and Luthien. Whatever your little outfit's name is, you're going to suffer just like the Dragon and the Smoke Jaguar did.",
+				"Oh look, another speed bump. This one we've run over before, name of {COMPANY.CompanyName}. Let's see if they survive the ride this time.",
+				"What we did to Elson Nova Cat is going to look like a spa when we're through with you amateurs."
+			],
+			"BribeSuccessDialogue": [
+				"Fine, we'll put in a good word for you at the Mercenary Review Board. This time."
+			],
+			"BribeFailureDialogue": [
+				"Disgraceful that you'd even try to buy off Wolf's Dragoons with your blood money. I'm insulted, prepare to face our wrath."
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 0.25
+		}
+	],
+	"MACKSMERCS": [
+		{
+			"Dialogue": [
+				"You have the unfortunate task of takin' on Mack’s Mercs. We don’t play fair and we make sure to spend all of our C-bills on the latest tech. You are advised to withdraw…or become our loot."
+			],
+			"BribeSuccessDialogue": [
+				"...that's a lot of cash, friend. We'll take it, have fun mate."
+			],
+			"BribeFailureDialogue": [
+				"You think we'd take such a pathetic bribe? Your 'Mechs are worth much more than that!"
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 0.3
+		},
+		{
+			"Dialogue": [
+				"Ugh. {COMPANY.CompanyName}. You guys again? The repair bill we had after last time on {RCNT_SYSTEM} still hurts. Back down now or we'll recoup our losses by salvaging your mechs.",
+				"Win or lose, when we fight {COMPANY.CompanyName} it's bad for both our bottom lines. Turn around and go home or we'll bankrupt you.",
+				"Yeah, you survived last round. But you haven't seen the new upgrades we got since then!",
+				"We're getting sick of running into you. Time to make sure we don't see you again."
+			],
+			"BribeSuccessDialogue": [
+				"...fine. We'll take cash as an apology for last time. But try it again and we'll take your whole dropship."
+			],
+			"BribeFailureDialogue": [
+				"Our scans detected some juicy lostech on your mechs. We'll just help ourselves to that instead!"
+			],
+			"MinTimesEncountered": 1,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 0.4
+		}
+	],
+	"DARKCASTE": [
+		{
+			"Dialogue": [
+				"I am disgusted by having to face mercenaries, but the work is the work. Surrender now and perhaps we will show you mercy. Perhaps."
+			],
+			"BribeSuccessDialogue": [
+				"...your money is worth more today than taking your lives would be. Fine, let it be done."
+			],
+			"BribeFailureDialogue": [
+				"Disgusting that you think we can be bought for such a low price. Prepare to die, mercenary scum!"
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 0.15
+		}
+	],
+	"GREENGHOSTS": [
+		{
+			"Dialogue": [
+				"......"
+			],
+			"BribeSuccessDialogue": [
+				"......very well, we will withdraw."
+			],
+			"BribeFailureDialogue": [
+				"......die now, fool."
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 0.05
+		}
+	]
+}

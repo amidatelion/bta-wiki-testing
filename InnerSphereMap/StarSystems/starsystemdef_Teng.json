@@ -1,0 +1,90 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Teng",
+		"Name": "Teng",
+		"Details": "A small dry Earth-like planet with approximately half the gravity of Earth. The planet is covered by one enormous ocean. There are only two small continents, each no larger than the island of Borneo.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 127.695,
+		"y": -272.02,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_teng",
+			"planet_size_small",
+			"planet_climate_arid",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_industry_agriculture",
+			"planet_faction_liao"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"lowlandsCoastal",
+		"badlandsParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 16,
+	"ownerID": "Liao",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Liao",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Liao",
+	"FactionShopItems": [
+		"itemCollection_faction_Liao"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Teng",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Liao",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Davion",
+		"AuriganRestoration",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Ives",
+		"MagistracyOfCanopus",
+		"TaurianConcordat",
+		"Mercenaries",
+		"ShenSeTian"
+	]
+}

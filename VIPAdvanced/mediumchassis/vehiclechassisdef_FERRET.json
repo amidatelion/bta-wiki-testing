@@ -1,0 +1,138 @@
+{
+	"CustomParts": {
+		"MoveCost": "Hover",
+		"MoveClamp": 0.5
+	},
+	"Description": {
+		"Cost": 450000,
+		"Rarity": 0,
+		"Purchasable": false,
+		"UIName": "Ferret Hover Tank",
+		"Id": "vehiclechassisdef_FERRET",
+		"Name": "Ferret",
+		"Details": "The Ferret is a medium hovertank developed by a mercenary commander in need of a fast, effective, skirmisher. The Ferret served its purpose well and proceeded to find its way into other mercenary commands.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile, cannot move through woods.\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       180     25\n<b>Left</b>         150     25\n<b>Right</b>       150     25\n<b>Rear</b>         120     25\n<b>Turret</b>      115     25\n\n<b>Total</b>      715    125\n",
+		"Icon": "Drillson"
+	},
+	"MovementCapDefID": "movedef_9-14cv",
+	"PathingCapDefID": "pathingdef_medium_hover",
+	"HardpointDataDefID": "hardpointdatadef_sldfdrone",
+	"PrefabIdentifier": "chrPrfVhcl_sldfdrone",
+	"PrefabBase": "sldfdrone",
+	"Tonnage": 45,
+	"weightClass": "MEDIUM",
+	"BattleValue": 2000000,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"movementType": "Wheeled",
+	"SpotterDistanceMultiplier": 1.25,
+	"VisibilityMultiplier": 0.9,
+	"SensorRangeMultiplier": 1.25,
+	"Signature": -0.25,
+	"Radius": 4,
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 3,
+			"z": -0.5
+		},
+		{
+			"x": 0.0,
+			"y": 1.5,
+			"z": 3.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 3,
+			"z": -0.5
+		},
+		{
+			"x": 0.0,
+			"y": 1.5,
+			"z": 3.5
+		},
+		{
+			"x": -2,
+			"y": 2.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 2.5,
+			"z": 0
+		},
+		{
+			"x": 0.0,
+			"y": 1.6,
+			"z": -4.0
+		}
+	],
+	"Locations": [
+		{
+			"Location": "Front",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 200,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Left",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 200,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Right",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 200,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Rear",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 200,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 200,
+			"InternalStructure": 25
+		}
+	]
+}

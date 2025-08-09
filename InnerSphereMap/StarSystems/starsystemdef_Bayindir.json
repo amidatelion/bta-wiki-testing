@@ -1,0 +1,94 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Bayindir",
+		"Name": "Bayindir",
+		"Details": "In the final years of the Star League, Bayindir hosted a SLDF base, Fort Gates, where the 58th BattleMech Division operated. The unit was successful in defending the world from multiple pirate attacks. The ruins can still be seen to this day.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -242.749,
+		"y": -296.299,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_bayindir",
+			"planet_size_medium",
+			"planet_climate_arctic",
+			"planet_other_volcanic",
+			"planet_other_floatingworld",
+			"planet_feature_asteroids",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_none",
+			"planet_other_starleague",
+			"planet_other_pirate",
+			"planet_other_ruins",
+			"planet_faction_marik"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"polarFrozen",
+		"tundraFrozen"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 4,
+	"ownerID": "Marik",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Marik",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Marik",
+	"FactionShopItems": [
+		"itemCollection_faction_Marik"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Bayindir",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 7,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"Marik",
+		"WordOfBlake",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Liao",
+		"Cameron",
+		"ComStar",
+		"MagistracyOfCanopus",
+		"Marian",
+		"Circinus",
+		"Mercenaries",
+		"HookwormsHighwaymen"
+	]
+}

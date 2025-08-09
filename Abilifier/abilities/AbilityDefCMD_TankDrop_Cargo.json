@@ -1,0 +1,23 @@
+{
+	"Description": {
+		"Id": "AbilityDefCMD_TankDrop_Cargo",
+		"Name": "CARGO'S FERRET AIRDROP",
+		"Details": "DEPLOYS A FERRET TANK FROM THE ARGO'S STORAGE BAYS UNDER YOUR CONTROL.\r\n\r\n <b><color=#8080ff>Resolve Cost: {20}</color></b>\r\n\r\n <b><color=#e11919>Costs 25,000 C-Bills per use!</color></b>\r\n\r\n <b><color=#15df37>Can only call in one Tank per contract!</color></b>",
+		"Icon": "mounted-knight"
+	},
+	"ActivationTime": "CommandAbility",
+	"Resource": "CommandAbility",
+	"ActivationCooldown": 4,
+	"NumberOfUses": 1,
+	"Targeting": "CommandSpawnPosition",
+	"ActorResource": "vehicledef_FERRET",
+	"StringParam1": "Tank Deployment Unavailable",
+	"StringParam2": "Contract_Cargo_Tank_Drop",
+	"FloatParam1": 50,
+	"FloatParam2": 50,
+	"IntParam2": 250,
+	"ResolveCost": 20,
+	"CBillCost": 25000,
+	"CMDPilotOverride": "pilot_bd_TankDriver",
+	"specialRules": "SpawnTurret"
+}

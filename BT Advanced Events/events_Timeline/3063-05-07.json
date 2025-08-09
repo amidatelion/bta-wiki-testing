@@ -1,0 +1,98 @@
+{
+	"Description": {
+		"Id": "3063-05-07",
+		"Name": "MercNews Broadcast",
+		"Details": "KRISTEN MARIK FALLS ON ARCADIA!\r\n\n\nArcadia, [[DM.BaseDescriptionDefs[LoreLyranAlliance],Lyran Alliance]]: Kristen Marik, noted mercenary commander and daughter of Captain-General Janos Marik, fell in combat against the 2nd Donegal Guards on Arcadia early this month. Marik's mercenary unit, [[DM.Factions[faction_TheKrushers],Kristen's Krushers]] had originally been contracted by the [[DM.BaseDescriptionDefs[LoreLyranAlliance],Lyran Alliance]] under the command of the Alliance Jaegers on Coventry. When the death of [[DM.BaseDescriptionDefs[LoreArthurSteinerDavion],Arthur Steiner-Davion]] ignited the conflict between the Coventry Provincial Militia and the Jaegers, the Krushers were ordered to assault the Coventry Militia Academy. Perhaps seeking an excuse to void the Krushers' contract and pocket the payment, the Jaegers commander Jason Walker turned on the Krushers following the battle, citing \"complicity with traitors\" as the reason. With the Jaegers now hostile, Marik led her forces off-planet, beginning a series of raids against Lyran holdings throughout the region. Unfortunately for Marik and the Krushers, the <i>LAS Yggrasil</i> and the 2nd Donegal Guards were waiting in Arcadia and after weeks of desperate combat, Marik fell in battle against her former employers.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue broadcast.",
+				"Details": "Broadcast continues.",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "RIM WORLDS REPUBLIC BATCHALLS CLAN JADE FALCON!\r\n\n\nApollo, [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]]: Rumors have been swirling around the capital of the Rim Worlds Republic since the start of the year that a military action was building and today the rumors were proved correct when President [[DM.BaseDescriptionDefs[LoreIvanHeliusII],Ivan Helius II]] announced a formal <i>batchall</i> to [[DM.Factions[faction_ClanJadeFalcon],Clan Jade Falcon]] for the fate of two former Republic worlds, Toland and Roadside. The Clan, expecting treachery, responded cautiously to the Periphery realm's challenge only to be surprised when the [[DM.BaseDescriptionDefs[LoreRimRepublicanArmy],Rim Republican Army]] was as good as their word and respected the issued challenge. Amused, the Clan has engaged the RRA in defense of their worlds. Still, early reports indicate that the Falcons have not engaged with significant forces, apparently viewing the worlds as unimportant. Observers suggest that the RRA is likely to accomplish its goals and retake both worlds, unless the Falcons increase in the intensity of their defense.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_TheKrushers_attacks_starsystemdef_Arcadia(LC)",
+									"WIIC_TheKrushers_raids_starsystemdef_Gallery",
+									"WIIC_Kurita_attacks_starsystemdef_Ardoz",
+									"WIIC_Kurita_attacks_starsystemdef_Constance",
+									"WIIC_Kurita_attacks_starsystemdef_Jezersko",
+									"WIIC_Kurita_attacks_starsystemdef_LastFrontier",
+									"WIIC_ClanNovaCat_attacks_starsystemdef_Marawi",
+									"WIIC_ClanNovaCat_attacks_starsystemdef_Maule",
+									"WIIC_Kurita_attacks_starsystemdef_Porthos",
+									"WIIC_Kurita_attacks_starsystemdef_Thule",
+									"WIIC_give_starsystemdef_Arcadia(LC)_to_Marik_on_attacker_win",
+									"WIIC_RimWorldsRepublic_attacks_starsystemdef_Roadside",
+									"WIIC_RimWorldsRepublic_attacks_starsystemdef_Toland",
+									"WIIC_set_starsystemdef_Roadside_defender_strength_10",
+									"WIIC_set_starsystemdef_Roadside_attacker_strength_20",
+									"WIIC_set_starsystemdef_Toland_defender_strength_10",
+									"WIIC_set_starsystemdef_Toland_attacker_strength_25"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

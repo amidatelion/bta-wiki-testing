@@ -1,0 +1,87 @@
+{
+	"Description": {
+		"Id": "3061-11-07",
+		"Name": "MercNews Broadcast",
+		"Details": "FIRE MANDRILLS AGITATE REGION FURTHER!\r\n\n\nErdvynn, [[DM.Factions[faction_ClanFireMandrill],Clan Fire Mandrill]] Homeworlds: Further proving the fears of local officials justified, [[DM.Factions[faction_ClanFireMandrill],Clan Fire Mandrill]] has engaged in another round of raids against nearby [[DM.Factions[faction_Steiner],Lyran]] and [[DM.Factions[faction_Circinus],Circinian]] worlds. These raids however seem more targeted than prior ones, with the kindraa in question seemingly aiming to bloody their warriors against Inner Sphere opponents. The raids are often small-scale and are ostensibly not for control of the worlds, instead the Mandrills tend to issue trials for basic supplies and offer to trade an untrained warrior or a few basic Clan weapons if they should lose the raids. Local officials have called for more military support from deeper in their respective realms though to help stave off Mandrill activity\r\n\n\nStay tuned for more on this developing story.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",						
+						"Details": "DEBATE RAGES ABOUT WHAT TO DO WITH THE MANDRILLS\r\n\n\nCircinus, [[DM.Factions[faction_Circinus],Circinus Federation]]: With the appearance of [[DM.Factions[faction_ClanFireMandrill],Clan Fire Mandrill]] in the region two months ago, the local [[DM.Factions[faction_Steiner],Lyran]] authorities and the [[DM.Factions[faction_Circinus],Circinus Federation]] have, uncharacteristically, opened a mutual dialogue about what should be done concerning the Clan. While Circinus and Tharkad have long had conflicts, both sides seem united in their distrust of the Mandrills. While, to date, the Clan has not attempted to wrest control of any worlds from the local powers there are persistent concerns that such is just a matter of when, not if. Rumors abound that there may be a joint operation to attack the Clan before things escalate out of control with constant Clan raids. Additionally, the presence of the major BattleMech production facility on Son Hoa has increased [[DM.Factions[faction_Steiner],Lyran]] concern about the Mandrill presence in the region.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_KindraaSainze_raids_starsystemdef_Aberystwyth",
+									"WIIC_KindraaSainze_raids_starsystemdef_Ayacucho",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_Sarikavak",
+									"WIIC_KindraaFaradayTanaga_raids_starsystemdef_AlJafr",
+									"WIIC_KindraaMickKreese_raids_starsystemdef_Iolas(DiedresDen3025+)",
+									"WIIC_KindraaMickKreese_raids_starsystemdef_ThadorasLand"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": [],
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

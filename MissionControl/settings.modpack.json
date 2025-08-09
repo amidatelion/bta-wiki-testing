@@ -1,0 +1,250 @@
+{
+	"DebugMode": false,
+	"VersionCheck": false,
+	"EnableFlashpointOverrides": false,
+	"RandomSpawns": {
+		"EnableForFlashpoints": false,
+		"ExcludeContractTypes": [
+			"SoloDuel",
+			"DuoDuel",
+			"DefendBase",
+			"Story_1A_Retreat",
+			"Story_1B_Retreat",
+			"Story_2_ThreeYearsLater",
+			"Story_3_Axylus",
+			"Story_4_LiberationOfWeldry",
+			"Story_5_ServedCold",
+			"Story_6A_TreasureTrove",
+			"Story_6B_TreasureTrove",
+			"Story_7_GunboatDiplomacy",
+			"Story_8_Locura",
+			"Story_9_Downfall",
+			"Smithon_Attack",
+			"Smithon_Defense",
+			"Panzyr_Attack",
+			"Panzyr_Defense",
+			"Itrom_Attack",
+			"Itrom_Defense",
+			"Tyrlon_Attack",
+			"AmbushConvoy",
+			"AttackDefend"
+		]
+	},
+	"HotDropProtection": {
+		"Enable": false,
+		"EnableForFlashpoints": false,
+		"EnableForStory": false,
+		"EvasionPipsOnHotDrop": 6
+	},
+	"AdditionalLances": {
+		"EnableForFlashpoints": false,
+		"EnableForStory": false,
+		"ExcludeContractTypes": [
+			"SoloDuel",
+			"DuoDuel",
+			"DefendBase",
+			"Story_1A_Retreat",
+			"Story_1B_Retreat",
+			"Story_2_ThreeYearsLater",
+			"Story_3_Axylus",
+			"Story_4_LiberationOfWeldry",
+			"Story_5_ServedCold",
+			"Story_6A_TreasureTrove",
+			"Story_6B_TreasureTrove",
+			"Story_7_GunboatDiplomacy",
+			"Story_8_Locura",
+			"Story_9_Downfall",
+			"Smithon_Attack",
+			"Smithon_Defense",
+			"Panzyr_Attack",
+			"Panzyr_Defense",
+			"Itrom_Attack",
+			"Itrom_Defense",
+			"Tyrlon_Attack",
+			"AmbushConvoy",
+			"AttackDefend"
+		],
+		"ExcludeFromAutocomplete": [
+			"DefendBase",
+			"FireMission",
+			"ThreeWayBattle",
+			"DestroyBase",
+			"Assassinate",
+			"CaptureEscort",
+			"Rescue",
+			"AttackDefend"
+		],
+		"UseElites": false
+	},
+	"ExtendedLances": {
+		"EnableForFlashpoints": false,
+		"EnableForStory": false,
+		"LanceSizes": {
+			"5": [
+				{
+					"Faction": "ClanGhostBear",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "CGBThetaGalaxy",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ClanJadeFalcon",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "CJFIotaGalaxy",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ClanWolf",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "CWEpsilonGalaxy",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ClanNovaCat",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "CNCOmicronGalaxy",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ClanSnowRaven",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "CSRDeltaGalaxy",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ClanGoliathScorpion",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "CGSOmegaGalaxy",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ScorpionEmpire",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ClanFireMandrill",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "KindraaSainze",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "KindraaFaradayTanaga",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "KindraaMickKreese",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ClanDiamondShark",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "DarkCaste",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "Marian",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ILegioMartiaVictrix",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "VLegioRipariensis",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "CohorsMorituri",
+					"DifficultyMod": -1
+				}
+			],
+			"6": [
+				{
+					"Faction": "ComStar",
+					"DifficultyMod": -2
+				},
+				{
+					"Faction": "2ndArmyVMu",
+					"DifficultyMod": -2
+				},
+				{
+					"Faction": "11thArmyVEta",
+					"DifficultyMod": -2
+				},
+				{
+					"Faction": "7thArmyVIota",
+					"DifficultyMod": -2
+				},
+				{
+					"Faction": "WordOfBlake",
+					"DifficultyMod": -2
+				},
+				{
+					"Faction": "40thShadowDivision",
+					"DifficultyMod": -2
+				},
+				{
+					"Faction": "9thDivisionWoB",
+					"DifficultyMod": -2
+				},
+				{
+					"Faction": "WoBProtectorateMilitia",
+					"DifficultyMod": -2
+				}
+			]
+		}
+	},
+	"ExtendedBoundaries": {
+		"EnableForFlashpoints": false,
+		"EnableForStory": false,
+		"ExcludeContractTypes": [
+			"SoloDuel",
+			"DuoDuel",
+			"Story_1A_Retreat",
+			"Story_1B_Retreat",
+			"Story_2_ThreeYearsLater",
+			"Story_3_Axylus",
+			"Story_4_LiberationOfWeldry",
+			"Story_5_ServedCold",
+			"Story_6A_TreasureTrove",
+			"Story_6B_TreasureTrove",
+			"Story_7_GunboatDiplomacy",
+			"Story_8_Locura",
+			"Story_9_Downfall",
+			"Smithon_Attack",
+			"Smithon_Defense",
+			"Panzyr_Attack",
+			"Panzyr_Defense",
+			"Itrom_Attack",
+			"Itrom_Defense",
+			"Tyrlon_Attack"
+		]
+	},
+	"IncreaseBoundarySizeByPercentage": 0.7,
+	"DynamicWithdraw": {
+		"Enable": false,
+		"EnableForFlashpoints": false,
+		"EnableForStory": false
+	},
+	"Misc": {
+		"LanceSelectionDivergenceOverride": {
+			"Enable": false
+		}
+	}
+}

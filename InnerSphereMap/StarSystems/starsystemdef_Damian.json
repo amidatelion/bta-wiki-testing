@@ -1,0 +1,91 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Damian",
+		"Name": "Damian",
+		"Details": "Damian was one host to a Star League Defence Garrison, which has led numerous historians and treasure seekers to the planet to search for caches. None have been found however.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 72.894,
+		"y": 459.292,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_damian",
+			"planet_size_medium",
+			"planet_climate_tropical",
+			"planet_other_storms",
+			"planet_feature_asteroids",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_faction_clanghostbear"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"jungleTropical",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 9,
+	"ownerID": "ClanGhostBear",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_ClanWorlds",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "ClanGhostBear",
+	"FactionShopItems": [
+		"itemCollection_faction_ClanWorlds"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Damian",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 6,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"Cameron",
+		"WordOfBlake",
+		"ComStar",
+		"Rasalhague"
+	],
+	"contractTargetIDs": [
+		"ClanGhostBear"
+	]
+}

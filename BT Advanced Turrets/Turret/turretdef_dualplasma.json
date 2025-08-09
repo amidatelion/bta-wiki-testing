@@ -1,0 +1,101 @@
+{
+	"Version": 1,
+	"Description": {
+		"Id": "turretdef_dualplasma",
+		"Name": "Plasma Rifle Turret",
+		"Details": "",
+		"Icon": "",
+		"Cost": 993,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"ChassisID": "turretchassisdef_dualplasma",
+	"TurretTags": {
+		"items": [
+			"unit_turret",
+			"Cameron",
+			"StarGuardCorps",
+			"ICorps",
+			"IVCorps",
+			"ComStar",
+			"2ndArmyVMu",
+			"11thArmyVEta",
+			"7thArmyVIota",
+			"WordOfBlake",
+			"40thShadowDivision",
+			"9thDivisionWoB",
+			"Rasalhague",
+			"1stTyr",
+			"2ndFreemen",
+			"4thKavalleri",
+			"Steiner",
+			"5thDonegalGuards",
+			"6thLyranGuards",
+			"10thLyranGuards",
+			"15thLyranRegulars",
+			"Marik",
+			"1stKnightsOfTheInnerSphere",
+			"2ndFreeWorldsGuards",
+			"30thMarikMilitia",
+			"Kurita",
+			"1stSwordOfLight",
+			"3rdNightStalkers",
+			"2ndLegionOfVega",
+			"Davion",
+			"DavionAssaultGuards",
+			"2ndCrucisLancers",
+			"11thAvalonHussars",
+			"FederatedFreemen",
+			"1stKitteryBorderers",
+			"Liao",
+			"DeathCommandos",
+			"1stMcCarronsArmoredCavalry",
+			"WarriorHouseImarra",
+			"6thConfederationReserveCavalry",
+			"unit_medium"
+		],
+		"tagSetSourceFile": ""
+	},
+	"CurrentArmor": 250,
+	"CurrentInternalStructure": 1,
+	"AssignedArmor": 250,
+	"DamageLevel": "Functional",
+	"inventory": [
+		{
+			"ComponentDefID": "Weapon_Plasma_Rifle",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_Plasma_Rifle",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Plasma",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Plasma",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Plasma",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Plasma",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		}
+	]
+}

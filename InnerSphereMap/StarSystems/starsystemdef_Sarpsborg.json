@@ -1,0 +1,101 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Sarpsborg",
+		"Name": "Sarpsborg",
+		"Details": "After the original Terran colony was violently destroyed during the Age of War, the Star League tried to re-establish a functioning colony here with marginal success.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -149.67,
+		"y": 32.262,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_sarpsborg",
+			"planet_size_medium",
+			"planet_climate_arid",
+			"planet_other_taintedair",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_none",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_other_starleague",
+			"planet_other_hub",
+			"planet_other_alienvegetation",
+			"planet_other_blackmarket",
+			"planet_other_boreholes",
+			"planet_other_pirate",
+			"planet_other_ruins",
+			"planet_faction_steiner"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lowlandsCoastal",
+		"badlandsParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 7,
+	"ownerID": "Steiner",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Steiner",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Steiner",
+	"FactionShopItems": [
+		"itemCollection_faction_Steiner"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Sarpsborg",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"Steiner",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Kurita",
+		"RimWorldsRepublic",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Circinus",
+		"Rasalhague",
+		"MorrisonsExtractors",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

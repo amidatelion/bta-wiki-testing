@@ -1,0 +1,102 @@
+{
+	"Description": {
+		"Id": "starsystemdef_NovayaZemlya",
+		"Name": "Novaya Zemlya",
+		"Details": "Novaya Zemlya has the dubious honor of being the first inhabited world bombarded by WarShips. The resulting bombardment killed three-quarters of the world's population, destroyed nearly all cities and planetary infrastructure, and poisoned the farmlands. The few survivors had to then deal with the \"nuclear winter\" that resulted from the dust and debris thrown into the world's upper atmosphere. The Federated Suns are currently pouring many resources into the world.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 180.681,
+		"y": -183.311,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_novayazemlya",
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_other_taintedair",
+			"planet_feature_moon03",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_civ_innersphere",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_other_comstar",
+			"planet_other_starleague",
+			"planet_other_ruins",
+			"planet_faction_davion",
+			"planet_factory"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum",
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"badlandsParched",
+		"lowlandsCoastal",
+		"jungleTropical"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "Davion",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Davion",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Davion",
+	"FactionShopItems": [
+		"itemCollection_faction_Davion"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_NovayaZemlya",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 7,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Davion",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Kurita",
+		"Liao",
+		"WordOfBlake",
+		"Cameron",
+		"ComStar",
+		"TaurianConcordat",
+		"Outworld",
+		"Tortuga",
+		"DeathsConsorts",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

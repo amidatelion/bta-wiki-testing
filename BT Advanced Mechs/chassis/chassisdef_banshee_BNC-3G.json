@@ -1,0 +1,246 @@
+{
+	"Description": {
+		"Cost": 10400000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Banshee",
+		"Id": "chassisdef_banshee_BNC-3G",
+		"Name": "Banshee",
+		"Details": "Originally developed by the first Star League (and resurrected by ComStar and the Word of Blake in the 3060s) as an experiment with HPG technology, the BNC-3G is built around the gigantic Ground Mobile HPG system installed in the left torso. This system allows the BNC-3G to serve as a strategic force commander in major combat engagements but also, in a pinch, can be used to massively impair enemy units in a wide radius in battle. However, the Banshee's high speed means little tonnage remained for backup firepower, leaving just a PPC and Small Laser should enemies get too close for the HPG to be safely used.",
+		"Icon": "uixTxrIcon_banshee"
+	},
+	"MovementCapDefID": "movedef_banshee_BNC-3E",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_banshee",
+	"PrefabIdentifier": "chrPrfMech_bansheeBase-001",
+	"PrefabBase": "banshee",
+	"Tonnage": 95,
+	"InitialTonnage": 9.5,
+	"weightClass": "ASSAULT",
+	"BattleValue": 9360000,
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 105,
+	"MeleeInstability": 50,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 105,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 105,
+	"DFAInstability": 50,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 200,
+			"MaxRearArmor": 100,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 300,
+			"MaxRearArmor": 150,
+			"InternalStructure": 150
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 200,
+			"MaxRearArmor": 100,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 200,
+			"MaxRearArmor": -1,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 200,
+			"MaxRearArmor": -1,
+			"InternalStructure": 100
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Rugged_Banshee",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"VariantName": "BNC-3G",
+	"ChassisTags": {
+		"items": [
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Experimental HPG Carrier",
+	"YangsThoughts": "Originally developed by the first Star League (and resurrected by ComStar and the Word of Blake in the 3060s) as an experiment with HPG technology, the BNC-3G is built around the gigantic Ground Mobile HPG system installed in the left torso. This system allows the BNC-3G to serve as a strategic force commander in major combat engagements but also, in a pinch, can be used to massively impair enemy units in a wide radius in battle. However, the Banshee's high speed means little tonnage remained for backup firepower, leaving just a PPC and Small Laser should enemies get too close for the HPG to be safely used.",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

@@ -1,0 +1,91 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Betelgeuse",
+		"Name": "Betelgeuse",
+		"Details": "Betelgeuse is an important Capellan factory world on the border with the Free Worlds League. Coveted by House Marik, it is often the target of raids. Betelgeuse is home to Warrior House Kamata who vigorously guard the factories on the planet.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 5.674,
+		"y": -306.903,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_betelgeuse",
+			"planet_size_medium",
+			"planet_climate_tropical",
+			"planet_pop_large",
+			"planet_civ_innersphere",
+			"planet_industry_mining",
+			"planet_industry_manufacturing",
+			"planet_other_comstar",
+			"planet_factory",
+			"planet_faction_liao"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"jungleTropical",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 3,
+	"ownerID": "Liao",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Liao",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Liao",
+	"FactionShopItems": [
+		"itemCollection_faction_Liao"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Betelgeuse",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Liao",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Davion",
+		"AuriganRestoration",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Ives",
+		"MagistracyOfCanopus",
+		"TaurianConcordat",
+		"Mercenaries",
+		"ShenSeTian"
+	]
+}

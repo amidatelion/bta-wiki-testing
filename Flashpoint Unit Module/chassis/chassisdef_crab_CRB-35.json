@@ -1,0 +1,247 @@
+{
+	"Description": {
+		"Cost": 4400000,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Crab",
+		"Id": "chassisdef_crab_CRB-35",
+		"Name": "Crab",
+		"Details": "The Crab is a classic of the Star League era and has filled the ranks of ComStar's forces since their inception, thanks to a ComGuard factory on Terra. Fittingly, when the Terran Hegemony was reborn the Crab found a home in that nation's forces as well. The CRB-35 is a cutting-edge variant, intended to test out the new HISC Hyper Laser, and mounts one such weapon in the left arm. A pair of Medium Pulse Lasers round out the firepower in a more conventional manner. Endo-Composite structure, Light Ferro-Fibrous armor, and a Light Fusion Engine provide enough tonnage for the weaponry and 15 DHS and an Exchanger keep it mostly cool.",
+		"Icon": "uixTxrIcon_crab"
+	},
+	"MovementCapDefID": "movedef_crab_CRB-27",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_crab",
+	"PrefabIdentifier": "chrPrfMech_crabBase-001",
+	"PrefabBase": "crab",
+	"Tonnage": 50,
+	"InitialTonnage": 5,
+	"weightClass": "MEDIUM",
+	"BattleValue": 4124000,
+	"Heatsinks": 0,
+	"TopSpeed": 65,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": true,
+	"MeleeDamage": 60,
+	"MeleeInstability": 30,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 60,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 60,
+	"DFAInstability": 30,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": 60,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 160,
+			"MaxRearArmor": 80,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": 60,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 13,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 2
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 2
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Crab",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endocomposite",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"VariantName": "CRB-35",
+	"ChassisTags": {
+		"items": [
+			"MediumMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Experimental Direct-Fire",
+	"YangsThoughts": "The Crab is a classic of the Star League era and has filled the ranks of ComStar's forces since their inception, thanks to a ComGuard factory on Terra. Fittingly, when the Terran Hegemony was reborn the Crab found a home in that nation's forces as well. The CRB-35 is a cutting-edge variant, intended to test out the new HISC Hyper Laser, and mounts one such weapon in the left arm. A pair of Medium Pulse Lasers round out the firepower in a more conventional manner. Endo-Composite structure, Light Ferro-Fibrous armor, and a Light Fusion Engine provide enough tonnage for the weaponry and 15 DHS and an Exchanger keep it mostly cool.",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

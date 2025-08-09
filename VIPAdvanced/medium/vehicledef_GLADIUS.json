@@ -1,0 +1,213 @@
+{
+	"VehicleTags": {
+		"items": [
+			"unit_controllableTank",
+			"mr-resize-0.75",
+			"unit_vehicle",
+			"unit_light",
+			"unit_medium",
+			"unit_release",
+			"unit_rarity_5",
+			"unit_lance_vanguard",
+			"unit_lance_tank",
+			"unit_hover",
+			"unit_generic",
+			"unit_bracket_low",
+			"Locals",
+			"Liao",
+			"DeathCommandos",
+			"1stMcCarronsArmoredCavalry",
+			"WarriorHouseImarra",
+			"6thConfederationReserveCavalry",
+			"MagistracyOofCanopus",
+			"CalderonProtectorate",
+			"TaurianConcordat",
+			"TaurianGuard",
+			"PleiadesHussars",
+			"3rdTaurianLancers",
+			"Marian",
+			"ILegioMartiaVictrix",
+			"VLegioRipariensis",
+			"CohorsMorituri",
+			"Hanse",
+			"Castile",
+			"Rim",
+			"RimWorldsRepublic",
+			"1stHeliusLegionnaires",
+			"8thHeliusFusiliers",
+			"RepublicanGuard",
+			"Outworld",
+			"1stAllianceAirWing",
+			"3rdAllianceAirWing",
+			"4thAllianceAirWing",
+			"Circinus",
+			"AuriganPirates",
+			"BandOfTheDamned",
+			"DeathsConsorts",
+			"MorrisonsExtractors",
+			"NewBeltPirates",
+			"TortugaFusiliers",
+			"ShenSeTian",
+	"StrychnineSlavers",
+			"SantandersKillers",
+			"HookwormsHighwaymen",
+			"CalderonsCommandos",
+			"DedricksonsDevils",
+			"ForeverVigilant",
+			"Abominari",
+			"Tortuga",
+			"AuriganDirectorate",
+			"AuriganRestoration",
+			"FroncReaches",
+			"MagistracyofCanopus",
+			"RaventhirsIronHand",
+			"2ndCanopianFusiliers",
+			"MagistracyCavaliers",
+			"EmeraldDawn",
+			"SianTriumphant",
+			"HouseKhulan",
+			"unit_legal"
+		],
+		"tagSetSourceFile": ""
+	},
+	"ChassisID": "vehiclechassisdef_GLADIUS",
+	"Description": {
+		"Cost": 450000,
+		"Rarity": 0,
+		"Purchasable": false,
+		"UIName": "Gladius Mk.1",
+		"Id": "vehicledef_GLADIUS",
+		"Name": "Gladius Mk.1",
+		"Details": "Commissioned in 3042 by Imperator Marius O'Reilly, the Gladius Medium Hover Tank is a fast and simple combat vehicle. The Gladius is produced entirely on Alphard, with the exception of its single gun. The rugged design is heavily armored for a tank its size, mounting six tons of armor. The simple Internal Combustion Engine is cheap to produce and easy to repair and maintain. Following the ascension of Protector Jeffrey Calderon, ties between the Marian Hegemony and Taurian Concordat were cut, resulting in the cessation of production.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile, cannot move through woods.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 8/12 Hex: 240/360 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       150     20\n<b>Left</b>         120     20\n<b>Right</b>       120     20\n<b>Rear</b>         90     20\n\n<b>Total</b>      480     80\n",
+		"Icon": "Gladius"
+	},
+	"Version": 1,
+	"Locations": [
+		{
+			"Location": "Front",
+			"CurrentArmor": 150,
+			"CurrentInternalStructure": 20,
+			"AssignedArmor": 150,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Left",
+			"CurrentArmor": 120,
+			"CurrentInternalStructure": 20,
+			"AssignedArmor": 120,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Right",
+			"CurrentArmor": 120,
+			"CurrentInternalStructure": 20,
+			"AssignedArmor": 120,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Rear",
+			"CurrentArmor": 90,
+			"CurrentInternalStructure": 20,
+			"AssignedArmor": 90,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Turret",
+			"CurrentArmor": 95,
+			"CurrentInternalStructure": 20,
+			"AssignedArmor": 95,
+			"DamageLevel": "Functional"
+		}
+	],
+	"inventory": [
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Weapon_Autocannon_AC10_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Tank_CrewCompartment",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Tank_FCS_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Tank_Sensors_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
+		},
+		{
+			"MountedLocation": "Left",
+			"ComponentDefID": "Gear_Hover_Left",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Right",
+			"ComponentDefID": "Gear_Hover_Right",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_armorslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_engine_145",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_engineslots_ICE_center",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Tank_Coolant_System",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		}
+	]
+}

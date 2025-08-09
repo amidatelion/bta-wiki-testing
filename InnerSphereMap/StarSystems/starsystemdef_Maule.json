@@ -1,0 +1,89 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Maule",
+		"Name": "Maule",
+		"Details": "This harsh rocky desert world is a source of gemstones and not much else. It was annexed into the Draconis Combine at some point before the Star League era.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 31.79,
+		"y": 245.262,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_maule",
+			"planet_size_medium",
+			"planet_climate_lunar",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_none",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_faction_clanghostbear"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"desertParched",
+		"badlandsParched",
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 5,
+	"ownerID": "ClanGhostBear",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "O",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_ClanWorlds",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "ClanGhostBear",
+	"FactionShopItems": [
+		"itemCollection_faction_ClanWorlds"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Maule",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 1,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"Cameron",
+		"WordOfBlake",
+		"ComStar",
+		"Rasalhague"
+	],
+	"contractTargetIDs": [
+		"ClanGhostBear"
+	]
+}

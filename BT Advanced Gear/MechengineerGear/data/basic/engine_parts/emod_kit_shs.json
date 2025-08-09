@@ -1,0 +1,61 @@
+{
+	"Custom": {
+		"Cooling": {
+			"HeatSinkDefId": "Gear_HeatSink_Generic_Standard"
+		},
+		"WorkOrderCosts": {
+			"Default": {
+				"TechCost": "0",
+				"CBillCost": "0"
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "Cooling"
+			},
+			{
+				"CategoryID": "EnginePart"
+			},
+			{
+				"CategoryID": "SHSKit"
+			}
+		],
+		"Color": "DarkGray",
+		"Flags": [
+			"ignore_damage",
+			"default",
+			"no_salvage"
+		]
+	},
+	"DissipationCapacity": 0,
+	"Description": {
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false,
+		"Manufacturer": "Generic",
+		"Model": "Cooling System",
+		"UIName": "Heat Sink Kit (SHS)",
+		"Id": "emod_kit_shs",
+		"Name": "Heat Sink Kit (SHS)",
+		"Details": "A Mech' <b>Cooling System</b> provides heat dissipation for components inside the mech and compatible extension points for additional heat sinks throughout the mech.",
+		"Icon": "thermometer-cold"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "HeatSink",
+	"ComponentSubType": "Heatsink",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

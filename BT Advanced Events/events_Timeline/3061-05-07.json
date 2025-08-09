@@ -1,0 +1,153 @@
+{
+	"Description": {
+		"Id": "3061-05-07",
+		"Name": "MercNews Broadcast",
+		"Details": "RIM WORLDS RAIDED, FIRE MANDRILLS TO BLAME\r\n\n\nApollo, [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]]: After striking several [[DM.Factions[faction_ClanJadeFalcon],Clan Jade Falcon]] worlds last month, the [[DM.Factions[faction_ClanFireMandrill],Clan Fire Mandrill]] raids seem to be continuing this month in the [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]]. The raids seem to be fairly low intensity, with the Mandrills striking isolated worlds with small defensive forces as they wind their way spinwards along the [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]] - [[DM.Factions[faction_Steiner],Lyran Commonwealth]] border. President William Roberts of the RWR has scrambled the [[DM.Factions[faction_RimRepublicanArmy],Rim Republican Army]] to respond to the raids, but it is unlikely that they will arrive in time to do anything about the Clan's actions. Much like the previous attacks on the Falcons, the attacks against the RWR seem to be simple Trial of Possessions for supplies and personnel (taken as bondsmen). The bulk of Clan Fire Mandrill has yet to make an appearance however, leading to questions about the Clan's motives and location.\r\n\n\nWould you like to know more?",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Yes.",
+				"Details": "Broadcast continues.",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",						
+						"Details": "WHO IS [[DM.Factions[faction_ClanFireMandrill],CLAN FIRE MANDRILL]]?\r\n\n\nWith the arrival of the newest Clan into the Inner Sphere comes many questions about who they are and what they might be after. Inquiries to the other Inner Sphere Clans have answered some of these questions, specifically who they are and what the Clan is about. [[DM.Factions[faction_ClanFireMandrill],Clan Fire Mandrill]] is a Clan that took the philosophy of the Clans, that might makes right, to the extreme. Divided into sub-groups named [[DM.BaseDescriptionDefs[LoreKindraa],kindraa]] (of which there appears to be at least half a dozen), Clan Fire Mandrill fights amongst itself for everything and is rarely unified for long as the differences between the kindraa always eventually devolve into internecine low-level warfare. What is unclear is if the entire Clan has come to the Inner Sphere or if only several kindraa have arrived.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_KindraaSainze_raids_starsystemdef_Clermont",
+									"WIIC_KindraaSainze_raids_starsystemdef_Medellin",
+									"WIIC_KindraaSainze_raids_starsystemdef_Chapultepec",
+									"WIIC_KindraaSainze_raids_starsystemdef_Inarcs",
+									"WIIC_KindraaSainze_raids_starsystemdef_Bucklands",
+									"WIIC_KindraaMickKreese_raids_starsystemdef_Jesenice",
+									"WIIC_KindraaMickKreese_raids_starsystemdef_Kwangchowwang",
+									"WIIC_KindraaMickKreese_raids_starsystemdef_Arluna",
+									"WIIC_KindraaMickKreese_raids_starsystemdef_Baggville",
+									"WIIC_KindraaMickKreese_raids_starsystemdef_Trentham"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "end",
+				"Name": "No.",
+				"Details": "Broadcast ends.",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "end1",
+						"Name": "MercNews Broadcast",
+						"Details": "Transmission terminated.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_Locals_attacks_starsystemdef_St.Ives",
+									"WIIC_set_starsystemdef_St.Ives_defender_strength_25",
+									"WIIC_set_starsystemdef_St.Ives_attacker_strength_25",
+									"WIIC_Locals_attacks_starsystemdef_Necromo",
+									"WIIC_Locals_attacks_starsystemdef_Denbar",
+									"WIIC_Locals_attacks_starsystemdef_St.Loris",
+									"WIIC_Locals_attacks_starsystemdef_Taga",
+									"WIIC_Locals_attacks_starsystemdef_Milos",
+									"WIIC_Locals_attacks_starsystemdef_Nashuar",
+									"WIIC_set_starsystemdef_St.Ives_defender_strength_50",
+									"WIIC_set_starsystemdef_St.Ives_attacker_strength_50"								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

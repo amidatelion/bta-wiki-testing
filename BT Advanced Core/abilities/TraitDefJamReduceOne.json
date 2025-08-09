@@ -1,0 +1,40 @@
+{
+	"Description": {
+		"Id": "TraitDefJamReduceOne",
+		"Name": "Jam Reduction One",
+		"Details": "PASSIVE: This pilot has a reduced chance for weapon jams.",
+		"Icon": "uixSvgIcon_action_evasivemove"
+	},
+	"Type": "Command",
+	"ShortDesc": "Minorly Reduced Jam Chance",
+	"DisplayParams": "ShowInPilotToolTip",
+	"ActivationTime": "Passive",
+	"EffectData": [
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "TraitDefJamReduceOne",
+				"Name": "Jam Reduce One",
+				"Details": "Reduce Jam Chance by 5%",
+				"Icon": "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData": {
+				"statName": "CACModJammingChance",
+				"operation": "Float_Multiply",
+				"modValue": "0.7",
+				"modType": "System.Single",
+				"targetCollection": "Weapon"
+			},
+			"nature": "Buff"
+		}
+	]
+}

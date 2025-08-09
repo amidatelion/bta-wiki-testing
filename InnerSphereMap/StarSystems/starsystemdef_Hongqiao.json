@@ -1,0 +1,91 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Hongqiao",
+		"Name": "Hongqiao",
+		"Details": "Hongqiao is notable for its steamy jungle environments, from natural boreholes located deep within the rainforests. Hongqiao joined the Word of Blake Protectorate in the late 3050s.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -227.178,
+		"y": -232.669,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_hongqiao",
+			"planet_size_medium",
+			"planet_climate_tropical",
+			"planet_other_megaforest",
+			"planet_other_stonedcaribou",
+			"planet_feature_moon03",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_recreation",
+			"planet_industry_mining",
+			"planet_other_boreholes",
+			"planet_faction_wordofblake"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum",
+		"jungleTropical",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "WordOfBlake",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_WordOfBlake",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "WordOfBlake",
+	"FactionShopItems": [
+		"itemCollection_faction_WoB"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Hongqiao",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 6,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"WordOfBlake",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Cameron",
+		"Liao",
+		"MagistracyOfCanopus",
+		"ComStar",
+		"Mercenaries",
+		"Rasalhague"
+	]
+}

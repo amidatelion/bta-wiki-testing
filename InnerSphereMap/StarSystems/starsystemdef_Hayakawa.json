@@ -1,0 +1,80 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Hayakawa",
+		"Name": "Hayakawa",
+		"Details": "One of the most recently colonized worlds in the Mallard Republic, Hayakawa sits on the far edge of Republican space and is questionably habitable at best. The brutal cold and icy conditions have kept immigration low, leading to some questions about how large the population can actually grow.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 950.039,
+		"y": -675.715,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_size_medium",
+			"planet_climate_ice",
+			"planet_pop_small",
+			"planet_civ_periphery",
+			"planet_other_newcolony",
+			"planet_industry_poor",
+			"planet_industry_mining",
+			"planet_faction_mallardrepublic",
+			"planet_name_Hayakawa"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"polarFrozen",
+		"tundraFrozen"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 8,
+	"ownerID": "MallardRepublic",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "MallardRepublic",
+	"FactionShopItems": [
+		"itemCollection_faction_MallardRepublic"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Hayakawa",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 2,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"MallardRepublic"
+	],
+	"contractTargetIDs": [
+		"SanctuaryAlliance",
+		"JacobsonHaven",
+		"DaneSacellum"
+	]
+}

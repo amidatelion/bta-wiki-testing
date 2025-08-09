@@ -1,0 +1,92 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Trell(Trellwan)",
+		"Name": "Trell (Trellwan)",
+		"Details": "A planetary year on Trellwan is only 45 standard days, while a planetary day is 30.5 standard days due to the planet's slow rotation. As a result, vulcanism and earthquakes are common and the climatic changes are quite abrupt and severe.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -113.976,
+		"y": 386.942,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_trell(trellwan)",
+			"planet_size_medium",
+			"planet_climate_desert",
+			"planet_other_volcanic",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_other_comstar",
+			"planet_other_ruins",
+			"planet_faction_clanjadefalcon"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 3,
+	"ownerID": "ClanJadeFalcon",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_ClanWorlds",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "ClanJadeFalcon",
+	"FactionShopItems": [
+		"itemCollection_faction_ClanWorlds"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Trell(Trellwan)",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"Cameron",
+		"RimWorldsRepublic",
+		"WordOfBlake",
+		"ComStar",
+		"Rasalhague"
+	],
+	"contractTargetIDs": [
+		"ClanJadeFalcon"
+	]
+}

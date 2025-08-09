@@ -1,0 +1,78 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Greystone",
+		"Name": "Greystone",
+		"Details": "Greystone is a newly-established colony of Clan Goliath Scorpion, established in order to expand their burgeoning 'empire' by the Seeker Khan, Enrico Kirov. Greystone is a rocky lunar world, fitting of its name, and has little of interest to anyone other than some supply depots for the Scorpions.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -679.155,
+		"y": 1043.824,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_greystone",
+			"planet_size_small",
+			"planet_climate_lunar",
+			"planet_feature_moon03",
+			"planet_pop_small",
+			"planet_civ_periphery",
+			"planet_industry_mining",
+			"planet_other_newcolony",
+			"planet_faction_clangoliathscorpion"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 13,
+	"ownerID": "ClanGoliathScorpion",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "ClanGoliathScorpion",
+	"FactionShopItems": [],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Greystone",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 3,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Locals",
+		"ClanGoliathScorpion"
+	],
+	"contractTargetIDs": [
+		"Castile",
+		"Hanse",
+		"AuriganPirates",
+		"Mercenaries"
+	]
+}

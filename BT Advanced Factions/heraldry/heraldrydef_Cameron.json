@@ -1,0 +1,18 @@
+{
+	"Description": {
+		"Cost": 0,
+		"Rarity": 1,
+		"Purchasable": false,
+		"Manufacturer": "null",
+		"Model": "null",
+		"UIName": "null",
+		"Id": "heraldrydef_Cameron",
+		"Name": "Cameron",
+		"Details": "",
+		"Icon": ""
+	},
+	"textureLogoID": "uixTxrLogo_Cameron2",
+	"primaryMechColorID": "Green_05",
+	"secondaryMechColorID": "Green_03",
+	"tertiaryMechColorID": "Green_04"
+}

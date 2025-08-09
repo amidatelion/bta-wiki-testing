@@ -1,0 +1,21 @@
+{
+	"Id": "WeaponUpgrade_Quirk_Helepolis_StabilizedAim_SniperCannon",
+	"addonType": "quirk_helepolis",
+	"targetComponentTags": [
+		"QuirkHelepolisSupported-SniperCannon"
+	],
+	"modes": [
+		{
+			"Id": "DirectFire",
+			"UIName": "Quirk Direct",
+			"Name": "Quirk Direct",
+			"AccuracyModifier": -2.0
+		},
+		{
+			"Id": "IndirectFire",
+			"UIName": "Quirk Indirect",
+			"Name": "Quirk Indirect",
+			"AccuracyModifier": -2.0
+		}
+	]
+}

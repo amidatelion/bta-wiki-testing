@@ -1,0 +1,47 @@
+{
+	"ID": "faction_RepublicanGuard",
+	"Name": "Republican Guard",
+	"ShortName": "Republican Guard",
+	"Demonym": "Republican Guard",
+	"Government": "Republic",
+	"Allies": [],
+	"Enemies": [],
+	"Presence": 1.0,
+	"ReputationStatements": [
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander."
+	],
+	"MissionSuccessStatements": [
+		"Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you."
+	],
+	"GoodFaithFailureStatements": [
+		"You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot."
+	],
+	"BadFaithFailureStatements": [
+		"For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess."
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
+	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DataManager": null,
+	"factionID": "RepublicanGuard",
+	"icon": "uixTxrLogo_RepublicanGuard",
+	"heraldryDefId": "heraldrydef_RepublicanGuard",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"Description": "The Rim Worlds Republic has a long history of service to the state among the population, with most adults serving at least a brief period in the military or government and the Republican Guard is the result. Not a single unit but instead a collection of different minor militias and various supporting units, the Republican Guard can be found on every world of the RWR and even further afield, taking on missions for the Republic that don't call for a more serious military response.",
+	"StartingReputationValues": [
+		0,
+		0,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
+}

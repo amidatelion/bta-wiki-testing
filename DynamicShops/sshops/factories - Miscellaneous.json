@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Twycross",
+		"conditions": {
+			"tag": "planet_name_twycross"
+		},
+		"items": "itemCollection_major_ClanDiamondShark"
+	},
+	{
+		"name": "Merchant's Rest",
+		"conditions": {
+			"tag": "planet_name_merchantsrest"
+		},
+		"items": "itemCollection_major_ClanDiamondShark"
+	},
+	{
+		"name": "Rezak's Hole",
+		"conditions": {
+			"tag": "planet_name_rezak'shole"
+		},
+		"items": "itemCollection_faction_Rezak"
+	}
+]

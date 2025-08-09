@@ -1,0 +1,272 @@
+{
+	"Description": {
+		"Cost": 7100000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "ExcavatorMech",
+		"Id": "chassisdef_excavatormech_EXV-1X",
+		"Name": "ExcavatorMech",
+		"Details": "The ExcavatorMech is an industrial digging machine, meant for digging out huge masses of earth for construction projects. The EXV-1X is a very basic refit with some cheap backwater weaponry to let the mech be used for combat if necessary. Generally though the EXV-1X is not a combat-rated machine, as even though 40 Rocket Launcher tubes and a Medium Rifle pack a punch the mech cannot easily withstand return fire and will crumble to any sustained combat design.",
+		"Icon": "uixTxrIcon_excavatormech"
+	},
+	"MovementCapDefID": "movedef_grasshopper_GHR-5H",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_excavator",
+	"PrefabIdentifier": "chrprfmech_excavatorbase-001",
+	"PrefabBase": "excavator",
+	"Tonnage": 50,
+	"InitialTonnage": 5,
+	"weightClass": "MEDIUM",
+	"BattleValue": 7602000,
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 80,
+	"MeleeInstability": 40,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 80,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 80,
+	"DFAInstability": 40,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": 60,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 160,
+			"MaxRearArmor": 80,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": 60,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 18,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 17,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 18,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "EXV-1X",
+	"ChassisTags": {
+		"items": [
+			"IndustrialMech",
+			"ArmLimitUpperLeft",
+			"MediumMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Excavation IndustrialMech",
+	"YangsThoughts": "The ExcavatorMech is an industrial digging machine, meant for digging out huge masses of earth for construction projects. The EXV-1X is a very basic refit with some cheap backwater weaponry to let the mech be used for combat if necessary. Generally though the EXV-1X is not a combat-rated machine, as even though 40 Rocket Launcher tubes and a Medium Rifle pack a punch the mech cannot easily withstand return fire and will crumble to any sustained combat design.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "emod_arm_part_lower",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Actuator_DiggerClaw",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Reinforcement_Excavator",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_Actuator_Backhoe",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_ICE_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

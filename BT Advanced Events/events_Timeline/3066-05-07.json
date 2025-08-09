@@ -1,0 +1,86 @@
+{
+	"Description": {
+		"Id": "3066-05-07",
+		"Name": "MercNews Broadcast",
+		"Details": "HASEK VICTORY ON NEW SYRTIS!\r\n\n\n[[DM.BaseDescriptionDefs[LoreNewSyrtis],New Syrtis]], [[DM.BaseDescriptionDefs[LoreFedCom],Federated Commonwealth]]:  Duke [[DM.BaseDescriptionDefs[TBoneLoreGeorgeHasek],George Hasek]]'s forces have declared victory against the pro-Katrina [[DM.BaseDescriptionDefs[LoreLoyalist],Loyalists]] sent to subdue the planet. The combined Eighth [[DM.BaseDescriptionDefs[LoreSyrtisFusiliers],Syrtis Fusiliers]], [[DM.BaseDescriptionDefs[LoreDavionGuards],Davion Light Guard]], and [[DM.BaseDescriptionDefs[LoreVanguardLegion],Vanguard Legion]] won a bitter struggle against the Fourth [[DM.BaseDescriptionDefs[LoreDonegalGuards],Donegal Guards]] and the Eleventh [[DM.BaseDescriptionDefs[LoreAvalonHussars],Avalon Hussars]] at a very heavy price. The capital city, Saso, lies in complete ruin, along with the much beloved Morgan Hasek-Davion Glacier Memorial. The Duke made clear his intention to stay out of the continued civil war between Archon Princess [[DM.BaseDescriptionDefs[LoreKatherineSteiner],Katrina Steiner]]'s and Prince [[DM.BaseDescriptionDefs[LoreVictorSD],Victor Steiner-Davion]]'s supporters.\r\n\nMany accounts note that the mercenary Vanguard Legion proved pivotal in putting down the invaders. As more and more regular military units find themselves split over the political issues behind this civil war, it may well be mercenaries who decide the fate of the beleaguered Federated Commonwealth.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "VICTOR REINFORCES TIKONOV OFFENSIVE!\r\n\n\nTikonov, [[DM.BaseDescriptionDefs[LoreFedCom],Federated Commonwealth]]: After months of low-grade, three-sided warfare between the [[DM.BaseDescriptionDefs[LoreLoyalist],Loyalist]] Fifteenth [[DM.BaseDescriptionDefs[LoreDLC],Deneb Light Cavalry]], the [[DM.BaseDescriptionDefs[LoreFreeTikonov],Free Tikonov Movement]]'s First and Third [[DM.BaseDescriptionDefs[LoreRepublican],Republican]] and the [[DM.BaseDescriptionDefs[LoreAllied],Allied]] Sixth [[DM.BaseDescriptionDefs[LoreCrucisLancers],Crucis Lancers]], First [[DM.BaseDescriptionDefs[LoreNAIS],NAIS]] Cadre and Valexa [[DM.BaseDescriptionDefs[LoreCapMM],CMM]], the scales changed once again with the reappearance of former Prince [[DM.BaseDescriptionDefs[LoreVictorSD],Victor]] on the world.  Leading the elite Tenth [[DM.BaseDescriptionDefs[LoreLyranGuard],Lyran Guards]] and the 244th [[DM.BaseDescriptionDefs[LoreComguard],Com Guards]] Division, has begun to grind away at both the Loyalist and Free Tikonov defences.  While an Allied victory is expected, both sides are seeking mercenary support.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+							"WIIC_give_starsystemdef_NewSyrtis_to_Davion",
+							"WIIC_give_starsystemdef_Tikonov_to_Steiner",
+							"WIIC_Davion_attacks_starsystemdef_Tikonov",
+							"WIIC_set_starsystemdef_Tikonov_defender_strength_20",
+							"WIIC_set_starsystemdef_Tikonov_attacker_strength_35"
+							],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

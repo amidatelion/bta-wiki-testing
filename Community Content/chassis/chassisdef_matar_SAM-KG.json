@@ -1,0 +1,418 @@
+{
+	"Description": {
+		"Cost": 7800000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Matar",
+		"Id": "chassisdef_matar_SAM-KG",
+		"Name": "Matar",
+		"Details": "Designed by St. Ives based on plans smuggled to them by ComStar, the Matar SAM-3G is a powerful BattleMech based on the old Amaris's Folly but upgraded with St. Ives's new 3rd Generation technology. Powered by a 375-rated 3rd Gen XXL Engine and clad with the maximum amount of 3rd Gen Hardened Armor possible over a 3rd Gen Endo-Steel structure, the SAM-3G is highly dangerous. It is equipped with four each of Medium Grazers and 3rd Gen Missile/5s, while a pair of Sanctuary Double-Barrel AC/10s smash anything nearby. 19 3rd Gen Heat Sinks keep it well cooled while extra Modular Plating and a battery of fancy electronics keep it active on any battlefield.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "uixTxrIcon_matar"
+	},
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel_3G",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_3rd_generation_hardened",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_kit_3ghs",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_3gxxl_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Cockpit_3G_Standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"MovementCapDefID": "movedef_stonerhino_300",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_stonerhino",
+	"PrefabIdentifier": "chrprfmech_stonerhinobase-001",
+	"PrefabBase": "stonerhino",
+	"Tonnage": 110,
+	"InitialTonnage": 11,
+	"weightClass": "ASSAULT",
+	"BattleValue": 7718000,
+	"Heatsinks": 0,
+	"TopSpeed": 105,
+	"TurnRadius": 90,
+	"MaxJumpjets": 3,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": true,
+	"MeleeDamage": 115,
+	"MeleeInstability": 55,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 115,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 115,
+	"DFAInstability": 55,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 24
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 190,
+			"MaxRearArmor": -1,
+			"InternalStructure": 95
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 230,
+			"MaxRearArmor": 115,
+			"InternalStructure": 115
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 22,
+			"MaxArmor": 340,
+			"MaxRearArmor": 170,
+			"InternalStructure": 170
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 230,
+			"MaxRearArmor": 115,
+			"InternalStructure": 115
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 190,
+			"MaxRearArmor": -1,
+			"InternalStructure": 95
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 230,
+			"MaxRearArmor": -1,
+			"InternalStructure": 115
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 230,
+			"MaxRearArmor": -1,
+			"InternalStructure": 115
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"VariantName": "SAM-3G",
+	"ChassisTags": {
+		"items": [
+			"HeroMech",
+			"SuperHeavyMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Slow Juggernaut",
+	"YangsThoughts": "Designed by St. Ives based on plans smuggled to them by ComStar, the Matar SAM-3G is a powerful BattleMech based on the old Amaris's Folly but upgraded with St. Ives's new 3rd Generation technology. Powered by a 375-rated 3rd Gen XXL Engine and clad with the maximum amount of 3rd Gen Hardened Armor possible over a 3rd Gen Endo-Steel structure, the SAM-3G is highly dangerous. It is equipped with four each of Medium Grazers and 3rd Gen Missile/5s, while a pair of Sanctuary Double-Barrel AC/10s smash anything nearby. 19 3rd Gen Heat Sinks keep it well cooled while extra Modular Plating and a battery of fancy electronics keep it active on any battlefield.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

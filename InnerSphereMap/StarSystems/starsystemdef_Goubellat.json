@@ -1,0 +1,102 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Goubellat",
+		"Name": "Goubellat",
+		"Details": "The Goubellat system colonized during the First Exodus from Terra. Then it became a border world between the Draconis Combine and the Outworlds Alliance. In 26th century The SLDF marshalled the Forty-second Brigade on Goubellat prior to the invasion.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 351.289,
+		"y": 165.129,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_goubellat",
+			"planet_size_large",
+			"planet_climate_lunar",
+			"planet_other_mudflats",
+			"planet_other_floatingworld",
+			"planet_other_storms",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_industry_manufacturing",
+			"planet_other_starleague",
+			"planet_other_hub",
+			"planet_other_alienvegetation",
+			"planet_other_blackmarket",
+			"planet_other_boreholes",
+			"planet_other_pirate",
+			"planet_faction_kurita"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 6,
+	"ownerID": "Kurita",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Kurita",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Kurita",
+	"FactionShopItems": [
+		"itemCollection_faction_Kurita"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Goubellat",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 7,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"Kurita",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Davion",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Outworld",
+		"Rasalhague",
+		"Mercenaries",
+		"BandOfTheDamned"
+	]
+}

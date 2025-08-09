@@ -1,0 +1,91 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/o/pod"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 10,
+			"StabilityDamagePerAmmo": 5
+		},
+		"InternalAmmoTonnage": {
+            "InternalAmmoTons": 0.05
+        },
+		"BonusDescriptions": [
+			"APod",
+			"PodRadius: 30",
+			"PodDamage: 35",
+			"PipsIgnored: 10",
+			"WpnAccuracy: +2",
+			"InternalAmmo: 1"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 1000
+		}
+	},
+	"Category": "AntiPersonnel",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC2",
+	"MinRange": 0,
+	"MaxRange": 30,
+	"RangeSplit": [
+		30,
+		30,
+		30
+	],
+	"AmmoCategory": "Flamer",
+	"StartingAmmoCapacity": 1,
+	"HeatGenerated": 0,
+	"Damage": 35,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 10,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -2,
+	"CriticalChanceMultiplier": 1.5,
+	"AOECapable": true,
+	"AOEDamage": 35,
+	"AOERange": 30,
+	"IFFDef": "notblanksowontdamageselfbutcandamagefriendlies",
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 4,
+	"Instability": 5,
+	"WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+	"Description": {
+		"Cost": 20000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Explosive Canister",
+		"UIName": "A-Pod",
+		"Id": "Weapon_Pod_PodA",
+		"Name": "Anti-Personnel Pod",
+		"Details": "An Anti-Personnel Pod (A-Pod) is a piece of equipment designed specifically for 'Mechs. When detonated, it effectively fills a small area with deadly shrapnel. Although the A-Pod is mostly ineffective against hardened targets, soft targets such as infantry are devasated by the attack.",
+		"Icon": "crowned-explosion"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "MachineGun",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_close",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

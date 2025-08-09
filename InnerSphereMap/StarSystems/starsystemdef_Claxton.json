@@ -1,0 +1,92 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Claxton",
+		"Name": "Claxton",
+		"Details": "Claxton's industry consists of heavy industrial mines throughout it's rich crystalline fields. Smaller settlements subsist of the mining and export industries that have arisen here.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 15.497,
+		"y": -264.185,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_claxton",
+			"planet_size_medium",
+			"planet_climate_rocky",
+			"planet_other_volcanic",
+			"planet_other_storms",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_industry_mining",
+			"planet_faction_liao"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"highlandsSpring",
+		"highlandsFall"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 5,
+	"ownerID": "Liao",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Liao",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Liao",
+	"FactionShopItems": [
+		"itemCollection_faction_Liao"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Claxton",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Liao",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Marik",
+		"Davion",
+		"AuriganRestoration",
+		"Cameron",
+		"ComStar",
+		"WordOfBlake",
+		"Ives",
+		"MagistracyOfCanopus",
+		"TaurianConcordat",
+		"Mercenaries",
+		"ShenSeTian"
+	]
+}

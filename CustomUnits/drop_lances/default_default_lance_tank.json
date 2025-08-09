@@ -1,0 +1,14 @@
+{
+  "Description": {
+    "Id": "default_default_lance_tank",
+    "Name": "TANKS",
+    "Details": "Default lance description",
+    "Icon": ""
+  },
+  "DropSlots": [
+    "default_vehicle_slot",
+    "default_vehicle_slot",
+    "default_vehicle_slot",
+    "default_vehicle_slot"
+  ]
+}

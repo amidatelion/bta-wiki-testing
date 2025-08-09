@@ -1,0 +1,143 @@
+{
+	"Name": "CustomSalvage",
+	"Author": "Denadan",
+	"Website": "https://github.com/Denadan/CustomSalvage",
+	"Enabled": true,
+	"Hidden": true,
+	"DependsOn": [
+		"CustomComponents"
+	],
+	"DLL": "CustomSalvage.dll",
+	"DLLEntryPoint": "CustomSalvage.Control.Init",
+	"CustomResourceTypes": [
+		"CSTags"
+	],
+	"Settings": {
+		"LogLevel": "Debug",
+		"DEBUG_ShowLoadingTags": false,
+		"DEBUG_LOTOFPARTS": false,
+		"DEBUG_ShowConfig": false,
+		"ShowDEBUGChances": false,
+		"RecoveryType": "PartDestroyed",
+		"PartCountType": "PartDestroyed",
+		"LostMechAction": "ReturnItemsToPlayer",
+		"RecoveryMod": 1,
+		"LimbRecoveryPenalty": 0.05,
+		"TorsoRecoveryPenalty": 0.1,
+		"HeadRecoveryPenaly": 0,
+		"EjectRecoveryBonus": 1,
+		"CenterTorsoDestroyedParts": 1,
+		"SalvageArmWeight": 0.75,
+		"SalvageLegWeight": 0.75,
+		"SalvageTorsoWeight": 1,
+		"SalvageHeadWeight": 0.5,
+		"VACTDestroyedMod": 0.35,
+		"VABLDestroyedMod": 0.68,
+		"SalvageTurrets": true,
+		"SalvageTurretsComponentChance": 0.33,
+		"UpgradeSalvage": false,
+		"AllowDropBlackListed": false,
+		"NoSalvageMechTag": "NOSALVAGE",
+		"UniqieUnitTag": "UniqueMech",
+		"FullEnemyUnitSalvage": false,
+		"MaxFullUnitsInSalvage": 1,
+		"FullUnitInfoIcon": "icons8-info",
+		"FullUnitRandomSalvageSlotUsingMod": 1.0,
+		"FullUnitUsedAllRandomSalvageSlots": false,
+		"FullUnitUsedAmountOfLootableComponents": true,
+		"FullUnitStructurePersentage": 0.45,
+		"FullMechStructurePersentage": 0.01,
+		"FullVehicleStructurePersentage": -0.05,
+		"AdditionalStructurePercentagePerPart": 0.11,
+		"FullUnitRecoveryChance": 1,
+		"FullMechRecoveryChance": 1,
+		"FullVehicleRecoveryChance": 0.5,
+		"SquadAdditionalPartChance": 0.25,
+		"SquadDisassembleComponents": false,
+		"VehicleDisassembleComponents": true,
+		"VehicleAlwaysDisassembled": true,
+		"BGColors": [
+			{
+				"Tag": "unit_assault",
+				"Color": "#b2babb10"
+			},
+			{
+				"Tag": "unit_heavy",
+				"Color": "#f0b27a10"
+			},
+			{
+				"Tag": "unit_medium",
+				"Color": "#82e0aa10"
+			},
+			{
+				"Tag": "unit_light",
+				"Color": "#85c1e910"
+			}
+		],
+		"StoredMechColor": "#7FFFD4",
+		"ReadyColor": "#32CD32",
+		"VariantsColor": "yellow",
+		"NotReadyColor": "white",
+		"ExcludedColor": "magenta",
+		"AssemblyVariants": true,
+		"MinPartsToAssembly": 0.5,
+		"MinPartsToAssemblySpecial": 0.5,
+		"ExcludeTags": [
+			"BLACKLISTED"
+		],
+		"ExcludeVariants": [],
+		"BrokeByTag": [],
+		"MaxVariantsInDescription": 5,
+		"ApplyPartPriceMod": true,
+		"UnEquipedMech": false,
+		"HeadRepaired": false,
+		"LeftArmRepaired": false,
+		"RightArmRepaired": false,
+		"CentralTorsoRepaired": false,
+		"LeftTorsoRepaired": false,
+		"RightTorsoRepaired": false,
+		"LeftLegRepaired": false,
+		"RightLegRepaired": false,
+		"RepairMechLimbs": true,
+		"RepairMechLimbsChance": 1,
+		"RandomStructureOnRepairedLimbs": true,
+		"MinStructure": 1,
+		"RepairMechComponents": true,
+		"RepairComponentsFunctionalThreshold": 1,
+		"RepairComponentsNonFunctionalThreshold": 0,
+		"AdaptPartBaseCost": 0.015,
+		"MaxAdaptMod": 5,
+		"AdaptModWeight": 2,
+		"OmniTechTag": "OmniMech",
+		"OmniSpecialtoSpecialMod": 0.1,
+		"OmniSpectialtoNormalMod": 0.25,
+		"OmniNormalMod": 0,
+		"AllowScrapToParts": false,
+		"MinScrapParts": 0.51,
+		"MaxScrapParts": 0.91,
+		"ShowSalvageFloaties": true,
+		"RepairChanceByTP": false,
+		"BaseTP": 10,
+		"LimbChancePerTp": 1,
+		"ComponentChancePerTp": 1,
+		"LimbMinChance": 1,
+		"LimbMaxChance": 1,
+		"ComponentMinChance": 1,
+		"ComponentMaxChance": 1,
+		"RepairTPMaxEffect": 0.66
+	},
+	"Manifest": [
+		{
+			"Type": "SVGAsset",
+			"Path": "icons",
+			"ShouldMergeJSON": false
+		}
+	],
+	"Logs": {
+		"CustomSalvage.log": {
+			"Include": [
+				"CustomSalvage"
+			]
+		}
+	}
+}

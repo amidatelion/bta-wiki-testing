@@ -1,0 +1,24 @@
+{
+	"Id": "WeaponUpgrade_WebbTC_COIL",
+	"addonType": "webbtcfcs",
+	"targetComponentTags": [
+		"WebbTCSupported-COIL"
+	],
+	"modes": [
+		{
+			"Id": "Off",
+			"UIName": "Webb Off",
+			"AccuracyModifier": -2.0
+		},
+		{
+			"Id": "On",
+			"UIName": "Webb On",
+			"AccuracyModifier": -2.0
+		},
+		{
+			"Id": "Over",
+			"UIName": "Webb Over",
+			"AccuracyModifier": -2.0
+		}
+	]
+}

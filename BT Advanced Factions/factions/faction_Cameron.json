@@ -1,0 +1,66 @@
+{
+	"ID": "faction_Cameron",
+	"Name": "the Terran Hegemony",
+	"ShortName": "Cameron",
+	"Demonym": "Terran",
+	"Government": "Hegemony",
+	"Allies": [
+		"ComStar",
+		"ClanNovaCat",
+		"Rasalhague",
+		"GraveWalkers",
+		"12thStarGuards",
+		"RedfieldRenegades",
+		"LexingtonCombatGroup",
+		"KnightsOfStCameron",
+		"Mercenaries",
+		"Locals"
+	],
+	"Enemies": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"ClanDiamondShark",
+		"ClanGhostBear",
+		"ClanGoliathScorpion",
+		"ScorpionEmpire",
+		"ClanJadeFalcon",
+		"ClanSnowRaven",
+		"ClanWolf",
+		"ClanFireMandrill",
+		"Locals",
+		"AuriganPirates",
+		"TheDark",
+		"Mercenaries",
+		"WordOfBlake"
+	],
+	"Presence": 0.1,
+	"factionID": "Cameron",
+	"icon": "uixTxrLogo_Cameron2",
+	"factionMapBorderOverrideColor": "rgba(0,0,0,1.0)",
+	"factionMapColor": "rgba(125,118,121,0.9)",
+	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
+	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"heraldryDefId": "heraldrydef_Cameron",
+	"ReputationStatements": [
+		"You are hated in the Hegemony and I am loathe to offer you anything at all but desperate times call for desperate measures. Do this contract and perhaps work your way back into our good graces.",
+		"I dislike calling on you, mercenary, but my normal agents are occupied and I still need this contract completed, if you can be bothered.",
+		"You've worked against the Hegemony in the past but I think we can look beyond that for today's contract.",
+		"Hail, Commander. We've heard you're a competent mercenary and so offer you this contract that we might build a friendship together.",
+		"Greetings again, Commander! After our last successful outing together I thought to once again call upon you for this contract.",
+		"It is most relieving to see you here, friend. I've got a choice contract to offer today, I think you'll enjoy the terms on this one.",
+		"You've been a friend to the Hegemony and the Director-General and so I'm pleased to offer you this lucrative contract today. I look forward to hearing of your success on the battlefield!"
+	],
+	"MissionSuccessStatements": [
+		"Truly, you have served the Hegemony well today. Director-General Cameron sends his regards and looks forward to future cooperation with you."
+	],
+	"GoodFaithFailureStatements": [
+		"You failed us today but the Hegemony recognizes that not all such failures are without some merit. You'll be receiving partial payment today but we expect better in the future."
+	],
+	"BadFaithFailureStatements": [
+		"Disappointing show today, Commander. With work like this the Hegemony will never reclaim its rightful place as the leaders of the Inner Sphere, we expect better from you next time."
+	],
+	"Description": "The Terran Hegemony was the first and greatest of the Great Houses but was destroyed in the Amaris Civil War that toppled the Star League. However, thanks to clever maneuvering by ComStar during the Succession Wars and the discovery of surviving members of House Cameron, the Hegemony was reborn in 3036 and reclaimed many of its original worlds. Now, the Hegemony is primed to once again claim a leading role amongst the stars under the watchful eye of Director-General Ian Cameron III and the guiding hand of ComStar."
+}

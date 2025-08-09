@@ -1,0 +1,90 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Corydon",
+		"Name": "Corydon",
+		"Details": "The Corydon system was colonized during the First Exodus from Terra and had been incorporated into the Federated Suns by the end of the Age of War. Captured by DCMS in 2789, it was liberated again by AFFS in 2806 during first major counter-offensive against the Draconis Combine in First Succession War. ",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 216.61,
+		"y": -38.822,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_corydon",
+			"planet_size_large",
+			"planet_climate_mars",
+			"planet_other_mudflats",
+			"planet_other_storms",
+			"planet_feature_gasgiant",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_mining",
+			"planet_faction_davion"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 16,
+	"ownerID": "Davion",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Davion",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Davion",
+	"FactionShopItems": [
+		"itemCollection_faction_Davion"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Corydon",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 4,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Davion",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Kurita",
+		"Liao",
+		"WordOfBlake",
+		"Cameron",
+		"ComStar",
+		"TaurianConcordat",
+		"Outworld",
+		"Tortuga",
+		"DeathsConsorts",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

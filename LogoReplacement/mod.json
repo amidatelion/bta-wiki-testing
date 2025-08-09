@@ -1,0 +1,9 @@
+{
+	"Name": "LogoReplacement",
+	"DLL": "LogoReplacement.dll",
+	"Enabled": true,
+	"Hidden": true,
+	"Settings": {
+		"LogoPath": "uixTxr_landingLogoBTAU3.png"
+	}
+}

@@ -1,0 +1,109 @@
+{
+    "Description" : {
+        "Id" : "forcedevent_MiniMechs_units",
+        "Name" : "Mini 'Mechs Delivery",
+        "Details" : "The morning comes and goes like usual, right up until lunch, when Darius comms you about your brand new Battle Armor. \"Commander, that myserious contact came through for us. You might want to go take a look down in the MechBay, Yang is apparently ecstatic about the new Battle Armor suits.\"",
+        "Icon" : "uixTxrSpot_HM_YangLootImage"
+    },
+    "Scope" : "MechWarrior",
+    "Weight" : 0,
+    "Requirements" : {
+        "Scope" : "Company",
+            "RequirementTags" : {
+                "tagSetSourceFile" : "",
+                "items" : [
+					"bd_event_MiniMechs_mech"
+				]
+            },
+            "ExclusionTags" : {
+                "tagSetSourceFile" : "",
+                "items" : []
+            },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "The BA arrives.",
+                "Details" : "BA arrives",
+                "Icon" : null
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "ExclusionTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RequirementComparisons" : []
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Gain the BA.",
+                        "Details" : "As you approach the MechBay, you can hear Yang excitedly nattering to his techs. When you step into the MechBay, at first you don't see anything unusual. However, you quickly notice Yang and his techs huddled around some unexpectedly small crates over in a corner of the MechBay. As you approach, Yang looks over and waves excitedly, \"They're beautiful, Commander! Even more exciting than I expected! Thanks for taking that offer, I'm super thrilled to work with these!\" You ask him about the APCs and their status, to which Yang replies dismissively, \"Oh, the tanks? Eh, they're over in the tank bay somewhere, I've got a couple guys making sure they didn't come with a bomb or anything, honestly not super interested in those right now.\"\r\n\n\nYou chuckle and give Yang a slap on the back before you walk away. Yang's eccentric but he's a damn good MechTech, as long as he's happy, you're happy.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : []
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : [
+									"bd_event_MiniMechs_units"
+								]
+                            },
+                            "Stats" : [],
+                            "Actions" : [
+                                {
+                                    "Type" : "System_ShowRewards",
+                                    "value" : "itemCollection_loot_eventMiniMechs",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                }
+                            ],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "ExclusionTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "tagSetSourceFile" : "tags/EventTags",
+        "items" : []
+    }
+}

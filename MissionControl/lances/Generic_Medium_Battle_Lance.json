@@ -1,0 +1,56 @@
+{
+	"lanceKey": "Generic_Medium_Battle_Lance",
+	"lanceDefId": "Tagged",
+	"lanceTagSet": {
+		"items": [
+			"lance_type_battle",
+			"lance_type_medium"
+		]
+	},
+	"unitSpawnPointOverrideList": [
+		{
+			"unitType": "Mech",
+			"unitTagSet": {
+				"items": [
+					"unit_medium",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			}
+		},
+		{
+			"unitType": "Mech",
+			"unitTagSet": {
+				"items": [
+					"unit_medium",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			}
+		},
+		{
+			"unitType": "Mech",
+			"unitTagSet": {
+				"items": [
+					"unit_medium",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			}
+		},
+		{
+			"unitType": "Vehicle",
+			"unitTagSet": {
+				"items": [
+					"unit_medium",
+					"unit_vehicle",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			}
+		}
+	]
+}

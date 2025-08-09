@@ -1,0 +1,47 @@
+{
+	"ID": "faction_LexingtonCombatGroup",
+	"Name": "Lexington Combat Group",
+	"ShortName": "Lexington Combat Group",
+	"Demonym": "Lexington Combat Group",
+	"Government": "Mercenary",
+	"Allies": [],
+	"Enemies": [],
+	"Presence": 1.0,
+	"ReputationStatements": [
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander."
+	],
+	"MissionSuccessStatements": [
+		"Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you."
+	],
+	"GoodFaithFailureStatements": [
+		"You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot."
+	],
+	"BadFaithFailureStatements": [
+		"For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess."
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
+	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DataManager": null,
+	"factionID": "LexingtonCombatGroup",
+	"icon": "uixTxrLogo_LexingtonCombatGroup",
+	"heraldryDefId": "heraldrydef_LexingtonCombatGroup",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"Description": "The Lexington Combat Group was formed from SLDF troops who declined to join Kerensky's Exodus and instead stayed behind to form a mercenary command. They have served several masters but are best known for their service to House Davion over the course of the Succession Wars. However, realizing they were slowly being trapped into a company store situation, the Lexington Combat Group received an offer from the newly-reformed Terran Hegemony to enter their service and escape their mounting debts, an offer the mercenary unit took with gusto.",
+	"StartingReputationValues": [
+		0,
+		0,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
+}

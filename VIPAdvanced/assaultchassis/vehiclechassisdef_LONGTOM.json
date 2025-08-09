@@ -1,0 +1,151 @@
+{
+	"Custom": {
+		"VAssemblyVariant": {
+			"PrefabID": "LongTomSPG",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"CustomParts": {
+		"CustomParts": []
+	},
+	"Description": {
+		"Cost": 3000000,
+		"Rarity": 0,
+		"Purchasable": false,
+		"UIName": "Longtom LT-MOB-25",
+		"Id": "vehiclechassisdef_LONGTOM",
+		"Name": "Mobile Long Tom",
+		"Details": "Little more than a Long Tom delivery system, the LT-MOB-25 is capable of laying down absurd suppressing fire on anything from any range. Very little survives dedicated shelling from this devastating death machine, though it is extremely fragile and subject to easy destruction.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S </b>\n<b>Front</b>       190     35\n<b>Left</b>         150     35\n<b>Right</b>       150     35\n<b>Rear</b>        150     35\n<b>Turret</b>      90     35\n\n<b>Total</b>      730    175\n",
+		"Icon": "LongTom"
+	},
+	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",
+	"MovementCapDefID": "movedef_2-3cv",
+	"PathingCapDefID": "pathingdef_assault_tracked",
+	"HardpointDataDefID": "hardpointdatadef_longtom",
+	"PrefabIdentifier": "chrprfvhcl_longtombase1",
+	"PrefabBase": "longtom",
+	"Tonnage": 95,
+	"weightClass": "ASSAULT",
+	"BattleValue": 8000000,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"movementType": "Tracked",
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"z": 3
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"z": 3
+		},
+		{
+			"x": -3,
+			"y": 1.5,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 1.5,
+			"z": 0
+		},
+		{
+			"x": 0,
+			"y": 3,
+			"z": -4
+		}
+	],
+	"Locations": [
+		{
+			"Location": "Front",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 235,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "Left",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 235,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "Right",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 235,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "Rear",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 235,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 235,
+			"InternalStructure": 35
+		}
+	]
+}

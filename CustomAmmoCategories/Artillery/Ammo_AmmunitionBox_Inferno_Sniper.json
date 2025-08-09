@@ -1,0 +1,64 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/a/o/artillery"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 30,
+			"HeatDamagePerAmmo": 50,
+			"StabilityDamagePerAmmo": 10
+		},
+		"BonusDescriptions": [
+			"AreaOfEffect: 140",
+			"AreaOfEffectDmg: 90",
+			"AreaOfEffectHeatDmg: 120",
+			"AlwaysStartsFireAnywhere",
+			"FireTerrainSize: 10",
+			"FireTerrainDuration: 4",
+			"FireTerrainStrength: 20",
+			"CostPerShot: 1500",
+			"AmmoCount: 5",
+			"AntiBA: 100%"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 1500
+		}
+	},
+	"AmmoID": "Ammunition_Sniper_Inferno",
+	"Capacity": 5,
+	"Description": {
+		"Cost": 40000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Sniper",
+		"UIName": "Ammo Sniper Inferno",
+		"Id": "Ammo_AmmunitionBox_Inferno_Sniper",
+		"Name": "Sniper Ammo",
+		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 5 shots.",
+		"Icon": "Art-illery-ammo"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

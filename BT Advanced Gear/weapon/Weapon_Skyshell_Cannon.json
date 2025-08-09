@@ -1,0 +1,96 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"NoFireInMelee",
+			"WpnRecoil: 3",
+			"WpnCooldown: 1",
+			"Airburst: 20, 60",
+			"AirburstRadius: 60",
+			"AirburstPenalty: 50%, 60",
+			"WeaponAttachmentCompatible: Superweapon FCS"
+		]
+	},
+	"weaponCategoryID": "Superweapon",
+	"Type": "Autocannon",
+	"WeaponSubType": "LB20X",
+	"MinRange": 200,
+	"MaxRange": 960,
+	"RangeSplit": [
+		240,
+		480,
+		720
+	],
+	"AmmoCategory": "SKYSHELL",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 60,
+	"Damage": 300,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -2,
+	"CriticalChanceMultiplier": 0.5,
+	"AOECapable": false,
+	"IndirectFireCapable": true,
+	"AlwaysIndirectVisuals": true,
+	"RefireModifier": 3,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 20,
+	"AttackRecoil": 4,
+	"Cooldown": 1,
+	"Instability": 40,
+	"HasShells": true,
+	"ShellsRadius": 60,
+	"MinShellsDistance": 60,
+	"MaxShellsDistance": 200,
+	"UnseparatedDamageMult": 0.5,
+	"DisableClustering": false,
+	"ImprovedBallistic": true,
+	"BallisticDamagePerPallet": true,
+	"AlternateDamageCalc": true,
+	"HitGenerator": "Cluster",
+	"WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
+	"Description": {
+		"Cost": 2375000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "NAIS",
+		"Model": "Xizor Industries",
+		"UIName": "Skyshell Cannon",
+		"Id": "Weapon_Skyshell_Cannon",
+		"Name": "Skyshell Cannon",
+		"Details": "The Skyshell was developed by the Federated Suns and was created with the intent of being the final word in area damage saturation. The Skyshell Cannon fires a single large shell in a high fire arc that shatters into more than a dozen submunitions and rains down over the target, causing high damage with good accuracy and being excellent at dealing critical damage. The Skyshell Cannon proved effective and was put into limited service by the Suns in their elite military forces.\n\n <b><color=#ffcc00>Uses Skyshell Ammo.</color></b>",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC20",
+	"BattleValue": 0,
+	"InventorySize": 13,
+	"Tonnage": 16,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"component_type_lostech",
+			"range_standard",
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
+		],
+		"tagSetSourceFile": ""
+	}
+}

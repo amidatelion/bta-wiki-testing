@@ -1,0 +1,51 @@
+{
+	"Description": {
+		"Id": "pilot_bd_Urban",
+		"Name": "Dryke",
+		"FirstName": "Michael",
+		"LastName": "Morgan",
+		"Callsign": "Dryke",
+		"Gender": "Male",
+		"Faction": "Davion",
+		"Age": "40",
+		"Details": "Born in a middle class family on the planet New Syrtis in the Capellan March of the Federated Suns in 3022, Michael dreamed of becoming a MechWarrior from the first moment he saw an Enforcer in Davion colors during a military parade.  From that moment on, Michael spent every moment he could hanging around the students at the New Syrtis academy whenever they had leave in town and quickly gained a reputation as an enthusiast of all things 'mech, spending much of his time playing the civilian versions of the training simulators that were available for entertainment.  In particular his gunnery skills were remarkable and he demonstrated an uncanny knack for 'leading the target' and landing his shots on fast moving 'mechs.\n\nFortunately for Michael, this demonstration of innate skill caught the eye of instructors at the academy who routinely perused the logs of the simulators looking for just such candidates.  Eventually when he was deemed old enough he was given an invitation to join the incoming class which he accepted with alacrity.\n\nNearly twenty years later, more experienced but also more jaded, Michael (now having earned the callsign 'Dryke') decided to muster out of the Davion military and chart his own path.  While still loyal to Davion in his heart, he ran one too many missions that pitted Davion against Davion in some cynical faction conflict and now hopes to parlay his hard earned skills into an eventual mercenary command of his own where, finally, he can call the shots for himself.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_bd_Urban"
+	},
+	"BaseGunnery": "5",
+	"BonusGunnery": 0,
+	"BasePiloting": "3",
+	"BonusPiloting": 0,
+	"BaseGuts": "3",
+	"BonusGuts": 0,
+	"BaseTactics": "4",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_pro05_rick",
+	"abilityDefNames": [
+		"TraitDefJamReduceOne",
+		"TraitDefGunneryStabBonus1",
+		"AbilityDefG5",
+		"TraitDefIndirectReduceOne"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_mechwarrior",
+			"name_Urban",
+			"pilot_command",
+			"pilot_brave",
+			"pilot_vehicle_crew",
+			"pilot_davion"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}

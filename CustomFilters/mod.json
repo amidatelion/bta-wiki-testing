@@ -1,0 +1,11 @@
+{
+	"Name": "CustomFilters",
+	"Author": "Denadan",
+	"Website": "https://github.com/BattletechModders/CustomFilters",
+
+	"Enabled": true,
+        "Hidden": true,
+        "DependsOn": ["CustomComponents"],
+	"DLL": "CustomFilters.dll",
+	"DLLEntryPoint": "CustomFilters.Control.Init"
+}

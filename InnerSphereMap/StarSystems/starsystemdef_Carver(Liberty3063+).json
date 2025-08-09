@@ -1,0 +1,96 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Carver(Liberty3063+)",
+		"Name": "Liberty",
+		"Details": "Located in a central area between several factions, the Liberty system has been in the hands of many different rulers. As such, its populace has little allegiance to any faction, and generally try to do the best for themselves.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -5.436,
+		"y": -20.722,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_carver(liberty3063+)",
+			"planet_size_small",
+			"planet_climate_water",
+			"planet_feature_gasgiant",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_medium",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_mining",
+			"planet_industry_manufacturing",
+			"planet_other_blackmarket",
+			"planet_other_ruins",
+			"planet_faction_cameron"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"lowlandsCoastal",
+		"highlandsSpring"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 5,
+	"ownerID": "Cameron",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression",
+		"itemCollection_major_Cameron"
+	],
+	"factionShopOwnerID": "Cameron",
+	"FactionShopItems": [
+		"itemCollection_faction_Cameron"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Carver(Liberty3063+)",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 7,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Cameron",
+		"ComStar",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"WordOfBlake",
+		"Mercenaries",
+		"TheDark"
+	]
+}

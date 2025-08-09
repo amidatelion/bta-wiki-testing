@@ -1,0 +1,37 @@
+{
+	"Description": {
+		"Id": "AbilityDefAmidSpeed",
+		"Name": "SPIRIT OF THE CICADA",
+		"Details": "PASSIVE: Grants Amid the spirit of his favorite 'Mech, giving him +15% walk speed at all times.",
+		"Icon": "genericbug"
+	},
+	"DisplayParams": "ShowInMWTRay",
+	"ActivationTime": "Passive",
+	"EffectData": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "AbilityDefAmidSpeed",
+				"Name": "Walk Speed Increased",
+				"Details": "Walk speed increased by 15%.",
+				"Icon": "genericbug"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "WalkSpeed",
+				"operation": "Float_Multiply",
+				"modValue": "1.15",
+				"modType": "System.Single"
+			}
+		}
+	]
+}

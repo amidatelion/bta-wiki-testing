@@ -1,0 +1,105 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Quantraine",
+		"Name": "Quantraine",
+		"Details": "Quantraine was devastated during the Reunification war and became depopulated until recently. New colonists are still striving to set up a new colony.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 455.618,
+		"y": 205.207,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_quantraine",
+			"planet_size_medium",
+			"planet_climate_lunar",
+			"planet_other_megaforest",
+			"planet_other_stonedcaribou",
+			"planet_other_storms",
+			"planet_other_taintedair",
+			"planet_feature_gasgiant",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_recreation",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_industry_research",
+			"planet_industry_manufacturing",
+			"planet_other_comstar",
+			"planet_other_alienvegetation",
+			"planet_other_blackmarket",
+			"planet_other_boreholes",
+			"planet_other_newcolony",
+			"planet_other_ruins",
+			"planet_faction_outworld"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"martianVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 9,
+	"ownerID": "Outworld",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "K",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Outworld",
+		"itemCollection_shop_industrial",
+		"itemCollection_shop_research"
+	],
+	"factionShopOwnerID": "Outworld",
+	"FactionShopItems": [
+		"itemCollection_faction_Outworld"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Quantraine",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 9,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Outworld",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Locals",
+		"Kurita",
+		"Davion",
+		"Tortuga",
+		"SantandersKillers",
+		"Mercenaries",
+		"ComStar"
+	]
+}

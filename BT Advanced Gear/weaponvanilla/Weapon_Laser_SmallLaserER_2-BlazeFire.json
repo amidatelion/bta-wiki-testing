@@ -1,0 +1,84 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/l/er"
+			}
+		],
+		"BonusDescriptions": [
+				"WpnCrits: +20%",
+				"WpnAccuracy: +2",
+				"MultiLaser",
+				"PipsIgnored: 3",
+				"WeaponAttachmentCompatible: Laser Insulator",
+				"WeaponAttachmentCompatible: Laser FCS"
+			]
+	},
+	"Category": "AntiPersonnel",
+	"Type": "Laser",
+	"WeaponSubType": "SmallLaserER",
+	"MinRange": 0,
+	"MaxRange": 260,
+	"RangeSplit": [
+		70,
+		130,
+		160
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 9,
+	"Damage": 5,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 3,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -2,
+	"CriticalChanceMultiplier": 1.2,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 3,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"ImprovedBallistic": true,
+	"FireDelayMultiplier": 0.12,
+	"WeaponEffectID": "WeaponEffect-Weapon_LaserER_Small",
+	"Description": {
+		"Cost": 100000,
+		"Rarity": 100,
+		"Purchasable": false,
+		"Manufacturer": "BlazeFire",
+		"Model": "Extended-Range Small Laser",
+		"UIName": "Rotary ER S Laser",
+		"Id": "Weapon_Laser_SmallLaserER_2-BlazeFire",
+		"Name": "Rotary ER S Laser",
+		"Details": "An improvement upon standard Small Lasers, Extended-Range Small Lasers extend their effective range at the cost of more heat generation. This laser has been calibrated to fire a cluster of three quick shots instead of one sustained beam, which gives it a much higher chance to hit in general.",
+		"Icon": "laser-burst"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"component_type_lostech",
+			"range_close",
+			"LaserInsulatorAttachable.{location}",
+			"LaserInsulatorSupported-SingleShot",
+			"LaserFCSSupported-SingleShot",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

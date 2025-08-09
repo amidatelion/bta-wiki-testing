@@ -1,0 +1,302 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Matar",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 7800000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Matar",
+		"Id": "chassisdef_matar_SAM-RS",
+		"Name": "Matar",
+		"Details": "With an intended role of static defense, the Matar was built around long range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units the Matar was ill-suited to fight, a pair of Large Pulse Lasers were equipped, one in each arm. A simple pivot of the torso would enable the pilot to even hit targets directly behind him with one of the arm lasers, both capable of dealing crippling hits to lighter assets. When coupled with the rear-mounted Medium Pulse Laser, there was no true safe angle from which to attack a Matar. Reportedly at Stefan Amaris' personal insistence, the Matar carries a pair of Flamers to roast opposing infantry alive. To guard against advanced munitions that could threaten the Matar from long range, a Guardian ECM was installed in one of the legs.",
+		"Icon": "uixTxrIcon_matar"
+	},
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"MovementCapDefID": "movedef_stonerhino_300",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_stonerhino",
+	"PrefabIdentifier": "chrprfmech_stonerhinobase-001",
+	"PrefabBase": "stonerhino",
+	"Tonnage": 110,
+	"InitialTonnage": 11,
+	"weightClass": "ASSAULT",
+	"BattleValue": 7718000,
+	"Heatsinks": 0,
+	"TopSpeed": 105,
+	"TurnRadius": 90,
+	"MaxJumpjets": 3,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": true,
+	"MeleeDamage": 115,
+	"MeleeInstability": 55,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 115,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 115,
+	"DFAInstability": 55,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 24
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 190,
+			"MaxRearArmor": -1,
+			"InternalStructure": 95
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 230,
+			"MaxRearArmor": 115,
+			"InternalStructure": 115
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 22,
+			"MaxArmor": 340,
+			"MaxRearArmor": 170,
+			"InternalStructure": 170
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 230,
+			"MaxRearArmor": 115,
+			"InternalStructure": 115
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 190,
+			"MaxRearArmor": -1,
+			"InternalStructure": 95
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 230,
+			"MaxRearArmor": -1,
+			"InternalStructure": 115
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 230,
+			"MaxRearArmor": -1,
+			"InternalStructure": 115
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"VariantName": "SAM-RS",
+	"ChassisTags": {
+		"items": [
+			"SuperHeavyMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Slow Juggernaut",
+	"YangsThoughts": "With an intended role of static defense, the Matar was built around long range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units the Matar was ill-suited to fight, a pair of Large Pulse Lasers were equipped, one in each arm. A simple pivot of the torso would enable the pilot to even hit targets directly behind him with one of the arm lasers, both capable of dealing crippling hits to lighter assets. When coupled with the rear-mounted Medium Pulse Laser, there was no true safe angle from which to attack a Matar. Reportedly at Stefan Amaris' personal insistence, the Matar carries a pair of Flamers to roast opposing infantry alive. To guard against advanced munitions that could threaten the Matar from long range, a Guardian ECM was installed in one of the legs.",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

@@ -1,0 +1,246 @@
+{
+	"Description": {
+		"Cost": 7380000,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Crusader",
+		"Id": "chassisdef_crusader_CRD-5R",
+		"Name": "Crusader",
+		"Details": "The rebirth of the Terran Hegemony brought with it a need for a restarted military sector among the core worlds of the Inner Sphere. To meet the new Hegemony's demand for material, the various corporations of the Inner Sphere got right to work on new variants for the Hegemony's war machine. One such design is the CRD-5R, designed to carry on the legacy of the venerable Crusader for the modern era. Armed with twin MML-7s and MML-5s, as well as two advanced Medium X-Pulse Lasers, and built on a cutting-edge Endo-Composite structure, the -5R is a worthy inheritor of the Crusader name.",
+		"Icon": "uixTxrIcon_crusader"
+	},
+	"MovementCapDefID": "movedef_crusader_CRD-3R",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_crusader",
+	"PrefabIdentifier": "chrprfmech_crusaderhotd-001",
+	"PrefabBase": "crusader",
+	"Tonnage": 65,
+	"InitialTonnage": 6.5,
+	"weightClass": "HEAVY",
+	"BattleValue": 7144000,
+	"Heatsinks": 0,
+	"TopSpeed": 64,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 75,
+	"MeleeInstability": 35,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 75,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 75,
+	"DFAInstability": 35,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 12,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 12,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 12,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "CRD-5R",
+	"ChassisTags": {
+		"items": [
+			"OmniMech",
+			"mr-resize-0.8",
+			"HeavyMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Multi-Role and Fire Support",
+	"YangsThoughts": "The rebirth of the Terran Hegemony brought with it a need for a restarted military sector among the core worlds of the Inner Sphere. To meet the new Hegemony's demand for material, the various corporations of the Inner Sphere got right to work on new variants for the Hegemony's war machine. One such design is the CRD-5R, designed to carry on the legacy of the venerable Crusader for the modern era. Armed with twin MML-7s and MML-5s, as well as two advanced Medium X-Pulse Lasers, and built on a cutting-edge Endo-Composite structure, the -5R is a worthy inheritor of the Crusader name.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoMaintain_Crusader",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endocomposite",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

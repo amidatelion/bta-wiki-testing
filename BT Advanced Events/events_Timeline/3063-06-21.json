@@ -1,0 +1,145 @@
+{
+	"Description": {
+		"Id": "3063-06-21",
+		"Name": "MercNews Broadcast",
+		"Details": "TENSIONS RISE ON CAPELLAN-TERRAN BORDER!\r\n\n\nCapolla, [[DM.Factions[faction_Cameron],Terran Hegemony]]: Political tensions are on the rise along the border between the [[DM.Factions[faction_Liao],Capellan Confederation]] and the [[DM.Factions[faction_Cameron],Terran Hegemony]], with several worlds agitating for or against each nation. On Capolla, there is a small but growing pro-Liao sentiment that may bubble over into open conflict, as local Hegemony troops try to put down increasingly discontented locals. Meanwhile across the border on Zurich, several major noble houses have made public calls to leave the Confederation and join the Hegemony, citing the reduction of favorable trade agreements under Chancellor [[DM.BaseDescriptionDefs[LoreSunTzuLiao],Sun-Tzu Liao]]. The Chancellor has responded by ordering Warrior House Dai Da Chi to the world in order to pacify the noble houses, which are accused of rebelling against the state.\r\n\n\nWould you like to know more?",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Yes.",
+				"Details": "Broadcast continues.",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "BRUTAL FIGHTING ON CAPH\r\n\n\nThanks to Word of Blake machinations, the government of Caph has collapsed, despite support from the [[DM.Factions[faction_Cameron],Terran Hegemony]] (the world's ostensible rulers). Into this unexpected chaos, several mercenary commands under the employment of various other Great Houses have begun to battle for control of the world. To add to the chaos, the Hegemony has hired a unit of their own, the [[DM.BaseDescriptionDefs[LoreRedfieldRen],Redfield Renegades]], to assist in keeping the world stable and under their control. Identified units embroiled in this conflict include [[DM.BaseDescriptionDefs[LoreGustafsonGren],Gustafson's Grenadiers]], the Denebola [[DM.BaseDescriptionDefs[LoreSMM],SMM]], [[DM.Factions[faction_LindonsBattalion],Lindon's Battalion]], the [[DM.BaseDescriptionDefs[LoreStealthyTigers],Stealthy Tigers]] and the [[DM.Factions[faction_AlwaysFaithful],Always Faithful]].\r\n\n\nAttack and defence contracts for this battlefield is available via the MRBC database.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Caph_to_Cameron",
+									"WIIC_give_starsystemdef_Capolla_to_Cameron",
+									"WIIC_give_starsystemdef_Zurich_to_Liao",
+									"WIIC_LindonsBattalion_attacks_starsystemdef_Caph",
+									"WIIC_Locals_attacks_starsystemdef_Capolla",
+									"WIIC_Locals_attacks_starsystemdef_Zurich",
+									"WIIC_set_starsystemdef_Caph_defender_strength_20",
+									"WIIC_set_starsystemdef_Caph_attacker_strength_10",
+									"WIIC_set_starsystemdef_Capolla_defender_strength_15",
+									"WIIC_set_starsystemdef_Capolla_attacker_strength_15",
+									"WIIC_set_starsystemdef_Zurich_defender_strength_15",
+									"WIIC_set_starsystemdef_Zurich_attacker_strength_15",
+									"WIIC_give_starsystemdef_Caph_to_Locals_on_attacker_win"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "end",
+				"Name": "No.",
+				"Details": "Broadcast ends.",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "end1",
+						"Name": "MercNews Broadcast",
+						"Details": "Transmission terminated.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

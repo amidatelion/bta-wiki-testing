@@ -1,0 +1,59 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/a/o/mortar"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 15,
+			"StabilityDamagePerAmmo": 3
+		},
+		"BonusDescriptions": [
+			"MortarFlare: +1",
+			"AreaOfEffect: 45",
+			"AreaOfEffectDmg: 1",
+			"MortarDamage: -7",
+			"CostPerShot: 200",
+			"AmmoCount: 40"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 200
+		}
+	},
+	"AmmoID": "Ammunition_Mortar_Flare",
+	"Capacity": 40,
+	"Description": {
+		"Cost": 40000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Mortar",
+		"UIName": "Ammo Mortar Flare",
+		"Id": "Ammo_AmmunitionBox_Flare_Mortar",
+		"Name": "Mortar Ammo",
+		"Details": "Flare Mortar Shells combine a high Powered Flare with a remote Sensor to illuminate a target Area. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 40 shots.",
+		"Icon": "mor-tar-ammo"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"Description": {
+		"Id": "3061-12-07",
+		"Name": "MercNews Broadcast",
+		"Details": "NEW STATUS QUO TAKES SHAPE!\r\n\n\nErdvynn, [[DM.Factions[faction_ClanFireMandrill],Clan Fire Mandrill]] Homeworlds: After the last several months of raids and general disruptions to the region's trade and security, [[DM.Factions[faction_ClanFireMandrill],Clan Fire Mandrill]] appears to have \"settled in\", so to speak. The raids have proven inconclusive, as the Mandrills have relaxed into their new home and have come to respect their neighbors a little more. Much of this newly relaxed stance comes from a major battle that took place in [[DM.Factions[faction_Circinus],Circinian]] space. The Mandrills landed and issued a [[DM.BaseDescriptionDefs[TBoneLoreBatchall],batchall]] for an entire community's contents (interestingly, the Mandrills were batchalling for just the material goods). The [[DM.Factions[faction_Circinus],Circinian]] garrison, terrified but unwilling to just let the Clanners have it, accepted the challenge and sallied forth with their meager vehicles and limited BattleMech forces. In a two day running battle, the [[DM.Factions[faction_Circinus],Circinians]] eventually lost most of their fighting force but managed to push the Mandrill star so hard that only two members of the star were left to claim the batchall's prize. Impressed with their spirited defense, Star Commander Jacques Sainze ordered the town's resources packed into the Mandrill DropShip but left behind one of the two remaining functional Clan 'Mechs as a recognition of the Circinian's valor, much to the bewildered garrison's surprise. In an interview as the smoke cleared, the garrison commander said he considered the trade a victory, as his garrison now had the only Clan 'Mech in [[DM.Factions[faction_Circinus],Circinus]].",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "BATTLE BREAKS OUT OVER SON HOA\r\n\n\nSon Hoa, [[DM.Factions[faction_Steiner],Lyran Commonwealth]]: Though the Fire Mandrills are indeed settling in for the long-haul in the region, one last conflict has broken out. [[DM.Factions[faction_KindraaFaradayTanaga],Kindraa Faraday-Tanaga]], in an unexpected move, entered the Son Hoa system with their [[DM.BaseDescriptionDefs[LoreWarShip],WarShip]], the CFM <i>Firetender</i> and issued a [[DM.BaseDescriptionDefs[TBoneLoreBatchall],batchall]] to the system authorities for ownership of the system's recharging station, bidding the <i>Firetender</i> and its attendant DropShips. The local authorities responded with what few aerospace assets they had available. In a predictable outcome, the Clan [[DM.BaseDescriptionDefs[LoreWarShip],WarShip]] annihilated the [[DM.Factions[faction_Steiner],Lyran]] defenders in short order. The <i>Firetender</i> then recharged at the station, broadcast a message turning control of the station over to the system authorities only until such time as the kindraa could return to claim it properly, and promptly left the system. The exchange sparked a new round of fear among Lyran authorities, especially those managing the garrison on Son Hoa proper.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": [],
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

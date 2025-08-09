@@ -1,0 +1,89 @@
+{
+	"Description": {
+		"Id": "3065-01-21",
+		"Name": "MercNews Broadcast",
+		"Details": "[[DM.BaseDescriptionDefs[LoreXinSheng],XING SHENG]] REACHES NANKING\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]], [[DM.BaseDescriptionDefs[LoreTerranHegemony],Terran Hegemony]]:  While the world has been relatively quiet since the destruction of the [[DM.BaseDescriptionDefs[LoreLoyalist],Loyalist]] Nanking [[DM.BaseDescriptionDefs[LoreSMM],SMM]], House [[DM.BaseDescriptionDefs[LoreHouseLiao],Liao]] has been renewing their efforts in the the system.  Sparked by the arrival of as-yet-unidentified mercenaries, a new wave of Xin Sheng revolts and terrorist attacks have occurred on planet.  The planet's [[DM.BaseDescriptionDefs[LoreAllied],Allied]] garrision, the [[DM.BaseDescriptionDefs[LoreFedcomCorps],First Fedcom RCT]], have begun to move in to put down the disturbances.  Attack and defend contracts are available via the [[DM.BaseDescriptionDefs[LoreMRBC],MRBC]].",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "NEW HOME EJECTS [[DM.Factions[faction_ComStar],COMSTAR]] FROM [[DM.BaseDescriptionDefs[LoreHPG],HPG]]\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]], [[DM.BaseDescriptionDefs[LoreTerranHegemony],Terran Hegemony]]:  ComStar has long been a supporter of the reborn Terran Hegemony and has supported the Hegemony government and worlds without question. However, on New Home, ComStar appears to have crossed a line and the locals have revolted against the Hegemony and ComStar's rule. Reports indicate that a ComStar adept was complicit in a murder-suicide of a prominent New Home family. Public response has been fierce, with many calling for New Home to leave the Hegemony entirely if ComStar, the \"[[DM.BaseDescriptionDefs[LoreHegemonyAndComStar],Hegemony lapdogs]]\" cannot be controlled. Riots have broken out across the world and local Hegemony and ComStar forces are hard-pressed to manage the situation.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Nanking_to_Davion",
+									"WIIC_give_starsystemdef_NewHome_to_Cameron",
+									"WIIC_Liao_attacks_starsystemdef_Nanking",
+									"WIIC_Locals_attacks_starsystemdef_NewHome",
+									"WIIC_set_starsystemdef_Nanking_defender_strength_30",
+									"WIIC_set_starsystemdef_Nanking_attacker_strength_15",
+									"WIIC_set_starsystemdef_NewHome_defender_strength_15",
+									"WIIC_set_starsystemdef_NewHome_attacker_strength_25"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

@@ -1,0 +1,85 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/l/pulse"
+			}
+		],
+		"BonusDescriptions": [
+				"WpnAccuracy: +2",
+				"PipsIgnored: 4",
+				"StructureDmgMod: 8",
+				"AntiBA: 25%",
+				"WeaponAttachmentCompatible: Laser Insulator",
+				"WeaponAttachmentCompatible: Laser FCS"
+			]
+	},
+	"Category": "AntiPersonnel",
+	"Type": "Laser",
+	"WeaponSubType": "SmallLaserPulse",
+	"MinRange": 0,
+	"MaxRange": 120,
+	"RangeSplit": [
+		30,
+		60,
+		90
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 8,
+	"Damage": 13,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 4,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -2,
+	"CriticalDamageModifier": 0.5,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"StructureDamage": 8,
+	"ImprovedBallistic": true,
+	"TrooperSquadDamageModifier": 1.25,
+	"WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Small",
+	"Description": {
+		"Cost": 100000,
+		"Rarity": 100,
+		"Purchasable": false,
+		"Manufacturer": "Firmir",
+		"Model": "Small Pulse Laser",
+		"UIName": "Pierce S Pulse",
+		"Id": "Weapon_Laser_SmallLaserPulse_2-Magna200P",
+		"Name": "Pierce S Pulse",
+		"Details": "An improvement upon standard Small Lasers, Small Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. The capacitors on this pulse laser are more finely tuned, giving the weapon increased armor penetration and doing direct damage to the target's structure.",
+		"Icon": "laser-burst"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"component_type_lostech",
+			"range_close",
+			"LaserInsulatorAttachable.{location}",
+			"LaserInsulatorSupported-SingleShot",
+			"LaserFCSSupported-SingleShot",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,87 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Lombardo",
+		"Name": "Lombardo",
+		"Details": "One of the most fortified places in Haven space, Lombardo is the home of the Jacobson Haven militias. Each family maintains a compound on Lombardo and trains their milita forces here in mock battle with one another. The mock battles provide heavy prestige to the winner and so competition between the families is fierce here.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 850.039,
+		"y": -649.715,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_pop_medium",
+			"planet_civ_periphery",
+			"planet_other_blackmarket",
+			"planet_other_pirate",
+			"planet_other_battlefield",
+			"planet_industry_recreation",
+			"planet_faction_jacobsonhaven",
+			"planet_name_Lombardo"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"lowlandsCoastal"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 7,
+	"ownerID": "JacobsonHaven",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "M",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "JacobsonHaven",
+	"FactionShopItems": [
+		"itemCollection_faction_JacobsonHaven"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Lombardo",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 8,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"JacobsonHaven"
+	],
+	"contractTargetIDs": [
+		"SanctuaryAlliance",
+		"DaneSacellum",
+		"MallardRepublic"
+	]
+}

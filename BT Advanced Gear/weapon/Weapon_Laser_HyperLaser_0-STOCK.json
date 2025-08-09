@@ -1,0 +1,87 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamage": 150
+		},
+		"BonusDescriptions": [
+			"WpnAccuracy: +1",
+			"PipsIgnored: +1",
+			"WpnCrits: +50%",
+			"WeaponJAMFlat: 1.25",
+			"JamExplode",
+			"WeaponBoom: 150",
+			"WeaponAttachmentCompatible: Superweapon FCS"
+		]
+	},
+	"weaponCategoryID": "Superweapon",
+	"Type": "Laser",
+	"WeaponSubType": "LargeLaser",
+	"MinRange": 0,
+	"MaxRange": 900,
+	"RangeSplit": [
+		240,
+		450,
+		750
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 130,
+	"Damage": 150,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1.5,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"ImprovedBallistic": true,
+	"FlatJammingChance": 0.0125,
+	"DamageOnJamming": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_COILS",
+	"Description": {
+		"Cost": 2250000,
+		"Rarity": 9,
+		"Purchasable": true,
+		"Manufacturer": "Hegemony Institute of Strategic Combat",
+		"Model": "Superstrength",
+		"UIName": "HISC Hyper Laser",
+		"Id": "Weapon_Laser_HyperLaser_0-STOCK",
+		"Name": "HISC Hyper Laser",
+		"Details": "Since returning, the Terran Hegemony has been exploring any avenue it can to develop more powerful tools of war to defend itself in an increasingly hostile Inner Sphere. In order to pacify their enemies, it was decided to develop the ultimate weapon and so the HISC (Hegemony Institute of Strategic Combat) Hyper Laser was born. Essentially the final evolution of Clan Heavy Laser technology, HISC dialed the Hyper Laser up to insane levels of destructive capability. The HISC Hyper Laser puts out an unbelievable amount of damage at excellent range, exceeding even Gauss Rifle ranges, but does so while generating such excessive heat that using the weapon is prohibitively difficult. The weapon is also prone to explosive detonations when damaged even lightly, making it a highly risky piece of kit. Still, the numbers speak for themselves. \n\n <b><color=#099ff2>VOLATILE!</color></b>",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 6,
+	"Tonnage": 8,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"component_type_variant3",
+			"range_long",
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
+		],
+		"tagSetSourceFile": ""
+	}
+}

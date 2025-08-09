@@ -1,0 +1,263 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Knight",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 7100000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Knight",
+		"Id": "chassisdef_knight_KNT-3S",
+		"Name": "Knight",
+		"Details": "During the Sanctuary Alliance's scouting missions into the Periphery, several BattleMechs were identified as 'of interest'. One such design was captured and returned to the Sanctuary for study, the Crusader. True to the Sanctuary ethos, the Crusader was broken down and rebuilt as a new design with a Sanctuary twist, the Knight. At 70 tons, the Knight weighs more than its progenitor and serves as a heavy battle design. The KNT-3S is built on a 350-rated Sanctuary XL engine and Endo-Steel frame, giving it the speed it needs to bring its 36 DRM tubes into range of the enemy. Once the 5 tons of ammo run dry though, the -3S has nothing to defend itself with, encouraging pilots to be cautious with their shots.",
+		"Icon": "uixTxrIcon_knight"
+	},
+	"MovementCapDefID": "movedef_grasshopper_GHR-5H",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_mwocrusader",
+	"PrefabIdentifier": "chrprfmech_mwocrusaderbase-001",
+	"PrefabBase": "mwocrusader",
+	"Tonnage": 70,
+	"InitialTonnage": 7,
+	"weightClass": "HEAVY",
+	"BattleValue": 7602000,
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 80,
+	"MeleeInstability": 40,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 80,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 80,
+	"DFAInstability": 40,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 220,
+			"MaxRearArmor": 110,
+			"InternalStructure": 110
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 18,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 17,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 18,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "KNT-3S",
+	"ChassisTags": {
+		"items": [
+			"HeavyMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Heavy Battle",
+	"YangsThoughts": "During the Sanctuary Alliance's scouting missions into the Periphery, several BattleMechs were identified as 'of interest'. One such design was captured and returned to the Sanctuary for study, the Crusader. True to the Sanctuary ethos, the Crusader was broken down and rebuilt as a new design with a Sanctuary twist, the Knight. At 70 tons, the Knight weighs more than its progenitor and serves as a heavy battle design. The KNT-3S is built on a 350-rated Sanctuary XL engine and Endo-Steel frame, giving it the speed it needs to bring its 36 DRM tubes into range of the enemy. Once the 5 tons of ammo run dry though, the -3S has nothing to defend itself with, encouraging pilots to be cautious with their shots.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Knight",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_sanctuaryendosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Cockpit_Sanctuary_Drone",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

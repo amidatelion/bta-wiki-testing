@@ -1,0 +1,77 @@
+{
+	"Custom": {
+		"Flags": [
+			"no_salvage",
+				"ignore_damage"
+		],
+		"BonusDescriptions": [
+				"DamageTaken: -20%"
+			],
+		"Category": [
+		  {
+			"CategoryID": "TankStuff"
+		  }
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 0,
+		"Rarity": 42,
+		"Purchasable": false,
+		"Manufacturer": "None",
+		"Model": "None",
+		"UIName": "VTOL Armoring",
+		"Id": "Gear_VTOL_Armor_Plating",
+		"Name": "VTOL Armoring",
+		"Details": "Small fast squishy things get this. This unit takes 20% less damage at all times.",
+		"Icon": "chest-armor"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 0,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-VTOLArmoring",
+				"Name": "VTOL Armor Plating",
+				"Details": "This unit takes 20% less damage thanks to its armor plating.",
+				"Icon": "chest-armor"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "DamageReductionMultiplierAll",
+				"operation": "Float_Multiply",
+				"modValue": "0.8",
+				"modType": "System.Single"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"TanksOnly",
+			"BLACKLISTED",
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

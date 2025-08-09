@@ -1,0 +1,91 @@
+{
+	"Description": {
+		"Id": "starsystemdef_DenebAlgedi",
+		"Name": "Deneb Algedi",
+		"Details": "An arid world filled with dangerous wildlife such as the Nayaraptor. Tourism for those aristocrats with the money to hunt the beasts is a growing trend. ",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 41.097,
+		"y": 26.058,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_denebalgedi",
+			"planet_size_small",
+			"planet_climate_arid",
+			"planet_other_stonedcaribou",
+			"planet_feature_asteroids",
+			"planet_pop_large",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_recreation",
+			"planet_other_alienvegetation",
+			"planet_faction_cameron"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lowlandsCoastal",
+		"badlandsParched",
+		"urbanHighTech"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 14,
+	"ownerID": "Cameron",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Cameron",
+		"itemCollection_shop_chemicalsProgression",
+		"itemCollection_shop_miningProgression"
+	],
+	"factionShopOwnerID": "Cameron",
+	"FactionShopItems": [
+		"itemCollection_faction_Cameron"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_DenebAlgedi",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 7,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Cameron",
+		"ComStar",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"WordOfBlake",
+		"Mercenaries",
+		"TheDark"
+	]
+}

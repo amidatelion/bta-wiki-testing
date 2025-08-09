@@ -1,0 +1,141 @@
+{
+	"Description": {
+		"Id": "AbilityDefBlueSpeed",
+		"Name": "SPEED OF LIGHT",
+		"Details": "PASSIVE: Aether has 10% increased ground speed but also has 10% reduced range with ranged weaponry.",
+		"Icon": "fire-dash"
+	},
+	"DisplayParams": "ShowInMWTRay",
+	"ActivationTime": "Passive",
+	"EffectData": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "AbilityDefBlueSpeed_WalkSpeed",
+				"Name": "Speed of Light",
+				"Details": "Aether has 10% increased ground speed but also has 10% reduced range with ranged weaponry.",
+				"Icon": "fire-dash"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "WalkSpeed",
+				"operation": "Float_Multiply",
+				"modValue": "1.1",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "AbilityDefBlueSpeed_ShortRange",
+				"Name": "Aether Short Range",
+				"Details": "Support weapons have 50% less chance to cause critical damage.",
+				"Icon": "digital-trace"
+			},
+			"statisticData": {
+				"statName": "ShortRange",
+				"operation": "Float_Multiply",
+				"modValue": "0.9",
+				"modType": "System.Single",
+				"targetCollection": "Weapon"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "AbilityDefBlueSpeed_MediumRange",
+				"Name": "Aether Medium Range",
+				"Details": "Support weapons have 50% less chance to cause critical damage.",
+				"Icon": "digital-trace"
+			},
+			"statisticData": {
+				"statName": "MediumRange",
+				"operation": "Float_Multiply",
+				"modValue": "0.9",
+				"modType": "System.Single",
+				"targetCollection": "Weapon"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "AbilityDefBlueSpeed_LongRange",
+				"Name": "Aether Long Range",
+				"Details": "Support weapons have 50% less chance to cause critical damage.",
+				"Icon": "digital-trace"
+			},
+			"statisticData": {
+				"statName": "LongRange",
+				"operation": "Float_Multiply",
+				"modValue": "0.9",
+				"modType": "System.Single",
+				"targetCollection": "Weapon"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "AbilityDefBlueSpeed_MaxRange",
+				"Name": "Aether Max Range",
+				"Details": "Support weapons have 50% less chance to cause critical damage.",
+				"Icon": "digital-trace"
+			},
+			"statisticData": {
+				"statName": "MaxRange",
+				"operation": "Float_Multiply",
+				"modValue": "0.9",
+				"modType": "System.Single",
+				"targetCollection": "Weapon"
+			},
+			"nature": "Buff"
+		}
+	]
+}

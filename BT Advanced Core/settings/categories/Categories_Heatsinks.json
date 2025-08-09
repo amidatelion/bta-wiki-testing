@@ -1,0 +1,240 @@
+{
+	"Settings": [
+		{
+			"Name": "SHSKit",
+			"displayName": "Standard Heat Sink Kit",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "0",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "SHS",
+			"displayName": "Standard Heat Sink",
+			"DefaultCustoms": {
+				"InventorySorter": "0",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "DHSKit",
+			"displayName": "Double Heat Sink Kit",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "1",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "DHS",
+			"displayName": "Double Heat Sink",
+			"DefaultCustoms": {
+				"InventorySorter": "1",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "CDHSKit",
+			"displayName": "Clan Double Heat Sink Kit",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "12",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "CDHS",
+			"displayName": "Clan Double Heat Sink",
+			"DefaultCustoms": {
+				"InventorySorter": "10",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "PDHSKit",
+			"displayName": "Prototype Double-Strength Heat Sink Kit",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "13",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "PDHS",
+			"displayName": "Prototype Double-Strength Heat Sink",
+			"DefaultCustoms": {
+				"InventorySorter": "11",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "LHSKit",
+			"displayName": "Laser Heat Sink Kit",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "14",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "LHS",
+			"displayName": "Laser Heat Sink",
+			"DefaultCustoms": {
+				"InventorySorter": "12",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "CHSKit",
+			"displayName": "Compact Heat Sink Kit",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "15",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "CHS",
+			"displayName": "Compact Heat Sink",
+			"DefaultCustoms": {
+				"InventorySorter": "13",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "SDHSKit",
+			"displayName": "Sanctuary Double Heat Sink Kit",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "16",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "SDHS",
+			"displayName": "Sanctuary Double Heat Sink",
+			"DefaultCustoms": {
+				"InventorySorter": "14",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "Freezer",
+			"displayName": "Freezer Double Heat Sink",
+			"DefaultCustoms": {
+				"InventorySorter": "15",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "MicroHeatSink",
+			"displayName": "Micro Heat Sink",
+			"DefaultCustoms": {
+				"InventorySorter": "16",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "HeatBank",
+			"displayName": "Heatbank",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "20",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "Negator",
+			"displayName": "Sanctuary Heat Negator",
+			"DefaultCustoms": {
+				"InventorySorter": "21",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "Exchanger",
+			"displayName": "Thermal Exchanger",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "30",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "Controller",
+			"displayName": "Sanctuary Heat Controller",
+			"DefaultCustoms": {
+				"InventorySorter": "31",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "CoolantPod",
+			"displayName": "Coolant Pod",
+			"DefaultCustoms": {
+				"InventorySorter": "1",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "RadicalHS",
+			"displayName": "Radical Heat Sink System",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 1000
+			}
+		}
+	]
+}

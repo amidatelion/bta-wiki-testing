@@ -1,0 +1,97 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Orestes",
+		"Name": "Orestes",
+		"Details": "The world is quiet and unassuming, except for the massive rainforests that circle the equator. Here trees that tower more than 500 meters tall block out the sun, creating a mood of perpetual twilight at the forest floor. Orestes has been pressed into service in recent years as the new capital world of the much-diminished Free Rasalhague Republic.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -26.121,
+		"y": 167.591,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_orestes",
+			"planet_size_medium",
+			"planet_climate_tropical",
+			"planet_other_megaforest",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_large",
+			"planet_other_capital",
+			"planet_other_megacity",
+			"planet_civ_innersphere",
+			"planet_industry_rich",
+			"planet_industry_recreation",
+			"planet_industry_mining",
+			"planet_industry_agriculture",
+			"planet_industry_aquaculture",
+			"planet_industry_manufacturing",
+			"planet_other_alienvegetation",
+			"planet_factory",
+			"planet_faction_rasalhague"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum",
+		"jungleTropical",
+		"urbanHighTech",
+		"desertParched"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 27,
+	"ownerID": "Rasalhague",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "A",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Rasalhague"
+	],
+	"factionShopOwnerID": "Rasalhague",
+	"FactionShopItems": [
+		"itemCollection_faction_Rasalhague"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_Orestes",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 9,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Rasalhague",
+		"ComStar",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Locals",
+		"Steiner",
+		"Kurita",
+		"StrychnineSlavers",
+		"WordOfBlake",
+		"Mercenaries",
+		"ClanNovaCat"
+	]
+}

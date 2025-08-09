@@ -1,0 +1,91 @@
+{
+	"Description": {
+		"Id": "starsystemdef_Sacromonte",
+		"Name": "Sacromonte",
+		"Details": "This subterranean colony is excavated into a barren rocky planet. It serves as a critical shipping and travel link between the Aurigan region and the Magistracy. Trade, both legal and otherwise, thrives here.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": 58.85,
+		"y": -462.41,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_size_medium",
+			"planet_climate_lunar",
+			"planet_pop_none",
+			"planet_civ_primitive",
+			"planet_progress_2",
+			"planet_industry_poor",
+			"planet_other_pirate",
+			"planet_other_hub",
+			"planet_other_blackmarket",
+			"planet_name_sacromonte",
+			"planet_faction_independent",
+			"planet_industry_electronics"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": false,
+	"JumpDistance": 16,
+	"ownerID": "Locals",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 3,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "B",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_minor_Locals",
+		"itemCollection_shop_electronics"
+	],
+	"factionShopOwnerID": "INVALID_UNSET",
+	"FactionShopItems": null,
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
+	],
+	"CoreSystemID": "starsystemdef_Sacromonte",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": -1,
+	"DifficultyList": [
+		-1,
+		4
+	],
+	"DifficultyModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER"
+	],
+	"contractEmployerIDs": [
+		"AuriganPirates",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"DedricksonsDevils",
+		"Liao",
+		"MagistracyOfCanopus",
+		"AuriganRestoration",
+		"TaurianConcordat"
+	]
+}

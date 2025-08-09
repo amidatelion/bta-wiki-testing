@@ -1,0 +1,257 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/s/apm"
+			}
+		],
+		"BonusDescriptions": [
+			"APM",
+			"WpnAccuracy: -2",
+			"WpnCrits: +10%",
+			"MissileHealth: 4",
+			"WeaponAttachmentCompatible: SRM FCS"
+		]
+	},
+    "Category" : "Missile",
+    "Type" : "SRM",
+    "WeaponSubType" : "SRM6",
+    "MinRange" : 0,
+    "MaxRange" : 480,
+    "RangeSplit" : [
+        120,
+        240,
+        360
+    ],
+    "AmmoCategory" : "APM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 8,
+    "Damage" : 6,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 2,
+    "CriticalChanceMultiplier" : 1.1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 4,
+    "ProjectilesPerShot" : 1,
+	"StatusEffectsPerHit": true,
+    "AttackRecoil" : 1,
+    "Instability" : 1,
+	"ColorsTable": [
+		{
+		  "C": "#00b82f",
+		  "I": 5
+		}
+	],
+	"ImprovedBallistic": true,
+	"ColorSpeedChange": 1,
+	"ColorChangeRule": "Linear",
+	"MissileHealth": 4,
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
+    "Description" : {
+        "Cost" : 90000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Sanctuary Manufacturing",
+        "Model" : "Alternative Payload Missile Launcher",
+        "UIName" : "APM4 (S)",
+        "Id" : "Weapon_APM_APM4",
+        "Name" : "APM4 (S)",
+        "Details" : "The Sanctuary Worlds developed these Alternative Payload Missiles to deliver various dangerous and debilitating payloads instead of explosive charges like Inner Sphere SRMs do. The APM system does virtually no damage and has a poor targeting system but the payloads it can deliver are varied and each devastating in their own way.",
+        "Icon" : "missile-pod"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "srm4",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+	"Modes": [
+		{
+			"Id": "HiEx",
+			"UIName": "HiEx",
+			"isBaseMode": true
+		},
+		{
+			"Id": "Acid",
+			"UIName": "Acid",
+			"isBaseMode": false,
+			"DamagePerShot": -5,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": 2,
+						"ticksOnActivations": true,
+						"useActivationsOfTarget": true,
+						"ticksOnEndOfRound": false,
+						"ticksOnMovements": false,
+						"stackLimit": 4,
+						"clearedWhenAttacked": false
+					},
+					"targetingData": {
+						"effectTriggerType": "OnHit",
+						"extendDurationOnTrigger": 2,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "Effect_AcidDMG",
+						"Name": "Acid",
+						"Details": "This unit is coated with corrosive acid. It will take [AMT] increased damage (max 0.2).",
+						"Icon": "acid"
+					},
+					"statisticData": {
+						"statName": "DamageReductionMultiplierAll",
+						"operation": "Float_Add",
+						"modValue": "0.05",
+						"modType": "System.Single"
+					},
+					"nature": "Debuff"
+				}
+			]
+		},
+		{
+			"Id": "Cryo",
+			"UIName": "Cryo",
+			"isBaseMode": false,
+			"DamagePerShot": -4,
+			"statusEffects": [
+				{
+					  "durationData": {
+						"duration": 2,
+						"ticksOnActivations": true,
+						"useActivationsOfTarget": true,
+						"ticksOnEndOfRound": false,
+						"ticksOnMovements": false,
+						"stackLimit": 1
+					  },
+					  "targetingData": {
+						"effectTriggerType": "OnHit",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					  },
+					  "effectType": "StatisticEffect",
+					  "Description": {
+						"Id": "APMCryo-WalkSlow",
+						"Name": "Cryo Walk Impaired",
+						"Details": "The Mech's Movement is reduced.",
+						"Icon": "snowflake"
+					  },
+					  "nature": "Debuff",
+					  "statisticData": {
+						"statName": "WalkSpeed",
+						"operation": "Float_Multiply",
+						"modValue": "0.75",
+						"modType": "System.Single"
+					  }
+				},
+				{
+					  "durationData": {
+						"duration": 2,
+						"ticksOnActivations": true,
+						"useActivationsOfTarget": true,
+						"ticksOnEndOfRound": false,
+						"ticksOnMovements": false,
+						"stackLimit": 3
+					  },
+					  "targetingData": {
+						"effectTriggerType": "OnHit",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					  },
+					  "effectType": "StatisticEffect",
+					  "Description": {
+						"Id": "APMCryo-RunSlow",
+						"Name": "Cryo Sprint Impaired",
+						"Details": "The Mech's Movement is reduced.",
+						"Icon": "uixSvgIcon_status_sensorsImpaired"
+					  },
+					  "nature": "Debuff",
+					  "statisticData": {
+						"statName": "CBTBE_RunMultiMod",
+						"operation": "Float_Add",
+						"modValue": "-0.25",
+						"modType": "System.Single"
+					  }
+				}
+			]
+		},
+		{
+			"Id": "Inferno",
+			"UIName": "Inferno",
+			"DamagePerShot": -5,
+			"HeatDamage": 3,
+			"FireTerrainStrength": 4,
+			"FireTerrainChance":1,
+			"FireDurationWithoutForest":2,
+			"FireOnSuccessHit" : true
+		},
+		{
+			"Id": "Tandem",
+			"UIName": "Tandem",
+			"isBaseMode": false,
+			"DamagePerShot": -4,
+			"APDamage": 2,
+			"CriticalChanceMultiplier" : -0.75
+		},
+		{
+			"Id": "Tracer",
+			"UIName": "Tracer",
+			"isBaseMode": false,
+			"DamagePerShot": -4,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": 2,
+						"ticksOnActivations": true,
+						"useActivationsOfTarget": true,
+						"ticksOnEndOfRound": false,
+						"ticksOnMovements": false,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "OnHit",
+						"extendDurationOnTrigger": 2,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "Effect_TracerDMG",
+						"Name": "Tracer",
+						"Details": "This unit is coated with sensor-attracting gel. Attacks against this unit gain a +1 to hit.",
+						"Icon": "uixSvgIcon_artillery"
+					},
+					"statisticData": {
+						"statName": "ToHitThisActor",
+						"operation": "Float_Add",
+						"modValue": "-1.0",
+						"modType": "System.Single"
+					},
+					"nature": "Debuff"
+				}
+			]
+		}
+	],
+    "statusEffects" : [ ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_standard",
+			"SRMFCSSupported-APM",
+			"WebbTCSupported-APM"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1,0 +1,177 @@
+{
+  "Key": "DuoDuel",
+  "Metadata": {
+    "DesignerVersion": "1.0",
+    "MinCompatibleMCVersion": "1.4.2",
+    "ContractTypeVersion": "0",
+    "Author": "CWolf"
+  },
+  "Chunks": [
+    {
+      "Name": "Chunk_PlayerLance",
+      "Type": "Chunk",
+      "SubType": "PlayerLance",
+      "Children": [
+        {
+          "Name": "Spawner_PlayerLance",
+          "Type": "Spawner",
+          "SubType": "SimpleLance",
+          "Description": "",
+          "Guid": "76b654a6-4f2c-4a6f-86e6-d4cf868335fe",
+          "Team": "Player1",
+          "SpawnPointGuids": [
+            "ec9d2280-ca9a-4d90-8a20-963d8a4c0a39",
+            "5df48a48-1840-49b0-84e9-126847053afa"
+          ],
+          "SpawnType": "Instant",
+          "SpawnUnitTypeHint": "Mech",
+          "PreciseSpawnPoints": false,
+          "AlertLanceOnSpawn": false,
+          "DefaultDetectionRange": 200.0,
+          "Tags": [
+            "Player 1"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Chunk_DestroyWholeLance",
+      "Type": "Chunk",
+      "SubType": "DestroyWholeLance",
+      "Children": [
+        {
+          "Name": "Lance_Enemy_OpposingForce",
+          "Type": "Spawner",
+          "SubType": "SimpleLance",
+          "Description": "",
+          "Guid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
+          "Team": "Target",
+          "SpawnPointGuids": [
+            "6cd3107e-0f9d-4809-ab8c-fb30faf4cd80",
+            "14c58a13-96a6-4f91-a1e5-47b5d02b81d1"
+          ],
+          "SpawnType": "Instant",
+          "SpawnUnitTypeHint": "Mech",
+          "PreciseSpawnPoints": false,
+          "AlertLanceOnSpawn": true,
+          "DefaultDetectionRange": 200.0,
+          "AI": [
+            {
+              "Type": "MagicKnowledgeByTag",
+              "Action": "Add",
+              "Tags": [
+                "Player 1"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Objective_DestroyLance",
+          "Type": "Objective",
+          "SubType": "DestroyLance",
+          "Description": "",
+          "Guid": "a0b9c5b2-c594-4c5a-be1d-028a51c51519",
+          "ContractObjectiveGuid": "73275787-720a-4c33-9f20-953b1bbf48bd",
+          "Title": "Destroy the enemy lance",
+          "Priority": 1,
+          "DisplayToUser": true,
+          "IsPrimaryObjective": true,
+          "LanceToDestroyGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79"
+        }
+      ]
+    },
+    {
+      "Name": "Chunk_DuelTaunt",
+      "Type": "Chunk",
+      "SubType": "Dialogue",
+      "Children": [
+        {
+          "Name": "Dialogue_DuelTaunt",
+          "Type": "Dialogue",
+          "SubType": "Simple",
+          "Description": "",
+          "Guid": "8971ddc6-a882-4066-923f-f8be03450ce2",
+          "ShowGizmoHint": false,
+          "Trigger": "OnFirstContact"
+        }
+      ]
+    },
+    {
+      "Name": "Chunk_SwapSpawnerPlacement",
+      "Type": "Chunk",
+      "SubType": "Placement",
+      "Guid": "ed007c52-f4cb-4bfc-842a-a50454d8a82a",
+      "ControlledByContract": true,
+      "Children": [
+        {
+          "Name": "SwapPlacement_SwapLanceSpawners",
+          "Type": "SwapPlacement",
+          "SubType": "EncounterStructure",
+          "Description": "",
+          "TargetGuid1": "76b654a6-4f2c-4a6f-86e6-d4cf868335fe",
+          "TargetGuid2": "f426f0dc-969d-477d-81a9-d02f9e1eff79"
+        }
+      ]
+    },
+    {
+      "Name": "Chunk_DisablePilotDeath",
+      "Type": "Chunk",
+      "SubType": "Container",
+      "Guid": "953a5930-06d0-4a2d-9840-e9a70c2a63ea",
+      "ControlledByContract": true,
+      "Children": [
+        {
+          "Name": "CombatState_DisablePilotDeath",
+          "Type": "CombatState",
+          "SubType": "DisablePilotDeath",
+          "Description": "",
+          "DisableInjuries": false
+        }
+      ]
+    },
+    {
+      "Name": "Chunk_DefaultDialogue",
+      "Type": "Chunk",
+      "SubType": "Dialogue",
+      "Children": [
+        {
+          "Name": "Dialogue_MissionStart",
+          "Type": "Dialogue",
+          "SubType": "Simple",
+          "Description": "",
+          "Guid": "73df8d9c-a274-48fd-98c9-2bd0d7860e83",
+          "ShowGizmoHint": false
+        },
+        {
+          "Name": "Dialogue_MissionSuccess",
+          "Type": "Dialogue",
+          "SubType": "Simple",
+          "Description": "",
+          "Guid": "4011a4c3-cba2-4d22-b2b3-3b19a3297ab9",
+          "ShowGizmoHint": false
+        },
+        {
+          "Name": "Dialogue_MissionFailure",
+          "Type": "Dialogue",
+          "SubType": "Simple",
+          "Description": "",
+          "Guid": "d3d33d95-9ed7-4686-b9eb-954ebe51cc02",
+          "ShowGizmoHint": false
+        }
+      ]
+    },
+    {
+      "Name": "Chunk_EncounterBoundary",
+      "Type": "Chunk",
+      "SubType": "EncounterBoundary",
+      "Children": [
+        {
+          "Name": "EncounterBoundaryRect",
+          "Type": "Region",
+          "SubType": "Boundary",
+          "Description": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Dixon",
+      "Exclude": false,
+      "Include": true
+    }
+  },
+  "CustomParts": {
+    "AOEHeight": 55,
+    "FiringArc": 75,
+    "Unaffected": {
+      "DesignMasks": "true",
+      "Pathing": "true",
+      "Fire": "true",
+      "Landmines": "true",
+      "MoveCostBiome": "true",
+      "MoveClamp": 0.5
+    },
+    "MoveCostModPerBiome": {
+      "DesignMaskBiomeMartianVacuum": 5,
+      "DesignMaskBiomeLunarVacuum": 7
+    },
+    "NullifyBodyMesh": true,
+    "TieToGroundOnDeath": "true"
+  },
+  "Description": {
+    "Cost": 550000,
+    "Rarity": 0,
+    "Purchasable": false,
+    "UIName": "Dixon Peacekeeping Zeppelin",
+    "Id": "vehiclechassisdef_DIXON",
+    "Name": "Dixon",
+    "Details": "The Dixon was originally intended for police work and later for firefighting. Armed with various sprayers and liquid storage tanks, the Dixon was relatively successful at its jobs and can still be found among various planetary emergency reponse forces. However, this variant of the Dixon was repurposed for military applications. Armed with a variety of mortars, machine guns, flamers, and some military-grade armor, the Dixon Peacekeeper proved moderately effective but generally could only be found among the poorer periphery forces that couldn't afford better equipment.",
+    "Icon": "Dixon"
+  },
+  "YangsThoughts": "It's a zeppelin, Boss. Why the hell are we fielding this thing?",
+  "MovementCapDefID": "movedef_4-6cv",
+  "movementType": "Tracked",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_cudixon",
+  "PrefabIdentifier": "chrprfmech_dixon_vtol",
+  "PrefabBase": "cudixon",
+  "Tonnage": 65,
+  "weightClass": "HEAVY",
+  "BattleValue": 993,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3
+    },
+    {
+      "x": -3,
+      "y": 1.5,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 1.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 170,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 170,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 170,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 120,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 170,
+      "InternalStructure": 35
+    }
+  ]
+}
