@@ -6,7 +6,7 @@ on:
         - wiki
 jobs:
     post-to-wiki:
-        name: Post Updates to Wiki
+        name: get info about action
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
