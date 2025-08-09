@@ -1,0 +1,27 @@
+name: Info Gathering
+run-name: Info Gathering
+on:
+    push:
+      branches:
+        - wiki
+jobs:
+    post-to-wiki:
+        name: Post Updates to Wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+              with:
+                repository: ${{ github.repository }}
+                path: bta
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'amidatelion/bta-wiki-automation'
+                path: wiki-gen
+            - name: Check state of API
+              run: |
+                    pwd
+                    ls -la
+                    realpath bta 
+                    realpath wiki-gen
