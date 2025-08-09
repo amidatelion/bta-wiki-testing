@@ -27,7 +27,7 @@ jobs:
               env:
                 CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               run: |
-                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/toggleCloudflareApi.py enable
+                python3 /home/runner/work/bta-wiki-testing/bta-wiki-testing/wiki-gen/src/toggleCloudflareApi.py enable
             - name: Re-check state of API post toggle
               run: |
                   echo "curling bta API"
@@ -37,9 +37,9 @@ jobs:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
-                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/factionRenderer.py
+                python3 /home/runner/work/bta-wiki-testing/bta-wiki-testing/wiki-gen/src/factionRenderer.py
             - name: Disable Cloudflare API workaround
               env:
                 CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               run: |
-                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/toggleCloudflareApi.py disable
+                python3 /home/runner/work/bta-wiki-testing/bta-wiki-testing/wiki-gen/src/toggleCloudflareApi.py disable
