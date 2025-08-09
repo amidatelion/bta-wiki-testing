@@ -21,7 +21,17 @@ jobs:
                 path: wiki-gen
             - name: Check state of API
               run: |
+                    echo "Printing working directory..."
                     pwd
+                    echo "Printing directory..."
                     ls -la
+                    echo "Printing full path of bta..."
                     realpath bta 
+                    echo "Printing full path of automation..."
                     realpath wiki-gen
+                    echo "is jq installed..."
+                    which jq
+                    echo "is wget installed..."
+                    which wget
+                    echo "is tar installed..."
+                    which tar
