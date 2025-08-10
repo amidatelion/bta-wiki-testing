@@ -20,6 +20,7 @@ jobs:
               run: |
                 python3 /home/runner/work/bta-wiki-testing/bta-wiki-testing/wiki-gen/src/toggleCloudflareApi.py enable
     faction-update:
+        needs: cloudflare-pass-enable
         name: Post Faction Info to Wiki
         runs-on: ubuntu-latest
         steps:
@@ -40,6 +41,7 @@ jobs:
               run: |
                 python3 /home/runner/work/bta-wiki-testing/bta-wiki-testing/wiki-gen/src/factionRenderer.py
     factory-update:
+        needs: cloudflare-pass-enable
         name: Post Factory Info to Wiki
         runs-on: ubuntu-latest
         steps:
@@ -60,6 +62,7 @@ jobs:
               run: |
                 python3 /home/runner/work/bta-wiki-testing/bta-wiki-testing/wiki-gen/src/factoryRenderer.py
     pilot-update:
+        needs: cloudflare-pass-enable
         name: Post Pilot Info to Wiki
         runs-on: ubuntu-latest
         steps:
@@ -80,6 +83,7 @@ jobs:
               run: |
                 python3 /home/runner/work/bta-wiki-testing/bta-wiki-testing/wiki-gen/src/pilotRenderer.py
     vehicle-update:
+        needs: cloudflare-pass-enable
         name: Post Vehicle Info to Wiki
         runs-on: ubuntu-latest
         steps:
@@ -100,6 +104,7 @@ jobs:
               run: |
                 python3 /home/runner/work/bta-wiki-testing/bta-wiki-testing/wiki-gen/src/vehicleRenderer.py
     import-game-info-to-wiki:
+        needs: cloudflare-pass-enable
         name: Uploading game info to wiki
         runs-on: ubuntu-latest
         steps:
@@ -121,10 +126,17 @@ jobs:
                 ./bta-wiki-import export ./bta/ ./path-to-wikitext/
                 ./bta-wiki-import import  -l https://www.bta3062.com/api.php  ./path-to-wikitext/
     cloudflare-pass-disable:
+        if: ${{ always() }}
+        needs: [faction-update, factory-update, pilot-update, vehicle-update, import-game-info-to-wiki]
         name: Disable Cloudflare Workaround
         runs-on: ubuntu-latest
         steps:
-            - name: Enable Cloudflare API workaround
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'amidatelion/bta-wiki-automation'
+                path: wiki-gen
+            - name: Disable Cloudflare API workaround
               env:
                 CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               run: |
