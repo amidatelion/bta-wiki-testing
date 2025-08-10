@@ -5,7 +5,7 @@ on:
       branches:
         - wiki
 jobs:
-    post-to-wiki:
+    import-game-info-to-wiki:
         name: Uploading game info to wiki
         runs-on: ubuntu-latest
         steps:
@@ -14,20 +14,7 @@ jobs:
               with:
                 repository: ${{ github.repository }}
                 path: bta
-            - name: Check out automation code
-              uses: actions/checkout@v4
-              with:
-                repository: 'amidatelion/bta-wiki-automation'
-                path: wiki-gen
-            - name: Check state of API
-              run: |
-                  echo "curling bta API"
-                  curl https://www.bta3062.com/api.php
-            - name: Re-check state of API post toggle
-              run: |
-                  echo "curling bta API"
-                  curl https://www.bta3062.com/api.php
-            - name: Run Pilot automation
+            - name: Export info
               env:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
@@ -36,11 +23,6 @@ jobs:
                 TAG=$(curl -s https://api.github.com/repos/BattleTech-Advanced-3062/bta-wiki-import/releases/latest | jq -r '.tag_name')
                 wget https://github.com/BattleTech-Advanced-3062/bta-wiki-import/releases/download/${TAG}/bta-wiki-import_linux_amd64.tar.gz
                 tar xvf bta-wiki-import_linux_amd64.tar.gz
-                echo "checking bta path"
-                ls -la bta/
                 mkdir path-to-wikitext
-                echo "exporting to path"
                 ./bta-wiki-import export ./bta/ ./path-to-wikitext/
-                echo "checking wikitext path"
-                ls -la
                 ./bta-wiki-import import  -l https://www.bta3062.com/api.php  ./path-to-wikitext/
