@@ -38,6 +38,7 @@ jobs:
                 tar xvf bta-wiki-import_linux_amd64.tar.gz
                 echo "checking bta path"
                 ls -la bta/
+                mkdir path-to-wikitext
                 echo "exporting to path"
                 ./bta-wiki-import export ./bta/ ./path-to-wikitext/
                 echo "checking wikitext path"
