@@ -6,9 +6,14 @@ on:
         - wiki
 jobs:
     cloudflare-pass-enable:
-        name: Post Updates to Wiki
+        name: Enable Cloudflare Workaround
         runs-on: ubuntu-latest
         steps:
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'amidatelion/bta-wiki-automation'
+                path: wiki-gen
             - name: Enable Cloudflare API workaround
               env:
                 CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -68,6 +73,7 @@ jobs:
               with:
                 repository: 'amidatelion/bta-wiki-automation'
                 path: wiki-gen
+            - name: Run Pilot automation
               env:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
@@ -115,7 +121,7 @@ jobs:
                 ./bta-wiki-import export ./bta/ ./path-to-wikitext/
                 ./bta-wiki-import import  -l https://www.bta3062.com/api.php  ./path-to-wikitext/
     cloudflare-pass-disable:
-        name: Post Updates to Wiki
+        name: Disable Cloudflare Workaround
         runs-on: ubuntu-latest
         steps:
             - name: Enable Cloudflare API workaround
